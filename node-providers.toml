@@ -1,0 +1,29 @@
+[0x52]
+name = "0x52"
+path = "np-list/0x52"
+self-declaration = "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece"
+proof-of-identity = "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3"
+node-handover = "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e"
+wiki-link = "https://wiki.internetcomputer.org/wiki/0X52"
+
+[100]
+name = "100 Count Holdings, LLC"
+path = "np-list/100"
+self-declaration = "f5daccdb2a577ac86e7fbbe709d4a60c97ed8bc2a4c66717bb1f6b8cd19df13c"
+proof-of-identity = "cc42a3bc6f61d8ee2b28de1a329c8207db61fecea5c80c8d1e9912e219df6fc3"
+node-handover = "48e4c859db33eb48007e00761fc0dd0382fc73d0f195cb42067cace63ac104e0"
+wiki-link = "https://wiki.internetcomputer.org/wiki/100_Count_Holdings,_LLC"
+
+[43]
+name = "43rd Big Idea Films"
+paths = "np-list/43"
+declaration = ""
+wiki-link = "https://wiki.internetcomputer.org/wiki/43rd_Big_Idea_Films,_LLC"
+
+[87]
+name = "87m Neuron, LLC"
+paths = "np-list/87"
+wiki-link = "https://wiki.internetcomputer.org/wiki/87m_Neuron,_LLC"
+declaration = "86cb37d2e3d30305978a951675ffd66f497f3c14c6434ef179eced7ee73e39f9"
+proof-of-identity = "41ee1cc7c50c7884a11d602b2aa3af2dd414761a72a9b0ec18066cf40336939c"
+node-handover = "cce9ed442f3b5aa428413a0994bf814c40db64ccd3c3aaa0a48f016ae63b5e1d"
