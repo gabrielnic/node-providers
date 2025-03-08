@@ -42,3 +42,15 @@ wiki-link = "https://wiki.internetcomputer.org/wiki/Arceau_NP_LLC"
 self-declaration = "b24ab500e3b7a54ed948fdb2e763a2477c6d9529a5adc107c7bfda77df29b335"
 proof-of-identity = "a84db3c6bee54844407d3bbf0c2311b5beb06e6b37ec457f77d476c5a1b81918"
 node-handover = "b855c7ef7738be197db502fca07201353ce360bf8c5f2d2edfa3763494e13459"
+
+[aitubi]
+name = "Aitubi AG"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Aitubi_AG"
+self-declaration = "867990ecde96b8362eb137911199aafbbaef61ded0805912b36bfb86df689974"
+proof-of-identity = "89e6063e8abc1b76aa4f13b6d2ea9fc1e0fe950e23093565facf3c4cd82e8d3e"
+
+[aksinia]
+name = "Aksinia Stavskaya"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Aksinia_Stavskaya"
+self-declaration = "fc1342d687c1aeedd10787379bb98d5023a687fe91c612d09b549951437c0fd3"
+proof-of-identity = "8fcdcd9edb3f09d74fa4f4a23f39f358061da06d3fe3d787129d6661f8f8c19a"
