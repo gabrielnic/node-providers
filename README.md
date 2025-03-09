@@ -5,6 +5,25 @@ self-declaration document, to the proposals related to that node provider.
 
 node providers rewards: https://hucfy-dyaaa-aaaam-ac37a-cai.icp0.io/
 
+the registry canister is a state machine with only logs, so we need to create an index ourselves
+
+-   use registry client to fetch all the records since the beginning
+-   consume the data
+
+https://github.com/dfinity/ic/blob/master/rs/registry/client/src/client.rs
+https://github.com/dfinity/ic/blob/master/rs/registry/canister/canister/canister.rs
+https://github.com/aviate-labs/agent-go/blob/main/clients/registry/client.go
+
+Node ID
+Node Operator ID
+Node Provider ID
+
+```
+"5wzcz-mfner-c5wor-3liei-7mpao-vkult-zdds6-6n3rg-42ksv-6zzqt-vae":{"ipv6":"2401:7500:ff1:20:6801:6eff:feb9:35e0","ipv4":null,"node_operator_id":"ri4lg-drli2-d5zpi-tsseq-soivo-qrydm-cvjwd-dbmgz-al7fj-4al6w-iae","node_provider_id":"7uioy-xitfw-yqcko-5gpya-3lpsw-dw7zt-dyyyf-wfqif-jvi76-fdbkg-cqe","dc_id":"nd1","hostos_version_id":"2e269c77aa2f6b2353ddad6a4ac3d5ddcac196b1","domain":null},
+```
+
+node operator id is one datacenter or a rack
+
 for each provider get their node operator principal id aaxec-cijpz-vzdwe-546fi-vahtf-s2awa-ldn7q-mzl2j-gmvhz-56zlq-mqe
 https://dashboard.internetcomputer.org/proposal/125999
 and find the correct proposl to ftech their node provider principal id
@@ -40,8 +59,18 @@ https://dashboard.internetcomputer.org/canister/rwlgt-iiaaa-aaaaa-aaaaa-cai
 registry canister
 
 
+==> we do https://dashboard.internetcomputer.org/canister/rrkah-fqaaa-aaaaa-aaaaq-cai#list_node_provider_rewards if it's 28 bytes we need to compute the crc32 checksum and add it in front
+
 
 ## TODO
 - [ ] table with all NP
 - [ ] compute rewards per NP per month
 - [ ] proposals linked to that NPs
+
+-----------------
+
+node provider id: eipr5-izbom-neyqh-s3ec2-52eww-cyfpg-qfomg-3dpwj-4pffh-34xcu-7qe
+account id: a754940d8966382ca1043e91f60d426f75c73c6afabe6b7eee01d0439ccc3074
+
+ks7ow-zvs7i-ratdk-azq34-zio2b-gbekj-qjicg-pfhp3-ovhgu-k5qql-dae
+4c733e557d1a2c1c4dbe2d424095153a08c432d749f82370c2491cc0d85e1407 account id not where rewards are minted
