@@ -1,56 +1,109 @@
+# document present without hash
+
 [0x52]
 name = "0x52"
-path = "np-list/0x52"
-self-declaration = "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece"
-proof-of-identity = "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3"
-node-handover = "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e"
+declaration = "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece"
+identity = "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3"
+handover = "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e"
 wiki-link = "https://wiki.internetcomputer.org/wiki/0X52"
 
 [100]
 name = "100 Count Holdings, LLC"
-path = "np-list/100"
-self-declaration = "f5daccdb2a577ac86e7fbbe709d4a60c97ed8bc2a4c66717bb1f6b8cd19df13c"
-proof-of-identity = "cc42a3bc6f61d8ee2b28de1a329c8207db61fecea5c80c8d1e9912e219df6fc3"
-node-handover = "48e4c859db33eb48007e00761fc0dd0382fc73d0f195cb42067cace63ac104e0"
+declaration = "f5daccdb2a577ac86e7fbbe709d4a60c97ed8bc2a4c66717bb1f6b8cd19df13c"
+identity = "cc42a3bc6f61d8ee2b28de1a329c8207db61fecea5c80c8d1e9912e219df6fc3"
+handover = "48e4c859db33eb48007e00761fc0dd0382fc73d0f195cb42067cace63ac104e0"
 wiki-link = "https://wiki.internetcomputer.org/wiki/100_Count_Holdings,_LLC"
 
 [43]
 name = "43rd Big Idea Films"
-paths = "np-list/43"
 declaration = ""
 wiki-link = "https://wiki.internetcomputer.org/wiki/43rd_Big_Idea_Films,_LLC"
 
 [87]
 name = "87m Neuron, LLC"
-paths = "np-list/87"
 wiki-link = "https://wiki.internetcomputer.org/wiki/87m_Neuron,_LLC"
-self-declaration = "86cb37d2e3d30305978a951675ffd66f497f3c14c6434ef179eced7ee73e39f9"
-proof-of-identity = "41ee1cc7c50c7884a11d602b2aa3af2dd414761a72a9b0ec18066cf40336939c"
-node-handover = "cce9ed442f3b5aa428413a0994bf814c40db64ccd3c3aaa0a48f016ae63b5e1d"
+declaration = "86cb37d2e3d30305978a951675ffd66f497f3c14c6434ef179eced7ee73e39f9"
+identity = "41ee1cc7c50c7884a11d602b2aa3af2dd414761a72a9b0ec18066cf40336939c"
+handover = "cce9ed442f3b5aa428413a0994bf814c40db64ccd3c3aaa0a48f016ae63b5e1d"
 
 [accuset]
 name = "ACCUSET SOLUTIONS"
-paths = "np-list/accuset"
 wiki-link = "https://wiki.internetcomputer.org/wiki/ACCUSET_SOLUTIONS"
-self-declaration = "26fd3daf90363f4c9c24b78add3f344d7e4f3e765d70d861b08481a9fdcc69fa"
-proof-of-identity = "2722e9ae94c2b1ad596a5937e9ec90dedc76c7b5909ea3b4a48690788ce45912"
+declaration = "26fd3daf90363f4c9c24b78add3f344d7e4f3e765d70d861b08481a9fdcc69fa"
+identity = "2722e9ae94c2b1ad596a5937e9ec90dedc76c7b5909ea3b4a48690788ce45912"
 
 [arceau]
 name = "Arceau NP LLC"
-paths = "np-list/arceau"
 wiki-link = "https://wiki.internetcomputer.org/wiki/Arceau_NP_LLC"
-self-declaration = "b24ab500e3b7a54ed948fdb2e763a2477c6d9529a5adc107c7bfda77df29b335"
-proof-of-identity = "a84db3c6bee54844407d3bbf0c2311b5beb06e6b37ec457f77d476c5a1b81918"
-node-handover = "b855c7ef7738be197db502fca07201353ce360bf8c5f2d2edfa3763494e13459"
+declaration = "b24ab500e3b7a54ed948fdb2e763a2477c6d9529a5adc107c7bfda77df29b335"
+identity = "a84db3c6bee54844407d3bbf0c2311b5beb06e6b37ec457f77d476c5a1b81918"
+handover = "b855c7ef7738be197db502fca07201353ce360bf8c5f2d2edfa3763494e13459"
 
 [aitubi]
 name = "Aitubi AG"
 wiki-link = "https://wiki.internetcomputer.org/wiki/Aitubi_AG"
-self-declaration = "867990ecde96b8362eb137911199aafbbaef61ded0805912b36bfb86df689974"
-proof-of-identity = "89e6063e8abc1b76aa4f13b6d2ea9fc1e0fe950e23093565facf3c4cd82e8d3e"
+declaration = "867990ecde96b8362eb137911199aafbbaef61ded0805912b36bfb86df689974"
+identity = "89e6063e8abc1b76aa4f13b6d2ea9fc1e0fe950e23093565facf3c4cd82e8d3e"
 
 [aksinia]
 name = "Aksinia Stavskaya"
 wiki-link = "https://wiki.internetcomputer.org/wiki/Aksinia_Stavskaya"
-self-declaration = "fc1342d687c1aeedd10787379bb98d5023a687fe91c612d09b549951437c0fd3"
-proof-of-identity = "8fcdcd9edb3f09d74fa4f4a23f39f358061da06d3fe3d787129d6661f8f8c19a"
+declaration = "fc1342d687c1aeedd10787379bb98d5023a687fe91c612d09b549951437c0fd3"
+identity = "8fcdcd9edb3f09d74fa4f4a23f39f358061da06d3fe3d787129d6661f8f8c19a"
+
+[allusion]
+name = "Allusion"
+wiki-link = "https://wiki.internetcomputer.org/wiki/ALLUSION_BV"
+declaration = "ce7805a31ef5f5830a9d6526762c6206b32e2450e82927d2840b57ae9caf7d28"
+identity = "dec7a6a2654df1a7164b3dd2472f0fc1e13fabebbe7a5a85d490ee808426717a"
+
+[anypoint]
+name = "ANYPOINT PTY LTD"
+declaration = "2423220dcd5bc4744d4db65fdce8004f6010c56825f039dd1e270dc8d2b07d3b"
+identity = "1a904b830d90beb42166e2b504ba573bb4a6257cbbaf644f37c7487da8bce407"
+wiki-link = "https://wiki.internetcomputer.org/wiki/ANYPOINT_PTY_LTD"
+
+[avrvm]
+name = "AVRVM AG"
+wiki-link = "https://wiki.internetcomputer.org/wiki/AVRVM_AG"
+identity = ""
+declaration = ""
+
+[artem]
+name = "Artem Horodyskyi"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Artem_Horodyskyi"
+identity = "3f1ec7bf0e8c3be87c9b2a47317947514bb78d81d859e59ec17e6644a82f440e"
+declaration = "7ab6456b747b13dfcf3e95754698ff247f7dd7cc6ee5da1ded4a0c81e49d3f69"
+hardware = "c90af353a7540387587398e39080d5c20c711adfb26690a8acf1e2430a9d01f2"
+
+[bianca]
+name = "Bianca-Martina Rohner"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Bianca-Martina_Rohner"
+identity = "2c1fa30253103788b7c6510bb1fc66fd4e11b9e9df163ec936c9a460b377ade2"
+declaration = "ca3973712c4d7947b0b835368ca0648696d52ff6e7ed69a7c92766c1da51e0ce"
+
+[bigger]
+name = "Bigger Capital"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Bigger_Capital"
+identity = "46ccf5a7d1619d7c839b1e1b11dffc46bfe2419f67365b47fce6338d1d846860"
+declaration = "3d084d13fb536b771e68abd52c7ab2046128095159f4d05df23783331070a939"
+
+
+[bitmoon]
+name = "Bitmoon"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Bitmoon"
+identity = "0B2764C306DD0D46B67DDE4F35AAE7BCFCA3446E3940884EA384B8F6EE97105D"
+declaration = "6217297B57728231E6DACD52E68787539B8A07494854E303DEF508B0B9967800"
+
+
+[""]
+name = ""
+wiki-link = ""
+identity = ""
+declaration = ""
+
+[""]
+name = ""
+wiki-link = ""
+identity = ""
+declaration = ""

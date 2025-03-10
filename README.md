@@ -1,7 +1,7 @@
 # Node Providers
 
 Every node provider from the IC network is documented here, from the
-self-declaration document, to the proposals related to that node provider.
+declaration document, to the proposals related to that node provider.
 
 node providers rewards: https://hucfy-dyaaa-aaaam-ac37a-cai.icp0.io/
 
@@ -84,3 +84,13 @@ account id: a754940d8966382ca1043e91f60d426f75c73c6afabe6b7eee01d0439ccc3074
 
 ks7ow-zvs7i-ratdk-azq34-zio2b-gbekj-qjicg-pfhp3-ovhgu-k5qql-dae
 4c733e557d1a2c1c4dbe2d424095153a08c432d749f82370c2491cc0d85e1407 account id not where rewards are minted
+
+-------------------
+
+## Wiki Issues
+
+NPs that are on the forum but do not exist on the dashboard:
+- Altimist Ltd - https://wiki.internetcomputer.org/wiki/Altimist_Ltd
+- Bitapp - https://wiki.internetcomputer.org/wiki/Bitapp
+
+- Bianca manages nodes on her own, no company listed on self-declaration
