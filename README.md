@@ -67,6 +67,16 @@ registry canister
 - [ ] compute rewards per NP per month
 - [ ] proposals linked to that NPs
 
+https://globe.gl/
+
+https://github.com/dfinity/dre/blob/038e782704d11740cb1378e98f6079c2a42e477c/rs/dre-canisters/node_status_canister/src/node_status_canister_backend/src/lib.rs
+https://dfinity.github.io/dre/bazel/tips-and-tricks.html
+https://hucfy-dyaaa-aaaam-ac37a-cai.icp0.io/providers/67gkg-gkgzz-g2ubz-3cc6h-jr3zm-twsii-7i325-r3gzr-kp2kh-dwxg6-pqe
+
+https://wiki.internetcomputer.org/wiki/Node_Provider_NNS_proposals
+
+https://github.com/dfinity/ic/blob/master/rs/registry/canister/proto/ic_registry_canister/pb/v1/registry.proto
+
 -----------------
 
 node provider id: eipr5-izbom-neyqh-s3ec2-52eww-cyfpg-qfomg-3dpwj-4pffh-34xcu-7qe
