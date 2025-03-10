@@ -1,3 +1,4 @@
+# https://wiki.internetcomputer.org/wiki/Node_Provider_Self_Declarations
 # document present without hash
 
 [0x52]
@@ -96,11 +97,86 @@ identity = "0B2764C306DD0D46B67DDE4F35AAE7BCFCA3446E3940884EA384B8F6EE97105D"
 declaration = "6217297B57728231E6DACD52E68787539B8A07494854E303DEF508B0B9967800"
 
 
-[""]
-name = ""
-wiki-link = ""
+[blockchain]
+name = "Blockchain Development Labs"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Blockchain_Development_Labs_Inc"
+identity = ""
+declaration = "5B5D9AB6103048E9F2FDBC4473525FD850A325F1D03B192ED1C2E72D0FDC29A3"
+
+[blockfinance]
+name = "BlockFinance"
+wiki-link = "https://wiki.internetcomputer.org/wiki/BlockFinance_LLC"
+identity = "b612315036562eb9a1b07757430e2f0995a76f4fb981f36433b8ac6abce453e4"
+declaration = "f60e2dae584ddf2cb101767f393d417eb30c9f4552ca116b634a858f8448c6a1"
+
+[blocktech]
+name = "BlockTech Ventures, LLC"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Blocktech_Ventures_LLC"
+identity = "bbd9ed4e8b49068f587014edb3aed85fe376de43d6e30794dbd92795fd073a8b"
+declaration = "5336e2b4e59742ae655f896d61453bd41883795d9677926abb4b5de9879abf5e"
+
+
+[blp22]
+name = "BLP22, LLC"
+wiki-link = "https://wiki.internetcomputer.org/wiki/BLP22,_LLC"
+identity = "e76a55e659282447f89272cebe484aa221413b4dced7e5d66142d83e94e7389d"
+declaration = "9dbabd5e2e2ce3f8dfa19dc78934899c9b43394fd40e8379eab4f2a34b762573"
+
+
+[blueant]
+name = "Blue Ant LLC"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Blueant_LLC"
 identity = ""
 declaration = ""
+
+
+[bohatyrov]
+name = "Bohatyrov Volodymyr"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Bohatyrov_Volodymyr"
+identity = "6abf8dd9bde2f6127be4da609cfa778bbac09405c9978382d037b09b0f55c1bc"
+declaration = "82fa2bfb0f25ff19204eb1b8c5fe1209317042fb0ec9333dbbfc7725a29bd5e3"
+invoice = "fe1d2612e5307bb5cb86ca85e587f6d49bf39a850a8358ceda36d3839ceb4272"
+
+[buldakova]
+name = "Buldakova Rehina"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Buldakova_Rehina"
+identity = "bc39f6908c7db90d06eddb9348b60a6e21753904b173e4e42a3e1b27654756cd"
+declaration = "79831c77930473be111551c497063269b8b2be63f9372fea825171437e41de12"
+
+[carbon]
+name = "Carbon Twelve"
+wiki-link = "https://wiki.internetcomputer.org/wiki/CarbonTwelve"
+identity = "1541c3df1cfb02b76b74096dc9303e8a45e0efc2cd8f2386e0cf5d9726173779"
+declaration = "9272f640d2c243ed42476bc3511b9787bd19d4937229eb3aecaf662dd4e55d9d"
+
+
+[conic]
+name = "Conic Ventures"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Conic_Ventures"
+identity = "68ec5196be0e038f1a99026ba68bd7bf062286b561da9cfa8a47cfd050c641c0"
+declaration = "b01a30985df37336173969e30a533000524ce19f77a3dd3f7ebfa1de1db232e3"
+
+
+[coplus]
+name = "Coplus Limited"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Coplus_Limited"
+identity = ""
+declaration = ""
+
+
+[def]
+name = "Decentralized Entities Foundation"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Decentralized_Entities_Foundation"
+identity = "db50f9440a1c3d8318687afa17ec20c1b3af211eb52ce37cfab4a45ea2466f7c"
+declaration = "38734075a8577fc9e1d1ded846b41050f1f0255d5fefad747a9e5660a1c2b67f"
+handover = "fd2d272b40734d4164c956156634dd5b23b0d3a327755bdef668ed77005b7db3"
+
+[denode]
+name = "DeNoDe"
+wiki-link = "https://wiki.internetcomputer.org/wiki/DENODE"
+identity = "c5d9a2a647fbfd3d345a026d43fafe48a03c64006d41d302827eefb3dcee43e0"
+declaration = "6e46fd7be576166a1af786d805eac8237561645bd2afee2bbfd194888cc9f68b"
+handover = "e973ebd05f3f2c0a73d5a4195bdd97854831e0ef70e55a7cbfb83a501f676b93"
 
 [""]
 name = ""

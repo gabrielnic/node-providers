@@ -77,6 +77,9 @@ https://wiki.internetcomputer.org/wiki/Node_Provider_NNS_proposals
 
 https://github.com/dfinity/ic/blob/master/rs/registry/canister/proto/ic_registry_canister/pb/v1/registry.proto
 
+Dashboard:
+- https://etherscan.io/nodetracker
+
 -----------------
 
 node provider id: eipr5-izbom-neyqh-s3ec2-52eww-cyfpg-qfomg-3dpwj-4pffh-34xcu-7qe
@@ -92,5 +95,10 @@ ks7ow-zvs7i-ratdk-azq34-zio2b-gbekj-qjicg-pfhp3-ovhgu-k5qql-dae
 NPs that are on the forum but do not exist on the dashboard:
 - Altimist Ltd - https://wiki.internetcomputer.org/wiki/Altimist_Ltd
 - Bitapp - https://wiki.internetcomputer.org/wiki/Bitapp
+- Blockchain Literacy Foundation - https://wiki.internetcomputer.org/wiki/Blockchain_Literacy_Foundation
+- CocoMango, LLC - https://wiki.internetcomputer.org/wiki/CocoMango_LLC
 
 - Bianca manages nodes on her own, no company listed on self-declaration
+
+- https://wiki.internetcomputer.org/wiki/Blockchain_Development_Labs_Inc does not have identity in pdf
+- https://wiki.internetcomputer.org/wiki/Coplus_Limited does not have identity in pdf
