@@ -178,6 +178,79 @@ identity = "c5d9a2a647fbfd3d345a026d43fafe48a03c64006d41d302827eefb3dcee43e0"
 declaration = "6e46fd7be576166a1af786d805eac8237561645bd2afee2bbfd194888cc9f68b"
 handover = "e973ebd05f3f2c0a73d5a4195bdd97854831e0ef70e55a7cbfb83a501f676b93"
 
+[dfinity]
+name = "DFINITY Stiftung"
+wiki-link = "https://wiki.internetcomputer.org/wiki/DFINITY_Stiftung"
+identity = ""
+declaration = ""
+
+[eastman]
+name = "Eastman Ventures (Pty) Ltd"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Eastman_Ventures_Pty_Ltd"
+identity = ""
+declaration = ""
+
+
+[exaion]
+name = "Exaion"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Exaion"
+identity = ""
+declaration = ""
+
+[extragone]
+name = "Extragone SA"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Extragone"
+identity = "e8a435b81f6412debe94827b67d1aec40e023efae567d01881b0ea9fec6b3902"
+declaration = "3665e7a5033c564d33599b170b486fc01300e1a9d9d4e32578d248530523b4e2"
+handover = "e7791686676bb6dc5b211a0255151754c47cd63ade9e42548c33773c3da88fc5"
+
+[fenex]
+name = "The Fenex Company LLC"
+wiki-link = "https://wiki.internetcomputer.org/wiki/User:FenexLLC"
+identity = "fe0994cb2abc2b0c12d42f61b56b08314b897ca617f2cb4aa4df424b26edfad9"
+declaration = "1ac3f6c3eeae84ee4efc72695e440dd62eda9cd7b6c42800ce090a72d7dfd273"
+
+[ferndale]
+name = "Ferndale International"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Ferndale_International"
+identity = "de4f19b3f21c4a8d8d94f177c6e524e39d63710ecc3179d9d2b23a16eef91266"
+declaration = "2b8e85fe14fbbb3e3bcbf181ce6c5de1acee61367a45023b949932b1390066f1"
+
+[fractal]
+name = "Fractal Labs AG"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Fractal_Labs,_LLC"
+identity = "ef8029e828140ce48c5ce8ee53a3c8e71c7925cab0147a4e281800d51b6db557"
+declaration = "d203530bc0216adcf022772fc609ed70696c31a00e7e71be1129fa6ff70b3e9b"
+handover = "ddf7bb6cf777b7b3e85be0062681fddfb942eded73076450eada545bd8c0f763"
+
+[geeta]
+name = "Geeta Kalwani"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Geeta_Kalwani"
+identity = "06d21b40f5d1739418e661cd489aebcc147b41b7e1fc387e3cf3fd13cb960072"
+declaration = "454e41ea6b63fc2fc6c25f5353c3138da6d84ff49d92fd422c1db06706355bec"
+
+
+[geonodes]
+name = "GeoNodes LLC"
+wiki-link = "https://wiki.internetcomputer.org/wiki/GeoNodes_LLC"
+identity = ""
+declaration = ""
+invoice = ""
+
+[george]
+name = "George Bassadone"
+wiki-link = "https://wiki.internetcomputer.org/wiki/George_Bassadone"
+identity = ""
+declaration = ""
+
+
+[geodd]
+name = "Geodd Pvt Ltd"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Geodd_Pvt_Ltd"
+identity = ""
+declaration = ""
+
+
 [""]
 name = ""
 wiki-link = ""

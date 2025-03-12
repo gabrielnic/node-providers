@@ -10,6 +10,8 @@ the registry canister is a state machine with only logs, so we need to create an
 -   use registry client to fetch all the records since the beginning
 -   consume the data
 
+-   every node provider should have a small description as to why they are uniquely qualified to run nodes
+
 https://github.com/dfinity/ic/blob/master/rs/registry/client/src/client.rs
 https://github.com/dfinity/ic/blob/master/rs/registry/canister/canister/canister.rs
 https://github.com/aviate-labs/agent-go/blob/main/clients/registry/client.go
@@ -80,6 +82,8 @@ https://github.com/dfinity/ic/blob/master/rs/registry/canister/proto/ic_registry
 Dashboard:
 - https://etherscan.io/nodetracker
 
+https://github.com/dfinity/ic/blob/master/packages/icrc-ledger-types/src/icrc/generic_value.rs#L16
+
 -----------------
 
 node provider id: eipr5-izbom-neyqh-s3ec2-52eww-cyfpg-qfomg-3dpwj-4pffh-34xcu-7qe
@@ -102,3 +106,4 @@ NPs that are on the forum but do not exist on the dashboard:
 
 - https://wiki.internetcomputer.org/wiki/Blockchain_Development_Labs_Inc does not have identity in pdf
 - https://wiki.internetcomputer.org/wiki/Coplus_Limited does not have identity in pdf
+- https://mywikis-wiki-media.s3.us-central-1.wasabisys.com/internetcomputer/Certified_Verification.pdf all the links are broken
