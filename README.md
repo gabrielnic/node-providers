@@ -5,12 +5,16 @@ declaration document, to the proposals related to that node provider.
 
 node providers rewards: https://hucfy-dyaaa-aaaam-ac37a-cai.icp0.io/
 
+- add a filter for country where the nodes are running
+
 the registry canister is a state machine with only logs, so we need to create an index ourselves
 
 -   use registry client to fetch all the records since the beginning
 -   consume the data
 
 -   every node provider should have a small description as to why they are uniquely qualified to run nodes
+
+- documents can be either missing, incomplete, or present
 
 https://github.com/dfinity/ic/blob/master/rs/registry/client/src/client.rs
 https://github.com/dfinity/ic/blob/master/rs/registry/canister/canister/canister.rs
@@ -107,3 +111,20 @@ NPs that are on the forum but do not exist on the dashboard:
 - https://wiki.internetcomputer.org/wiki/Blockchain_Development_Labs_Inc does not have identity in pdf
 - https://wiki.internetcomputer.org/wiki/Coplus_Limited does not have identity in pdf
 - https://mywikis-wiki-media.s3.us-central-1.wasabisys.com/internetcomputer/Certified_Verification.pdf all the links are broken
+- hashquark redirects to james wang - https://wiki.internetcomputer.org/wiki/User:James_Wang - neither are node provider listed on the network
+
+
+- few node providers put jpg instead of pdf
+
+- Katerina Karapuz redirects to https://wiki.internetcomputer.org/wiki/Karel_Frank instead of https://wiki.internetcomputer.org/wiki/Katerina_Karapuz
+
+- there's a lot of south africans companies - create a column as to where the company is incorporated
+
+- krishna entreprise has declaration and invoice as the same pdf - need to split them
+
+- https://wiki.internetcomputer.org/wiki/Ludens_LLC does not exist as a node provider
+- ML Solutions does not have a wiki page
+- Peterer straight up have no documents https://wiki.internetcomputer.org/wiki/Michael_and_Dominik_Peterer and are not node providers either
+- https://wiki.internetcomputer.org/wiki/Nova_LCC does not exist anymore
+
+- novi systems has no identity document

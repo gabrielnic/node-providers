@@ -251,6 +251,157 @@ identity = ""
 declaration = ""
 
 
+[giant]
+name = "Giant Leaf, LLC"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Giant_Leaf,_LLC"
+identity = "62b777bf1b43b8279aec8da2865ae630166088f3697ae939c802a6224761c0c7"
+declaration = "f58b0610cd7472e14336042eb517bd977d4c4d0b27086ade40a16776e7fd3b95"
+
+[honey]
+name = "Honeycomb Capital (Pty) Ltd"
+wiki-link = "https://wiki.internetcomputer.org/wiki/HoneyComb_Capital"
+identity = ""
+declaration = ""
+
+[iancu]
+name = "Iancu Aurel"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Iancu-Aurel"
+identity = "5320f55c840a0951eed84443255ffceb2874da00ce95ebae7cf9c61b7a6b8532"
+declaration = "5ed8f7717261c608cf8fc1d59a0c4f4b795f65bb694d09912593eddcb7687609"
+
+[icaria]
+name = "Icaria Systems Pty Ltd"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Icaria_Systems_Pty_Ltd"
+identity = "3e5e8e0934d4fd9c386586f2f50936bdb85b10ee778ffe041f028ccf8541d8e1"
+declaration = "3c2bec3aeda3318d86ecfa0b646db10f37503914d9946f4551fd845e3b79cbd5"
+
+[illusion]
+name = "Illusions In Art (Pty) Ltd"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Illusions_in_Art_Ltd"
+identity = "27e98c3737462db4f8da258c10eeb10d0fc42a3095f3fa280785b165bcaba993"
+declaration = "35e13e1e731a95714108d44be84cb2ea6b2a42299c1100f40e779704f4ee3d3b"
+
+[info]
+name = "InfoObjects"
+wiki-link = "https://wiki.internetcomputer.org/wiki/InfoObjects_Inc"
+identity = ""
+declaration = ""
+
+[ivanov]
+name = "Ivanov Oleksandr"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Ivanov_Oleksandr"
+identity = "723aa68d984f37822e7da2e1e137d1c465288d49f96aa09f971954c076d0026f"
+declaration = "577537d188a10394b290bdcbf68973aee61f7304e59181441e5dfc5a5dbd63bb"
+invoice = "cfa52fc312116003e3e48c634a6267a9ec4c3a3afbb6aa29d4db1e4989097780"
+
+[karel]
+name = "Karel Frank"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Karel_Frank"
+identity = ""
+declaration = ""
+
+
+[katerina]
+name = "Katerina Karapuz"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Katerina_Karapuz"
+identity = "965e28cfb17df505534fe72dcb29cdd43fe1eb74b5e9106d168f466fdea072dd"
+declaration = "e4a1b47b5a5544282b87d50027ee68138d790ba3f6b04ed98736f24a40871ab0"
+
+
+[kontrapunt]
+name = "Kontrapunt (Pty) Ltd"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Kontrapunt_(Pty)_Ltd"
+identity = "2b816da720ac366647a68350d03a0742e5a361160de2c9768464a0ff18a883a5"
+declaration = "4a3dcb2d4be1dad6f1cc8b6c124083284ade988618a73ae196514d763805d218"
+
+
+[krishna]
+name = "Krishna Enterprises"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Krishna_Enterprises"
+# split
+identity = ""
+declaration = ""
+invoice = ""
+
+[krzysztof]
+name = "Krzysztof Żelazko"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Krzysztof_%C5%BBelazko"
+identity = "0a5cfdd7efa057413bdc74b7e3Cb707c46f6c84fd5f0e6a4d9f9bd7eccd5712d"
+declaration = "ac47b0a59d4509975e09209e4c218a418c01ade4187b6b7e6bea1b2ac153fa62"
+
+[louise]
+name = "Louise Velayo"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Louise_Velayo"
+identity = "20b9d99195d7a157833fc399d6c94c05b6ba80fc43095f88002eab9b023dcebc"
+declaration = "2b425dbb1a6a4030157f0b0f9a6d2950f67b1fe72fb68ed088a6f3e4cd735694"
+
+
+[lukas]
+name = "Lukas Helebrandt"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Lukas_Helebrandt"
+identity = ""
+declaration = ""
+
+[marvelous]
+name = "Marvelous Web3"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Marvelous_Web3"
+identity = ""
+declaration = ""
+
+[maksym]
+name = "Maksym Ishchenko"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Maksym_Ishchenko"
+identity = "d1f00e96f1042037235767210b105f72f4cbaa94aa34be84a0400bacb2ca4e77"
+declaration = "e93de8d5b1ebe292df3bdbb781537bae0b478ab9d1242b65a8ac1f92cb1e95d7"
+invoice = "3ee9fa7343991112c4f43fc808ec6bcdd9c320dfc9d8d07a1675934863c62f97"
+
+[ml]
+name = "ML SOLUTIONS LTD"
+wiki-link = "https://wiki.internetcomputer.org/wiki/File:NODE-PROVIDER-SELF.pdf"
+identity = ""
+declaration = "f92612f76063cfd7270a2010a184085d83a1cb43d45d6eec649ae928fb9a4d6e"
+
+[mi]
+name = "MI Servers"
+wiki-link = "https://wiki.internetcomputer.org/wiki/MI_Servers"
+identity = "5520f569efcf2f8d17df86b719438d5e7c5674ba6f4267b37d0bfe6150a179c7"
+declaration = "9fc5eac74b983ea375d2c0a10985ecb1b504b53df5ac6615f726a71625a63daa"
+handover = "48e4c859db33eb48007e00761fc0dd0382fc73d0f195cb42067cace63ac104e0"
+
+[mariano]
+name = "Mariano Stoll"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Mariano_Stoll"
+identity = "292d36140c03081b63bd76ec7758ce2654c9e7b4ee5d086b14915f09554d2ef6"
+declaration = "549b11c43bd4d4705066ee24a65ce530d67f9db35d9f4b406700d866c3d4d85a"
+
+[neptune]
+name = "Neptune Partners"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Neptune_Partners"
+identity = "78588307b8273d3b9ac7f4e26194c76da7a5c74aea91b4246def566ab97cd568"
+declaration = "212c43503bbbe421e213a7b46da2c91c70c80ae7326b91d2ddedc29f4e26a984"
+invoice = "35712cda62bf07210b3851365dfec40d356265caa549e2b69b899e96f6849102"
+
+[nodal]
+name = "NODAL CAPITAL"
+wiki-link = "https://wiki.internetcomputer.org/wiki/NODAL_CAPITAL"
+identity = "9c0ff8a4bd195b0dc76b0c4bdd4e46d33b7e7484b07696bdbfe5f57594c8c6ad"
+declaration = "0af318f022d942aacd55b2bca683437b8787bee7fbd88dee0eefefde073d3bef"
+
+[nodao]
+name = ""
+wiki-link = "https://wiki.internetcomputer.org/wiki/NODAO"
+identity = "ba4fd2ee3fe5856a8ed62fb30dd03ecb50e18d22bd040dc5b26dc2da1f11b318"
+declaration = "110bea1dfcaf3c8d1a5a7c7c6b453e60c95c70268d4093b74b0321e857bc316c"
+handover = "166f1537e12fc673591c55b3c26985f20060ab2d618864fff709a619554c8865"
+handover_02 = "a24bcba0528bf63937b9de36a52c5c222a8c65d12774ac23973adbdd5df307ed"
+
+[novi]
+name = "NoviSystems, LLC"
+wiki-link = "https://wiki.internetcomputer.org/wiki/NoviSystems"
+identity = ""
+declaration = "c3d8ef713908aa1cc170fb07ff402c424ea7b44658a1c9845062c83d2a142506"
+
+
 [""]
 name = ""
 wiki-link = ""
