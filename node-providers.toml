@@ -401,6 +401,180 @@ wiki-link = "https://wiki.internetcomputer.org/wiki/NoviSystems"
 identity = ""
 declaration = "c3d8ef713908aa1cc170fb07ff402c424ea7b44658a1c9845062c83d2a142506"
 
+[nataliia]
+name = "Nataliia Nykyforak"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Nataliia_Nykyforak"
+identity = "05a8828277a2ca2bc9cc641a20e4e58ead0fc5d31a6e0bbc16df3222a4154d67"
+declaration = "f1dc53b1abd658dca89b7ed8901771dd82d7181e40dc111b926d95341c36012d"
+
+
+[natalia]
+name = "Natalia Kulesha"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Natalia_Kulesha"
+identity = "e2963b868f0c9f1b06f14e7f551e9aa93fffa2684038c0b9bb2829296c9baec8"
+declaration = "5805a18c064f2427c06c124f3b22a0459c2306427480e8d1432bbb0df8b8f075"
+
+[nikola]
+name = "Nikola Nikov"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Nikola_Nikov"
+identity = "fabd668885237dd9214b56107a0beff7933564c7993f7c48e6beca77396e50e3"
+declaration = "d0386dcf8a5366b50c7eb9b066747c4b16fad684096908d2be98112828c4ec1e"
+passeport = "7d85328f9aa9019ad71e0030f2dc602390ec76e059e0f18f05f3874e49d56415"
+
+[162]
+name = "OneSixtyTwo Digital Capital"
+wiki-link = "https://wiki.internetcomputer.org/wiki/OneSixtyTwo_Digital_Capital"
+identity = "b8b894f7bb5e34f11d96a346a493ee20f13f1f41be586844de4aca8641c1db51"
+declaration = "6ec85540ddc21bff4605ac7dd73c9423db1310d3c11c6fbc66b5c71c140397ff"
+
+
+[origin]
+name = "Origin Game"
+wiki-link = "https://wiki.internetcomputer.org/wiki/User:Soekawat"
+identity = "5aa03c61a57a0d6bd8d993898d87f2f5909e813ea9ec7e38a8ff63fd12fdcd93"
+declaration = "72fd6a6116bc259f41032959f8eb7b30ed9d3ad8384c5615a462ce135f23133d"
+
+[creasey]
+name = "Paul Creasey"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Paul_Creasey"
+identity = "c15022cf023708273cc963cecd4f3aed3b19ffdf05e1d972474d1a4cb3009b57"
+declaration = "7e2a2ace6cda079772a0187c25d1873a6d913abdb2a71aec37f445863b051f4b"
+
+[protocol16]
+name = "Protocol16"
+wiki-link = "https://wiki.internetcomputer.org/wiki/User:Protocol16"
+identity = "ba5d2bead0ad9dd5777287257607ad79678d8638a76bb6af2c46b3eb855daf8b"
+declaration = "d433497932de39d880974dc0e50ae34cf4227ae53d0eaf3f364c83c16eff06e6"
+
+[pindar]
+name = "Pindar Technology Limited"
+wiki-link = "https://wiki.internetcomputer.org/wiki/PindarTechnologyLimited"
+identity = ""
+declaration = ""
+
+[power]
+name = "Power Meta Corporation"
+wiki-link = "https://wiki.internetcomputer.org/wiki/User:Powermetacorp"
+identity = "6db12fdac101756eeb6de5e568d4ce4e58e0dbb5fafd002001e0aa6c410cde12"
+declaration = "39003cc833863871ce71223189584997fd32e164ba749605cf2bfdc2b7f7d7f1"
+
+[privoxy]
+name = "Privoxy Solutions, LLC"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Privoxy_Solutions,_LLC."
+identity = ""
+declaration = "08250486876f73627fe209724de09f4962923ded5afaaca01405c3aa5cccda85"
+invoice = "13be81b338fa16661391ddfcf8c7721ec26fe964f1ad649dc9fe8f5ae7905f45"
+
+[reist]
+name = "Reist Telecom AG"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Reist_Telecom_AG"
+identity = "898be083b1c60c772c07f169d364b61f4a2e83c683619251a192a3d1d84cc4da"
+declaration = "c2fa10e0743e8ef554f878167541ea537a81da1cd18853dcbf0de4af75533fd4"
+handover = "e64a2061eefa819b581c2977763fa1eb2a40fea92f801485d0a92d53b6b7bfa6"
+
+[rivonia]
+name = "Rivonia Holdings LLC"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Rivonia_Holdings,_LLC"
+identity = "06a22cb9df8dfe84541dad6fde2143464586881062f1068b7b27283e27d78842"
+declaration = "d93ed2516d8da80587bdf42335a77920d048e26ebebd031487bbc8e613b2c273"
+handover = "b855c7ef7738be197db502fca07201353ce360bf8c5f2d2edfa3763494e13459"
+
+[rivram]
+name = "Rivram Inc"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Rivram_Inc"
+identity = ""
+declaration = ""
+
+[stamper]
+name = "Stamper Co., Ltd."
+wiki-link = "https://wiki.internetcomputer.org/wiki/Stamper_Co.,_Ltd."
+identity = "276737D61FDC07089F74D44865655B67191BE6073827C5773CB2D5C1D84D43D3"
+declaration = "C1BE3518EBE9A095DA56B02702FCEA349D720FA6CDF474172C7116DDE8FA4F23"
+
+[serenity]
+name = "Serenity Lotus Limited"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Serenity_lotus_limited"
+identity = "f16619f9877016b4c43055e8d112f549ac0c84a66245082898550f9e12f7f691"
+declaration = "75c6c41df1f82d8af6f900da4a124d17035482b28d0615d574f9ab44f6989b1b"
+
+[starbase]
+name = "Starbase"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Starbase"
+identity = "c2ee042289c9b2028a9d5e7c874afa190df7dfad5c05cbb9abf0f3c54e5c6e91"
+declaration = "51ad0b02ee669b578f528aa57ac12c76cd0818a4756924aa04339c2aa9e865b3"
+handover = ""
+
+[sygnum]
+name = "Sygnum Bank"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Sygnum"
+identity = "f7240e5d637a7df3d2702b02335528907ecdb5db0876195dc0ec4e925ac60f2c"
+declaration = "50bd080608c4e8e03bea8e33921e69c943ba414b1191a0af9e9b365976bf90cb"
+handover = "e64a2061eefa819b581c2977763fa1eb2a40fea92f801485d0a92d53b6b7bfa6"
+
+[tum]
+name = "Technical University of Munich"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Technical_University_of_Munich"
+identity = "59c107e3dcc37fc7654921e242147294926959a650b8dd7d386f380e45c4a62f"
+declaration = "cdbcad5d8c01a6050cc196b9bcc13f017afeead6c3c22243f340985451fb9796"
+
+
+[tomahawk]
+name = "Tomahawk.vc"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Tenderloin_Ventures_AG"
+identity = "9fe65bd2732699feb62bbb4e762ebb247bbfee8888edc257368eff0954082ff9"
+declaration = "166009bc60582ea9a49daa64081e6a289aa0b5487b2e34b391b2207246270628"
+
+[uvaca]
+name = "Uvaca Labs LLC"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Uvaca_Labs_LLC"
+identity = "b6999e26b55d61cf1c7ff578ab512a801090afde71e570bcd9fee1ec6e094843"
+declaration = "670c0277a8caae4cbd7684f7a64d50d9cd1df7e56111b3a5f2b7316be6bb537f"
+handover = "cce9ed442f3b5aa428413a0994bf814c40db64ccd3c3aaa0a48f016ae63b5e1d"
+
+[virtual]
+name = "Virtual Hive Ltd"
+wiki-link = "https://wiki.internetcomputer.org/wiki/VirtualHiveLtd"
+identity = "3948F6E645970FFBFB8981FC38101DA4C120A28657EA5E924B9F53D1A2703E62"
+declaration = "D4597A48D1E6A3150680A5B821BC28DEFB552D618D3DE687344533AB8FA2F8A8"
+
+[vladyslav]
+name = "Vladyslav Popov"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Vladyslav_Popov"
+identity = "b463385eeead89eb2ba18ef711a442b5b59dd3da65cb10be6c2409f7d14d8103"
+declaration = "703f8b2dddf13759a3d7f0b4e2dc49fd2a660f48e3a4522c32c8eba6d1c98d1f"
+invoice = "5d2b108c25d54e4d5d5ca12a55c5165341bbcbbe2c907816c8b026f7cd5f73f6"
+
+[wolkboer]
+name = "Wolkboer (Pty) Ltd"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Wolkboer_(Pty)_Ltd"
+identity = "e70cc97bb4997a1f6096fadbbb9a7f6368975a8be2d5cc2566d2c30df9d4aa7f"
+declaration = ""
+
+[zarety]
+name = "Zarety LLC"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Zarety_LLC"
+identity = "4f9983a12136922e80784bfa3781a7795d3f6dda14401c653b63e5818a87b36b"
+declaration = "31b5d8004094e572dd6b97e0c08884d2bf45210eb595b54bec63772ae67f38d7"
+
+[zondax]
+name = "Zondax AG"
+wiki-link = "https://wiki.internetcomputer.org/wiki/Zondax_AG"
+identity = ""
+declaration = ""
+
+[web3game]
+name = "Web3game"
+wiki-link = "https://wiki.internetcomputer.org/wiki/User:Web3game"
+identity = "c7788fb16dccdded7664ee1fa443a84fb968b3a32bb2949479f019c29f3d8af7"
+declaration = "64dd2baa2e3eb1fb5491892936df0928ae719f3b8e65192db416e3743e38c160"
+invoice = "8e9d7086fd6eb84ab7da4c3bf474dbfccdd6480f5005f54e4284a98f5f088332"
+contract = "9e60ea6c6b51c0e86a5870c69dc1acbbfea51dc81a7a729d5ee9c5ac6e1aa04d"
+
+[zenith]
+name = "Zenith Code LLC"
+wiki-link = "https://wiki.internetcomputer.org/wiki/User:Zenithcode"
+identity = "60b4da47a6236b9b62c1c1780d7ead7dfc5f95db406e3e35f59cb4828df54a2d"
+declaration = "eafe82de656da7b8aa3d8dede42ba4dd47e55c3855e99767256483f83a05f1be"
 
 [""]
 name = ""

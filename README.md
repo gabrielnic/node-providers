@@ -14,6 +14,10 @@ the registry canister is a state machine with only logs, so we need to create an
 
 -   every node provider should have a small description as to why they are uniquely qualified to run nodes
 
+-   create a column for extra documents
+
+-   create a category whether NP are Gen 1.5, or 2.
+
 - documents can be either missing, incomplete, or present
 
 https://github.com/dfinity/ic/blob/master/rs/registry/client/src/client.rs
@@ -128,3 +132,20 @@ NPs that are on the forum but do not exist on the dashboard:
 - https://wiki.internetcomputer.org/wiki/Nova_LCC does not exist anymore
 
 - novi systems has no identity document
+
+need to figure out which ones are being on-boarded and off-boarded
+
+- Origin Game redirects to https://wiki.internetcomputer.org/wiki/User:Soekawat
+
+- Protocol16 https://wiki.internetcomputer.org/wiki/User:Protocol16 signed as Philip hurr
+- Pindar does not have identity documents https://wiki.internetcomputer.org/wiki/PindarTechnologyLimited
+- Power Meta https://wiki.internetcomputer.org/wiki/User:Powermetacorp identity docs are instructions on how to search for the company
+
+- https://wiki.internetcomputer.org/wiki/Privoxy_Solutions,_LLC. does not have identity document
+- quantum nodes is a not a NP anymore https://wiki.internetcomputer.org/wiki/Quantum_Node_Ltd.
+- Rivram does not have identity documents https://wiki.internetcomputer.org/wiki/Rivram_Inc
+- Stamper is not a NP anymore https://wiki.internetcomputer.org/wiki/Stamper_Co.,_Ltd.
+- Timur does not exist anymore https://wiki.internetcomputer.org/wiki/Timur_Rakhimzhan
+- does not have any more nodes https://wiki.internetcomputer.org/wiki/WMA_Investments_Limited
+- does not have any more nodes https://wiki.internetcomputer.org/wiki/Zaboo_d.o.o.
+- does not have any nodes https://wiki.internetcomputer.org/wiki/User:ZTLC_PTE_Ltd
