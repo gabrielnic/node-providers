@@ -52,7 +52,7 @@
 		<tr>
 			<th><a on:click={() => sortBy('name')}>Provider Name</a></th>
 			<th>Wiki Link</th>
-			<th>Documents</th>
+			<th>Documents (✔️ = hash match | ❌ = hash don't match)</th>
 			<th><a on:click={() => sortBy('node_count')}>Total Rewardable Nodes</a></th>
 			<th><a on:click={() => sortBy('latest')}>Last Rewards (ICP)</a></th>
 			<th><a on:click={() => sortBy('total')}>Total Rewards (ICP)</a></th>
