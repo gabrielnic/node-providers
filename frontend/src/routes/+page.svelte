@@ -57,7 +57,7 @@
 			<tr>
 				<td><a href={nodeProvider.dashboard_link} target="_blank">{nodeProvider.name}</a></td>
 				<td><a href={nodeProvider.wiki_link} target="_blank">{nodeProvider.name}</a></td>
-				<td>
+				<td style="display: flex; gap: 1em;">
 					{#each nodeProvider.document_validations as document}
 						<a href={document.file_path} target="_blank">
 							{document.document_type}
