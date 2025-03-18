@@ -180,8 +180,6 @@ struct ProviderRewardInfo {
     most_recent_reward_e8s: Option<u64>,
     most_recent_reward_xdr: Option<f64>,
     most_recent_timestamp: Option<u64>,
-    total_rewards_e8s: u64,
-    total_rewards_xdr: f64,
 }
 
 // Combined Data Structure with rewards
@@ -633,10 +631,6 @@ fn process_rewards_data(rewards_response: ListNodeProviderRewardsResponse) -> Ha
                     result
                         .entry(principal_id)
                         .and_modify(|info: &mut ProviderRewardInfo| {
-                            // Update total rewards
-                            info.total_rewards_e8s += reward.amount_e8s;
-                            info.total_rewards_xdr += reward_xdr;
-
                             // Update most recent info if this reward is newer
                             if let Some(current_ts) = info.most_recent_timestamp {
                                 if monthly_reward.timestamp > current_ts {
@@ -660,8 +654,6 @@ fn process_rewards_data(rewards_response: ListNodeProviderRewardsResponse) -> Ha
                             most_recent_reward_e8s: Some(reward.amount_e8s),
                             most_recent_reward_xdr: Some(reward_xdr),
                             most_recent_timestamp: Some(monthly_reward.timestamp),
-                            total_rewards_e8s: reward.amount_e8s,
-                            total_rewards_xdr: reward_xdr,
                         });
                 }
             }
@@ -750,9 +742,6 @@ async fn main() -> Result<()> {
     let providers_with_rewards = combined_data.iter().filter(|p| p.rewards.is_some()).count();
     println!("Providers with rewards: {}", providers_with_rewards);
 
-    let total_rewards_xdr: f64 = rewards_by_principal.values().map(|r| r.total_rewards_xdr).sum();
-    println!("Total rewards distributed: {:.2} XDR", total_rewards_xdr);
-
     // Find providers without wiki data
     let missing_wiki_count = combined_data.iter().filter(|p| p.toml_id.is_none()).count();
     println!("\nProviders without wiki entries: {}", missing_wiki_count);
@@ -786,7 +775,6 @@ async fn main() -> Result<()> {
                     println!("    Dashboard Account Link: {}", link);
                 }
             }
-            println!("    Total rewards: {:.2} XDR ({} E8s)", rewards.total_rewards_xdr, rewards.total_rewards_e8s);
             if let Some(recent_xdr) = rewards.most_recent_reward_xdr {
                 println!("    Most recent reward: {:.2} XDR", recent_xdr);
             }
