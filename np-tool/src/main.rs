@@ -3,7 +3,6 @@ use std::collections::{HashMap, HashSet};
 use std::error::Error;
 use std::fs::{self, File};
 use std::io::{self, Read};
-use std::path::Path;
 
 // API Data Structures
 #[derive(Debug, Serialize, Deserialize)]
@@ -294,9 +293,9 @@ fn merge_node_provider_data(
         combined_providers.push(combined);
     }
 
-    // Optional: Add wiki-only entries if desired
-    /*
-    let api_names: HashSet<String> = api_data.node_providers.iter()
+    let api_names: HashSet<String> = api_data
+        .node_providers
+        .iter()
         .map(|p| p.display_name.to_lowercase())
         .collect();
 
@@ -324,7 +323,6 @@ fn merge_node_provider_data(
             combined_providers.push(combined);
         }
     }
-    */
 
     combined_providers
 }

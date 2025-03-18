@@ -16,9 +16,9 @@
       "handover": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e"
     },
     "document_paths": {
+      "declaration": "../np-list/0x52/declaration.pdf",
       "handover": "../np-list/0x52/handover.pdf",
-      "identity": "../np-list/0x52/identity.pdf",
-      "declaration": "../np-list/0x52/declaration.pdf"
+      "identity": "../np-list/0x52/identity.pdf"
     },
     "document_validations": [
       {
@@ -61,9 +61,9 @@
       "handover": "48e4c859db33eb48007e00761fc0dd0382fc73d0f195cb42067cace63ac104e0"
     },
     "document_paths": {
-      "declaration": "../np-list/100/declaration.pdf",
       "handover": "../np-list/100/handover.pdf",
-      "identity": "../np-list/100/identity.pdf"
+      "identity": "../np-list/100/identity.pdf",
+      "declaration": "../np-list/100/declaration.pdf"
     },
     "document_validations": [
       {
@@ -368,10 +368,10 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/ANYPOINT_PTY_LTD",
     "additional_documents": {},
     "document_paths": {
-      "declaration": "../np-list/anypoint/declaration.pdf",
       "identity": "../np-list/anypoint/identity.pdf",
-      "handover": "../np-list/anypoint/handover.pdf",
-      "invoice": "../np-list/anypoint/invoice.pdf"
+      "declaration": "../np-list/anypoint/declaration.pdf",
+      "invoice": "../np-list/anypoint/invoice.pdf",
+      "handover": "../np-list/anypoint/handover.pdf"
     },
     "document_validations": [
       {
@@ -578,8 +578,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Bigger_Capital",
     "additional_documents": {},
     "document_paths": {
-      "declaration": "../np-list/bigger/declaration.pdf",
-      "identity": "../np-list/bigger/identity.pdf"
+      "identity": "../np-list/bigger/identity.pdf",
+      "declaration": "../np-list/bigger/declaration.pdf"
     },
     "document_validations": [
       {
@@ -613,9 +613,9 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Bitmoon",
     "additional_documents": {},
     "document_paths": {
-      "invoice": "../np-list/bitmoon/invoice.pdf",
       "declaration": "../np-list/bitmoon/declaration.pdf",
-      "identity": "../np-list/bitmoon/identity.pdf"
+      "identity": "../np-list/bitmoon/identity.pdf",
+      "invoice": "../np-list/bitmoon/invoice.pdf"
     },
     "document_validations": [
       {
@@ -711,8 +711,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Blocktech_Ventures_LLC",
     "additional_documents": {},
     "document_paths": {
-      "identity": "../np-list/blocktech/identity.pdf",
-      "declaration": "../np-list/blocktech/declaration.pdf"
+      "declaration": "../np-list/blocktech/declaration.pdf",
+      "identity": "../np-list/blocktech/identity.pdf"
     },
     "document_validations": [
       {
@@ -803,8 +803,8 @@
       "invoice": "fe1d2612e5307bb5cb86ca85e587f6d49bf39a850a8358ceda36d3839ceb4272"
     },
     "document_paths": {
-      "declaration": "../np-list/bohatyrov/declaration.pdf",
       "invoice": "../np-list/bohatyrov/invoice.pdf",
+      "declaration": "../np-list/bohatyrov/declaration.pdf",
       "identity": "../np-list/bohatyrov/identity.pdf"
     },
     "document_validations": [
@@ -880,8 +880,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Buldakova_Rehina",
     "additional_documents": {},
     "document_paths": {
-      "identity": "../np-list/buldakova/identity.pdf",
-      "declaration": "../np-list/buldakova/declaration.pdf"
+      "declaration": "../np-list/buldakova/declaration.pdf",
+      "identity": "../np-list/buldakova/identity.pdf"
     },
     "document_validations": [
       {
@@ -915,8 +915,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/CarbonTwelve",
     "additional_documents": {},
     "document_paths": {
-      "declaration": "../np-list/carbon/declaration.pdf",
-      "identity": "../np-list/carbon/identity.png"
+      "identity": "../np-list/carbon/identity.png",
+      "declaration": "../np-list/carbon/declaration.pdf"
     },
     "document_validations": [
       {
@@ -1068,9 +1068,9 @@
       "handover": "e973ebd05f3f2c0a73d5a4195bdd97854831e0ef70e55a7cbfb83a501f676b93"
     },
     "document_paths": {
-      "identity": "../np-list/denode/identity.pdf",
       "declaration": "../np-list/denode/declaration.pdf",
-      "handover": "../np-list/denode/handover.pdf"
+      "handover": "../np-list/denode/handover.pdf",
+      "identity": "../np-list/denode/identity.pdf"
     },
     "document_validations": [
       {
@@ -1111,8 +1111,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/DFINITY_Stiftung",
     "additional_documents": {},
     "document_paths": {
-      "declaration": "../np-list/dfinity/declaration.pdf",
-      "identity": "../np-list/dfinity/identity.pdf"
+      "identity": "../np-list/dfinity/identity.pdf",
+      "declaration": "../np-list/dfinity/declaration.pdf"
     },
     "document_validations": []
   },
@@ -1182,8 +1182,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Eastman_Ventures_Pty_Ltd",
     "additional_documents": {},
     "document_paths": {
-      "declaration": "../np-list/eastman/declaration.pdf",
-      "identity": "../np-list/eastman/identity.pdf"
+      "identity": "../np-list/eastman/identity.pdf",
+      "declaration": "../np-list/eastman/declaration.pdf"
     },
     "document_validations": []
   },
@@ -1202,8 +1202,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Exaion",
     "additional_documents": {},
     "document_paths": {
-      "identity": "../np-list/exaion/identity.pdf",
-      "declaration": "../np-list/exaion/declaration.pdf"
+      "declaration": "../np-list/exaion/declaration.pdf",
+      "identity": "../np-list/exaion/identity.pdf"
     },
     "document_validations": []
   },
@@ -1407,8 +1407,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Geeta_Kalwani",
     "additional_documents": {},
     "document_paths": {
-      "identity": "../np-list/geeta/identity.pdf",
-      "declaration": "../np-list/geeta/declaration.pdf"
+      "declaration": "../np-list/geeta/declaration.pdf",
+      "identity": "../np-list/geeta/identity.pdf"
     },
     "document_validations": [
       {
@@ -1462,8 +1462,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/GeoNodes_LLC",
     "additional_documents": {},
     "document_paths": {
-      "declaration": "../np-list/geonodes/declaration.pdf",
       "invoice": "../np-list/geonodes/invoice.pdf",
+      "declaration": "../np-list/geonodes/declaration.pdf",
       "identity": "../np-list/geonodes/identity.pdf"
     },
     "document_validations": []
@@ -1483,8 +1483,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/George_Bassadone",
     "additional_documents": {},
     "document_paths": {
-      "declaration": "../np-list/george/declaration.pdf",
-      "identity": "../np-list/george/identity.pdf"
+      "identity": "../np-list/george/identity.pdf",
+      "declaration": "../np-list/george/declaration.pdf"
     },
     "document_validations": []
   },
@@ -1503,8 +1503,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Giant_Leaf,_LLC",
     "additional_documents": {},
     "document_paths": {
-      "identity": "../np-list/giant/identity.pdf",
-      "declaration": "../np-list/giant/declaration.pdf"
+      "declaration": "../np-list/giant/declaration.pdf",
+      "identity": "../np-list/giant/identity.pdf"
     },
     "document_validations": [
       {
@@ -1592,8 +1592,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Iancu-Aurel",
     "additional_documents": {},
     "document_paths": {
-      "declaration": "../np-list/iancu/declaration.pdf",
-      "identity": "../np-list/iancu/identity.pdf"
+      "identity": "../np-list/iancu/identity.pdf",
+      "declaration": "../np-list/iancu/declaration.pdf"
     },
     "document_validations": [
       {
@@ -1627,8 +1627,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Icaria_Systems_Pty_Ltd",
     "additional_documents": {},
     "document_paths": {
-      "identity": "../np-list/icaria/identity.pdf",
       "declaration": "../np-list/icaria/declaration.pdf",
+      "identity": "../np-list/icaria/identity.pdf",
       "invoice": "../np-list/icaria/invoice.pdf",
       "registration": "../np-list/icaria/registration.pdf"
     },
@@ -1681,8 +1681,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Illusions_in_Art_Ltd",
     "additional_documents": {},
     "document_paths": {
-      "identity": "../np-list/illusion/identity.pdf",
-      "declaration": "../np-list/illusion/declaration.pdf"
+      "declaration": "../np-list/illusion/declaration.pdf",
+      "identity": "../np-list/illusion/identity.pdf"
     },
     "document_validations": [
       {
@@ -1754,8 +1754,8 @@
       "invoice": "cfa52fc312116003e3e48c634a6267a9ec4c3a3afbb6aa29d4db1e4989097780"
     },
     "document_paths": {
-      "declaration": "../np-list/ivanov/declaration.pdf",
       "invoice": "../np-list/ivanov/invoice.pdf",
+      "declaration": "../np-list/ivanov/declaration.pdf",
       "identity": "../np-list/ivanov/identity.pdf"
     },
     "document_validations": [
@@ -1865,8 +1865,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Karel_Frank",
     "additional_documents": {},
     "document_paths": {
-      "declaration": "../np-list/karel/declaration.pdf",
-      "identity": "../np-list/karel/identity.pdf"
+      "identity": "../np-list/karel/identity.pdf",
+      "declaration": "../np-list/karel/declaration.pdf"
     },
     "document_validations": []
   },
@@ -1885,8 +1885,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Katerina_Karapuz",
     "additional_documents": {},
     "document_paths": {
-      "declaration": "../np-list/katerina/declaration.pdf",
-      "identity": "../np-list/katerina/identity.pdf"
+      "identity": "../np-list/katerina/identity.pdf",
+      "declaration": "../np-list/katerina/declaration.pdf"
     },
     "document_validations": [
       {
@@ -1972,8 +1972,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Krishna_Enterprises",
     "additional_documents": {},
     "document_paths": {
-      "declaration": "../np-list/krishna/declaration.pdf",
-      "invoice": "../np-list/krishna/invoice.png"
+      "invoice": "../np-list/krishna/invoice.png",
+      "declaration": "../np-list/krishna/declaration.pdf"
     },
     "document_validations": []
   },
@@ -2135,9 +2135,9 @@
       "invoice": "3ee9fa7343991112c4f43fc808ec6bcdd9c320dfc9d8d07a1675934863c62f97"
     },
     "document_paths": {
+      "declaration": "../np-list/maksym/declaration.pdf",
       "invoice": "../np-list/maksym/invoice.pdf",
-      "identity": "../np-list/maksym/identity.pdf",
-      "declaration": "../np-list/maksym/declaration.pdf"
+      "identity": "../np-list/maksym/identity.pdf"
     },
     "document_validations": [
       {
@@ -2303,9 +2303,9 @@
       "handover": "48e4c859db33eb48007e00761fc0dd0382fc73d0f195cb42067cace63ac104e0"
     },
     "document_paths": {
-      "identity": "../np-list/mi/identity.pdf",
+      "declaration": "../np-list/mi/declaration.pdf",
       "handover": "../np-list/mi/handover.pdf",
-      "declaration": "../np-list/mi/declaration.pdf"
+      "identity": "../np-list/mi/identity.pdf"
     },
     "document_validations": [
       {
@@ -2424,8 +2424,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Natalia_Kulesha",
     "additional_documents": {},
     "document_paths": {
-      "declaration": "../np-list/natalia/declaration.pdf",
-      "identity": "../np-list/natalia/identity.pdf"
+      "identity": "../np-list/natalia/identity.pdf",
+      "declaration": "../np-list/natalia/declaration.pdf"
     },
     "document_validations": [
       {
@@ -2459,8 +2459,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Nataliia_Nykyforak",
     "additional_documents": {},
     "document_paths": {
-      "declaration": "../np-list/nataliia/declaration.pdf",
-      "identity": "../np-list/nataliia/identity.pdf"
+      "identity": "../np-list/nataliia/identity.pdf",
+      "declaration": "../np-list/nataliia/declaration.pdf"
     },
     "document_validations": [
       {
@@ -2497,8 +2497,8 @@
     },
     "document_paths": {
       "identity": "../np-list/neptune/identity.pdf",
-      "declaration": "../np-list/neptune/declaration.pdf",
-      "invoice": "../np-list/neptune/invoice.pdf"
+      "invoice": "../np-list/neptune/invoice.pdf",
+      "declaration": "../np-list/neptune/declaration.pdf"
     },
     "document_validations": [
       {
@@ -2585,8 +2585,8 @@
     "additional_documents": {},
     "document_paths": {
       "authenticity": "../np-list/nodal/authenticity.pdf",
-      "identity": "../np-list/nodal/identity.pdf",
-      "declaration": "../np-list/nodal/declaration.pdf"
+      "declaration": "../np-list/nodal/declaration.pdf",
+      "identity": "../np-list/nodal/identity.pdf"
     },
     "document_validations": [
       {
@@ -2619,13 +2619,13 @@
     "identity": "ba4fd2ee3fe5856a8ed62fb30dd03ecb50e18d22bd040dc5b26dc2da1f11b318",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/NODAO",
     "additional_documents": {
-      "handover_02": "a24bcba0528bf63937b9de36a52c5c222a8c65d12774ac23973adbdd5df307ed",
-      "handover": "166f1537e12fc673591c55b3c26985f20060ab2d618864fff709a619554c8865"
+      "handover": "166f1537e12fc673591c55b3c26985f20060ab2d618864fff709a619554c8865",
+      "handover_02": "a24bcba0528bf63937b9de36a52c5c222a8c65d12774ac23973adbdd5df307ed"
     },
     "document_paths": {
       "handover": "../np-list/nodao/handover.pdf",
-      "declaration": "../np-list/nodao/declaration.pdf",
-      "identity": "../np-list/nodao/identity.pdf"
+      "identity": "../np-list/nodao/identity.pdf",
+      "declaration": "../np-list/nodao/declaration.pdf"
     },
     "document_validations": [
       {
@@ -2693,8 +2693,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/OneSixtyTwo_Digital_Capital",
     "additional_documents": {},
     "document_paths": {
-      "declaration": "../np-list/162/declaration.pdf",
-      "identity": "../np-list/162/identity.pdf"
+      "identity": "../np-list/162/identity.pdf",
+      "declaration": "../np-list/162/declaration.pdf"
     },
     "document_validations": [
       {
@@ -2868,8 +2868,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/User:Powermetacorp",
     "additional_documents": {},
     "document_paths": {
-      "declaration": "../np-list/power/declaration.pdf",
-      "identity": "../np-list/power/identity.pdf"
+      "identity": "../np-list/power/identity.pdf",
+      "declaration": "../np-list/power/declaration.pdf"
     },
     "document_validations": [
       {
@@ -3124,9 +3124,9 @@
       "handover": "b855c7ef7738be197db502fca07201353ce360bf8c5f2d2edfa3763494e13459"
     },
     "document_paths": {
-      "declaration": "../np-list/rivonia/declaration.pdf",
+      "identity": "../np-list/rivonia/identity.pdf",
       "handover": "../np-list/rivonia/handover.pdf",
-      "identity": "../np-list/rivonia/identity.pdf"
+      "declaration": "../np-list/rivonia/declaration.pdf"
     },
     "document_validations": [
       {
@@ -3324,8 +3324,8 @@
     "additional_documents": {},
     "document_paths": {
       "identity": "../np-list/starbase/identity.pdf",
-      "handover": "../np-list/starbase/handover.pdf",
-      "declaration": "../np-list/starbase/declaration.pdf"
+      "declaration": "../np-list/starbase/declaration.pdf",
+      "handover": "../np-list/starbase/handover.pdf"
     },
     "document_validations": [
       {
@@ -3379,8 +3379,8 @@
     },
     "document_paths": {
       "handover": "../np-list/sygnum/handover.pdf",
-      "declaration": "../np-list/sygnum/declaration.pdf",
-      "identity": "../np-list/sygnum/identity.pdf"
+      "identity": "../np-list/sygnum/identity.pdf",
+      "declaration": "../np-list/sygnum/declaration.pdf"
     },
     "document_validations": [
       {
@@ -3421,8 +3421,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/User:FenexLLC",
     "additional_documents": {},
     "document_paths": {
-      "identity": "../np-list/fenex/identity.pdf",
-      "declaration": "../np-list/fenex/declaration.pdf"
+      "declaration": "../np-list/fenex/declaration.pdf",
+      "identity": "../np-list/fenex/identity.pdf"
     },
     "document_validations": [
       {
@@ -3456,8 +3456,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Tenderloin_Ventures_AG",
     "additional_documents": {},
     "document_paths": {
-      "declaration": "../np-list/tomahawk/declaration.pdf",
-      "identity": "../np-list/tomahawk/identity.pdf"
+      "identity": "../np-list/tomahawk/identity.pdf",
+      "declaration": "../np-list/tomahawk/declaration.pdf"
     },
     "document_validations": [
       {
@@ -3493,9 +3493,9 @@
       "handover": "cce9ed442f3b5aa428413a0994bf814c40db64ccd3c3aaa0a48f016ae63b5e1d"
     },
     "document_paths": {
-      "handover": "../np-list/uvaca/handover.pdf",
       "declaration": "../np-list/uvaca/declaration.pdf",
-      "identity": "../np-list/uvaca/identity.pdf"
+      "identity": "../np-list/uvaca/identity.pdf",
+      "handover": "../np-list/uvaca/handover.pdf"
     },
     "document_validations": [
       {
@@ -3536,8 +3536,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/VirtualHiveLtd",
     "additional_documents": {},
     "document_paths": {
-      "identity": "../np-list/virtual/identity.pdf",
-      "declaration": "../np-list/virtual/declaration.pdf"
+      "declaration": "../np-list/virtual/declaration.pdf",
+      "identity": "../np-list/virtual/identity.pdf"
     },
     "document_validations": [
       {
@@ -3573,9 +3573,9 @@
       "invoice": "5d2b108c25d54e4d5d5ca12a55c5165341bbcbbe2c907816c8b026f7cd5f73f6"
     },
     "document_paths": {
-      "identity": "../np-list/vladyslav/identity.pdf",
+      "declaration": "../np-list/vladyslav/declaration.pdf",
       "invoice": "../np-list/vladyslav/invoice.pdf",
-      "declaration": "../np-list/vladyslav/declaration.pdf"
+      "identity": "../np-list/vladyslav/identity.pdf"
     },
     "document_validations": [
       {
@@ -3636,10 +3636,10 @@
       "contract": "9e60ea6c6b51c0e86a5870c69dc1acbbfea51dc81a7a729d5ee9c5ac6e1aa04d"
     },
     "document_paths": {
-      "identity": "../np-list/web3game/identity.pdf",
       "declaration": "../np-list/web3game/declaration.pdf",
       "contract": "../np-list/web3game/contract.pdf",
-      "invoice": "../np-list/web3game/invoice.pdf"
+      "invoice": "../np-list/web3game/invoice.pdf",
+      "identity": "../np-list/web3game/identity.pdf"
     },
     "document_validations": [
       {
@@ -3738,8 +3738,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Wolkboer_(Pty)_Ltd",
     "additional_documents": {},
     "document_paths": {
-      "identity": "../np-list/wolkboer/identity.pdf",
-      "declaration": "../np-list/wolkboer/declaration.png"
+      "declaration": "../np-list/wolkboer/declaration.png",
+      "identity": "../np-list/wolkboer/identity.pdf"
     },
     "document_validations": [
       {
@@ -3766,8 +3766,8 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Zarety_LLC",
     "additional_documents": {},
     "document_paths": {
-      "identity": "../np-list/zarety/identity.pdf",
-      "declaration": "../np-list/zarety/declaration.pdf"
+      "declaration": "../np-list/zarety/declaration.pdf",
+      "identity": "../np-list/zarety/identity.pdf"
     },
     "document_validations": [
       {
@@ -3873,5 +3873,75 @@
     "additional_documents": {},
     "document_paths": {},
     "document_validations": []
+  },
+  {
+    "name": "Stamper Co., Ltd.",
+    "toml_id": "stamper",
+    "principal_id": "",
+    "location_count": 0,
+    "total_nodes": 0,
+    "total_rewardable_nodes": 0,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 0,
+    "website": null,
+    "declaration": "C1BE3518EBE9A095DA56B02702FCEA349D720FA6CDF474172C7116DDE8FA4F23",
+    "identity": "276737D61FDC07089F74D44865655B67191BE6073827C5773CB2D5C1D84D43D3",
+    "wiki_link": "https://wiki.internetcomputer.org/wiki/Stamper_Co.,_Ltd.",
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/stamper/identity.pdf",
+      "declaration": "../np-list/stamper/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/stamper/declaration.pdf",
+        "expected_hash": "C1BE3518EBE9A095DA56B02702FCEA349D720FA6CDF474172C7116DDE8FA4F23",
+        "actual_hash": "c1be3518ebe9a095da56b02702fcea349d720fa6cdf474172c7116dde8fa4f23",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/stamper/identity.pdf",
+        "expected_hash": "276737D61FDC07089F74D44865655B67191BE6073827C5773CB2D5C1D84D43D3",
+        "actual_hash": "276737d61fdc07089f74d44865655b67191be6073827c5773cb2d5c1d84d43d3",
+        "matches": true
+      }
+    ]
+  },
+  {
+    "name": "Technical University of Munich",
+    "toml_id": "tum",
+    "principal_id": "",
+    "location_count": 0,
+    "total_nodes": 0,
+    "total_rewardable_nodes": 0,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 0,
+    "website": null,
+    "declaration": "cdbcad5d8c01a6050cc196b9bcc13f017afeead6c3c22243f340985451fb9796",
+    "identity": "59c107e3dcc37fc7654921e242147294926959a650b8dd7d386f380e45c4a62f",
+    "wiki_link": "https://wiki.internetcomputer.org/wiki/Technical_University_of_Munich",
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/tum/declaration.pdf",
+      "identity": "../np-list/tum/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/tum/declaration.pdf",
+        "expected_hash": "cdbcad5d8c01a6050cc196b9bcc13f017afeead6c3c22243f340985451fb9796",
+        "actual_hash": "cdbcad5d8c01a6050cc196b9bcc13f017afeead6c3c22243f340985451fb9796",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/tum/identity.pdf",
+        "expected_hash": "59c107e3dcc37fc7654921e242147294926959a650b8dd7d386f380e45c4a62f",
+        "actual_hash": "59c107e3dcc37fc7654921e242147294926959a650b8dd7d386f380e45c4a62f",
+        "matches": true
+      }
+    ]
   }
 ]
