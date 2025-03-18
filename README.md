@@ -7,18 +7,16 @@
 {
     "name": "NP Name",
     "principal": "principal",
-    # can be missing
     "declaration-path": "/path",
     "declaration-wiki-hash": "hash",
     "declaration-real-hash": "hash",
-    # can be missing
     "identity-path": "/path",
     "identity-wiki-hash": "hash",
     "identity-real-hash": "hash",
     "wiki-link": "link",
     "dashboard-link": "link",
-    "rewards XDR": "191919",
     "account id rewards": "account id",
+    "rewards XDR": "191919",
     "region": ["Europe", "US"],
     "number of nodes": 0,
     "additional documents": [
