@@ -6,15 +6,16 @@ use std::path::Path;
 use thiserror::Error;
 use ic_agent::{Agent, export::Principal};
 use candid::{CandidType, Decode, Encode};
-use icp_ledger::{AccountIdentifier, Operation};
+use icp_ledger::AccountIdentifier;
+use reqwest;
 
 // Configuration constants
-const JSON_PATH: &str = "node_providers.json";
 const TOML_PATH: &str = "node_providers-wiki.toml";
 const DOCS_DIR: &str = "../np-list";
 const OUTPUT_PATH: &str = "combined_providers.json";
 const GOVERNANCE_CANISTER_ID: &str = "rrkah-fqaaa-aaaaa-aaaaq-cai";
 const IC_URL: &str = "https://ic0.app";
+const API_URL: &str = "https://ic-api.internetcomputer.org/api/v3/node-providers?format=json";
 
 // Custom error type
 #[derive(Error, Debug)]
@@ -39,6 +40,9 @@ enum MyError {
 
     #[error("Principal error: {0}")]
     Principal(#[from] ic_agent::export::PrincipalError),
+
+    #[error("HTTP request error: {0}")]
+    Request(#[from] reqwest::Error),
 }
 
 // Custom result type
@@ -211,9 +215,34 @@ struct CombinedNodeProvider {
     rewards: Option<ProviderRewardInfo>,
 }
 
-// Parse JSON API data
-fn parse_json(content: &str) -> Result<ApiResponse> {
-    Ok(serde_json::from_str(content)?)
+// Fetch node providers data from the API
+async fn fetch_node_providers() -> Result<ApiResponse> {
+    println!("Fetching node providers data from API: {}", API_URL);
+
+    let client = reqwest::Client::new();
+    let response = client.get(API_URL)
+        .header("accept", "application/json")
+        .send()
+        .await?;
+
+    if !response.status().is_success() {
+        let status = response.status();
+        eprintln!("Error: API returned status code {}", status);
+
+        // Create a custom error message
+        let error_message = format!("API request failed with status code: {}", status);
+        return Err(MyError::Toml(error_message)); // Using the Toml error variant as a workaround
+    }
+
+    let json_data = response.text().await?;
+    let api_data: ApiResponse = serde_json::from_str(&json_data)?;
+    println!("Successfully fetched {} node providers from API", api_data.node_providers.len());
+
+    // Optionally save the JSON response to a file for debugging
+    fs::write("node_providers.json", &json_data)?;
+    println!("Saved API response to node_providers.json");
+
+    Ok(api_data)
 }
 
 // Extract location info from location data
@@ -674,9 +703,8 @@ fn add_rewards_to_providers(
 
 #[tokio::main]
 async fn main() -> Result<()> {
-    // Read the JSON API response
-    let json_data = fs::read_to_string(JSON_PATH)?;
-    let api_data = parse_json(&json_data)?;
+    // Fetch node providers from API instead of reading from a file
+    let api_data = fetch_node_providers().await?;
 
     // Read the TOML wiki data
     let toml_data = fs::read_to_string(TOML_PATH)?;
