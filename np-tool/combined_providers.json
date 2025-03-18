@@ -14,7 +14,35 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
     "additional_documents": {
       "handover": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e"
-    }
+    },
+    "document_paths": {
+      "handover": "../np-list/0x52/handover.pdf",
+      "identity": "../np-list/0x52/identity.pdf",
+      "declaration": "../np-list/0x52/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/0x52/declaration.pdf",
+        "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
+        "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/0x52/identity.pdf",
+        "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
+        "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
+        "matches": true
+      },
+      {
+        "document_type": "handover",
+        "file_path": "../np-list/0x52/handover.pdf",
+        "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
+        "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "100 Count Holdings, LLC",
@@ -31,7 +59,35 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/100_Count_Holdings,_LLC",
     "additional_documents": {
       "handover": "48e4c859db33eb48007e00761fc0dd0382fc73d0f195cb42067cace63ac104e0"
-    }
+    },
+    "document_paths": {
+      "declaration": "../np-list/100/declaration.pdf",
+      "handover": "../np-list/100/handover.pdf",
+      "identity": "../np-list/100/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/100/declaration.pdf",
+        "expected_hash": "f5daccdb2a577ac86e7fbbe709d4a60c97ed8bc2a4c66717bb1f6b8cd19df13c",
+        "actual_hash": "f5daccdb2a577ac86e7fbbe709d4a60c97ed8bc2a4c66717bb1f6b8cd19df13c",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/100/identity.pdf",
+        "expected_hash": "cc42a3bc6f61d8ee2b28de1a329c8207db61fecea5c80c8d1e9912e219df6fc3",
+        "actual_hash": "cc42a3bc6f61d8ee2b28de1a329c8207db61fecea5c80c8d1e9912e219df6fc3",
+        "matches": true
+      },
+      {
+        "document_type": "handover",
+        "file_path": "../np-list/100/handover.pdf",
+        "expected_hash": "48e4c859db33eb48007e00761fc0dd0382fc73d0f195cb42067cace63ac104e0",
+        "actual_hash": "48e4c859db33eb48007e00761fc0dd0382fc73d0f195cb42067cace63ac104e0",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "1G",
@@ -46,7 +102,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "43rd Big Idea Films",
@@ -61,7 +119,11 @@
     "declaration": null,
     "identity": null,
     "wiki_link": "https://wiki.internetcomputer.org/wiki/43rd_Big_Idea_Films,_LLC",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/43/declaration.pdf"
+    },
+    "document_validations": []
   },
   {
     "name": "87m Neuron, LLC",
@@ -78,7 +140,35 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/87m_Neuron,_LLC",
     "additional_documents": {
       "handover": "cce9ed442f3b5aa428413a0994bf814c40db64ccd3c3aaa0a48f016ae63b5e1d"
-    }
+    },
+    "document_paths": {
+      "handover": "../np-list/87/handover.pdf",
+      "identity": "../np-list/87/identity.pdf",
+      "declaration": "../np-list/87/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/87/declaration.pdf",
+        "expected_hash": "86cb37d2e3d30305978a951675ffd66f497f3c14c6434ef179eced7ee73e39f9",
+        "actual_hash": "86cb37d2e3d30305978a951675ffd66f497f3c14c6434ef179eced7ee73e39f9",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/87/identity.pdf",
+        "expected_hash": "41ee1cc7c50c7884a11d602b2aa3af2dd414761a72a9b0ec18066cf40336939c",
+        "actual_hash": "41ee1cc7c50c7884a11d602b2aa3af2dd414761a72a9b0ec18066cf40336939c",
+        "matches": true
+      },
+      {
+        "document_type": "handover",
+        "file_path": "../np-list/87/handover.pdf",
+        "expected_hash": "cce9ed442f3b5aa428413a0994bf814c40db64ccd3c3aaa0a48f016ae63b5e1d",
+        "actual_hash": "cce9ed442f3b5aa428413a0994bf814c40db64ccd3c3aaa0a48f016ae63b5e1d",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "ACCUSET SOLUTIONS",
@@ -93,7 +183,27 @@
     "declaration": "26fd3daf90363f4c9c24b78add3f344d7e4f3e765d70d861b08481a9fdcc69fa",
     "identity": "2722e9ae94c2b1ad596a5937e9ec90dedc76c7b5909ea3b4a48690788ce45912",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/ACCUSET_SOLUTIONS",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/accuset/identity.pdf",
+      "declaration": "../np-list/accuset/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/accuset/declaration.pdf",
+        "expected_hash": "26fd3daf90363f4c9c24b78add3f344d7e4f3e765d70d861b08481a9fdcc69fa",
+        "actual_hash": "26fd3daf90363f4c9c24b78add3f344d7e4f3e765d70d861b08481a9fdcc69fa",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/accuset/identity.pdf",
+        "expected_hash": "2722e9ae94c2b1ad596a5937e9ec90dedc76c7b5909ea3b4a48690788ce45912",
+        "actual_hash": "2722e9ae94c2b1ad596a5937e9ec90dedc76c7b5909ea3b4a48690788ce45912",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Adam Dymecki",
@@ -108,7 +218,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "A Dog's Boutique, LLC",
@@ -123,7 +235,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Aitubi AG",
@@ -138,7 +252,27 @@
     "declaration": "867990ecde96b8362eb137911199aafbbaef61ded0805912b36bfb86df689974",
     "identity": "89e6063e8abc1b76aa4f13b6d2ea9fc1e0fe950e23093565facf3c4cd82e8d3e",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Aitubi_AG",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/aitubi/identity.pdf",
+      "declaration": "../np-list/aitubi/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/aitubi/declaration.pdf",
+        "expected_hash": "867990ecde96b8362eb137911199aafbbaef61ded0805912b36bfb86df689974",
+        "actual_hash": "867990ecde96b8362eb137911199aafbbaef61ded0805912b36bfb86df689974",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/aitubi/identity.pdf",
+        "expected_hash": "89e6063e8abc1b76aa4f13b6d2ea9fc1e0fe950e23093565facf3c4cd82e8d3e",
+        "actual_hash": "89e6063e8abc1b76aa4f13b6d2ea9fc1e0fe950e23093565facf3c4cd82e8d3e",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Aksinia Stavskaya",
@@ -153,7 +287,19 @@
     "declaration": "fc1342d687c1aeedd10787379bb98d5023a687fe91c612d09b549951437c0fd3",
     "identity": "8fcdcd9edb3f09d74fa4f4a23f39f358061da06d3fe3d787129d6661f8f8c19a",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Aksinia_Stavskaya",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/aksinia/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/aksinia/declaration.pdf",
+        "expected_hash": "fc1342d687c1aeedd10787379bb98d5023a687fe91c612d09b549951437c0fd3",
+        "actual_hash": "fc1342d687c1aeedd10787379bb98d5023a687fe91c612d09b549951437c0fd3",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Allusion",
@@ -168,7 +314,27 @@
     "declaration": "ce7805a31ef5f5830a9d6526762c6206b32e2450e82927d2840b57ae9caf7d28",
     "identity": "dec7a6a2654df1a7164b3dd2472f0fc1e13fabebbe7a5a85d490ee808426717a",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/ALLUSION_BV",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/allusion/identity.pdf",
+      "declaration": "../np-list/allusion/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/allusion/declaration.pdf",
+        "expected_hash": "ce7805a31ef5f5830a9d6526762c6206b32e2450e82927d2840b57ae9caf7d28",
+        "actual_hash": "ce7805a31ef5f5830a9d6526762c6206b32e2450e82927d2840b57ae9caf7d28",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/allusion/identity.pdf",
+        "expected_hash": "dec7a6a2654df1a7164b3dd2472f0fc1e13fabebbe7a5a85d490ee808426717a",
+        "actual_hash": "dec7a6a2654df1a7164b3dd2472f0fc1e13fabebbe7a5a85d490ee808426717a",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Anonstake",
@@ -183,7 +349,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "ANYPOINT PTY LTD",
@@ -198,7 +366,29 @@
     "declaration": "2423220dcd5bc4744d4db65fdce8004f6010c56825f039dd1e270dc8d2b07d3b",
     "identity": "1a904b830d90beb42166e2b504ba573bb4a6257cbbaf644f37c7487da8bce407",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/ANYPOINT_PTY_LTD",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/anypoint/declaration.pdf",
+      "identity": "../np-list/anypoint/identity.pdf",
+      "handover": "../np-list/anypoint/handover.pdf",
+      "invoice": "../np-list/anypoint/invoice.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/anypoint/declaration.pdf",
+        "expected_hash": "2423220dcd5bc4744d4db65fdce8004f6010c56825f039dd1e270dc8d2b07d3b",
+        "actual_hash": "1a904b830d90beb42166e2b504ba573bb4a6257cbbaf644f37c7487da8bce407",
+        "matches": false
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/anypoint/identity.pdf",
+        "expected_hash": "1a904b830d90beb42166e2b504ba573bb4a6257cbbaf644f37c7487da8bce407",
+        "actual_hash": "2423220dcd5bc4744d4db65fdce8004f6010c56825f039dd1e270dc8d2b07d3b",
+        "matches": false
+      }
+    ]
   },
   {
     "name": "Arceau NP LLC",
@@ -215,7 +405,35 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Arceau_NP_LLC",
     "additional_documents": {
       "handover": "b855c7ef7738be197db502fca07201353ce360bf8c5f2d2edfa3763494e13459"
-    }
+    },
+    "document_paths": {
+      "identity": "../np-list/arceau/identity.pdf",
+      "handover": "../np-list/arceau/handover.pdf",
+      "declaration": "../np-list/arceau/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/arceau/declaration.pdf",
+        "expected_hash": "b24ab500e3b7a54ed948fdb2e763a2477c6d9529a5adc107c7bfda77df29b335",
+        "actual_hash": "b24ab500e3b7a54ed948fdb2e763a2477c6d9529a5adc107c7bfda77df29b335",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/arceau/identity.pdf",
+        "expected_hash": "a84db3c6bee54844407d3bbf0c2311b5beb06e6b37ec457f77d476c5a1b81918",
+        "actual_hash": "a84db3c6bee54844407d3bbf0c2311b5beb06e6b37ec457f77d476c5a1b81918",
+        "matches": true
+      },
+      {
+        "document_type": "handover",
+        "file_path": "../np-list/arceau/handover.pdf",
+        "expected_hash": "b855c7ef7738be197db502fca07201353ce360bf8c5f2d2edfa3763494e13459",
+        "actual_hash": "b855c7ef7738be197db502fca07201353ce360bf8c5f2d2edfa3763494e13459",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Arjay LLC",
@@ -230,7 +448,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Artem Horodyskyi",
@@ -247,7 +467,28 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Artem_Horodyskyi",
     "additional_documents": {
       "hardware": "c90af353a7540387587398e39080d5c20c711adfb26690a8acf1e2430a9d01f2"
-    }
+    },
+    "document_paths": {
+      "identity": "../np-list/artem/identity.pdf",
+      "order": "../np-list/artem/order.pdf",
+      "declaration": "../np-list/artem/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/artem/declaration.pdf",
+        "expected_hash": "7ab6456b747b13dfcf3e95754698ff247f7dd7cc6ee5da1ded4a0c81e49d3f69",
+        "actual_hash": "7ab6456b747b13dfcf3e95754698ff247f7dd7cc6ee5da1ded4a0c81e49d3f69",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/artem/identity.pdf",
+        "expected_hash": "3f1ec7bf0e8c3be87c9b2a47317947514bb78d81d859e59ec17e6644a82f440e",
+        "actual_hash": "3f1ec7bf0e8c3be87c9b2a47317947514bb78d81d859e59ec17e6644a82f440e",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Aspire Properties",
@@ -262,7 +503,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "AVRVM AG",
@@ -277,7 +520,12 @@
     "declaration": null,
     "identity": null,
     "wiki_link": "https://wiki.internetcomputer.org/wiki/AVRVM_AG",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/avrvm/declaration.png",
+      "identity": "../np-list/avrvm/identity.pdf"
+    },
+    "document_validations": []
   },
   {
     "name": "Bianca-Martina Rohner",
@@ -292,7 +540,28 @@
     "declaration": "ca3973712c4d7947b0b835368ca0648696d52ff6e7ed69a7c92766c1da51e0ce",
     "identity": "2c1fa30253103788b7c6510bb1fc66fd4e11b9e9df163ec936c9a460b377ade2",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Bianca-Martina_Rohner",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "decentralization": "../np-list/bianca/decentralization.pdf",
+      "declaration": "../np-list/bianca/declaration.pdf",
+      "identity": "../np-list/bianca/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/bianca/declaration.pdf",
+        "expected_hash": "ca3973712c4d7947b0b835368ca0648696d52ff6e7ed69a7c92766c1da51e0ce",
+        "actual_hash": "ca3973712c4d7947b0b835368ca0648696d52ff6e7ed69a7c92766c1da51e0ce",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/bianca/identity.pdf",
+        "expected_hash": "2c1fa30253103788b7c6510bb1fc66fd4e11b9e9df163ec936c9a460b377ade2",
+        "actual_hash": "2c1fa30253103788b7c6510bb1fc66fd4e11b9e9df163ec936c9a460b377ade2",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Bigger Capital",
@@ -307,7 +576,27 @@
     "declaration": "3d084d13fb536b771e68abd52c7ab2046128095159f4d05df23783331070a939",
     "identity": "46ccf5a7d1619d7c839b1e1b11dffc46bfe2419f67365b47fce6338d1d846860",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Bigger_Capital",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/bigger/declaration.pdf",
+      "identity": "../np-list/bigger/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/bigger/declaration.pdf",
+        "expected_hash": "3d084d13fb536b771e68abd52c7ab2046128095159f4d05df23783331070a939",
+        "actual_hash": "3d084d13fb536b771e68abd52c7ab2046128095159f4d05df23783331070a939",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/bigger/identity.pdf",
+        "expected_hash": "46ccf5a7d1619d7c839b1e1b11dffc46bfe2419f67365b47fce6338d1d846860",
+        "actual_hash": "46ccf5a7d1619d7c839b1e1b11dffc46bfe2419f67365b47fce6338d1d846860",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Bitmoon",
@@ -322,7 +611,28 @@
     "declaration": "6217297B57728231E6DACD52E68787539B8A07494854E303DEF508B0B9967800",
     "identity": "0B2764C306DD0D46B67DDE4F35AAE7BCFCA3446E3940884EA384B8F6EE97105D",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Bitmoon",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "invoice": "../np-list/bitmoon/invoice.pdf",
+      "declaration": "../np-list/bitmoon/declaration.pdf",
+      "identity": "../np-list/bitmoon/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/bitmoon/declaration.pdf",
+        "expected_hash": "6217297B57728231E6DACD52E68787539B8A07494854E303DEF508B0B9967800",
+        "actual_hash": "6217297b57728231e6dacd52e68787539b8a07494854e303def508b0b9967800",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/bitmoon/identity.pdf",
+        "expected_hash": "0B2764C306DD0D46B67DDE4F35AAE7BCFCA3446E3940884EA384B8F6EE97105D",
+        "actual_hash": "0b2764c306dd0d46b67dde4f35aae7bcfca3446e3940884ea384b8f6ee97105d",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Blockchain Development Labs",
@@ -337,7 +647,19 @@
     "declaration": "5B5D9AB6103048E9F2FDBC4473525FD850A325F1D03B192ED1C2E72D0FDC29A3",
     "identity": null,
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Blockchain_Development_Labs_Inc",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/blockchain/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/blockchain/declaration.pdf",
+        "expected_hash": "5B5D9AB6103048E9F2FDBC4473525FD850A325F1D03B192ED1C2E72D0FDC29A3",
+        "actual_hash": "5b5d9ab6103048e9f2fdbc4473525fd850a325f1d03b192ed1c2e72d0fdc29a3",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "BlockFinance",
@@ -352,7 +674,27 @@
     "declaration": "f60e2dae584ddf2cb101767f393d417eb30c9f4552ca116b634a858f8448c6a1",
     "identity": "b612315036562eb9a1b07757430e2f0995a76f4fb981f36433b8ac6abce453e4",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/BlockFinance_LLC",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/blockfinance/declaration.pdf",
+      "identity": "../np-list/blockfinance/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/blockfinance/declaration.pdf",
+        "expected_hash": "f60e2dae584ddf2cb101767f393d417eb30c9f4552ca116b634a858f8448c6a1",
+        "actual_hash": "f60e2dae584ddf2cb101767f393d417eb30c9f4552ca116b634a858f8448c6a1",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/blockfinance/identity.pdf",
+        "expected_hash": "b612315036562eb9a1b07757430e2f0995a76f4fb981f36433b8ac6abce453e4",
+        "actual_hash": "b612315036562eb9a1b07757430e2f0995a76f4fb981f36433b8ac6abce453e4",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "BlockTech Ventures, LLC",
@@ -367,7 +709,27 @@
     "declaration": "5336e2b4e59742ae655f896d61453bd41883795d9677926abb4b5de9879abf5e",
     "identity": "bbd9ed4e8b49068f587014edb3aed85fe376de43d6e30794dbd92795fd073a8b",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Blocktech_Ventures_LLC",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/blocktech/identity.pdf",
+      "declaration": "../np-list/blocktech/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/blocktech/declaration.pdf",
+        "expected_hash": "5336e2b4e59742ae655f896d61453bd41883795d9677926abb4b5de9879abf5e",
+        "actual_hash": "5336e2b4e59742ae655f896d61453bd41883795d9677926abb4b5de9879abf5e",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/blocktech/identity.pdf",
+        "expected_hash": "bbd9ed4e8b49068f587014edb3aed85fe376de43d6e30794dbd92795fd073a8b",
+        "actual_hash": "bbd9ed4e8b49068f587014edb3aed85fe376de43d6e30794dbd92795fd073a8b",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "BLP22, LLC",
@@ -382,7 +744,27 @@
     "declaration": "9dbabd5e2e2ce3f8dfa19dc78934899c9b43394fd40e8379eab4f2a34b762573",
     "identity": "e76a55e659282447f89272cebe484aa221413b4dced7e5d66142d83e94e7389d",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/BLP22,_LLC",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/blp22/identity.png",
+      "declaration": "../np-list/blp22/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/blp22/declaration.pdf",
+        "expected_hash": "9dbabd5e2e2ce3f8dfa19dc78934899c9b43394fd40e8379eab4f2a34b762573",
+        "actual_hash": "9dbabd5e2e2ce3f8dfa19dc78934899c9b43394fd40e8379eab4f2a34b762573",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/blp22/identity.png",
+        "expected_hash": "e76a55e659282447f89272cebe484aa221413b4dced7e5d66142d83e94e7389d",
+        "actual_hash": "1076a53e3af537d9e0141cbb9d8578c064507a9c1224a6d95ad1511c1424e2cc",
+        "matches": false
+      }
+    ]
   },
   {
     "name": "Blue Ant LLC",
@@ -397,7 +779,12 @@
     "declaration": null,
     "identity": null,
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Blueant_LLC",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/blueant/identity.pdf",
+      "declaration": "../np-list/blueant/declaration.pdf"
+    },
+    "document_validations": []
   },
   {
     "name": "Bohatyrov Volodymyr",
@@ -414,7 +801,35 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Bohatyrov_Volodymyr",
     "additional_documents": {
       "invoice": "fe1d2612e5307bb5cb86ca85e587f6d49bf39a850a8358ceda36d3839ceb4272"
-    }
+    },
+    "document_paths": {
+      "declaration": "../np-list/bohatyrov/declaration.pdf",
+      "invoice": "../np-list/bohatyrov/invoice.pdf",
+      "identity": "../np-list/bohatyrov/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/bohatyrov/declaration.pdf",
+        "expected_hash": "82fa2bfb0f25ff19204eb1b8c5fe1209317042fb0ec9333dbbfc7725a29bd5e3",
+        "actual_hash": "82fa2bfb0f25ff19204eb1b8c5fe1209317042fb0ec9333dbbfc7725a29bd5e3",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/bohatyrov/identity.pdf",
+        "expected_hash": "6abf8dd9bde2f6127be4da609cfa778bbac09405c9978382d037b09b0f55c1bc",
+        "actual_hash": "6abf8dd9bde2f6127be4da609cfa778bbac09405c9978382d037b09b0f55c1bc",
+        "matches": true
+      },
+      {
+        "document_type": "invoice",
+        "file_path": "../np-list/bohatyrov/invoice.pdf",
+        "expected_hash": "fe1d2612e5307bb5cb86ca85e587f6d49bf39a850a8358ceda36d3839ceb4272",
+        "actual_hash": "fe1d2612e5307bb5cb86ca85e587f6d49bf39a850a8358ceda36d3839ceb4272",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Boolean Bit, LLC",
@@ -429,7 +844,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Brener, Inc.",
@@ -444,7 +861,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Buldakova Rehina",
@@ -459,7 +878,27 @@
     "declaration": "79831c77930473be111551c497063269b8b2be63f9372fea825171437e41de12",
     "identity": "bc39f6908c7db90d06eddb9348b60a6e21753904b173e4e42a3e1b27654756cd",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Buldakova_Rehina",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/buldakova/identity.pdf",
+      "declaration": "../np-list/buldakova/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/buldakova/declaration.pdf",
+        "expected_hash": "79831c77930473be111551c497063269b8b2be63f9372fea825171437e41de12",
+        "actual_hash": "79831c77930473be111551c497063269b8b2be63f9372fea825171437e41de12",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/buldakova/identity.pdf",
+        "expected_hash": "bc39f6908c7db90d06eddb9348b60a6e21753904b173e4e42a3e1b27654756cd",
+        "actual_hash": "bc39f6908c7db90d06eddb9348b60a6e21753904b173e4e42a3e1b27654756cd",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Carbon Twelve",
@@ -474,7 +913,27 @@
     "declaration": "9272f640d2c243ed42476bc3511b9787bd19d4937229eb3aecaf662dd4e55d9d",
     "identity": "1541c3df1cfb02b76b74096dc9303e8a45e0efc2cd8f2386e0cf5d9726173779",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/CarbonTwelve",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/carbon/declaration.pdf",
+      "identity": "../np-list/carbon/identity.png"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/carbon/declaration.pdf",
+        "expected_hash": "9272f640d2c243ed42476bc3511b9787bd19d4937229eb3aecaf662dd4e55d9d",
+        "actual_hash": "9272f640d2c243ed42476bc3511b9787bd19d4937229eb3aecaf662dd4e55d9d",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/carbon/identity.png",
+        "expected_hash": "1541c3df1cfb02b76b74096dc9303e8a45e0efc2cd8f2386e0cf5d9726173779",
+        "actual_hash": "8def0701df645633392d1b350bcb415a20b15b7b9dea841eba93995a6777f1a7",
+        "matches": false
+      }
+    ]
   },
   {
     "name": "Conic Ventures",
@@ -489,7 +948,27 @@
     "declaration": "b01a30985df37336173969e30a533000524ce19f77a3dd3f7ebfa1de1db232e3",
     "identity": "68ec5196be0e038f1a99026ba68bd7bf062286b561da9cfa8a47cfd050c641c0",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Conic_Ventures",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/conic/identity.pdf",
+      "declaration": "../np-list/conic/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/conic/declaration.pdf",
+        "expected_hash": "b01a30985df37336173969e30a533000524ce19f77a3dd3f7ebfa1de1db232e3",
+        "actual_hash": "b01a30985df37336173969e30a533000524ce19f77a3dd3f7ebfa1de1db232e3",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/conic/identity.pdf",
+        "expected_hash": "68ec5196be0e038f1a99026ba68bd7bf062286b561da9cfa8a47cfd050c641c0",
+        "actual_hash": "68ec5196be0e038f1a99026ba68bd7bf062286b561da9cfa8a47cfd050c641c0",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Coplus Limited",
@@ -504,7 +983,11 @@
     "declaration": null,
     "identity": null,
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Coplus_Limited",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/coplus/declaration.pdf"
+    },
+    "document_validations": []
   },
   {
     "name": "CRM52 Systems, LLC",
@@ -519,7 +1002,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Decentralized Entities Foundation",
@@ -536,7 +1021,35 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Decentralized_Entities_Foundation",
     "additional_documents": {
       "handover": "fd2d272b40734d4164c956156634dd5b23b0d3a327755bdef668ed77005b7db3"
-    }
+    },
+    "document_paths": {
+      "identity": "../np-list/def/identity.pdf",
+      "declaration": "../np-list/def/declaration.pdf",
+      "handover": "../np-list/def/handover.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/def/declaration.pdf",
+        "expected_hash": "38734075a8577fc9e1d1ded846b41050f1f0255d5fefad747a9e5660a1c2b67f",
+        "actual_hash": "38734075a8577fc9e1d1ded846b41050f1f0255d5fefad747a9e5660a1c2b67f",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/def/identity.pdf",
+        "expected_hash": "db50f9440a1c3d8318687afa17ec20c1b3af211eb52ce37cfab4a45ea2466f7c",
+        "actual_hash": "db50f9440a1c3d8318687afa17ec20c1b3af211eb52ce37cfab4a45ea2466f7c",
+        "matches": true
+      },
+      {
+        "document_type": "handover",
+        "file_path": "../np-list/def/handover.pdf",
+        "expected_hash": "fd2d272b40734d4164c956156634dd5b23b0d3a327755bdef668ed77005b7db3",
+        "actual_hash": "fd2d272b40734d4164c956156634dd5b23b0d3a327755bdef668ed77005b7db3",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "DeNoDe",
@@ -553,7 +1066,35 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/DENODE",
     "additional_documents": {
       "handover": "e973ebd05f3f2c0a73d5a4195bdd97854831e0ef70e55a7cbfb83a501f676b93"
-    }
+    },
+    "document_paths": {
+      "identity": "../np-list/denode/identity.pdf",
+      "declaration": "../np-list/denode/declaration.pdf",
+      "handover": "../np-list/denode/handover.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/denode/declaration.pdf",
+        "expected_hash": "6e46fd7be576166a1af786d805eac8237561645bd2afee2bbfd194888cc9f68b",
+        "actual_hash": "6e46fd7be576166a1af786d805eac8237561645bd2afee2bbfd194888cc9f68b",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/denode/identity.pdf",
+        "expected_hash": "c5d9a2a647fbfd3d345a026d43fafe48a03c64006d41d302827eefb3dcee43e0",
+        "actual_hash": "c5d9a2a647fbfd3d345a026d43fafe48a03c64006d41d302827eefb3dcee43e0",
+        "matches": true
+      },
+      {
+        "document_type": "handover",
+        "file_path": "../np-list/denode/handover.pdf",
+        "expected_hash": "e973ebd05f3f2c0a73d5a4195bdd97854831e0ef70e55a7cbfb83a501f676b93",
+        "actual_hash": "e973ebd05f3f2c0a73d5a4195bdd97854831e0ef70e55a7cbfb83a501f676b93",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "DFINITY Stiftung",
@@ -568,7 +1109,12 @@
     "declaration": null,
     "identity": null,
     "wiki_link": "https://wiki.internetcomputer.org/wiki/DFINITY_Stiftung",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/dfinity/declaration.pdf",
+      "identity": "../np-list/dfinity/identity.pdf"
+    },
+    "document_validations": []
   },
   {
     "name": "DFINITY USA Research LLC",
@@ -583,7 +1129,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "DFINITY USA Research LLC",
@@ -598,7 +1146,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "DRMxTech Enterprises, LLC",
@@ -613,7 +1163,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Eastman Ventures (Pty) Ltd",
@@ -628,7 +1180,12 @@
     "declaration": null,
     "identity": null,
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Eastman_Ventures_Pty_Ltd",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/eastman/declaration.pdf",
+      "identity": "../np-list/eastman/identity.pdf"
+    },
+    "document_validations": []
   },
   {
     "name": "Exaion",
@@ -643,7 +1200,12 @@
     "declaration": null,
     "identity": null,
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Exaion",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/exaion/identity.pdf",
+      "declaration": "../np-list/exaion/declaration.pdf"
+    },
+    "document_validations": []
   },
   {
     "name": "Extragone SA",
@@ -660,7 +1222,35 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Extragone",
     "additional_documents": {
       "handover": "e7791686676bb6dc5b211a0255151754c47cd63ade9e42548c33773c3da88fc5"
-    }
+    },
+    "document_paths": {
+      "handover": "../np-list/extragone/handover.pdf",
+      "identity": "../np-list/extragone/identity.pdf",
+      "declaration": "../np-list/extragone/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/extragone/declaration.pdf",
+        "expected_hash": "3665e7a5033c564d33599b170b486fc01300e1a9d9d4e32578d248530523b4e2",
+        "actual_hash": "3665e7a5033c564d33599b170b486fc01300e1a9d9d4e32578d248530523b4e2",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/extragone/identity.pdf",
+        "expected_hash": "e8a435b81f6412debe94827b67d1aec40e023efae567d01881b0ea9fec6b3902",
+        "actual_hash": "e8a435b81f6412debe94827b67d1aec40e023efae567d01881b0ea9fec6b3902",
+        "matches": true
+      },
+      {
+        "document_type": "handover",
+        "file_path": "../np-list/extragone/handover.pdf",
+        "expected_hash": "e7791686676bb6dc5b211a0255151754c47cd63ade9e42548c33773c3da88fc5",
+        "actual_hash": "e7791686676bb6dc5b211a0255151754c47cd63ade9e42548c33773c3da88fc5",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Ferndale International",
@@ -675,7 +1265,27 @@
     "declaration": "2b8e85fe14fbbb3e3bcbf181ce6c5de1acee61367a45023b949932b1390066f1",
     "identity": "de4f19b3f21c4a8d8d94f177c6e524e39d63710ecc3179d9d2b23a16eef91266",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Ferndale_International",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/ferndale/declaration.pdf",
+      "identity": "../np-list/ferndale/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/ferndale/declaration.pdf",
+        "expected_hash": "2b8e85fe14fbbb3e3bcbf181ce6c5de1acee61367a45023b949932b1390066f1",
+        "actual_hash": "2b8e85fe14fbbb3e3bcbf181ce6c5de1acee61367a45023b949932b1390066f1",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/ferndale/identity.pdf",
+        "expected_hash": "de4f19b3f21c4a8d8d94f177c6e524e39d63710ecc3179d9d2b23a16eef91266",
+        "actual_hash": "de4f19b3f21c4a8d8d94f177c6e524e39d63710ecc3179d9d2b23a16eef91266",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Fidgitville Ventures LLC",
@@ -690,7 +1300,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Finteck LLC",
@@ -705,7 +1317,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Fractal Labs AG",
@@ -722,7 +1336,27 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Fractal_Labs,_LLC",
     "additional_documents": {
       "handover": "ddf7bb6cf777b7b3e85be0062681fddfb942eded73076450eada545bd8c0f763"
-    }
+    },
+    "document_paths": {
+      "declaration": "../np-list/fractal/declaration.pdf",
+      "identity": "../np-list/fractal/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/fractal/declaration.pdf",
+        "expected_hash": "d203530bc0216adcf022772fc609ed70696c31a00e7e71be1129fa6ff70b3e9b",
+        "actual_hash": "d203530bc0216adcf022772fc609ed70696c31a00e7e71be1129fa6ff70b3e9b",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/fractal/identity.pdf",
+        "expected_hash": "ef8029e828140ce48c5ce8ee53a3c8e71c7925cab0147a4e281800d51b6db557",
+        "actual_hash": "ef8029e828140ce48c5ce8ee53a3c8e71c7925cab0147a4e281800d51b6db557",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Fritz Huie",
@@ -737,7 +1371,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "FUM Capital, LLC",
@@ -752,7 +1388,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Geeta Kalwani",
@@ -767,7 +1405,27 @@
     "declaration": "454e41ea6b63fc2fc6c25f5353c3138da6d84ff49d92fd422c1db06706355bec",
     "identity": "06d21b40f5d1739418e661cd489aebcc147b41b7e1fc387e3cf3fd13cb960072",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Geeta_Kalwani",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/geeta/identity.pdf",
+      "declaration": "../np-list/geeta/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/geeta/declaration.pdf",
+        "expected_hash": "454e41ea6b63fc2fc6c25f5353c3138da6d84ff49d92fd422c1db06706355bec",
+        "actual_hash": "454e41ea6b63fc2fc6c25f5353c3138da6d84ff49d92fd422c1db06706355bec",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/geeta/identity.pdf",
+        "expected_hash": "06d21b40f5d1739418e661cd489aebcc147b41b7e1fc387e3cf3fd13cb960072",
+        "actual_hash": "06d21b40f5d1739418e661cd489aebcc147b41b7e1fc387e3cf3fd13cb960072",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Geodd Pvt Ltd",
@@ -782,7 +1440,12 @@
     "declaration": null,
     "identity": null,
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Geodd_Pvt_Ltd",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/geodd/declaration.pdf",
+      "identity": "../np-list/geodd/identity.pdf"
+    },
+    "document_validations": []
   },
   {
     "name": "GeoNodes LLC",
@@ -797,7 +1460,13 @@
     "declaration": null,
     "identity": null,
     "wiki_link": "https://wiki.internetcomputer.org/wiki/GeoNodes_LLC",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/geonodes/declaration.pdf",
+      "invoice": "../np-list/geonodes/invoice.pdf",
+      "identity": "../np-list/geonodes/identity.pdf"
+    },
+    "document_validations": []
   },
   {
     "name": "George Bassadone",
@@ -812,7 +1481,12 @@
     "declaration": null,
     "identity": null,
     "wiki_link": "https://wiki.internetcomputer.org/wiki/George_Bassadone",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/george/declaration.pdf",
+      "identity": "../np-list/george/identity.pdf"
+    },
+    "document_validations": []
   },
   {
     "name": "Giant Leaf, LLC",
@@ -827,7 +1501,27 @@
     "declaration": "f58b0610cd7472e14336042eb517bd977d4c4d0b27086ade40a16776e7fd3b95",
     "identity": "62b777bf1b43b8279aec8da2865ae630166088f3697ae939c802a6224761c0c7",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Giant_Leaf,_LLC",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/giant/identity.pdf",
+      "declaration": "../np-list/giant/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/giant/declaration.pdf",
+        "expected_hash": "f58b0610cd7472e14336042eb517bd977d4c4d0b27086ade40a16776e7fd3b95",
+        "actual_hash": "62b777bf1b43b8279aec8da2865ae630166088f3697ae939c802a6224761c0c7",
+        "matches": false
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/giant/identity.pdf",
+        "expected_hash": "62b777bf1b43b8279aec8da2865ae630166088f3697ae939c802a6224761c0c7",
+        "actual_hash": "f58b0610cd7472e14336042eb517bd977d4c4d0b27086ade40a16776e7fd3b95",
+        "matches": false
+      }
+    ]
   },
   {
     "name": "Goat, LLC",
@@ -842,7 +1536,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Goodsir, LLC",
@@ -857,7 +1553,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Honeycomb Capital (Pty) Ltd",
@@ -872,7 +1570,12 @@
     "declaration": null,
     "identity": null,
     "wiki_link": "https://wiki.internetcomputer.org/wiki/HoneyComb_Capital",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/honey/identity.pdf",
+      "declaration": "../np-list/honey/declaration.pdf"
+    },
+    "document_validations": []
   },
   {
     "name": "Iancu Aurel",
@@ -887,7 +1590,27 @@
     "declaration": "5ed8f7717261c608cf8fc1d59a0c4f4b795f65bb694d09912593eddcb7687609",
     "identity": "5320f55c840a0951eed84443255ffceb2874da00ce95ebae7cf9c61b7a6b8532",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Iancu-Aurel",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/iancu/declaration.pdf",
+      "identity": "../np-list/iancu/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/iancu/declaration.pdf",
+        "expected_hash": "5ed8f7717261c608cf8fc1d59a0c4f4b795f65bb694d09912593eddcb7687609",
+        "actual_hash": "5ed8f7717261c608cf8fc1d59a0c4f4b795f65bb694d09912593eddcb7687609",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/iancu/identity.pdf",
+        "expected_hash": "5320f55c840a0951eed84443255ffceb2874da00ce95ebae7cf9c61b7a6b8532",
+        "actual_hash": "5320f55c840a0951eed84443255ffceb2874da00ce95ebae7cf9c61b7a6b8532",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Icaria Systems Pty Ltd",
@@ -902,7 +1625,29 @@
     "declaration": "3c2bec3aeda3318d86ecfa0b646db10f37503914d9946f4551fd845e3b79cbd5",
     "identity": "3e5e8e0934d4fd9c386586f2f50936bdb85b10ee778ffe041f028ccf8541d8e1",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Icaria_Systems_Pty_Ltd",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/icaria/identity.pdf",
+      "declaration": "../np-list/icaria/declaration.pdf",
+      "invoice": "../np-list/icaria/invoice.pdf",
+      "registration": "../np-list/icaria/registration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/icaria/declaration.pdf",
+        "expected_hash": "3c2bec3aeda3318d86ecfa0b646db10f37503914d9946f4551fd845e3b79cbd5",
+        "actual_hash": "3c2bec3aeda3318d86ecfa0b646db10f37503914d9946f4551fd845e3b79cbd5",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/icaria/identity.pdf",
+        "expected_hash": "3e5e8e0934d4fd9c386586f2f50936bdb85b10ee778ffe041f028ccf8541d8e1",
+        "actual_hash": "3e5e8e0934d4fd9c386586f2f50936bdb85b10ee778ffe041f028ccf8541d8e1",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "IC Pros",
@@ -917,7 +1662,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Illusions In Art (Pty) Ltd",
@@ -932,7 +1679,27 @@
     "declaration": "35e13e1e731a95714108d44be84cb2ea6b2a42299c1100f40e779704f4ee3d3b",
     "identity": "27e98c3737462db4f8da258c10eeb10d0fc42a3095f3fa280785b165bcaba993",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Illusions_in_Art_Ltd",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/illusion/identity.pdf",
+      "declaration": "../np-list/illusion/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/illusion/declaration.pdf",
+        "expected_hash": "35e13e1e731a95714108d44be84cb2ea6b2a42299c1100f40e779704f4ee3d3b",
+        "actual_hash": "35e13e1e731a95714108d44be84cb2ea6b2a42299c1100f40e779704f4ee3d3b",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/illusion/identity.pdf",
+        "expected_hash": "27e98c3737462db4f8da258c10eeb10d0fc42a3095f3fa280785b165bcaba993",
+        "actual_hash": "27e98c3737462db4f8da258c10eeb10d0fc42a3095f3fa280785b165bcaba993",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "InfoObjects",
@@ -947,7 +1714,11 @@
     "declaration": null,
     "identity": null,
     "wiki_link": "https://wiki.internetcomputer.org/wiki/InfoObjects_Inc",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/info/declaration.png"
+    },
+    "document_validations": []
   },
   {
     "name": "Internet Computer Explorer",
@@ -962,7 +1733,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Ivanov Oleksandr",
@@ -979,7 +1752,35 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Ivanov_Oleksandr",
     "additional_documents": {
       "invoice": "cfa52fc312116003e3e48c634a6267a9ec4c3a3afbb6aa29d4db1e4989097780"
-    }
+    },
+    "document_paths": {
+      "declaration": "../np-list/ivanov/declaration.pdf",
+      "invoice": "../np-list/ivanov/invoice.pdf",
+      "identity": "../np-list/ivanov/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/ivanov/declaration.pdf",
+        "expected_hash": "577537d188a10394b290bdcbf68973aee61f7304e59181441e5dfc5a5dbd63bb",
+        "actual_hash": "577537d188a10394b290bdcbf68973aee61f7304e59181441e5dfc5a5dbd63bb",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/ivanov/identity.pdf",
+        "expected_hash": "723aa68d984f37822e7da2e1e137d1c465288d49f96aa09f971954c076d0026f",
+        "actual_hash": "723aa68d984f37822e7da2e1e137d1c465288d49f96aa09f971954c076d0026f",
+        "matches": true
+      },
+      {
+        "document_type": "invoice",
+        "file_path": "../np-list/ivanov/invoice.pdf",
+        "expected_hash": "cfa52fc312116003e3e48c634a6267a9ec4c3a3afbb6aa29d4db1e4989097780",
+        "actual_hash": "cfa52fc312116003e3e48c634a6267a9ec4c3a3afbb6aa29d4db1e4989097780",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Jeffrey Schnettler",
@@ -994,7 +1795,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Jimmy Quach",
@@ -1009,7 +1812,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Jonathan Ziskind",
@@ -1024,7 +1829,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Joseph Stella",
@@ -1039,7 +1846,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Karel Frank",
@@ -1054,7 +1863,12 @@
     "declaration": null,
     "identity": null,
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Karel_Frank",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/karel/declaration.pdf",
+      "identity": "../np-list/karel/identity.pdf"
+    },
+    "document_validations": []
   },
   {
     "name": "Katerina Karapuz",
@@ -1069,7 +1883,27 @@
     "declaration": "e4a1b47b5a5544282b87d50027ee68138d790ba3f6b04ed98736f24a40871ab0",
     "identity": "965e28cfb17df505534fe72dcb29cdd43fe1eb74b5e9106d168f466fdea072dd",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Katerina_Karapuz",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/katerina/declaration.pdf",
+      "identity": "../np-list/katerina/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/katerina/declaration.pdf",
+        "expected_hash": "e4a1b47b5a5544282b87d50027ee68138d790ba3f6b04ed98736f24a40871ab0",
+        "actual_hash": "e4a1b47b5a5544282b87d50027ee68138d790ba3f6b04ed98736f24a40871ab0",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/katerina/identity.pdf",
+        "expected_hash": "965e28cfb17df505534fe72dcb29cdd43fe1eb74b5e9106d168f466fdea072dd",
+        "actual_hash": "965e28cfb17df505534fe72dcb29cdd43fe1eb74b5e9106d168f466fdea072dd",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "KLAW Media, LLC",
@@ -1084,7 +1918,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Kontrapunt (Pty) Ltd",
@@ -1099,7 +1935,27 @@
     "declaration": "4a3dcb2d4be1dad6f1cc8b6c124083284ade988618a73ae196514d763805d218",
     "identity": "2b816da720ac366647a68350d03a0742e5a361160de2c9768464a0ff18a883a5",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Kontrapunt_(Pty)_Ltd",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/kontrapunt/identity.pdf",
+      "declaration": "../np-list/kontrapunt/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/kontrapunt/declaration.pdf",
+        "expected_hash": "4a3dcb2d4be1dad6f1cc8b6c124083284ade988618a73ae196514d763805d218",
+        "actual_hash": "4a3dcb2d4be1dad6f1cc8b6c124083284ade988618a73ae196514d763805d218",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/kontrapunt/identity.pdf",
+        "expected_hash": "2b816da720ac366647a68350d03a0742e5a361160de2c9768464a0ff18a883a5",
+        "actual_hash": "2b816da720ac366647a68350d03a0742e5a361160de2c9768464a0ff18a883a5",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Krishna Enterprises",
@@ -1114,7 +1970,12 @@
     "declaration": null,
     "identity": null,
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Krishna_Enterprises",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/krishna/declaration.pdf",
+      "invoice": "../np-list/krishna/invoice.png"
+    },
+    "document_validations": []
   },
   {
     "name": "Krishna Sriram",
@@ -1129,7 +1990,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Krzysztof Żelazko",
@@ -1144,7 +2007,27 @@
     "declaration": "ac47b0a59d4509975e09209e4c218a418c01ade4187b6b7e6bea1b2ac153fa62",
     "identity": "0a5cfdd7efa057413bdc74b7e3Cb707c46f6c84fd5f0e6a4d9f9bd7eccd5712d",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Krzysztof_%C5%BBelazko",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/krzysztof/identity.pdf",
+      "declaration": "../np-list/krzysztof/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/krzysztof/declaration.pdf",
+        "expected_hash": "ac47b0a59d4509975e09209e4c218a418c01ade4187b6b7e6bea1b2ac153fa62",
+        "actual_hash": "ac47b0a59d4509975e09209e4c218a418c01ade4187b6b7e6bea1b2ac153fa62",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/krzysztof/identity.pdf",
+        "expected_hash": "0a5cfdd7efa057413bdc74b7e3Cb707c46f6c84fd5f0e6a4d9f9bd7eccd5712d",
+        "actual_hash": "0a5cfdd7efa057413bdc74b7e3cb707c46f6c84fd5f0e6a4d9f9bd7eccd5712d",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Lauren Dymecki Chickvara",
@@ -1159,7 +2042,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Louise Velayo",
@@ -1174,7 +2059,27 @@
     "declaration": "2b425dbb1a6a4030157f0b0f9a6d2950f67b1fe72fb68ed088a6f3e4cd735694",
     "identity": "20b9d99195d7a157833fc399d6c94c05b6ba80fc43095f88002eab9b023dcebc",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Louise_Velayo",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/louise/identity.pdf",
+      "declaration": "../np-list/louise/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/louise/declaration.pdf",
+        "expected_hash": "2b425dbb1a6a4030157f0b0f9a6d2950f67b1fe72fb68ed088a6f3e4cd735694",
+        "actual_hash": "2b425dbb1a6a4030157f0b0f9a6d2950f67b1fe72fb68ed088a6f3e4cd735694",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/louise/identity.pdf",
+        "expected_hash": "20b9d99195d7a157833fc399d6c94c05b6ba80fc43095f88002eab9b023dcebc",
+        "actual_hash": "20b9d99195d7a157833fc399d6c94c05b6ba80fc43095f88002eab9b023dcebc",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Lukas Helebrandt",
@@ -1189,7 +2094,12 @@
     "declaration": null,
     "identity": null,
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Lukas_Helebrandt",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/lukas/identity.pdf",
+      "declaration": "../np-list/lukas/declaration.pdf"
+    },
+    "document_validations": []
   },
   {
     "name": "Luke Jacobson",
@@ -1204,7 +2114,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Maksym Ishchenko",
@@ -1221,7 +2133,35 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Maksym_Ishchenko",
     "additional_documents": {
       "invoice": "3ee9fa7343991112c4f43fc808ec6bcdd9c320dfc9d8d07a1675934863c62f97"
-    }
+    },
+    "document_paths": {
+      "invoice": "../np-list/maksym/invoice.pdf",
+      "identity": "../np-list/maksym/identity.pdf",
+      "declaration": "../np-list/maksym/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/maksym/declaration.pdf",
+        "expected_hash": "e93de8d5b1ebe292df3bdbb781537bae0b478ab9d1242b65a8ac1f92cb1e95d7",
+        "actual_hash": "e93de8d5b1ebe292df3bdbb781537bae0b478ab9d1242b65a8ac1f92cb1e95d7",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/maksym/identity.pdf",
+        "expected_hash": "d1f00e96f1042037235767210b105f72f4cbaa94aa34be84a0400bacb2ca4e77",
+        "actual_hash": "d1f00e96f1042037235767210b105f72f4cbaa94aa34be84a0400bacb2ca4e77",
+        "matches": true
+      },
+      {
+        "document_type": "invoice",
+        "file_path": "../np-list/maksym/invoice.pdf",
+        "expected_hash": "3ee9fa7343991112c4f43fc808ec6bcdd9c320dfc9d8d07a1675934863c62f97",
+        "actual_hash": "3ee9fa7343991112c4f43fc808ec6bcdd9c320dfc9d8d07a1675934863c62f97",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Marc Johnson",
@@ -1236,7 +2176,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Mariano Stoll",
@@ -1251,7 +2193,27 @@
     "declaration": "549b11c43bd4d4705066ee24a65ce530d67f9db35d9f4b406700d866c3d4d85a",
     "identity": "292d36140c03081b63bd76ec7758ce2654c9e7b4ee5d086b14915f09554d2ef6",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Mariano_Stoll",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/mariano/identity.pdf",
+      "declaration": "../np-list/mariano/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/mariano/declaration.pdf",
+        "expected_hash": "549b11c43bd4d4705066ee24a65ce530d67f9db35d9f4b406700d866c3d4d85a",
+        "actual_hash": "549b11c43bd4d4705066ee24a65ce530d67f9db35d9f4b406700d866c3d4d85a",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/mariano/identity.pdf",
+        "expected_hash": "292d36140c03081b63bd76ec7758ce2654c9e7b4ee5d086b14915f09554d2ef6",
+        "actual_hash": "292d36140c03081b63bd76ec7758ce2654c9e7b4ee5d086b14915f09554d2ef6",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Marvelous Web3",
@@ -1266,7 +2228,12 @@
     "declaration": null,
     "identity": null,
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Marvelous_Web3",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/marvelous/declaration.pdf",
+      "identity": "../np-list/marvelous/identity.pdf"
+    },
+    "document_validations": []
   },
   {
     "name": "Mary Ren",
@@ -1281,7 +2248,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "MB Patrankos šūvis",
@@ -1296,7 +2265,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Mika Properties, LLC",
@@ -1311,7 +2282,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "MI Servers",
@@ -1328,7 +2301,35 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/MI_Servers",
     "additional_documents": {
       "handover": "48e4c859db33eb48007e00761fc0dd0382fc73d0f195cb42067cace63ac104e0"
-    }
+    },
+    "document_paths": {
+      "identity": "../np-list/mi/identity.pdf",
+      "handover": "../np-list/mi/handover.pdf",
+      "declaration": "../np-list/mi/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/mi/declaration.pdf",
+        "expected_hash": "9fc5eac74b983ea375d2c0a10985ecb1b504b53df5ac6615f726a71625a63daa",
+        "actual_hash": "9fc5eac74b983ea375d2c0a10985ecb1b504b53df5ac6615f726a71625a63daa",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/mi/identity.pdf",
+        "expected_hash": "5520f569efcf2f8d17df86b719438d5e7c5674ba6f4267b37d0bfe6150a179c7",
+        "actual_hash": "5520f569efcf2f8d17df86b719438d5e7c5674ba6f4267b37d0bfe6150a179c7",
+        "matches": true
+      },
+      {
+        "document_type": "handover",
+        "file_path": "../np-list/mi/handover.pdf",
+        "expected_hash": "48e4c859db33eb48007e00761fc0dd0382fc73d0f195cb42067cace63ac104e0",
+        "actual_hash": "48e4c859db33eb48007e00761fc0dd0382fc73d0f195cb42067cace63ac104e0",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Mitchel Guerra",
@@ -1343,7 +2344,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "ML SOLUTIONS LTD",
@@ -1358,7 +2361,19 @@
     "declaration": "f92612f76063cfd7270a2010a184085d83a1cb43d45d6eec649ae928fb9a4d6e",
     "identity": null,
     "wiki_link": "https://wiki.internetcomputer.org/wiki/File:NODE-PROVIDER-SELF.pdf",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/ml/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/ml/declaration.pdf",
+        "expected_hash": "f92612f76063cfd7270a2010a184085d83a1cb43d45d6eec649ae928fb9a4d6e",
+        "actual_hash": "f92612f76063cfd7270a2010a184085d83a1cb43d45d6eec649ae928fb9a4d6e",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Moon Block Ventures",
@@ -1373,7 +2388,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Mostly Wholesome, Inc.",
@@ -1388,7 +2405,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Natalia Kulesha",
@@ -1403,7 +2422,27 @@
     "declaration": "5805a18c064f2427c06c124f3b22a0459c2306427480e8d1432bbb0df8b8f075",
     "identity": "e2963b868f0c9f1b06f14e7f551e9aa93fffa2684038c0b9bb2829296c9baec8",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Natalia_Kulesha",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/natalia/declaration.pdf",
+      "identity": "../np-list/natalia/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/natalia/declaration.pdf",
+        "expected_hash": "5805a18c064f2427c06c124f3b22a0459c2306427480e8d1432bbb0df8b8f075",
+        "actual_hash": "5805a18c064f2427c06c124f3b22a0459c2306427480e8d1432bbb0df8b8f075",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/natalia/identity.pdf",
+        "expected_hash": "e2963b868f0c9f1b06f14e7f551e9aa93fffa2684038c0b9bb2829296c9baec8",
+        "actual_hash": "e2963b868f0c9f1b06f14e7f551e9aa93fffa2684038c0b9bb2829296c9baec8",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Nataliia Nykyforak",
@@ -1418,7 +2457,27 @@
     "declaration": "f1dc53b1abd658dca89b7ed8901771dd82d7181e40dc111b926d95341c36012d",
     "identity": "05a8828277a2ca2bc9cc641a20e4e58ead0fc5d31a6e0bbc16df3222a4154d67",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Nataliia_Nykyforak",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/nataliia/declaration.pdf",
+      "identity": "../np-list/nataliia/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/nataliia/declaration.pdf",
+        "expected_hash": "f1dc53b1abd658dca89b7ed8901771dd82d7181e40dc111b926d95341c36012d",
+        "actual_hash": "f1dc53b1abd658dca89b7ed8901771dd82d7181e40dc111b926d95341c36012d",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/nataliia/identity.pdf",
+        "expected_hash": "05a8828277a2ca2bc9cc641a20e4e58ead0fc5d31a6e0bbc16df3222a4154d67",
+        "actual_hash": "05a8828277a2ca2bc9cc641a20e4e58ead0fc5d31a6e0bbc16df3222a4154d67",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Neptune Partners",
@@ -1435,7 +2494,35 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Neptune_Partners",
     "additional_documents": {
       "invoice": "35712cda62bf07210b3851365dfec40d356265caa549e2b69b899e96f6849102"
-    }
+    },
+    "document_paths": {
+      "identity": "../np-list/neptune/identity.pdf",
+      "declaration": "../np-list/neptune/declaration.pdf",
+      "invoice": "../np-list/neptune/invoice.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/neptune/declaration.pdf",
+        "expected_hash": "212c43503bbbe421e213a7b46da2c91c70c80ae7326b91d2ddedc29f4e26a984",
+        "actual_hash": "212c43503bbbe421e213a7b46da2c91c70c80ae7326b91d2ddedc29f4e26a984",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/neptune/identity.pdf",
+        "expected_hash": "78588307b8273d3b9ac7f4e26194c76da7a5c74aea91b4246def566ab97cd568",
+        "actual_hash": "78588307b8273d3b9ac7f4e26194c76da7a5c74aea91b4246def566ab97cd568",
+        "matches": true
+      },
+      {
+        "document_type": "invoice",
+        "file_path": "../np-list/neptune/invoice.pdf",
+        "expected_hash": "35712cda62bf07210b3851365dfec40d356265caa549e2b69b899e96f6849102",
+        "actual_hash": "35712cda62bf07210b3851365dfec40d356265caa549e2b69b899e96f6849102",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Nikola Nikov",
@@ -1452,7 +2539,35 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Nikola_Nikov",
     "additional_documents": {
       "passeport": "7d85328f9aa9019ad71e0030f2dc602390ec76e059e0f18f05f3874e49d56415"
-    }
+    },
+    "document_paths": {
+      "passeport": "../np-list/nikola/passeport.pdf",
+      "identity": "../np-list/nikola/identity.pdf",
+      "declaration": "../np-list/nikola/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/nikola/declaration.pdf",
+        "expected_hash": "d0386dcf8a5366b50c7eb9b066747c4b16fad684096908d2be98112828c4ec1e",
+        "actual_hash": "d0386dcf8a5366b50c7eb9b066747c4b16fad684096908d2be98112828c4ec1e",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/nikola/identity.pdf",
+        "expected_hash": "fabd668885237dd9214b56107a0beff7933564c7993f7c48e6beca77396e50e3",
+        "actual_hash": "fabd668885237dd9214b56107a0beff7933564c7993f7c48e6beca77396e50e3",
+        "matches": true
+      },
+      {
+        "document_type": "passeport",
+        "file_path": "../np-list/nikola/passeport.pdf",
+        "expected_hash": "7d85328f9aa9019ad71e0030f2dc602390ec76e059e0f18f05f3874e49d56415",
+        "actual_hash": "7d85328f9aa9019ad71e0030f2dc602390ec76e059e0f18f05f3874e49d56415",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "NODAL CAPITAL",
@@ -1467,7 +2582,28 @@
     "declaration": "0af318f022d942aacd55b2bca683437b8787bee7fbd88dee0eefefde073d3bef",
     "identity": "9c0ff8a4bd195b0dc76b0c4bdd4e46d33b7e7484b07696bdbfe5f57594c8c6ad",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/NODAL_CAPITAL",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "authenticity": "../np-list/nodal/authenticity.pdf",
+      "identity": "../np-list/nodal/identity.pdf",
+      "declaration": "../np-list/nodal/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/nodal/declaration.pdf",
+        "expected_hash": "0af318f022d942aacd55b2bca683437b8787bee7fbd88dee0eefefde073d3bef",
+        "actual_hash": "0af318f022d942aacd55b2bca683437b8787bee7fbd88dee0eefefde073d3bef",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/nodal/identity.pdf",
+        "expected_hash": "9c0ff8a4bd195b0dc76b0c4bdd4e46d33b7e7484b07696bdbfe5f57594c8c6ad",
+        "actual_hash": "9c0ff8a4bd195b0dc76b0c4bdd4e46d33b7e7484b07696bdbfe5f57594c8c6ad",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "NODAO",
@@ -1483,9 +2619,37 @@
     "identity": "ba4fd2ee3fe5856a8ed62fb30dd03ecb50e18d22bd040dc5b26dc2da1f11b318",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/NODAO",
     "additional_documents": {
-      "handover": "166f1537e12fc673591c55b3c26985f20060ab2d618864fff709a619554c8865",
-      "handover_02": "a24bcba0528bf63937b9de36a52c5c222a8c65d12774ac23973adbdd5df307ed"
-    }
+      "handover_02": "a24bcba0528bf63937b9de36a52c5c222a8c65d12774ac23973adbdd5df307ed",
+      "handover": "166f1537e12fc673591c55b3c26985f20060ab2d618864fff709a619554c8865"
+    },
+    "document_paths": {
+      "handover": "../np-list/nodao/handover.pdf",
+      "declaration": "../np-list/nodao/declaration.pdf",
+      "identity": "../np-list/nodao/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/nodao/declaration.pdf",
+        "expected_hash": "110bea1dfcaf3c8d1a5a7c7c6b453e60c95c70268d4093b74b0321e857bc316c",
+        "actual_hash": "110bea1dfcaf3c8d1a5a7c7c6b453e60c95c70268d4093b74b0321e857bc316c",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/nodao/identity.pdf",
+        "expected_hash": "ba4fd2ee3fe5856a8ed62fb30dd03ecb50e18d22bd040dc5b26dc2da1f11b318",
+        "actual_hash": "ba4fd2ee3fe5856a8ed62fb30dd03ecb50e18d22bd040dc5b26dc2da1f11b318",
+        "matches": true
+      },
+      {
+        "document_type": "handover",
+        "file_path": "../np-list/nodao/handover.pdf",
+        "expected_hash": "166f1537e12fc673591c55b3c26985f20060ab2d618864fff709a619554c8865",
+        "actual_hash": "166f1537e12fc673591c55b3c26985f20060ab2d618864fff709a619554c8865",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "NoviSystems, LLC",
@@ -1500,7 +2664,19 @@
     "declaration": "c3d8ef713908aa1cc170fb07ff402c424ea7b44658a1c9845062c83d2a142506",
     "identity": null,
     "wiki_link": "https://wiki.internetcomputer.org/wiki/NoviSystems",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/novi/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/novi/declaration.pdf",
+        "expected_hash": "c3d8ef713908aa1cc170fb07ff402c424ea7b44658a1c9845062c83d2a142506",
+        "actual_hash": "c3d8ef713908aa1cc170fb07ff402c424ea7b44658a1c9845062c83d2a142506",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "OneSixtyTwo Digital Capital",
@@ -1515,7 +2691,27 @@
     "declaration": "6ec85540ddc21bff4605ac7dd73c9423db1310d3c11c6fbc66b5c71c140397ff",
     "identity": "b8b894f7bb5e34f11d96a346a493ee20f13f1f41be586844de4aca8641c1db51",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/OneSixtyTwo_Digital_Capital",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/162/declaration.pdf",
+      "identity": "../np-list/162/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/162/declaration.pdf",
+        "expected_hash": "6ec85540ddc21bff4605ac7dd73c9423db1310d3c11c6fbc66b5c71c140397ff",
+        "actual_hash": "6ec85540ddc21bff4605ac7dd73c9423db1310d3c11c6fbc66b5c71c140397ff",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/162/identity.pdf",
+        "expected_hash": "b8b894f7bb5e34f11d96a346a493ee20f13f1f41be586844de4aca8641c1db51",
+        "actual_hash": "b8b894f7bb5e34f11d96a346a493ee20f13f1f41be586844de4aca8641c1db51",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Origin Game",
@@ -1530,7 +2726,27 @@
     "declaration": "72fd6a6116bc259f41032959f8eb7b30ed9d3ad8384c5615a462ce135f23133d",
     "identity": "5aa03c61a57a0d6bd8d993898d87f2f5909e813ea9ec7e38a8ff63fd12fdcd93",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/User:Soekawat",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/origin/declaration.pdf",
+      "identity": "../np-list/origin/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/origin/declaration.pdf",
+        "expected_hash": "72fd6a6116bc259f41032959f8eb7b30ed9d3ad8384c5615a462ce135f23133d",
+        "actual_hash": "72fd6a6116bc259f41032959f8eb7b30ed9d3ad8384c5615a462ce135f23133d",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/origin/identity.pdf",
+        "expected_hash": "5aa03c61a57a0d6bd8d993898d87f2f5909e813ea9ec7e38a8ff63fd12fdcd93",
+        "actual_hash": "5aa03c61a57a0d6bd8d993898d87f2f5909e813ea9ec7e38a8ff63fd12fdcd93",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Paul Creasey",
@@ -1545,7 +2761,27 @@
     "declaration": "7e2a2ace6cda079772a0187c25d1873a6d913abdb2a71aec37f445863b051f4b",
     "identity": "c15022cf023708273cc963cecd4f3aed3b19ffdf05e1d972474d1a4cb3009b57",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Paul_Creasey",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/creasey/declaration.pdf",
+      "identity": "../np-list/creasey/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/creasey/declaration.pdf",
+        "expected_hash": "7e2a2ace6cda079772a0187c25d1873a6d913abdb2a71aec37f445863b051f4b",
+        "actual_hash": "7e2a2ace6cda079772a0187c25d1873a6d913abdb2a71aec37f445863b051f4b",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/creasey/identity.pdf",
+        "expected_hash": "c15022cf023708273cc963cecd4f3aed3b19ffdf05e1d972474d1a4cb3009b57",
+        "actual_hash": "c15022cf023708273cc963cecd4f3aed3b19ffdf05e1d972474d1a4cb3009b57",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Paul Legato",
@@ -1560,7 +2796,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Peggy Shafaghi",
@@ -1575,7 +2813,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Philippe Chapparone",
@@ -1590,7 +2830,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Pindar Technology Limited",
@@ -1605,7 +2847,11 @@
     "declaration": null,
     "identity": null,
     "wiki_link": "https://wiki.internetcomputer.org/wiki/PindarTechnologyLimited",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/pindar/declaration.pdf"
+    },
+    "document_validations": []
   },
   {
     "name": "Power Meta Corporation",
@@ -1620,7 +2866,27 @@
     "declaration": "39003cc833863871ce71223189584997fd32e164ba749605cf2bfdc2b7f7d7f1",
     "identity": "6db12fdac101756eeb6de5e568d4ce4e58e0dbb5fafd002001e0aa6c410cde12",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/User:Powermetacorp",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/power/declaration.pdf",
+      "identity": "../np-list/power/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/power/declaration.pdf",
+        "expected_hash": "39003cc833863871ce71223189584997fd32e164ba749605cf2bfdc2b7f7d7f1",
+        "actual_hash": "39003cc833863871ce71223189584997fd32e164ba749605cf2bfdc2b7f7d7f1",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/power/identity.pdf",
+        "expected_hash": "6db12fdac101756eeb6de5e568d4ce4e58e0dbb5fafd002001e0aa6c410cde12",
+        "actual_hash": "6db12fdac101756eeb6de5e568d4ce4e58e0dbb5fafd002001e0aa6c410cde12",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Prayit Jain",
@@ -1635,7 +2901,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Privoxy Solutions, LLC",
@@ -1652,7 +2920,27 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Privoxy_Solutions,_LLC.",
     "additional_documents": {
       "invoice": "13be81b338fa16661391ddfcf8c7721ec26fe964f1ad649dc9fe8f5ae7905f45"
-    }
+    },
+    "document_paths": {
+      "invoice": "../np-list/privoxy/invoice.pdf",
+      "declaration": "../np-list/privoxy/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/privoxy/declaration.pdf",
+        "expected_hash": "08250486876f73627fe209724de09f4962923ded5afaaca01405c3aa5cccda85",
+        "actual_hash": "08250486876f73627fe209724de09f4962923ded5afaaca01405c3aa5cccda85",
+        "matches": true
+      },
+      {
+        "document_type": "invoice",
+        "file_path": "../np-list/privoxy/invoice.pdf",
+        "expected_hash": "13be81b338fa16661391ddfcf8c7721ec26fe964f1ad649dc9fe8f5ae7905f45",
+        "actual_hash": "13be81b338fa16661391ddfcf8c7721ec26fe964f1ad649dc9fe8f5ae7905f45",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Protocol16",
@@ -1667,7 +2955,27 @@
     "declaration": "d433497932de39d880974dc0e50ae34cf4227ae53d0eaf3f364c83c16eff06e6",
     "identity": "ba5d2bead0ad9dd5777287257607ad79678d8638a76bb6af2c46b3eb855daf8b",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/User:Protocol16",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/protocol16/identity.pdf",
+      "declaration": "../np-list/protocol16/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/protocol16/declaration.pdf",
+        "expected_hash": "d433497932de39d880974dc0e50ae34cf4227ae53d0eaf3f364c83c16eff06e6",
+        "actual_hash": "d433497932de39d880974dc0e50ae34cf4227ae53d0eaf3f364c83c16eff06e6",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/protocol16/identity.pdf",
+        "expected_hash": "ba5d2bead0ad9dd5777287257607ad79678d8638a76bb6af2c46b3eb855daf8b",
+        "actual_hash": "ba5d2bead0ad9dd5777287257607ad79678d8638a76bb6af2c46b3eb855daf8b",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Rachel Dymecki",
@@ -1682,7 +2990,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Reist Telecom AG",
@@ -1699,7 +3009,35 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Reist_Telecom_AG",
     "additional_documents": {
       "handover": "e64a2061eefa819b581c2977763fa1eb2a40fea92f801485d0a92d53b6b7bfa6"
-    }
+    },
+    "document_paths": {
+      "declaration": "../np-list/reist/declaration.pdf",
+      "handover": "../np-list/reist/handover.pdf",
+      "identity": "../np-list/reist/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/reist/declaration.pdf",
+        "expected_hash": "c2fa10e0743e8ef554f878167541ea537a81da1cd18853dcbf0de4af75533fd4",
+        "actual_hash": "c2fa10e0743e8ef554f878167541ea537a81da1cd18853dcbf0de4af75533fd4",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/reist/identity.pdf",
+        "expected_hash": "898be083b1c60c772c07f169d364b61f4a2e83c683619251a192a3d1d84cc4da",
+        "actual_hash": "898be083b1c60c772c07f169d364b61f4a2e83c683619251a192a3d1d84cc4da",
+        "matches": true
+      },
+      {
+        "document_type": "handover",
+        "file_path": "../np-list/reist/handover.pdf",
+        "expected_hash": "e64a2061eefa819b581c2977763fa1eb2a40fea92f801485d0a92d53b6b7bfa6",
+        "actual_hash": "e64a2061eefa819b581c2977763fa1eb2a40fea92f801485d0a92d53b6b7bfa6",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Richard Ma",
@@ -1714,7 +3052,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Richard Suarez",
@@ -1729,7 +3069,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Ricky Sidhu",
@@ -1744,7 +3086,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Rishi Sachdev",
@@ -1759,7 +3103,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Rivonia Holdings LLC",
@@ -1776,7 +3122,35 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Rivonia_Holdings,_LLC",
     "additional_documents": {
       "handover": "b855c7ef7738be197db502fca07201353ce360bf8c5f2d2edfa3763494e13459"
-    }
+    },
+    "document_paths": {
+      "declaration": "../np-list/rivonia/declaration.pdf",
+      "handover": "../np-list/rivonia/handover.pdf",
+      "identity": "../np-list/rivonia/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/rivonia/declaration.pdf",
+        "expected_hash": "d93ed2516d8da80587bdf42335a77920d048e26ebebd031487bbc8e613b2c273",
+        "actual_hash": "d93ed2516d8da80587bdf42335a77920d048e26ebebd031487bbc8e613b2c273",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/rivonia/identity.pdf",
+        "expected_hash": "06a22cb9df8dfe84541dad6fde2143464586881062f1068b7b27283e27d78842",
+        "actual_hash": "06a22cb9df8dfe84541dad6fde2143464586881062f1068b7b27283e27d78842",
+        "matches": true
+      },
+      {
+        "document_type": "handover",
+        "file_path": "../np-list/rivonia/handover.pdf",
+        "expected_hash": "b855c7ef7738be197db502fca07201353ce360bf8c5f2d2edfa3763494e13459",
+        "actual_hash": "b855c7ef7738be197db502fca07201353ce360bf8c5f2d2edfa3763494e13459",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Rivram Inc",
@@ -1791,7 +3165,11 @@
     "declaration": null,
     "identity": null,
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Rivram_Inc",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/rivram/declaration.pdf"
+    },
+    "document_validations": []
   },
   {
     "name": "Rodney Zorrilla",
@@ -1806,7 +3184,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Ronnie Pellizzari",
@@ -1821,7 +3201,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Russell Ford",
@@ -1836,7 +3218,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Scott Hallock",
@@ -1851,7 +3235,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Serenity Lotus Limited",
@@ -1866,7 +3252,27 @@
     "declaration": "75c6c41df1f82d8af6f900da4a124d17035482b28d0615d574f9ab44f6989b1b",
     "identity": "f16619f9877016b4c43055e8d112f549ac0c84a66245082898550f9e12f7f691",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Serenity_lotus_limited",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/serenity/identity.pdf",
+      "declaration": "../np-list/serenity/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/serenity/declaration.pdf",
+        "expected_hash": "75c6c41df1f82d8af6f900da4a124d17035482b28d0615d574f9ab44f6989b1b",
+        "actual_hash": "75c6c41df1f82d8af6f900da4a124d17035482b28d0615d574f9ab44f6989b1b",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/serenity/identity.pdf",
+        "expected_hash": "f16619f9877016b4c43055e8d112f549ac0c84a66245082898550f9e12f7f691",
+        "actual_hash": "f16619f9877016b4c43055e8d112f549ac0c84a66245082898550f9e12f7f691",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Shelburne Ventures, LLC",
@@ -1881,7 +3287,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Staking Facilities",
@@ -1896,7 +3304,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Starbase",
@@ -1911,7 +3321,28 @@
     "declaration": "51ad0b02ee669b578f528aa57ac12c76cd0818a4756924aa04339c2aa9e865b3",
     "identity": "c2ee042289c9b2028a9d5e7c874afa190df7dfad5c05cbb9abf0f3c54e5c6e91",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Starbase",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/starbase/identity.pdf",
+      "handover": "../np-list/starbase/handover.pdf",
+      "declaration": "../np-list/starbase/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/starbase/declaration.pdf",
+        "expected_hash": "51ad0b02ee669b578f528aa57ac12c76cd0818a4756924aa04339c2aa9e865b3",
+        "actual_hash": "51ad0b02ee669b578f528aa57ac12c76cd0818a4756924aa04339c2aa9e865b3",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/starbase/identity.pdf",
+        "expected_hash": "c2ee042289c9b2028a9d5e7c874afa190df7dfad5c05cbb9abf0f3c54e5c6e91",
+        "actual_hash": "c2ee042289c9b2028a9d5e7c874afa190df7dfad5c05cbb9abf0f3c54e5c6e91",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Starseed Technology, LLC",
@@ -1926,7 +3357,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Sygnum Bank",
@@ -1943,7 +3376,35 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Sygnum",
     "additional_documents": {
       "handover": "e64a2061eefa819b581c2977763fa1eb2a40fea92f801485d0a92d53b6b7bfa6"
-    }
+    },
+    "document_paths": {
+      "handover": "../np-list/sygnum/handover.pdf",
+      "declaration": "../np-list/sygnum/declaration.pdf",
+      "identity": "../np-list/sygnum/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/sygnum/declaration.pdf",
+        "expected_hash": "50bd080608c4e8e03bea8e33921e69c943ba414b1191a0af9e9b365976bf90cb",
+        "actual_hash": "50bd080608c4e8e03bea8e33921e69c943ba414b1191a0af9e9b365976bf90cb",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/sygnum/identity.pdf",
+        "expected_hash": "f7240e5d637a7df3d2702b02335528907ecdb5db0876195dc0ec4e925ac60f2c",
+        "actual_hash": "f7240e5d637a7df3d2702b02335528907ecdb5db0876195dc0ec4e925ac60f2c",
+        "matches": true
+      },
+      {
+        "document_type": "handover",
+        "file_path": "../np-list/sygnum/handover.pdf",
+        "expected_hash": "e64a2061eefa819b581c2977763fa1eb2a40fea92f801485d0a92d53b6b7bfa6",
+        "actual_hash": "e64a2061eefa819b581c2977763fa1eb2a40fea92f801485d0a92d53b6b7bfa6",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "The Fenex Company LLC",
@@ -1958,7 +3419,27 @@
     "declaration": "1ac3f6c3eeae84ee4efc72695e440dd62eda9cd7b6c42800ce090a72d7dfd273",
     "identity": "fe0994cb2abc2b0c12d42f61b56b08314b897ca617f2cb4aa4df424b26edfad9",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/User:FenexLLC",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/fenex/identity.pdf",
+      "declaration": "../np-list/fenex/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/fenex/declaration.pdf",
+        "expected_hash": "1ac3f6c3eeae84ee4efc72695e440dd62eda9cd7b6c42800ce090a72d7dfd273",
+        "actual_hash": "1ac3f6c3eeae84ee4efc72695e440dd62eda9cd7b6c42800ce090a72d7dfd273",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/fenex/identity.pdf",
+        "expected_hash": "fe0994cb2abc2b0c12d42f61b56b08314b897ca617f2cb4aa4df424b26edfad9",
+        "actual_hash": "fe0994cb2abc2b0c12d42f61b56b08314b897ca617f2cb4aa4df424b26edfad9",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Tomahawk.vc",
@@ -1973,7 +3454,27 @@
     "declaration": "166009bc60582ea9a49daa64081e6a289aa0b5487b2e34b391b2207246270628",
     "identity": "9fe65bd2732699feb62bbb4e762ebb247bbfee8888edc257368eff0954082ff9",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Tenderloin_Ventures_AG",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/tomahawk/declaration.pdf",
+      "identity": "../np-list/tomahawk/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/tomahawk/declaration.pdf",
+        "expected_hash": "166009bc60582ea9a49daa64081e6a289aa0b5487b2e34b391b2207246270628",
+        "actual_hash": "7628ca6b70b18617967bded68f75ea94cf837b0f58624deccdcb738edf790350",
+        "matches": false
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/tomahawk/identity.pdf",
+        "expected_hash": "9fe65bd2732699feb62bbb4e762ebb247bbfee8888edc257368eff0954082ff9",
+        "actual_hash": "9fe65bd2732699feb62bbb4e762ebb247bbfee8888edc257368eff0954082ff9",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Uvaca Labs LLC",
@@ -1990,7 +3491,35 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Uvaca_Labs_LLC",
     "additional_documents": {
       "handover": "cce9ed442f3b5aa428413a0994bf814c40db64ccd3c3aaa0a48f016ae63b5e1d"
-    }
+    },
+    "document_paths": {
+      "handover": "../np-list/uvaca/handover.pdf",
+      "declaration": "../np-list/uvaca/declaration.pdf",
+      "identity": "../np-list/uvaca/identity.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/uvaca/declaration.pdf",
+        "expected_hash": "670c0277a8caae4cbd7684f7a64d50d9cd1df7e56111b3a5f2b7316be6bb537f",
+        "actual_hash": "670c0277a8caae4cbd7684f7a64d50d9cd1df7e56111b3a5f2b7316be6bb537f",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/uvaca/identity.pdf",
+        "expected_hash": "b6999e26b55d61cf1c7ff578ab512a801090afde71e570bcd9fee1ec6e094843",
+        "actual_hash": "b6999e26b55d61cf1c7ff578ab512a801090afde71e570bcd9fee1ec6e094843",
+        "matches": true
+      },
+      {
+        "document_type": "handover",
+        "file_path": "../np-list/uvaca/handover.pdf",
+        "expected_hash": "cce9ed442f3b5aa428413a0994bf814c40db64ccd3c3aaa0a48f016ae63b5e1d",
+        "actual_hash": "cce9ed442f3b5aa428413a0994bf814c40db64ccd3c3aaa0a48f016ae63b5e1d",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Virtual Hive Ltd",
@@ -2005,7 +3534,27 @@
     "declaration": "D4597A48D1E6A3150680A5B821BC28DEFB552D618D3DE687344533AB8FA2F8A8",
     "identity": "3948F6E645970FFBFB8981FC38101DA4C120A28657EA5E924B9F53D1A2703E62",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/VirtualHiveLtd",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/virtual/identity.pdf",
+      "declaration": "../np-list/virtual/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/virtual/declaration.pdf",
+        "expected_hash": "D4597A48D1E6A3150680A5B821BC28DEFB552D618D3DE687344533AB8FA2F8A8",
+        "actual_hash": "d4597a48d1e6a3150680a5b821bc28defb552d618d3de687344533ab8fa2f8a8",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/virtual/identity.pdf",
+        "expected_hash": "3948F6E645970FFBFB8981FC38101DA4C120A28657EA5E924B9F53D1A2703E62",
+        "actual_hash": "3948f6e645970ffbfb8981fc38101da4c120a28657ea5e924b9f53d1a2703e62",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Vladyslav Popov",
@@ -2022,7 +3571,35 @@
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Vladyslav_Popov",
     "additional_documents": {
       "invoice": "5d2b108c25d54e4d5d5ca12a55c5165341bbcbbe2c907816c8b026f7cd5f73f6"
-    }
+    },
+    "document_paths": {
+      "identity": "../np-list/vladyslav/identity.pdf",
+      "invoice": "../np-list/vladyslav/invoice.pdf",
+      "declaration": "../np-list/vladyslav/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/vladyslav/declaration.pdf",
+        "expected_hash": "703f8b2dddf13759a3d7f0b4e2dc49fd2a660f48e3a4522c32c8eba6d1c98d1f",
+        "actual_hash": "703f8b2dddf13759a3d7f0b4e2dc49fd2a660f48e3a4522c32c8eba6d1c98d1f",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/vladyslav/identity.pdf",
+        "expected_hash": "b463385eeead89eb2ba18ef711a442b5b59dd3da65cb10be6c2409f7d14d8103",
+        "actual_hash": "b463385eeead89eb2ba18ef711a442b5b59dd3da65cb10be6c2409f7d14d8103",
+        "matches": true
+      },
+      {
+        "document_type": "invoice",
+        "file_path": "../np-list/vladyslav/invoice.pdf",
+        "expected_hash": "5d2b108c25d54e4d5d5ca12a55c5165341bbcbbe2c907816c8b026f7cd5f73f6",
+        "actual_hash": "5d2b108c25d54e4d5d5ca12a55c5165341bbcbbe2c907816c8b026f7cd5f73f6",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Wancloud limited",
@@ -2037,7 +3614,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Web3game",
@@ -2055,7 +3634,43 @@
     "additional_documents": {
       "invoice": "8e9d7086fd6eb84ab7da4c3bf474dbfccdd6480f5005f54e4284a98f5f088332",
       "contract": "9e60ea6c6b51c0e86a5870c69dc1acbbfea51dc81a7a729d5ee9c5ac6e1aa04d"
-    }
+    },
+    "document_paths": {
+      "identity": "../np-list/web3game/identity.pdf",
+      "declaration": "../np-list/web3game/declaration.pdf",
+      "contract": "../np-list/web3game/contract.pdf",
+      "invoice": "../np-list/web3game/invoice.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/web3game/declaration.pdf",
+        "expected_hash": "64dd2baa2e3eb1fb5491892936df0928ae719f3b8e65192db416e3743e38c160",
+        "actual_hash": "64dd2baa2e3eb1fb5491892936df0928ae719f3b8e65192db416e3743e38c160",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/web3game/identity.pdf",
+        "expected_hash": "c7788fb16dccdded7664ee1fa443a84fb968b3a32bb2949479f019c29f3d8af7",
+        "actual_hash": "c7788fb16dccdded7664ee1fa443a84fb968b3a32bb2949479f019c29f3d8af7",
+        "matches": true
+      },
+      {
+        "document_type": "invoice",
+        "file_path": "../np-list/web3game/invoice.pdf",
+        "expected_hash": "8e9d7086fd6eb84ab7da4c3bf474dbfccdd6480f5005f54e4284a98f5f088332",
+        "actual_hash": "8e9d7086fd6eb84ab7da4c3bf474dbfccdd6480f5005f54e4284a98f5f088332",
+        "matches": true
+      },
+      {
+        "document_type": "contract",
+        "file_path": "../np-list/web3game/contract.pdf",
+        "expected_hash": "9e60ea6c6b51c0e86a5870c69dc1acbbfea51dc81a7a729d5ee9c5ac6e1aa04d",
+        "actual_hash": "9e60ea6c6b51c0e86a5870c69dc1acbbfea51dc81a7a729d5ee9c5ac6e1aa04d",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "William Zelver",
@@ -2070,7 +3685,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "WMA Investments Limited",
@@ -2085,7 +3702,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Wolfhound LLC",
@@ -2100,7 +3719,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "Wolkboer (Pty) Ltd",
@@ -2115,7 +3736,20 @@
     "declaration": null,
     "identity": "e70cc97bb4997a1f6096fadbbb9a7f6368975a8be2d5cc2566d2c30df9d4aa7f",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Wolkboer_(Pty)_Ltd",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/wolkboer/identity.pdf",
+      "declaration": "../np-list/wolkboer/declaration.png"
+    },
+    "document_validations": [
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/wolkboer/identity.pdf",
+        "expected_hash": "e70cc97bb4997a1f6096fadbbb9a7f6368975a8be2d5cc2566d2c30df9d4aa7f",
+        "actual_hash": "e70cc97bb4997a1f6096fadbbb9a7f6368975a8be2d5cc2566d2c30df9d4aa7f",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Zarety LLC",
@@ -2130,7 +3764,27 @@
     "declaration": "31b5d8004094e572dd6b97e0c08884d2bf45210eb595b54bec63772ae67f38d7",
     "identity": "4f9983a12136922e80784bfa3781a7795d3f6dda14401c653b63e5818a87b36b",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Zarety_LLC",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/zarety/identity.pdf",
+      "declaration": "../np-list/zarety/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/zarety/declaration.pdf",
+        "expected_hash": "31b5d8004094e572dd6b97e0c08884d2bf45210eb595b54bec63772ae67f38d7",
+        "actual_hash": "31b5d8004094e572dd6b97e0c08884d2bf45210eb595b54bec63772ae67f38d7",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/zarety/identity.pdf",
+        "expected_hash": "4f9983a12136922e80784bfa3781a7795d3f6dda14401c653b63e5818a87b36b",
+        "actual_hash": "4f9983a12136922e80784bfa3781a7795d3f6dda14401c653b63e5818a87b36b",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Zenith Code LLC",
@@ -2145,7 +3799,27 @@
     "declaration": "eafe82de656da7b8aa3d8dede42ba4dd47e55c3855e99767256483f83a05f1be",
     "identity": "60b4da47a6236b9b62c1c1780d7ead7dfc5f95db406e3e35f59cb4828df54a2d",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/User:Zenithcode",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "identity": "../np-list/zenith/identity.pdf",
+      "declaration": "../np-list/zenith/declaration.pdf"
+    },
+    "document_validations": [
+      {
+        "document_type": "declaration",
+        "file_path": "../np-list/zenith/declaration.pdf",
+        "expected_hash": "eafe82de656da7b8aa3d8dede42ba4dd47e55c3855e99767256483f83a05f1be",
+        "actual_hash": "eafe82de656da7b8aa3d8dede42ba4dd47e55c3855e99767256483f83a05f1be",
+        "matches": true
+      },
+      {
+        "document_type": "identity",
+        "file_path": "../np-list/zenith/identity.pdf",
+        "expected_hash": "60b4da47a6236b9b62c1c1780d7ead7dfc5f95db406e3e35f59cb4828df54a2d",
+        "actual_hash": "60b4da47a6236b9b62c1c1780d7ead7dfc5f95db406e3e35f59cb4828df54a2d",
+        "matches": true
+      }
+    ]
   },
   {
     "name": "Zondax AG",
@@ -2160,7 +3834,11 @@
     "declaration": null,
     "identity": null,
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Zondax_AG",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {
+      "declaration": "../np-list/zondax/declaration.png"
+    },
+    "document_validations": []
   },
   {
     "name": "ZTLC PTE LTD",
@@ -2175,7 +3853,9 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   },
   {
     "name": "ZTLC PTE LTD (deprecated)",
@@ -2190,36 +3870,8 @@
     "declaration": null,
     "identity": null,
     "wiki_link": null,
-    "additional_documents": {}
-  },
-  {
-    "name": "Stamper Co., Ltd.",
-    "toml_id": "stamper",
-    "principal_id": "",
-    "location_count": 0,
-    "total_nodes": 0,
-    "total_rewardable_nodes": 0,
-    "total_subnets": 0,
-    "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "C1BE3518EBE9A095DA56B02702FCEA349D720FA6CDF474172C7116DDE8FA4F23",
-    "identity": "276737D61FDC07089F74D44865655B67191BE6073827C5773CB2D5C1D84D43D3",
-    "wiki_link": "https://wiki.internetcomputer.org/wiki/Stamper_Co.,_Ltd.",
-    "additional_documents": {}
-  },
-  {
-    "name": "Technical University of Munich",
-    "toml_id": "tum",
-    "principal_id": "",
-    "location_count": 0,
-    "total_nodes": 0,
-    "total_rewardable_nodes": 0,
-    "total_subnets": 0,
-    "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "cdbcad5d8c01a6050cc196b9bcc13f017afeead6c3c22243f340985451fb9796",
-    "identity": "59c107e3dcc37fc7654921e242147294926959a650b8dd7d386f380e45c4a62f",
-    "wiki_link": "https://wiki.internetcomputer.org/wiki/Technical_University_of_Munich",
-    "additional_documents": {}
+    "additional_documents": {},
+    "document_paths": {},
+    "document_validations": []
   }
 ]
