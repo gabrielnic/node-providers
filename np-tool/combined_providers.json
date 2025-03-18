@@ -11,8 +11,12 @@
     "regions": [
       "North America"
     ],
-    "country": "CA",
-    "town": "Ontario",
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/2wxzd-qrbrs-ailta-kdtyb-ucg35-xcxd4-txevb-ot7hx-wiyus-szcca-nqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
     "document_validations": [
@@ -37,7 +41,15 @@
         "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
+      "most_recent_reward_e8s": 624492640728,
+      "most_recent_reward_xdr": 30463.99999999329,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 624492640728,
+      "total_rewards_xdr": 30463.99999999329
+    }
   },
   {
     "name": "100 Count Holdings, LLC",
@@ -51,8 +63,12 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Illinois",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Illinois"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/2dgp4-h57n4-a4kgx-n4uun-huo3a-wbdlc-m57wd-jtkuh-g5vcc-fcbby-6qe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/100_Count_Holdings,_LLC",
     "document_validations": [
@@ -77,7 +93,15 @@
         "actual_hash": "48e4c859db33eb48007e00761fc0dd0382fc73d0f195cb42067cace63ac104e0",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "4e0ebe81129df37f3d74e9f6c1d1a0c16280c84021987e567e3a809b",
+      "most_recent_reward_e8s": 514534049444,
+      "most_recent_reward_xdr": 25099.999999977204,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 514534049444,
+      "total_rewards_xdr": 25099.999999977204
+    }
   },
   {
     "name": "1G",
@@ -91,11 +115,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/7k7b7-4pzhf-aivy6-y654t-uqyup-2auiz-ew2cm-4qkl4-nsl4v-bul5k-5qe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "1ed1002c09092b00373a8ef760209e0721a22586c6487201f4644d97",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 415684218761,
+      "total_rewards_xdr": 27181.219999833145
+    }
   },
   {
     "name": "43rd Big Idea Films",
@@ -109,11 +145,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Texas",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Texas"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/sqhxa-h6ili-qkwup-ohzwn-yofnm-vvnp5-kxdhg-saabw-rvua3-xp325-zqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/43rd_Big_Idea_Films,_LLC",
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "4a022422eec98fef88737e61d9abc64ea89c0d1438540f11b93fbdc1",
+      "most_recent_reward_e8s": 288139067688,
+      "most_recent_reward_xdr": 14055.999999956013,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 1550793482673,
+      "total_rewards_xdr": 99645.65239961616
+    }
   },
   {
     "name": "87m Neuron, LLC",
@@ -127,8 +175,14 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Texas",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Oregon",
+      "Texas",
+      "Nevada"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/eipr5-izbom-neyqh-s3ec2-52eww-cyfpg-qfomg-3dpwj-4pffh-34xcu-7qe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/87m_Neuron,_LLC",
     "document_validations": [
@@ -153,7 +207,15 @@
         "actual_hash": "cce9ed442f3b5aa428413a0994bf814c40db64ccd3c3aaa0a48f016ae63b5e1d",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "8966382ca1043e91f60d426f75c73c6afabe6b7eee01d0439ccc3074",
+      "most_recent_reward_e8s": 864417203066,
+      "most_recent_reward_xdr": 42167.99999996561,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 9775915353640,
+      "total_rewards_xdr": 633081.99999978
+    }
   },
   {
     "name": "ACCUSET SOLUTIONS",
@@ -167,8 +229,12 @@
     "regions": [
       "Asia"
     ],
-    "country": "IN",
-    "town": "Greater Noida",
+    "countries": [
+      "IN"
+    ],
+    "towns": [
+      "Greater Noida"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/cp5ib-twnmx-h4dvd-isef2-tu44u-kb2ka-fise5-m4hta-hnxoq-k45mm-hqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/ACCUSET_SOLUTIONS",
     "document_validations": [
@@ -186,7 +252,15 @@
         "actual_hash": "2722e9ae94c2b1ad596a5937e9ec90dedc76c7b5909ea3b4a48690788ce45912",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "c2e147159fdf2986fb9f34735d225aa265658f575c05750cd6a24a24",
+      "most_recent_reward_e8s": 345319123857,
+      "most_recent_reward_xdr": 16845.357499992173,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 2084887529160,
+      "total_rewards_xdr": 134762.85999974562
+    }
   },
   {
     "name": "Adam Dymecki",
@@ -200,11 +274,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/n32q7-33lmk-m33tr-o5ltb-po6cb-tqqrr-2x6wp-pzhw7-ymizu-o3fyp-sqe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "1c1ce5b0861822429066d0abd918b2e2843f1471887f4a97f6c46495",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 166273687503,
+      "total_rewards_xdr": 10872.487999823365
+    }
   },
   {
     "name": "A Dog's Boutique, LLC",
@@ -218,11 +304,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Georgia",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Georgia"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/uvawj-nnt3i-4ch3a-hruy4-hyfjn-7owvl-wgkli-uq2hd-e6lkq-v4b2o-4ae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "5da622a98d590510519aa6808addd69f3c7c811f5b2fecd551b445d3",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 83136843751,
+      "total_rewards_xdr": 5436.243999883197
+    }
   },
   {
     "name": "Aitubi AG",
@@ -234,8 +332,8 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/znw2p-4cx6u-ocqls-277iu-2lkir-xjy7g-4s3sj-sjy6j-mtlay-rnnra-yqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Aitubi_AG",
     "document_validations": [
@@ -253,7 +351,15 @@
         "actual_hash": "89e6063e8abc1b76aa4f13b6d2ea9fc1e0fe950e23093565facf3c4cd82e8d3e",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "7cfe5953f0b797f76853f6df7fa2151eb3d4517de313f01a85b8eaf8",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Aksinia Stavskaya",
@@ -267,8 +373,12 @@
     "regions": [
       "Asia"
     ],
-    "country": "JP",
-    "town": "Tokyo",
+    "countries": [
+      "JP"
+    ],
+    "towns": [
+      "Tokyo"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/wlxga-ebupj-sj2nf-g3sii-75i6b-oh64s-qmq7u-gmros-vi2if-3ktdv-cqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Aksinia_Stavskaya",
     "document_validations": [
@@ -279,7 +389,15 @@
         "actual_hash": "fc1342d687c1aeedd10787379bb98d5023a687fe91c612d09b549951437c0fd3",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "7e2351821bc1adbc22eaeaaca3ab8f59e734ee08f5753f8ff8a4bee0",
+      "most_recent_reward_e8s": 681890861383,
+      "most_recent_reward_xdr": 33263.999999985506,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 681890861383,
+      "total_rewards_xdr": 33263.999999985506
+    }
   },
   {
     "name": "Allusion",
@@ -293,8 +411,13 @@
     "regions": [
       "Europe"
     ],
-    "country": "BE",
-    "town": "Flanders",
+    "countries": [
+      "BE"
+    ],
+    "towns": [
+      "Flanders",
+      "Brussels Capital"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/rbn2y-6vfsb-gv35j-4cyvy-pzbdu-e5aum-jzjg6-5b4n5-vuguf-ycubq-zae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/ALLUSION_BV",
     "document_validations": [
@@ -312,7 +435,15 @@
         "actual_hash": "dec7a6a2654df1a7164b3dd2472f0fc1e13fabebbe7a5a85d490ee808426717a",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "77713e32ec25a5c08070bc3db9ca3cbb0a4c9ccd1cf43fa50fcfcc59",
+      "most_recent_reward_e8s": 913492681726,
+      "most_recent_reward_xdr": 44561.999999957734,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 12363730219298,
+      "total_rewards_xdr": 820721.9999996814
+    }
   },
   {
     "name": "Anonstake",
@@ -326,11 +457,25 @@
     "regions": [
       "Europe"
     ],
-    "country": "SI",
-    "town": "Ljubljana",
+    "countries": [
+      "HR",
+      "SI"
+    ],
+    "towns": [
+      "Zagreb",
+      "Ljubljana"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/kos24-5xact-6aror-uofg2-tnvt6-dq3bk-c2c5z-jtptt-jbqvc-lmegy-qae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "45eb9882779c28d97c260639e134bd9fc4c72ea2d75a04a8ba97dd3b",
+      "most_recent_reward_e8s": 407721497683,
+      "most_recent_reward_xdr": 19889.470099972106,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 2461646075073,
+      "total_rewards_xdr": 159115.76079965394
+    }
   },
   {
     "name": "ANYPOINT PTY LTD",
@@ -344,8 +489,12 @@
     "regions": [
       "Oceania"
     ],
-    "country": "AU",
-    "town": "Queensland",
+    "countries": [
+      "AU"
+    ],
+    "towns": [
+      "Queensland"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/fwnmn-zn7yt-5jaia-fkxlr-dzwyu-keguq-npfxq-mc72w-exeae-n5thj-oae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/ANYPOINT_PTY_LTD",
     "document_validations": [
@@ -363,7 +512,15 @@
         "actual_hash": "2423220dcd5bc4744d4db65fdce8004f6010c56825f039dd1e270dc8d2b07d3b",
         "matches": false
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "299642a83c138e83e79749b448bf74cfe3ce4023fd508c948498baac",
+      "most_recent_reward_e8s": 322170800705,
+      "most_recent_reward_xdr": 15716.13599999131,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 1945127964959,
+      "total_rewards_xdr": 125729.08799975007
+    }
   },
   {
     "name": "Arceau NP LLC",
@@ -377,8 +534,12 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Illinois",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Illinois"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/ss6oe-fm7b2-b5r57-y3x74-omrz5-d5pgy-5iwtw-4aew5-aqj3l-6ydra-wqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Arceau_NP_LLC",
     "document_validations": [
@@ -403,7 +564,15 @@
         "actual_hash": "b855c7ef7738be197db502fca07201353ce360bf8c5f2d2edfa3763494e13459",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "a4dffaed0d1164a8dbb8fb5911650ee27f0130bde2e38eca0f3a0288",
+      "most_recent_reward_e8s": 555696773400,
+      "most_recent_reward_xdr": 27107.999999998796,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 555696773400,
+      "total_rewards_xdr": 27107.999999998796
+    }
   },
   {
     "name": "Arjay LLC",
@@ -417,11 +586,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/l2kri-jarwr-7whc4-pjdpn-n6hlb-45ltr-l6ghm-twttl-pcsvt-rynko-dqe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "431a9b258534f9dfef00745fcbf10d2b6992959e056123189c8d2a80",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 83136843751,
+      "total_rewards_xdr": 5436.243999883197
+    }
   },
   {
     "name": "Artem Horodyskyi",
@@ -435,8 +616,24 @@
     "regions": [
       "Europe"
     ],
-    "country": "LT",
-    "town": "Vilnius",
+    "countries": [
+      "PL",
+      "CZ",
+      "EE",
+      "LT",
+      "PT",
+      "ES",
+      "LV"
+    ],
+    "towns": [
+      "Madrid",
+      "Lisbon",
+      "Praha",
+      "Riga",
+      "Vilnius",
+      "Tallinn",
+      "Warszawa"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/diyay-s4rfq-xnx23-zczwi-nptra-5254n-e4zn6-p7tqe-vqhzr-sd4gd-bqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Artem_Horodyskyi",
     "document_validations": [
@@ -454,7 +651,15 @@
         "actual_hash": "3f1ec7bf0e8c3be87c9b2a47317947514bb78d81d859e59ec17e6644a82f440e",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "cd370f7722764518922cd1562ac2c102fbb228a599efdd8aacc94bee",
+      "most_recent_reward_e8s": 221198392849,
+      "most_recent_reward_xdr": 10790.499999959917,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 1335500234017,
+      "total_rewards_xdr": 86323.9999996402
+    }
   },
   {
     "name": "Aspire Properties",
@@ -466,11 +671,19 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/2byzn-q2crt-hgczo-eruff-6p7af-pemor-n2z4z-6d2sd-wvdqa-yqvxb-mqe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "76909f07e531ac46ed68459ec49c611b06510f53387dbbebd2340301",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "AVRVM AG",
@@ -482,11 +695,19 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/33aps-ovxje-mwpux-cy2hh-f2qwp-5tzxs-2edbb-gblfn-ev5pv-cfnvj-pqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/AVRVM_AG",
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "95c228a179e5658a65a4010286eb58ddfc97200ffc7cc52bf9f0764f",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Bianca-Martina Rohner",
@@ -500,8 +721,12 @@
     "regions": [
       "North America"
     ],
-    "country": "PA",
-    "town": "Panama City",
+    "countries": [
+      "PA"
+    ],
+    "towns": [
+      "Panama City"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/eatbv-nlydd-n655c-g7j7p-gnmpz-pszdg-6e6et-veobv-ftz2y-4m752-vqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Bianca-Martina_Rohner",
     "document_validations": [
@@ -519,7 +744,15 @@
         "actual_hash": "2c1fa30253103788b7c6510bb1fc66fd4e11b9e9df163ec936c9a460b377ade2",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "5a01f52d6f6847ce331dceac11fe97a426b5f9dd6a815150bc77491b",
+      "most_recent_reward_e8s": 164059034069,
+      "most_recent_reward_xdr": 8003.127799953957,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 990517496850,
+      "total_rewards_xdr": 64025.02239968799
+    }
   },
   {
     "name": "Bigger Capital",
@@ -534,8 +767,14 @@
       "North America",
       "Oceania"
     ],
-    "country": "US",
-    "town": "Pennsylvania",
+    "countries": [
+      "US",
+      "AU"
+    ],
+    "towns": [
+      "Melbourne",
+      "Pennsylvania"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/7a4u2-gevsy-5c5fs-hsgri-n2kdz-dxxwf-btcfp-jykro-l4y7c-7xky2-aqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Bigger_Capital",
     "document_validations": [
@@ -553,7 +792,15 @@
         "actual_hash": "46ccf5a7d1619d7c839b1e1b11dffc46bfe2419f67365b47fce6338d1d846860",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "03923d86f89df8a9b1629f1c241963c3464182979263ccce10f12a61",
+      "most_recent_reward_e8s": 576278135377,
+      "most_recent_reward_xdr": 28111.999999960815,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 4910597849724,
+      "total_rewards_xdr": 321915.99999975145
+    }
   },
   {
     "name": "Bitmoon",
@@ -567,8 +814,13 @@
     "regions": [
       "Europe"
     ],
-    "country": "PT",
-    "town": "Barreiro",
+    "countries": [
+      "PT"
+    ],
+    "towns": [
+      "Lisbon",
+      "Barreiro"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/mjnyf-lzqq6-s7fzb-62rqm-xzvge-5oa26-humwp-dvwxp-jxxkf-hoel7-fqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Bitmoon",
     "document_validations": [
@@ -586,7 +838,15 @@
         "actual_hash": "0b2764c306dd0d46b67dde4f35aae7bcfca3446e3940884ea384b8f6ee97105d",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "3d9448b0d053d6cfb82ff3c66788b090c2300cd53db25be2644a3be8",
+      "most_recent_reward_e8s": 90138344061,
+      "most_recent_reward_xdr": 4397.128699983701,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 437837482158,
+      "total_rewards_xdr": 28221.011099832576
+    }
   },
   {
     "name": "Blockchain Development Labs",
@@ -600,8 +860,13 @@
     "regions": [
       "North America"
     ],
-    "country": "CA",
-    "town": "British Columbia",
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "British Columbia",
+      "Ontario"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/7at4h-nhtvt-a4s55-jigss-wr2ha-ysxkn-e6w7x-7ggnm-qd3d5-ry66r-cae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Blockchain_Development_Labs_Inc",
     "document_validations": [
@@ -612,7 +877,15 @@
         "actual_hash": "5b5d9ab6103048e9f2fdbc4473525fd850a325f1d03b192ed1c2e72d0fdc29a3",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "8b75f16dacf2a0a216ca1f746d3ab235cecc64f1300175b80df0fcd3",
+      "most_recent_reward_e8s": 936738961092,
+      "most_recent_reward_xdr": 45695.99999998994,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 12676123911229,
+      "total_rewards_xdr": 841455.9999997262
+    }
   },
   {
     "name": "BlockFinance",
@@ -626,8 +899,12 @@
     "regions": [
       "Europe"
     ],
-    "country": "SI",
-    "town": "Maribor",
+    "countries": [
+      "SI"
+    ],
+    "towns": [
+      "Maribor"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/c5svp-7pkmf-agz5x-536k7-r7rcw-4wn3a-eo7pt-ry7su-j42uq-bvnzf-iqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/BlockFinance_LLC",
     "document_validations": [
@@ -645,7 +922,15 @@
         "actual_hash": "b612315036562eb9a1b07757430e2f0995a76f4fb981f36433b8ac6abce453e4",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "97679691bcbe5f1a1d5e8d2c40c9596214eeca82ceac3a75f6adfe90",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "BlockTech Ventures, LLC",
@@ -659,8 +944,12 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/ks7ow-zvs7i-ratdk-azq34-zio2b-gbekj-qjicg-pfhp3-ovhgu-k5qql-dae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Blocktech_Ventures_LLC",
     "document_validations": [
@@ -678,7 +967,15 @@
         "actual_hash": "bbd9ed4e8b49068f587014edb3aed85fe376de43d6e30794dbd92795fd073a8b",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "30364d3b9720bef7873e1a0dbc731faaf7576e24f2a5b87d5b03fa46",
+      "most_recent_reward_e8s": 615308925423,
+      "most_recent_reward_xdr": 30015.999999984782,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 5241667526460,
+      "total_rewards_xdr": 343615.99999971956
+    }
   },
   {
     "name": "BLP22, LLC",
@@ -692,8 +989,12 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Georgia",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Georgia"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/sma3p-ivkif-hz7nu-ngmvq-ibnjg-nubke-zf6gh-wbnfc-2dlng-l3die-zqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/BLP22,_LLC",
     "document_validations": [
@@ -711,7 +1012,15 @@
         "actual_hash": "1076a53e3af537d9e0141cbb9d8578c064507a9c1224a6d95ad1511c1424e2cc",
         "matches": false
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "16f79e0a12d3e5eca8d03db512f258daf2b0e3b362c5784e197f25af",
+      "most_recent_reward_e8s": 307654462711,
+      "most_recent_reward_xdr": 15007.999999968,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 3056772226151,
+      "total_rewards_xdr": 199963.70799968467
+    }
   },
   {
     "name": "Blue Ant LLC",
@@ -723,11 +1032,19 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/rpfvr-s3kuw-xdqrr-pvuuj-hc7hl-olytw-yxlie-fmr74-sr572-6gdqx-iqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Blueant_LLC",
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "c67905ba6e0d3de425c51c7e64082560aaf2ab6cd209e198dfb9bc90",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Bohatyrov Volodymyr",
@@ -741,8 +1058,24 @@
     "regions": [
       "Europe"
     ],
-    "country": "PT",
-    "town": "Barreiro",
+    "countries": [
+      "LT",
+      "CZ",
+      "PL",
+      "PT",
+      "EE",
+      "LV",
+      "ES"
+    ],
+    "towns": [
+      "South Moravian Region",
+      "Warszawa",
+      "Siauliai",
+      "Madrid",
+      "Barreiro",
+      "Riga",
+      "Tallinn"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/dhywe-eouw6-hstpj-ahsnw-xnjxq-cmqks-47mrg-nnncb-3sr5d-rac6m-nae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Bohatyrov_Volodymyr",
     "document_validations": [
@@ -767,7 +1100,15 @@
         "actual_hash": "fe1d2612e5307bb5cb86ca85e587f6d49bf39a850a8358ceda36d3839ceb4272",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "27849a34007ec1d86d3c23e70025e8be9964f5192df2aa3bbbfd25b7",
+      "most_recent_reward_e8s": 221198392849,
+      "most_recent_reward_xdr": 10790.499999959917,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 1335500234017,
+      "total_rewards_xdr": 86323.9999996402
+    }
   },
   {
     "name": "Boolean Bit, LLC",
@@ -781,11 +1122,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/qdj4d-76lh3-w2q5i-kwjcd-643pq-pk42d-cziag-4hkau-35gib-m7s33-6qe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "166b4eab6a0c2771a1e45b6345e9ae345ccd205c1d500c30b2c41f35",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 581957906266,
+      "total_rewards_xdr": 38053.70799980533
+    }
   },
   {
     "name": "Brener, Inc.",
@@ -799,11 +1152,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/2wxxr-qwylo-n7dhz-6co6m-iektd-vl7dn-ocvyc-xazaf-hbfxq-66spe-aae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "0f8534ca391fa9f74dad7b1401fb068a6656f0f09ee49b7d6d9606f4",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 166273687503,
+      "total_rewards_xdr": 10872.487999823365
+    }
   },
   {
     "name": "Buldakova Rehina",
@@ -815,8 +1180,8 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/qipsq-44ztq-4oxob-dulxs-35tho-zjf5o-onu2b-sjuhk-4jd7x-yfdhz-qae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Buldakova_Rehina",
     "document_validations": [
@@ -834,7 +1199,15 @@
         "actual_hash": "bc39f6908c7db90d06eddb9348b60a6e21753904b173e4e42a3e1b27654756cd",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "7e2262f97e0e8114b250fe5ac9adc0e5372bfc524c98e48d1adede57",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Carbon Twelve",
@@ -848,8 +1221,14 @@
     "regions": [
       "Europe"
     ],
-    "country": "ES",
-    "town": "Barcelona",
+    "countries": [
+      "ES",
+      "FR"
+    ],
+    "towns": [
+      "Paris",
+      "Barcelona"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/qsdw4-ao5ye-6rtq4-y3zhm-icjbj-lutd2-sbejz-4ajqz-pcflr-xrhsg-jae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/CarbonTwelve",
     "document_validations": [
@@ -867,7 +1246,15 @@
         "actual_hash": "8def0701df645633392d1b350bcb415a20b15b7b9dea841eba93995a6777f1a7",
         "matches": false
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "6d085f4aaf2b44e48f09f3c4986b406c117a3fb2c0791b43f483eb6c",
+      "most_recent_reward_e8s": 197273410274,
+      "most_recent_reward_xdr": 9623.391499986268,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 1104321999263,
+      "total_rewards_xdr": 71268.35979972439
+    }
   },
   {
     "name": "Conic Ventures",
@@ -882,8 +1269,14 @@
       "Europe",
       "Oceania"
     ],
-    "country": "UK",
-    "town": "London",
+    "countries": [
+      "AU",
+      "UK"
+    ],
+    "towns": [
+      "New South Wales",
+      "London"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/i3cfo-s2tgu-qe5ym-wk7e6-y7ura-pptgu-kevuf-2feh7-z4enq-5hz4s-mqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Conic_Ventures",
     "document_validations": [
@@ -901,7 +1294,15 @@
         "actual_hash": "68ec5196be0e038f1a99026ba68bd7bf062286b561da9cfa8a47cfd050c641c0",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "dea97b8868ba665d30c59370d4ae5aa35547961724ae74dedeadf50a",
+      "most_recent_reward_e8s": 139901498503,
+      "most_recent_reward_xdr": 6824.674899973345,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 844664744547,
+      "total_rewards_xdr": 54597.399199747364
+    }
   },
   {
     "name": "Coplus Limited",
@@ -915,11 +1316,23 @@
     "regions": [
       "Asia"
     ],
-    "country": "HK",
-    "town": "HongKong",
+    "countries": [
+      "HK"
+    ],
+    "towns": [
+      "HongKong"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/jz47c-irtey-dr2nb-wienh-emhaz-jo6ua-gsbho-t2z5j-l7kbf-5i7p5-5ae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Coplus_Limited",
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "b272c34ea62ed9c3a58856fbbf19b504ec057313df092ae4589f9aed",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "CRM52 Systems, LLC",
@@ -933,11 +1346,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/7nxxb-6qgm4-fftx3-xkwpj-sjrcm-tzmk5-dvuqk-l4ei4-3hvii-scwnj-tae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "acfd2d5590f472fe14f8a5945c73aa38cee23ead6bf65d01ec9ffbb2",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 83136843751,
+      "total_rewards_xdr": 5436.243999883197
+    }
   },
   {
     "name": "Decentralized Entities Foundation",
@@ -951,8 +1376,12 @@
     "regions": [
       "Europe"
     ],
-    "country": "CH",
-    "town": "Geneva",
+    "countries": [
+      "CH"
+    ],
+    "towns": [
+      "Geneva"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/w4buy-lgwzr-pccs7-huzhh-qqnws-rns75-iaoox-jolrm-xs2ra-vdu3o-2qe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Decentralized_Entities_Foundation",
     "document_validations": [
@@ -977,7 +1406,15 @@
         "actual_hash": "fd2d272b40734d4164c956156634dd5b23b0d3a327755bdef668ed77005b7db3",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "36a82485cfd2897c3b246980033a920ec1c562865d491e05a7dc7549",
+      "most_recent_reward_e8s": 326021893321,
+      "most_recent_reward_xdr": 15903.999999985022,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 326021893321,
+      "total_rewards_xdr": 15903.999999985022
+    }
   },
   {
     "name": "DeNoDe",
@@ -991,8 +1428,12 @@
     "regions": [
       "Europe"
     ],
-    "country": "BE",
-    "town": "Flanders",
+    "countries": [
+      "BE"
+    ],
+    "towns": [
+      "Flanders"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/acqus-l4yyc-h44lw-grfxw-h7jqf-mtvt3-huwmj-4s372-sc5db-5nsfr-2ae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/DENODE",
     "document_validations": [
@@ -1017,7 +1458,15 @@
         "actual_hash": "e973ebd05f3f2c0a73d5a4195bdd97854831e0ef70e55a7cbfb83a501f676b93",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "4637d28a89b1a64004c757e5f853826b98949a741fd4b2045957fb14",
+      "most_recent_reward_e8s": 304497560575,
+      "most_recent_reward_xdr": 14853.999999969648,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 304497560575,
+      "total_rewards_xdr": 14853.999999969648
+    }
   },
   {
     "name": "DFINITY Stiftung",
@@ -1031,11 +1480,27 @@
     "regions": [
       "Europe"
     ],
-    "country": "FR",
-    "town": "Provence-Alpes-Cote d'Azur",
+    "countries": [
+      "SE",
+      "CH",
+      "FR"
+    ],
+    "towns": [
+      "Provence-Alpes-Cote d'Azur",
+      "Zurich",
+      "Stockholm"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/bvcsg-3od6r-jnydw-eysln-aql7w-td5zn-ay5m6-sibd2-jzojt-anwag-mqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/DFINITY_Stiftung",
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "646ec1c69ae7112aee1414aca8cc1dd242e3d221b83049a852ad18e6",
+      "most_recent_reward_e8s": 935017014472,
+      "most_recent_reward_xdr": 45611.9999999731,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 7573367680815,
+      "total_rewards_xdr": 495767.9999996787
+    }
   },
   {
     "name": "DFINITY USA Research LLC",
@@ -1049,11 +1514,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Massachusetts",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Massachusetts"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/r2qgy-abcek-yc2ot-3powq-gayr6-4dibc-jvvfl-ri376-gmfmw-u2v7w-4qe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "edf452b7c7754b83ff9998e20413646b6a9d5b70b039508276717482",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "DFINITY USA Research LLC",
@@ -1067,11 +1544,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Massachusetts",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Massachusetts"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/lq5ra-f4ibl-t7wpy-hennc-m4eb7-tnfxe-eorgd-onpsl-wervo-7chjj-6qe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "249736be68de610959865911aa543f4f53a4cba73f18ac1d2c0f87a6",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 3707853252662,
+      "total_rewards_xdr": 251831.999999819
+    }
   },
   {
     "name": "DRMxTech Enterprises, LLC",
@@ -1085,11 +1574,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/olgti-2hegv-ya7pd-ky2wt-of57j-tzs6q-ydrpy-hdxyy-cjnwx-ox5t4-3qe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "8a2b4905b82786f1eb12c9d4c424e18291db3e86401996abfae33eb2",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 83136843751,
+      "total_rewards_xdr": 5436.243999883197
+    }
   },
   {
     "name": "Eastman Ventures (Pty) Ltd",
@@ -1101,11 +1602,19 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/veamq-6zmtx-dtdky-ctoun-gokvu-cr6zm-ffsky-dz35w-e2euw-zvv7e-vae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Eastman_Ventures_Pty_Ltd",
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "726dba3f1b5120f5cc15a3f8e0cfd1ab3dd5cc513ca58ab255240f55",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Exaion",
@@ -1119,11 +1628,23 @@
     "regions": [
       "Europe"
     ],
-    "country": "FR",
-    "town": "Normandie",
+    "countries": [
+      "FR"
+    ],
+    "towns": [
+      "Normandie"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/xo7ih-nswlt-hbq3n-v5ixi-etu7j-sasg6-fjf4p-zx6or-cc7c3-pnh7t-2ae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Exaion",
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "d5c01973bbc0b06d71cd18966741fc6aa315f34c4f1819e0a9079d7f",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Extragone SA",
@@ -1137,8 +1658,12 @@
     "regions": [
       "Europe"
     ],
-    "country": "CH",
-    "town": "Geneva",
+    "countries": [
+      "CH"
+    ],
+    "towns": [
+      "Geneva"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/7ryes-jnj73-bsyu4-lo6h7-lbxk5-x4ien-lylws-5qwzl-hxd5f-xjh3w-mqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Extragone",
     "document_validations": [
@@ -1163,7 +1688,15 @@
         "actual_hash": "e7791686676bb6dc5b211a0255151754c47cd63ade9e42548c33773c3da88fc5",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "2aa9960c2c437a67f64113603ae06d8dcc337e4dea8b21b5ad30bcea",
+      "most_recent_reward_e8s": 978065679963,
+      "most_recent_reward_xdr": 47711.999999955064,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 10785945914166,
+      "total_rewards_xdr": 712543.9999997246
+    }
   },
   {
     "name": "Ferndale International",
@@ -1175,8 +1708,8 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/34cav-6s7rb-uwa3c-awdly-5md4r-lwueh-atzbn-unqpe-c5ope-f3nqj-wae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Ferndale_International",
     "document_validations": [
@@ -1194,7 +1727,15 @@
         "actual_hash": "de4f19b3f21c4a8d8d94f177c6e524e39d63710ecc3179d9d2b23a16eef91266",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "013582fbc1949e91f78f95a1de740ee9df347e47a3623633a8ada672",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Fidgitville Ventures LLC",
@@ -1208,11 +1749,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/ob633-g55bt-y6pu5-5iby6-jmcvi-oylqs-q6ahw-cvecq-5ckeh-m4wws-nae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "bc9b82923bf06b3c2411d778282bae07e71a79cf1d7bc73d7d2a8965",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 83136843751,
+      "total_rewards_xdr": 5436.243999883197
+    }
   },
   {
     "name": "Finteck LLC",
@@ -1224,11 +1777,19 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/x3zyd-pkcbf-5n3w2-n7uov-2qrbt-d3kfn-ojdd7-pxog5-vpqnt-6lex5-fqe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "935a756a144531018cd899b11c7904d2a58fcde612e96b0d2ca6f984",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Fractal Labs AG",
@@ -1242,8 +1803,13 @@
     "regions": [
       "Europe"
     ],
-    "country": "SI",
-    "town": "Ljubljana",
+    "countries": [
+      "SI"
+    ],
+    "towns": [
+      "Ljubljana",
+      "Maribor"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/wdjjk-blh44-lxm74-ojj43-rvgf4-j5rie-nm6xs-xvnuv-j3ptn-25t4v-6ae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Fractal_Labs,_LLC",
     "document_validations": [
@@ -1261,7 +1827,15 @@
         "actual_hash": "ef8029e828140ce48c5ce8ee53a3c8e71c7925cab0147a4e281800d51b6db557",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "8f27e2a008f8518e85db88793a9ff73238edfbc7da02b4438813e83d",
+      "most_recent_reward_e8s": 991841252921,
+      "most_recent_reward_xdr": 48383.999999992215,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 10938512245155,
+      "total_rewards_xdr": 722623.9999997446
+    }
   },
   {
     "name": "Fritz Huie",
@@ -1275,11 +1849,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/67gkg-gkgzz-g2ubz-3cc6h-jr3zm-twsii-7i325-r3gzr-kp2kh-dwxg6-pqe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "c24e6fdd8d5948a6d52b52cefc19f215eaad6bfa8c159caafee69a87",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 166273687503,
+      "total_rewards_xdr": 10872.487999823365
+    }
   },
   {
     "name": "FUM Capital, LLC",
@@ -1293,11 +1879,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Florida",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Florida"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/zgupw-boshs-mg6kz-2ciwm-upk7g-igjpn-75t3p-np6g4-47l7q-nuefa-6qe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "01eab990e97b490ef97b9818aa04161cfeca6404d92b567bcc0f42f0",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 83136843751,
+      "total_rewards_xdr": 5436.243999883197
+    }
   },
   {
     "name": "Geeta Kalwani",
@@ -1311,8 +1909,12 @@
     "regions": [
       "South America"
     ],
-    "country": "CO",
-    "town": "Bogota",
+    "countries": [
+      "CO"
+    ],
+    "towns": [
+      "Bogota"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/otzuu-dldzs-avvu2-qwowd-hdj73-aocy7-lacgi-carzj-m6f2r-ffluy-fae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Geeta_Kalwani",
     "document_validations": [
@@ -1330,7 +1932,15 @@
         "actual_hash": "06d21b40f5d1739418e661cd489aebcc147b41b7e1fc387e3cf3fd13cb960072",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "e0a8a2cc8284d082a131974568e7c14b5bf129716e5baedb7042e987",
+      "most_recent_reward_e8s": 182060715017,
+      "most_recent_reward_xdr": 8881.285799959294,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 1099203861199,
+      "total_rewards_xdr": 71050.2863996771
+    }
   },
   {
     "name": "Geodd Pvt Ltd",
@@ -1344,11 +1954,23 @@
     "regions": [
       "Asia"
     ],
-    "country": "LK",
-    "town": "Colombo",
+    "countries": [
+      "LK"
+    ],
+    "towns": [
+      "Colombo"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/eybf4-6t6bb-unfb2-h2hhn-rrfi2-cd2vs-phksn-jdmbn-i463m-4lzds-vqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Geodd_Pvt_Ltd",
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "18242aa0dbfd2a9738664c1503d3e8bd3daf08ef4da1e793043b2fa8",
+      "most_recent_reward_e8s": 238939703169,
+      "most_recent_reward_xdr": 11655.956599990157,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 1442614593116,
+      "total_rewards_xdr": 93247.65279975545
+    }
   },
   {
     "name": "GeoNodes LLC",
@@ -1360,14 +1982,28 @@
     "total_subnets": 9,
     "total_unassigned_nodes": 7,
     "regions": [
-      "Asia",
-      "North America"
+      "North America",
+      "Asia"
     ],
-    "country": "CR",
-    "town": "San Jose",
+    "countries": [
+      "CR",
+      "IL"
+    ],
+    "towns": [
+      "Tel Aviv",
+      "San Jose"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/6sq7t-knkul-fko6h-xzvnf-ktbvr-jhx7r-hapzr-kjlek-whugy-zt6ip-xqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/GeoNodes_LLC",
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "32330fa789ee3b3a449491270fbc435d970472b03b1c369f0309bcfc",
+      "most_recent_reward_e8s": 582297408880,
+      "most_recent_reward_xdr": 28405.632199984157,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 3515659927771,
+      "total_rewards_xdr": 227245.05759976112
+    }
   },
   {
     "name": "George Bassadone",
@@ -1379,14 +2015,28 @@
     "total_subnets": 17,
     "total_unassigned_nodes": 8,
     "regions": [
-      "Asia",
-      "Europe"
+      "Europe",
+      "Asia"
     ],
-    "country": "GE",
-    "town": "Tbilisi",
+    "countries": [
+      "GE",
+      "LT"
+    ],
+    "towns": [
+      "Vilnius",
+      "Tbilisi"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/vegae-c4chr-aetfj-7gzuh-c23sx-u2paz-vmvbn-bcage-pu7lu-mptnn-eqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/George_Bassadone",
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "24b0b6999f8913dc84e70367db9f0345e7aa0e2cbbdf8ffcf6ce0a7e",
+      "most_recent_reward_e8s": 782279029150,
+      "most_recent_reward_xdr": 38161.1355999953,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 4723062464605,
+      "total_rewards_xdr": 305289.0847997572
+    }
   },
   {
     "name": "Giant Leaf, LLC",
@@ -1400,8 +2050,13 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Georgia",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Georgia",
+      "Florida"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/wwdbq-xuqhf-eydzu-oyl7p-ga565-zm7s7-yrive-ozgsy-zzgh3-qwb3j-cae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Giant_Leaf,_LLC",
     "document_validations": [
@@ -1419,7 +2074,15 @@
         "actual_hash": "f58b0610cd7472e14336042eb517bd977d4c4d0b27086ade40a16776e7fd3b95",
         "matches": false
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "9953f7179f972446706f57bae03b6d5c17e84b1794591b066590dd06",
+      "most_recent_reward_e8s": 922963388134,
+      "most_recent_reward_xdr": 45023.999999952786,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 10173560723100,
+      "total_rewards_xdr": 670685.7079997311
+    }
   },
   {
     "name": "Goat, LLC",
@@ -1433,11 +2096,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Georgia",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Georgia"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/p6fou-ngmgk-rxc6t-7ckzz-hojr2-kk6r3-xnlrk-ewzvu-g6xms-rfafz-zae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "cd77aa7350b843f94199842d1eb569ad069a56af665f75cf5388a48f",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 581957906266,
+      "total_rewards_xdr": 38053.70799980533
+    }
   },
   {
     "name": "Goodsir, LLC",
@@ -1451,11 +2126,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/myrs2-bc6j6-mydpr-2jmli-l45mu-35ybt-c34mo-kjpve-zmaao-ajusy-nqe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "3fd4a7ac61b96b460cbee3d49015cdce7899626024298bc996a5a09b",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 83136843751,
+      "total_rewards_xdr": 5436.243999883197
+    }
   },
   {
     "name": "Honeycomb Capital (Pty) Ltd",
@@ -1469,11 +2156,23 @@
     "regions": [
       "Africa"
     ],
-    "country": "ZA",
-    "town": "Gauteng",
+    "countries": [
+      "ZA"
+    ],
+    "towns": [
+      "Gauteng"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/nmdd6-rouxw-55leh-wcbkn-kejit-njvje-p4s6e-v64d3-nlbjb-vipul-mae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/HoneyComb_Capital",
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "ec3eb245ebb6b51d1f217f4fb09c99840da7d0372264fdfa6647bb81",
+      "most_recent_reward_e8s": 435429236193,
+      "most_recent_reward_xdr": 21241.108999966924,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 2628933417391,
+      "total_rewards_xdr": 169928.87199977683
+    }
   },
   {
     "name": "Iancu Aurel",
@@ -1487,8 +2186,12 @@
     "regions": [
       "Europe"
     ],
-    "country": "RO",
-    "town": "Bucuresti",
+    "countries": [
+      "RO"
+    ],
+    "towns": [
+      "Bucuresti"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/i7dto-bgkj2-xo5dx-cyrb7-zkk5y-q46eh-gz6iq-qkgyc-w4qte-scgtb-6ae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Iancu-Aurel",
     "document_validations": [
@@ -1506,7 +2209,15 @@
         "actual_hash": "5320f55c840a0951eed84443255ffceb2874da00ce95ebae7cf9c61b7a6b8532",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "3851340c5094534e0c23c2a1f4d7d24fdfce713b391889496b9a5958",
+      "most_recent_reward_e8s": 608995121151,
+      "most_recent_reward_xdr": 29707.99999998808,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 4796607534638,
+      "total_rewards_xdr": 310883.9999997039
+    }
   },
   {
     "name": "Icaria Systems Pty Ltd",
@@ -1520,8 +2231,12 @@
     "regions": [
       "Oceania"
     ],
-    "country": "AU",
-    "town": "Melbourne",
+    "countries": [
+      "AU"
+    ],
+    "towns": [
+      "Melbourne"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/ihbuj-erwnc-tkjux-tqtnv-zkoar-uniy2-sk2go-xfpkc-znbb4-seukm-wqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Icaria_Systems_Pty_Ltd",
     "document_validations": [
@@ -1539,7 +2254,15 @@
         "actual_hash": "3e5e8e0934d4fd9c386586f2f50936bdb85b10ee778ffe041f028ccf8541d8e1",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "9cb36c1fd55b06f31a1feaa14494db615677b9cfae845aabcf5e5949",
+      "most_recent_reward_e8s": 483971643229,
+      "most_recent_reward_xdr": 23609.104699997075,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 2922011477862,
+      "total_rewards_xdr": 188872.8375997604
+    }
   },
   {
     "name": "IC Pros",
@@ -1553,11 +2276,23 @@
     "regions": [
       "Europe"
     ],
-    "country": "CH",
-    "town": "Zurich",
+    "countries": [
+      "CH"
+    ],
+    "towns": [
+      "Zurich"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/srga3-cikqa-srnxx-rwejf-672jj-5o6qy-tuzsa-khds3-2ofjw-5gnew-mae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "373858f624de76a0ce9b84a8544626a8bb55e23a4432950767be8dcb",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Illusions In Art (Pty) Ltd",
@@ -1571,8 +2306,12 @@
     "regions": [
       "Africa"
     ],
-    "country": "ZA",
-    "town": "Cape Town",
+    "countries": [
+      "ZA"
+    ],
+    "towns": [
+      "Cape Town"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/optdi-nwa4m-hly3k-6ua4n-sqyxf-yahvb-wps77-ddayn-r7zcz-edla5-7qe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Illusions_in_Art_Ltd",
     "document_validations": [
@@ -1590,7 +2329,15 @@
         "actual_hash": "27e98c3737462db4f8da258c10eeb10d0fc42a3095f3fa280785b165bcaba993",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "d992c7e82880a5dced116a8eb8211589cc793712eba5bea2ae2a6016",
+      "most_recent_reward_e8s": 250954569308,
+      "most_recent_reward_xdr": 12242.065799982856,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 1515155158776,
+      "total_rewards_xdr": 97936.52639972845
+    }
   },
   {
     "name": "InfoObjects",
@@ -1604,11 +2351,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/7ws2n-wqorv-vmo4m-5e222-n42c3-hk43s-ei3kp-4hpbn-xlkzo-jgv7i-tqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/InfoObjects_Inc",
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "24933ddfc4748230541de16e3de186e092000c7271d7c7d3466a22eb",
+      "most_recent_reward_e8s": 53770429666,
+      "most_recent_reward_xdr": 2623.0290999668114,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 324642600143,
+      "total_rewards_xdr": 20984.232799681464
+    }
   },
   {
     "name": "Internet Computer Explorer",
@@ -1622,11 +2381,23 @@
     "regions": [
       "Europe"
     ],
-    "country": "PT",
-    "town": "Barreiro",
+    "countries": [
+      "PT"
+    ],
+    "towns": [
+      "Barreiro"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/i7v7g-cwjtl-gzd2s-nt2ko-4d5su-vh64h-bqu4h-rio26-tbaej-dtj6d-fae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "4493a30dc5816fde0f9fd3edf2fbdd1c8f4b435a4e35c85e6c5b80d2",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Ivanov Oleksandr",
@@ -1640,8 +2411,24 @@
     "regions": [
       "Europe"
     ],
-    "country": "LT",
-    "town": "Vilnius",
+    "countries": [
+      "PL",
+      "ES",
+      "PT",
+      "CZ",
+      "LT",
+      "LV",
+      "EE"
+    ],
+    "towns": [
+      "Lisbon",
+      "Madrid",
+      "Tallinn",
+      "Warszawa",
+      "Vilnius",
+      "Riga",
+      "Praha"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/ivf2y-crxj4-y6ewo-un35q-a7pum-wqmbw-pkepy-d6uew-bfmff-g5yxe-eae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Ivanov_Oleksandr",
     "document_validations": [
@@ -1666,7 +2453,15 @@
         "actual_hash": "cfa52fc312116003e3e48c634a6267a9ec4c3a3afbb6aa29d4db1e4989097780",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "bc29f494cea76625859e4ae213265463307d299c3692a3d57da70e96",
+      "most_recent_reward_e8s": 221198392849,
+      "most_recent_reward_xdr": 10790.499999959917,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 1335500234017,
+      "total_rewards_xdr": 86323.9999996402
+    }
   },
   {
     "name": "Jeffrey Schnettler",
@@ -1680,11 +2475,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Florida",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Florida"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/5zqo2-omblo-i7knq-qyrfu-mjccn-tljyd-qslab-b7ukn-7tshi-pbeke-pae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "397b1be9c86cb0e54a5f32200cadcff65243653d5c9953fc8fc80a53",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 166273687503,
+      "total_rewards_xdr": 10872.487999823365
+    }
   },
   {
     "name": "Jimmy Quach",
@@ -1698,11 +2505,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Georgia",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Georgia"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/dzxyh-fo4sw-pxckk-kwqvc-xjten-3yqon-fm62b-2hz4s-raa4g-jzczg-iqe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "ec5142ab4c3f6d907b17dafc325e0459376b6888e7119e2ad5ba6814",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 581957906266,
+      "total_rewards_xdr": 38053.70799980533
+    }
   },
   {
     "name": "Jonathan Ziskind",
@@ -1716,11 +2535,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/qcs4o-yswwp-7ozhg-m2ago-ytjyl-zlckb-raykw-fi5hl-cflyt-4beyv-zqe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "7f422aa973394789e44efed362a73aee320aac66306e701eca667eed",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 83136843751,
+      "total_rewards_xdr": 5436.243999883197
+    }
   },
   {
     "name": "Joseph Stella",
@@ -1732,11 +2563,19 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/f5wg2-kl4aq-cj4ym-nq7ul-i4kxy-t4x3x-yiyc5-3wlu6-opzwd-o5qes-hae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "a575d7da6888be41001faab040d38b264ab57b25da2784e1ae2c4e25",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Karel Frank",
@@ -1751,11 +2590,25 @@
       "Africa",
       "Oceania"
     ],
-    "country": "ZA",
-    "town": "Gauteng",
+    "countries": [
+      "AU",
+      "ZA"
+    ],
+    "towns": [
+      "Queensland",
+      "Gauteng"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/unqqg-no4b2-vbyad-ytik2-t3vly-3e57q-aje2t-sjb5l-bd4ke-chggn-uqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Karel_Frank",
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "14ab62ae87b9e65234ecb844c155ad39612f54d938e7617503450741",
+      "most_recent_reward_e8s": 819310372678,
+      "most_recent_reward_xdr": 39967.59859997819,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 4946641701827,
+      "total_rewards_xdr": 319740.78879969445
+    }
   },
   {
     "name": "Katerina Karapuz",
@@ -1767,8 +2620,8 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/3teor-k2wwx-3xzqe-eufmv-zhysu-i4ml6-ka2qz-rgeei-oobbw-xka6i-vae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Katerina_Karapuz",
     "document_validations": [
@@ -1786,7 +2639,15 @@
         "actual_hash": "965e28cfb17df505534fe72dcb29cdd43fe1eb74b5e9106d168f466fdea072dd",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "2d98189571198a0bbed4d50aa53ce59fdf7ddf628c75d07762fc08a5",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "KLAW Media, LLC",
@@ -1798,11 +2659,19 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/pcwis-xaq3p-xvasz-5cfws-oelni-xs72v-acbwz-umxnq-nb2bc-ziyuu-sqe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "3dad87f574a7075783e8b7054ec0039de4e1b80df7711f0f2dbfc13d",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Kontrapunt (Pty) Ltd",
@@ -1816,8 +2685,12 @@
     "regions": [
       "Africa"
     ],
-    "country": "ZA",
-    "town": "Cape Town",
+    "countries": [
+      "ZA"
+    ],
+    "towns": [
+      "Cape Town"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/py2kr-ipr2p-ryh66-x3a3v-5ts6u-7rfhf-alkna-ueffh-hz5ox-lt6du-qqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Kontrapunt_(Pty)_Ltd",
     "document_validations": [
@@ -1835,7 +2708,15 @@
         "actual_hash": "2b816da720ac366647a68350d03a0742e5a361160de2c9768464a0ff18a883a5",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "4a043e2fd5f8279c9adfe1aecd05064fc1d8c556c3348888ea28570b",
+      "most_recent_reward_e8s": 250954569308,
+      "most_recent_reward_xdr": 12242.065799982856,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 1515155158776,
+      "total_rewards_xdr": 97936.52639972845
+    }
   },
   {
     "name": "Krishna Enterprises",
@@ -1849,11 +2730,23 @@
     "regions": [
       "Asia"
     ],
-    "country": "IN",
-    "town": "Panvel",
+    "countries": [
+      "IN"
+    ],
+    "towns": [
+      "Panvel"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/zy4m7-z5mhs-zfkpl-zlsjl-blrbx-mvvmq-5z4zu-mf7eq-hhv7o-ezfro-3ae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Krishna_Enterprises",
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "d7593d3de9d678ffd28e986132f60e243830d449f3b87df333bccf1a",
+      "most_recent_reward_e8s": 461881046287,
+      "most_recent_reward_xdr": 22531.481199972433,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 2788638007085,
+      "total_rewards_xdr": 180251.84959988078
+    }
   },
   {
     "name": "Krishna Sriram",
@@ -1865,11 +2758,19 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/sajvr-l5iok-rj6c2-r76co-k2mde-d3kir-pnmjs-443f6-lxto4-pu55q-uae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "518930a15c098f433175d8391921c161cd942169d4a1505444980b0e",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Krzysztof Żelazko",
@@ -1881,8 +2782,8 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/j2tnr-f5tmm-afnyl-762n7-o272x-ji2xi-bcpld-ihimy-fw52d-2zqov-xae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Krzysztof_%C5%BBelazko",
     "document_validations": [
@@ -1900,7 +2801,15 @@
         "actual_hash": "0a5cfdd7efa057413bdc74b7e3cb707c46f6c84fd5f0e6a4d9f9bd7eccd5712d",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "a56577f858c2f629ad30d6e2790d4e9f8fe46fde924b56e7ce32588641deead6",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Lauren Dymecki Chickvara",
@@ -1914,11 +2823,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Florida",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Florida"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/abscc-3lezh-oezci-5i3kz-pkwlc-ozz3r-5wv4n-htujn-rtajh-6cgyv-jae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "eb1058ff49015f4c5f1f0e0d13e2205cd48bb68fb9dc14d1ff9c029b",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 83136843751,
+      "total_rewards_xdr": 5436.243999883197
+    }
   },
   {
     "name": "Louise Velayo",
@@ -1930,8 +2851,8 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/fnzev-s6xem-s2myy-rrxoa-2mpp6-oet33-pmnba-ajo75-qhfdw-esys7-7qe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Louise_Velayo",
     "document_validations": [
@@ -1949,7 +2870,15 @@
         "actual_hash": "20b9d99195d7a157833fc399d6c94c05b6ba80fc43095f88002eab9b023dcebc",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "b85db6566781be14eab3ad1a6b2a78166c6d8e3c376df8a159905022",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Lukas Helebrandt",
@@ -1963,11 +2892,23 @@
     "regions": [
       "Europe"
     ],
-    "country": "CZ",
-    "town": "South Moravian Region",
+    "countries": [
+      "CZ"
+    ],
+    "towns": [
+      "South Moravian Region"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/efem5-kmwaw-xose7-zzhgg-6bfif-twmcw-csg7a-lmqvn-wrdou-mjwlb-vqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Lukas_Helebrandt",
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "723de4dca467d0666c906cb2acc4dd35a2aa171e8e7b05d8d4984768",
+      "most_recent_reward_e8s": 167420704358,
+      "most_recent_reward_xdr": 8167.116799991955,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 1010813808225,
+      "total_rewards_xdr": 65336.93439977542
+    }
   },
   {
     "name": "Luke Jacobson",
@@ -1979,11 +2920,19 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/6dwst-olsa5-tagsr-jylgj-oicju-rf42e-o7job-gedre-fgoxt-7br62-jqe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "eec8c1d5742c23488ba0443e0c12657fb4027810f0f37aa8b59eaf83",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Maksym Ishchenko",
@@ -1997,8 +2946,24 @@
     "regions": [
       "Europe"
     ],
-    "country": "PT",
-    "town": "Barreiro",
+    "countries": [
+      "PT",
+      "LT",
+      "PL",
+      "EE",
+      "LV",
+      "CZ",
+      "ES"
+    ],
+    "towns": [
+      "Riga",
+      "Warszawa",
+      "South Moravian Region",
+      "Tallinn",
+      "Barreiro",
+      "Vilnius",
+      "Madrid"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/4r6qy-tljxg-slziw-zoteo-pboxh-vlctz-hkv2d-7zior-u3pxm-mmuxb-cae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Maksym_Ishchenko",
     "document_validations": [
@@ -2023,7 +2988,15 @@
         "actual_hash": "3ee9fa7343991112c4f43fc808ec6bcdd9c320dfc9d8d07a1675934863c62f97",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "bfedc15bc3f1e558bd61fcc1f80d87ffcbe5d301477eb15b33685bcf",
+      "most_recent_reward_e8s": 221198392849,
+      "most_recent_reward_xdr": 10790.499999959917,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 1335500234017,
+      "total_rewards_xdr": 86323.9999996402
+    }
   },
   {
     "name": "Marc Johnson",
@@ -2037,11 +3010,23 @@
     "regions": [
       "Europe"
     ],
-    "country": "FR",
-    "town": "Paris",
+    "countries": [
+      "FR"
+    ],
+    "towns": [
+      "Paris"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/xfvlz-qkgs4-xyeyx-lbke5-aarza-ovi52-wzpxl-3p27l-ov6ki-csxv6-qqe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "8c81c42a08ce2532c035ea22efcf3cbfb9933c5b3f319299e8abfb10",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Mariano Stoll",
@@ -2055,8 +3040,12 @@
     "regions": [
       "South America"
     ],
-    "country": "AR",
-    "town": "CABA",
+    "countries": [
+      "AR"
+    ],
+    "towns": [
+      "CABA"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/s5nvr-ipdxf-xg6wd-ofacm-7tl4i-nwjzx-uulum-cugwb-kbpsa-wrsgs-cae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Mariano_Stoll",
     "document_validations": [
@@ -2074,7 +3063,15 @@
         "actual_hash": "292d36140c03081b63bd76ec7758ce2654c9e7b4ee5d086b14915f09554d2ef6",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "ef7ac7329871db6310ab2b8db0e14a5f84ef64d6a87fce2bf16a6152",
+      "most_recent_reward_e8s": 182060715017,
+      "most_recent_reward_xdr": 8881.285799959294,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 1099203861199,
+      "total_rewards_xdr": 71050.2863996771
+    }
   },
   {
     "name": "Marvelous Web3",
@@ -2086,14 +3083,28 @@
     "total_subnets": 10,
     "total_unassigned_nodes": 4,
     "regions": [
-      "Asia",
-      "North America"
+      "North America",
+      "Asia"
     ],
-    "country": "CA",
-    "town": "Quebec",
+    "countries": [
+      "IN",
+      "CA"
+    ],
+    "towns": [
+      "Quebec",
+      "New Delhi"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/7uioy-xitfw-yqcko-5gpya-3lpsw-dw7zt-dyyyf-wfqif-jvi76-fdbkg-cqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Marvelous_Web3",
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "cf1b6a1af9ab82b1c997b6c8bdfc693966a07405773b0dffaae96307",
+      "most_recent_reward_e8s": 449327528596,
+      "most_recent_reward_xdr": 21919.09549997007,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 2712845296305,
+      "total_rewards_xdr": 175352.7639998239
+    }
   },
   {
     "name": "Mary Ren",
@@ -2107,11 +3118,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/vdzyg-amckj-thvl5-bsn52-2elzd-drgii-ryh4c-izba3-xaehb-sohtd-aae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "8b75f16dacf2a0a216ca1f746d3ab235cecc64f1300175b80df0fcd3",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 415684218761,
+      "total_rewards_xdr": 27181.219999833145
+    }
   },
   {
     "name": "MB Patrankos šūvis",
@@ -2125,11 +3148,25 @@
     "regions": [
       "Europe"
     ],
-    "country": "LT",
-    "town": "Vilnius",
+    "countries": [
+      "LV",
+      "LT"
+    ],
+    "towns": [
+      "Vilnius",
+      "Riga"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/4jjya-hlyyc-s766p-fd6gr-d6tvv-vo3ah-j5ptx-i73gw-mwgyd-rw6w2-rae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "0e8b8529bbbfb2c0f1dd170d405cbe1b6c3edac4e117e5478710554c",
+      "most_recent_reward_e8s": 285938809396,
+      "most_recent_reward_xdr": 13948.66699995567,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 1674754404455,
+      "total_rewards_xdr": 108433.88139977676
+    }
   },
   {
     "name": "Mika Properties, LLC",
@@ -2143,11 +3180,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Florida",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Florida"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/3siog-htc6j-ed3wz-sguhu-2objz-g5qct-npoma-t3wwt-bd6wy-chwsi-4ae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "fa7b73adab48ba3e6c55a39fbce02cf09c49037114e62d1d8ccf0994",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 332547375009,
+      "total_rewards_xdr": 21744.975999861486
+    }
   },
   {
     "name": "MI Servers",
@@ -2161,8 +3210,14 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Illinois",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Arizona",
+      "Illinois",
+      "Virginia"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/izmhk-lpjum-uo4oy-lviba-yctpc-arg4b-2ywim-vgoiu-gqaj2-gskmw-2qe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/MI_Servers",
     "document_validations": [
@@ -2187,7 +3242,15 @@
         "actual_hash": "48e4c859db33eb48007e00761fc0dd0382fc73d0f195cb42067cace63ac104e0",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "43fcf5c1be79ff92f9c7e44165868d2932eb82f3d9b98cab16edeec2",
+      "most_recent_reward_e8s": 802673117133,
+      "most_recent_reward_xdr": 39155.999999982,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 11638472403005,
+      "total_rewards_xdr": 773665.9999997499
+    }
   },
   {
     "name": "Mitchel Guerra",
@@ -2201,11 +3264,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Florida",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Florida"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/4anlt-yam7x-eodmx-ik7mo-nl3kx-t35fj-52hfy-uv4jj-u2iea-ntg76-pqe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "f7a90b11b6f873e5a207a966412105073ecb07c53f563caae88d71b0",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 83136843751,
+      "total_rewards_xdr": 5436.243999883197
+    }
   },
   {
     "name": "ML SOLUTIONS LTD",
@@ -2217,8 +3292,8 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/n6w7e-4cio3-an35h-hntwl-zzg4p-krqjk-yfmni-q7jiu-bage2-hef5b-pae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/File:NODE-PROVIDER-SELF.pdf",
     "document_validations": [
@@ -2229,7 +3304,15 @@
         "actual_hash": "f92612f76063cfd7270a2010a184085d83a1cb43d45d6eec649ae928fb9a4d6e",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "8104a638c539bd7a9599d7b175e35fba557b8a7c365d2f6690eaa1c8",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Moon Block Ventures",
@@ -2243,11 +3326,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/sdal5-w2c3d-p3buy-zieck-2wyuj-eu5bn-rkfe6-uuspi-o4n2b-gpei7-iae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "24abb4584bba6309b5847574ab871acfd8412287b1e5585090a00161",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 166273687503,
+      "total_rewards_xdr": 10872.487999823365
+    }
   },
   {
     "name": "Mostly Wholesome, Inc.",
@@ -2261,11 +3356,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/ou3o7-akyjc-ldwd5-anyjn-l2buz-cwhbg-nehlc-abkde-qtc7w-fozdi-hae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "edf452b7c7754b83ff9998e20413646b6a9d5b70b039508276717482",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 581957906266,
+      "total_rewards_xdr": 38053.70799980533
+    }
   },
   {
     "name": "Natalia Kulesha",
@@ -2277,8 +3384,8 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/6ryfx-xszlo-xpvyj-b7vx6-m4erk-zwdkc-5lzfw-fty7k-arl66-uc3jk-nae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Natalia_Kulesha",
     "document_validations": [
@@ -2296,7 +3403,15 @@
         "actual_hash": "e2963b868f0c9f1b06f14e7f551e9aa93fffa2684038c0b9bb2829296c9baec8",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "efa8ffb869e505e64a29bdab7665b49a277d1aa84337fd55421bf543",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Nataliia Nykyforak",
@@ -2308,8 +3423,8 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/kf7dx-5wayj-3p2u4-yd4hf-m2en4-np75j-tta25-wqe7y-rlm6s-nqceb-7ae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Nataliia_Nykyforak",
     "document_validations": [
@@ -2327,7 +3442,15 @@
         "actual_hash": "05a8828277a2ca2bc9cc641a20e4e58ead0fc5d31a6e0bbc16df3222a4154d67",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "b2f0cab014594b9c7bbdaf7e57179491ead918266945da6fd8b8beef",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Neptune Partners",
@@ -2341,8 +3464,12 @@
     "regions": [
       "Asia"
     ],
-    "country": "KR",
-    "town": "Seoul",
+    "countries": [
+      "KR"
+    ],
+    "towns": [
+      "Seoul"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/4dibr-2alzr-h6kva-bvwn2-yqgsl-o577t-od46o-v275p-a2zov-tcw4f-eae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Neptune_Partners",
     "document_validations": [
@@ -2367,7 +3494,15 @@
         "actual_hash": "35712cda62bf07210b3851365dfec40d356265caa549e2b69b899e96f6849102",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "6de62b853f561e0bde6aebb2508ec62e4d3b1ef5b8ee9a7ec9952741",
+      "most_recent_reward_e8s": 953431757615,
+      "most_recent_reward_xdr": 46510.30799997493,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 5756408620399,
+      "total_rewards_xdr": 372082.46399976395
+    }
   },
   {
     "name": "Nikola Nikov",
@@ -2379,8 +3514,8 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/kn4u4-unhbe-qwud4-ki6lq-o4try-6l2gv-yrxmg-vw6st-fmlss-nsztj-7qe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Nikola_Nikov",
     "document_validations": [
@@ -2405,7 +3540,15 @@
         "actual_hash": "7d85328f9aa9019ad71e0030f2dc602390ec76e059e0f18f05f3874e49d56415",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "026b601683b69b45d0d2acfe28de125f6dc0ffd77ccc210f88bfaa37",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "NODAL CAPITAL",
@@ -2417,8 +3560,8 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/kgfpq-4th36-lvnpn-ayygq-hikoq-dndag-vvafx-msvg5-aczmu-pkzsv-7ae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/NODAL_CAPITAL",
     "document_validations": [
@@ -2436,7 +3579,15 @@
         "actual_hash": "9c0ff8a4bd195b0dc76b0c4bdd4e46d33b7e7484b07696bdbfe5f57594c8c6ad",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "6bbbde35b6d63c9629491d79615171b052664de6c58b31469f8f4d0f",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "NODAO",
@@ -2451,8 +3602,14 @@
       "Europe",
       "North America"
     ],
-    "country": "BE",
-    "town": "Flanders",
+    "countries": [
+      "US",
+      "BE"
+    ],
+    "towns": [
+      "Florida",
+      "Flanders"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/g7dkt-aapqq-j3hqt-xtiys-pwapz-idulp-nwagd-zibqm-caxa4-gc23t-3qe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/NODAO",
     "document_validations": [
@@ -2477,7 +3634,15 @@
         "actual_hash": "166f1537e12fc673591c55b3c26985f20060ab2d618864fff709a619554c8865",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "c939dfd6e9fccda41536e00a01b38316429bfc88a3c5e64e858c272d",
+      "most_recent_reward_e8s": 612152023287,
+      "most_recent_reward_xdr": 29861.99999998643,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 612152023287,
+      "total_rewards_xdr": 29861.99999998643
+    }
   },
   {
     "name": "NoviSystems, LLC",
@@ -2491,8 +3656,13 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "New York",
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/hk7eo-22zam-kqmsx-dtfbj-k5i6f-jg65h-micpf-2cztc-t2eqk-efgvx-vqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/NoviSystems",
     "document_validations": [
@@ -2503,7 +3673,15 @@
         "actual_hash": "c3d8ef713908aa1cc170fb07ff402c424ea7b44658a1c9845062c83d2a142506",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "7e0919755f31644af2b7e97739f8cf09d34cb73acce549dd5a70aa57",
+      "most_recent_reward_e8s": 69268963962,
+      "most_recent_reward_xdr": 3379.0785999942836,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 418216047545,
+      "total_rewards_xdr": 27032.628799724316
+    }
   },
   {
     "name": "OneSixtyTwo Digital Capital",
@@ -2517,8 +3695,12 @@
     "regions": [
       "Asia"
     ],
-    "country": "SG",
-    "town": "Singapore",
+    "countries": [
+      "SG"
+    ],
+    "towns": [
+      "Singapore"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/6nbcy-kprg6-ax3db-kh3cz-7jllk-oceyh-jznhs-riguq-fvk6z-6tsds-rqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/OneSixtyTwo_Digital_Capital",
     "document_validations": [
@@ -2536,7 +3718,15 @@
         "actual_hash": "b8b894f7bb5e34f11d96a346a493ee20f13f1f41be586844de4aca8641c1db51",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "33f777364eaafde71d47bb7153110378033599c4571221e5643afd3d",
+      "most_recent_reward_e8s": 1037144848509,
+      "most_recent_reward_xdr": 50593.999999966036,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 14222266861473,
+      "total_rewards_xdr": 944353.9999998269
+    }
   },
   {
     "name": "Origin Game",
@@ -2550,8 +3740,12 @@
     "regions": [
       "Asia"
     ],
-    "country": "HK",
-    "town": "HongKong",
+    "countries": [
+      "HK"
+    ],
+    "towns": [
+      "HongKong"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/cgmhq-c4zja-yov4u-zeyao-64ua5-idlhb-ezcgr-cultv-3vqjs-dhwo7-rqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/User:Soekawat",
     "document_validations": [
@@ -2569,7 +3763,15 @@
         "actual_hash": "5aa03c61a57a0d6bd8d993898d87f2f5909e813ea9ec7e38a8ff63fd12fdcd93",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "5cb1f96f2a10c8327d2589a7043dfd54c347c658bf9e0a8d4d66fd90",
+      "most_recent_reward_e8s": 237775866098,
+      "most_recent_reward_xdr": 11599.182299992635,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 1435587848207,
+      "total_rewards_xdr": 92793.45839973677
+    }
   },
   {
     "name": "Paul Creasey",
@@ -2581,8 +3783,8 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/xv5l6-677tb-f4ree-7cz2e-sawob-auqy2-23x7u-funsg-46eb2-sujic-jae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Paul_Creasey",
     "document_validations": [
@@ -2600,7 +3802,15 @@
         "actual_hash": "c15022cf023708273cc963cecd4f3aed3b19ffdf05e1d972474d1a4cb3009b57",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "9ac9d5bc158c60b0456964d12d021d438ee999929af5a84374f8716c",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Paul Legato",
@@ -2614,11 +3824,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/yr4eg-kwk3m-q44vj-ale35-2mtxk-5dyn7-vgppx-z6tcw-kzo4o-ezpm5-fqe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "62633a664a75e6082e275d56bc0e87ca70abf02ef82dbc22580511da",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 83136843751,
+      "total_rewards_xdr": 5436.243999883197
+    }
   },
   {
     "name": "Peggy Shafaghi",
@@ -2632,11 +3854,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/72idx-a7c3y-nrcwc-lboj4-mmsas-sfdpm-gq23i-h2yuy-lykcj-vrxn2-jqe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "c5451744dab71cf30021a9c187f27a638e8db18831d7fd9ae36cd350",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 166273687503,
+      "total_rewards_xdr": 10872.487999823365
+    }
   },
   {
     "name": "Philippe Chapparone",
@@ -2650,11 +3884,23 @@
     "regions": [
       "North America"
     ],
-    "country": "CR",
-    "town": "San Jose",
+    "countries": [
+      "CR"
+    ],
+    "towns": [
+      "San Jose"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/2c4m6-25hos-qroi3-mk4aj-nog6s-zbzcv-ccpcc-cbv7s-sjy6p-bv3g5-fae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "0ce6b173ab3ab68a34c76996c4e8130332219a2df112a372cb9745b0",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Pindar Technology Limited",
@@ -2668,11 +3914,25 @@
     "regions": [
       "Asia"
     ],
-    "country": "HK",
-    "town": "HongKong",
+    "countries": [
+      "HK",
+      "KR"
+    ],
+    "towns": [
+      "Seoul",
+      "HongKong"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/r3yjn-kthmg-pfgmb-2fngg-5c7d7-t6kqg-wi37r-j7gy6-iee64-kjdja-jae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/PindarTechnologyLimited",
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "dd57389f941a9d2d84223c48606b1dabe5cfbe892ceb2030a26859bb",
+      "most_recent_reward_e8s": 1189471706777,
+      "most_recent_reward_xdr": 58024.80879999561,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 7181515752882,
+      "total_rewards_xdr": 464198.4703998057
+    }
   },
   {
     "name": "Power Meta Corporation",
@@ -2686,8 +3946,12 @@
     "regions": [
       "Asia"
     ],
-    "country": "HK",
-    "town": "HongKong",
+    "countries": [
+      "HK"
+    ],
+    "towns": [
+      "HongKong"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/4fedi-eu6ue-nd7ts-vnof5-hzg66-hgzl7-liy5n-3otyp-h7ipw-owycg-uae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/User:Powermetacorp",
     "document_validations": [
@@ -2705,7 +3969,15 @@
         "actual_hash": "6db12fdac101756eeb6de5e568d4ce4e58e0dbb5fafd002001e0aa6c410cde12",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "6bebf6f3b5e0710e40472df5627f7b8918ab3fca856b7b8185943750",
+      "most_recent_reward_e8s": 178309856094,
+      "most_recent_reward_xdr": 8698.311399977507,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 1076557797160,
+      "total_rewards_xdr": 69586.49119971457
+    }
   },
   {
     "name": "Prayit Jain",
@@ -2719,11 +3991,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/waj5k-wlyvv-jbj4n-vxwjm-dmkyg-uw2nl-ggojp-34kln-wgx3n-d7xih-5qe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "aa8d4d7fd326f32fd22169b922722488a4bcdf4c67037b7491f4d6a8",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 166273687503,
+      "total_rewards_xdr": 10872.487999823365
+    }
   },
   {
     "name": "Privoxy Solutions, LLC",
@@ -2737,8 +4021,12 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Utah",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Utah"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/trxbq-wy5xi-3y27q-bkpaf-mhi2m-puexs-yatgt-nhwiy-dh6jy-rolw5-zqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Privoxy_Solutions,_LLC.",
     "document_validations": [
@@ -2756,7 +4044,15 @@
         "actual_hash": "13be81b338fa16661391ddfcf8c7721ec26fe964f1ad649dc9fe8f5ae7905f45",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "16615ce0774f65a5a91ebce56a94f0284b2f602f86b16cff915d5767",
+      "most_recent_reward_e8s": 58051174613,
+      "most_recent_reward_xdr": 2831.8523999713657,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 350487886832,
+      "total_rewards_xdr": 22654.819199654605
+    }
   },
   {
     "name": "Protocol16",
@@ -2770,8 +4066,12 @@
     "regions": [
       "Asia"
     ],
-    "country": "SG",
-    "town": "Singapore",
+    "countries": [
+      "SG"
+    ],
+    "towns": [
+      "Singapore"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/x7uok-pi537-itm37-unjn3-ewkze-kuetg-kptap-nuqak-auq7z-tn5ey-dqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/User:Protocol16",
     "document_validations": [
@@ -2789,7 +4089,15 @@
         "actual_hash": "ba5d2bead0ad9dd5777287257607ad79678d8638a76bb6af2c46b3eb855daf8b",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "a3c7ebfd95677c26ea1130ce060f0021d1b7c605b068f7e692e00aeb",
+      "most_recent_reward_e8s": 682997827067,
+      "most_recent_reward_xdr": 33317.99999998239,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 682997827067,
+      "total_rewards_xdr": 33317.99999998239
+    }
   },
   {
     "name": "Rachel Dymecki",
@@ -2803,11 +4111,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Georgia",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Georgia"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/chnsu-yaqt5-6osy5-au4zn-li6yu-nufmw-dewrt-utkiu-twd76-ujypw-rae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "504e96ae6a4853aaf5749aa074a3c6ad7aaf05b25e36b0d97fad441f",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 83136843751,
+      "total_rewards_xdr": 5436.243999883197
+    }
   },
   {
     "name": "Reist Telecom AG",
@@ -2821,8 +4141,12 @@
     "regions": [
       "Europe"
     ],
-    "country": "CH",
-    "town": "Zurich",
+    "countries": [
+      "CH"
+    ],
+    "towns": [
+      "Zurich"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/ma7dp-gz4tg-3c2wv-pgnsv-wna7u-czvhu-fpu47-t4dr6-gzxql-wr2m2-qae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Reist_Telecom_AG",
     "document_validations": [
@@ -2847,7 +4171,15 @@
         "actual_hash": "e64a2061eefa819b581c2977763fa1eb2a40fea92f801485d0a92d53b6b7bfa6",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "7366492a04997ea736704dc9461104d86088a739b15d9fb1d2f59d56",
+      "most_recent_reward_e8s": 652043786642,
+      "most_recent_reward_xdr": 31807.999999970045,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 652043786642,
+      "total_rewards_xdr": 31807.999999970045
+    }
   },
   {
     "name": "Richard Ma",
@@ -2861,11 +4193,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Florida",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Florida"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/egb3e-rzi2e-vpsmm-akysp-l2owk-4dgst-b5hmg-xrkwa-cr3uk-zlzds-mae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "8b75f16dacf2a0a216ca1f746d3ab235cecc64f1300175b80df0fcd3",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 581957906266,
+      "total_rewards_xdr": 38053.70799980533
+    }
   },
   {
     "name": "Richard Suarez",
@@ -2879,11 +4223,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/cmcjw-6c5ve-4zjnt-lipnl-2lp43-oh5wk-ewciz-xyvnv-m2rz5-hkm6a-hqe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "7c872817f9aaa2b5734b5866f9c4725c81fb1f0a4f2674a5779b5cf2",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 83136843751,
+      "total_rewards_xdr": 5436.243999883197
+    }
   },
   {
     "name": "Ricky Sidhu",
@@ -2897,11 +4253,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/q22bo-3uyqa-jvtpt-gapjk-pseor-esx4a-zyb74-vzea4-o7nx2-tafgq-hae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "6d5ec2387648c9d3d8b7a12b0e94bde0db359f44481d9f9e2915ab1e",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 166273687503,
+      "total_rewards_xdr": 10872.487999823365
+    }
   },
   {
     "name": "Rishi Sachdev",
@@ -2915,11 +4283,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Florida",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Florida"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/6tg64-cdfoh-kl35i-p6qti-sose3-746lr-jk5ex-phuvu-jfu3d-5svwa-7qe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "6b2e4e0446b2aeebea76f2cdcd70b2e24048337481506a44bf2b3d49",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 581957906266,
+      "total_rewards_xdr": 38053.70799980533
+    }
   },
   {
     "name": "Rivonia Holdings LLC",
@@ -2933,8 +4313,14 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Illinois",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Florida",
+      "New York",
+      "Illinois"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/spp3m-vawt7-3gyh6-pjz5d-6zidf-up3qb-yte62-otexv-vfpqg-n6awf-lqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Rivonia_Holdings,_LLC",
     "document_validations": [
@@ -2959,7 +4345,15 @@
         "actual_hash": "b855c7ef7738be197db502fca07201353ce360bf8c5f2d2edfa3763494e13459",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "13345c21cc95fa064f8ffdfddcbed03396a0c9e4f94f0da26e908758",
+      "most_recent_reward_e8s": 903447993112,
+      "most_recent_reward_xdr": 44071.99999998958,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 11739247278984,
+      "total_rewards_xdr": 778581.9999997575
+    }
   },
   {
     "name": "Rivram Inc",
@@ -2971,14 +4365,28 @@
     "total_subnets": 10,
     "total_unassigned_nodes": 3,
     "regions": [
-      "North America",
-      "Asia"
+      "Asia",
+      "North America"
     ],
-    "country": "CA",
-    "town": "Quebec",
+    "countries": [
+      "IN",
+      "CA"
+    ],
+    "towns": [
+      "Navi Mumbai",
+      "Quebec"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/ulyfm-vkxtj-o42dg-e4nam-l4tzf-37wci-ggntw-4ma7y-d267g-ywxi6-iae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Rivram_Inc",
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "ff363a8cf4f83becbea95435e70fc5f42a4a3d2317e5ed7bdb992953",
+      "most_recent_reward_e8s": 590281851912,
+      "most_recent_reward_xdr": 28795.12929997118,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 3563866541755,
+      "total_rewards_xdr": 230361.03439970742
+    }
   },
   {
     "name": "Rodney Zorrilla",
@@ -2992,11 +4400,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/bgprp-b2mnt-ci5in-57vuk-p7qvo-tj2tb-5w5su-qwenk-gbe77-mnuiq-sqe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "3585a5d229733ffbfef4a4729b25feac161108a2ba1e33befa8c0a2d",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 83136843751,
+      "total_rewards_xdr": 5436.243999883197
+    }
   },
   {
     "name": "Ronnie Pellizzari",
@@ -3010,11 +4430,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Georgia",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Georgia"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/wwxec-c2gd2-bu5on-ktpwz-z2ph3-vlr4p-m7ztf-6ck7r-nt3r4-fxbdq-mae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "a46db803163c77fb785e913accca87a5b433ca5d69a3215a4b4f87e9",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 166273687503,
+      "total_rewards_xdr": 10872.487999823365
+    }
   },
   {
     "name": "Russell Ford",
@@ -3028,11 +4460,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Georgia",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Georgia"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/p5jx4-lsrog-ep5o3-5uudg-opdg3-ur45z-xeefi-4ejfz-47t2k-riwfv-dae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "d9a7342d5c63284e00655629827dc6c1e685df5cc11b88e47b79594a",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 83136843751,
+      "total_rewards_xdr": 5436.243999883197
+    }
   },
   {
     "name": "Scott Hallock",
@@ -3044,11 +4488,19 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/i6sxi-fks25-viets-mboa7-3i23b-qeocf-e57qj-ar6vy-2mchu-xb5vp-aqe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "17597224eb87089079924f4113c9b24e475389ec721cb4118c2a399a",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Serenity Lotus Limited",
@@ -3060,8 +4512,8 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/2cfu2-qyug6-y4cme-lvj3c-6fs65-cbti4-ea6ig-nkaoj-fsbte-7n5gp-wae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Serenity_lotus_limited",
     "document_validations": [
@@ -3079,7 +4531,15 @@
         "actual_hash": "f16619f9877016b4c43055e8d112f549ac0c84a66245082898550f9e12f7f691",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "ed55390f24a55d2ff373f2582a3413c67285f1a1c79b99739ff7b105",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Shelburne Ventures, LLC",
@@ -3093,11 +4553,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/a24zv-2ndbz-hqogc-ev63f-qxnpb-7ramd-usexl-ennaq-4om4k-sod6u-gae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "fb5776905609de83fe601470c0a68f3dd0fd310009a19226d23e7f7f",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 581957906266,
+      "total_rewards_xdr": 38053.70799980533
+    }
   },
   {
     "name": "Staking Facilities",
@@ -3109,11 +4581,19 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/niw4y-easue-l3qvz-sozsi-tfkvb-cxcx6-pzslg-5dqld-ooudp-hsuui-xae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "105d7ddc59d849ec86103bb6180c834f4096ffdbd723cdd781f4dde5",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 672631866298,
+      "total_rewards_xdr": 44351.99999995752
+    }
   },
   {
     "name": "Starbase",
@@ -3127,8 +4607,12 @@
     "regions": [
       "Asia"
     ],
-    "country": "JP",
-    "town": "Tokyo",
+    "countries": [
+      "JP"
+    ],
+    "towns": [
+      "Tokyo"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/sixix-2nyqd-t2k2v-vlsyz-dssko-ls4hl-hyij4-y7mdp-ja6cj-nsmpf-yae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Starbase",
     "document_validations": [
@@ -3146,7 +4630,15 @@
         "actual_hash": "c2ee042289c9b2028a9d5e7c874afa190df7dfad5c05cbb9abf0f3c54e5c6e91",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "77d0acc4c8da71ac7651b528914473f6f86533f267621d08916c3d5a",
+      "most_recent_reward_e8s": 998483047025,
+      "most_recent_reward_xdr": 48707.99999997355,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 13814942108968,
+      "total_rewards_xdr": 917477.9999997783
+    }
   },
   {
     "name": "Starseed Technology, LLC",
@@ -3160,11 +4652,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/ruxoj-jnqql-uau6o-xwrtb-ufde4-geddn-mnhni-wpew4-zhzi5-xjrxi-lqe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "87d8a86241149e63e84698c11056ce90ed214ac4647657ddd42377ad",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 83136843751,
+      "total_rewards_xdr": 5436.243999883197
+    }
   },
   {
     "name": "Sygnum Bank",
@@ -3178,8 +4682,12 @@
     "regions": [
       "Europe"
     ],
-    "country": "CH",
-    "town": "Zurich",
+    "countries": [
+      "CH"
+    ],
+    "towns": [
+      "Zurich"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/6r5lw-l7db7-uwixn-iw5en-yy55y-ilbtq-e6gcv-g22r2-j3g6q-y37jk-jqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Sygnum",
     "document_validations": [
@@ -3204,7 +4712,15 @@
         "actual_hash": "e64a2061eefa819b581c2977763fa1eb2a40fea92f801485d0a92d53b6b7bfa6",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "c81cb7e8820e954f082a48897aaea4b9601e11ee3a5a09276d95fc9d",
+      "most_recent_reward_e8s": 978065679963,
+      "most_recent_reward_xdr": 47711.999999955064,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 13237915972717,
+      "total_rewards_xdr": 878751.999999665
+    }
   },
   {
     "name": "The Fenex Company LLC",
@@ -3216,8 +4732,8 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/b7yyj-o7vc6-hdbzl-eggkm-bp2hg-3jmcv-5j5nn-t6zkq-ino4b-cvyde-yqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/User:FenexLLC",
     "document_validations": [
@@ -3235,7 +4751,15 @@
         "actual_hash": "fe0994cb2abc2b0c12d42f61b56b08314b897ca617f2cb4aa4df424b26edfad9",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "57ec85d9334cdd73b1a90108882508f2ffde49e853fbc5fa5e6990ec",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Tomahawk.vc",
@@ -3249,8 +4773,12 @@
     "regions": [
       "Europe"
     ],
-    "country": "CH",
-    "town": "Zurich",
+    "countries": [
+      "CH"
+    ],
+    "towns": [
+      "Zurich"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/ucjqj-jmbj3-rs4aq-ekzpw-ltjs3-zrcma-t6r3t-m5wxc-j5yrj-unwoj-mae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Tenderloin_Ventures_AG",
     "document_validations": [
@@ -3268,7 +4796,15 @@
         "actual_hash": "9fe65bd2732699feb62bbb4e762ebb247bbfee8888edc257368eff0954082ff9",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "ef8be46ea0c92591a9087b90cee923bd08dd237968093bdc72a794f6",
+      "most_recent_reward_e8s": 978065679963,
+      "most_recent_reward_xdr": 47711.999999955064,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 8333975855615,
+      "total_rewards_xdr": 546335.9999997616
+    }
   },
   {
     "name": "Uvaca Labs LLC",
@@ -3282,8 +4818,12 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Oregon",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Oregon"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/dodsd-rsjlg-sgekb-gr6mi-l6fck-tscwk-4jzgl-fwk4q-ncoyu-ulx53-aqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Uvaca_Labs_LLC",
     "document_validations": [
@@ -3308,7 +4848,15 @@
         "actual_hash": "cce9ed442f3b5aa428413a0994bf814c40db64ccd3c3aaa0a48f016ae63b5e1d",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "32575eb043429d6ac04d4f6301ef10b26fc185dd5e113b7781cc7b08",
+      "most_recent_reward_e8s": 576278135377,
+      "most_recent_reward_xdr": 28111.999999960815,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 1162473029160,
+      "total_rewards_xdr": 71283.99999988455
+    }
   },
   {
     "name": "Virtual Hive Ltd",
@@ -3322,8 +4870,12 @@
     "regions": [
       "Europe"
     ],
-    "country": "DE",
-    "town": "Hesse",
+    "countries": [
+      "DE"
+    ],
+    "towns": [
+      "Hesse"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/wdnqm-clqti-im5yf-iapio-avjom-kyppl-xuiza-oaz6z-smmts-52wyg-5ae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/VirtualHiveLtd",
     "document_validations": [
@@ -3341,7 +4893,15 @@
         "actual_hash": "3948f6e645970ffbfb8981fc38101da4c120a28657ea5e924b9f53d1a2703e62",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "9745c45b325886895dfbfe41b23ca42f9e4b4b4e45b9473e2d7adb50",
+      "most_recent_reward_e8s": 587245295395,
+      "most_recent_reward_xdr": 28646.999999958887,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 5167340310422,
+      "total_rewards_xdr": 339110.9999997366
+    }
   },
   {
     "name": "Vladyslav Popov",
@@ -3355,8 +4915,24 @@
     "regions": [
       "Europe"
     ],
-    "country": "PT",
-    "town": "Lisbon",
+    "countries": [
+      "EE",
+      "ES",
+      "LT",
+      "LV",
+      "PT",
+      "PL",
+      "CZ"
+    ],
+    "towns": [
+      "Praha",
+      "Siauliai",
+      "Warszawa",
+      "Lisbon",
+      "Tallinn",
+      "Madrid",
+      "Riga"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/3oqw6-vmpk2-mlwlx-52z5x-e3p7u-fjlcw-yxc34-lf2zq-6ub2f-v63hk-lae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Vladyslav_Popov",
     "document_validations": [
@@ -3381,7 +4957,15 @@
         "actual_hash": "5d2b108c25d54e4d5d5ca12a55c5165341bbcbbe2c907816c8b026f7cd5f73f6",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "8650803e3140853ba635398530a90620726eaa8cba7488a59227d954",
+      "most_recent_reward_e8s": 221198392849,
+      "most_recent_reward_xdr": 10790.499999959917,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 1335500234017,
+      "total_rewards_xdr": 86323.9999996402
+    }
   },
   {
     "name": "Wancloud limited",
@@ -3395,11 +4979,23 @@
     "regions": [
       "Asia"
     ],
-    "country": "HK",
-    "town": "HongKong",
+    "countries": [
+      "HK"
+    ],
+    "towns": [
+      "HongKong"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/g2ax6-jrkmb-3zuh3-jibtb-q5xoq-njrgo-5utbc-j2o7g-zfq2w-yyhky-dqe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "3845d07c374e44bf18b266ee4aca732d521cac70ae9e242d20a038a3",
+      "most_recent_reward_e8s": 208805245787,
+      "most_recent_reward_xdr": 10185.937499981434,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 1260675771739,
+      "total_rewards_xdr": 81487.49999976401
+    }
   },
   {
     "name": "Web3game",
@@ -3413,8 +5009,14 @@
     "regions": [
       "Asia"
     ],
-    "country": "HK",
-    "town": "HongKong",
+    "countries": [
+      "KR",
+      "HK"
+    ],
+    "towns": [
+      "Seoul",
+      "HongKong"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/64xe5-tx2s3-4gjmj-pnozr-fejw2-77y5y-rhcjk-glnmx-62brf-qin5q-pqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/User:Web3game",
     "document_validations": [
@@ -3433,20 +5035,28 @@
         "matches": true
       },
       {
-        "document_type": "contract",
-        "file_path": "../np-list/web3game/contract.pdf",
-        "expected_hash": "9e60ea6c6b51c0e86a5870c69dc1acbbfea51dc81a7a729d5ee9c5ac6e1aa04d",
-        "actual_hash": "9e60ea6c6b51c0e86a5870c69dc1acbbfea51dc81a7a729d5ee9c5ac6e1aa04d",
-        "matches": true
-      },
-      {
         "document_type": "invoice",
         "file_path": "../np-list/web3game/invoice.pdf",
         "expected_hash": "8e9d7086fd6eb84ab7da4c3bf474dbfccdd6480f5005f54e4284a98f5f088332",
         "actual_hash": "8e9d7086fd6eb84ab7da4c3bf474dbfccdd6480f5005f54e4284a98f5f088332",
         "matches": true
+      },
+      {
+        "document_type": "contract",
+        "file_path": "../np-list/web3game/contract.pdf",
+        "expected_hash": "9e60ea6c6b51c0e86a5870c69dc1acbbfea51dc81a7a729d5ee9c5ac6e1aa04d",
+        "actual_hash": "9e60ea6c6b51c0e86a5870c69dc1acbbfea51dc81a7a729d5ee9c5ac6e1aa04d",
+        "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "47d4b33772360770d502724de897b3cd3e25ee883ea512a9111907a5",
+      "most_recent_reward_e8s": 592667576155,
+      "most_recent_reward_xdr": 28911.509699993207,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 3578270512974,
+      "total_rewards_xdr": 231292.0775997275
+    }
   },
   {
     "name": "William Zelver",
@@ -3460,11 +5070,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "California",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "California"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/usau7-upgoh-sg464-6qnso-lud42-nxho6-ith26-a2jhq-q5bgy-ajeou-4ae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "2dcfe2c4dc1986944c27d8853d699c141c83a7f278a62c1b71b5047b",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 83136843751,
+      "total_rewards_xdr": 5436.243999883197
+    }
   },
   {
     "name": "WMA Investments Limited",
@@ -3476,11 +5098,19 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/7ne6c-3ahs2-76so4-te6hs-oq4mv-zhz4c-pqj2b-rxjmq-q56vn-tvpgj-2ae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "6f6fdc7d039dd9dd18093799735e344b933b8c552f7dd4288499273e",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Wolfhound LLC",
@@ -3494,11 +5124,23 @@
     "regions": [
       "North America"
     ],
-    "country": "US",
-    "town": "Georgia",
+    "countries": [
+      "US"
+    ],
+    "towns": [
+      "Georgia"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/6mifr-stcqy-w5pzr-qpijh-jopft-p6jl3-n2sww-jhmzg-uzknn-hte4m-pae",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "4ed82cc94dc958810fb421276dd75785ba08558cdf3ba467d9e6dcb6",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 166273687503,
+      "total_rewards_xdr": 10872.487999823365
+    }
   },
   {
     "name": "Wolkboer (Pty) Ltd",
@@ -3512,8 +5154,12 @@
     "regions": [
       "Africa"
     ],
-    "country": "ZA",
-    "town": "Gauteng",
+    "countries": [
+      "ZA"
+    ],
+    "towns": [
+      "Gauteng"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/mme7u-zxs3z-jq3un-fbaly-nllcz-toct2-l2kp3-larrb-gti4r-u2bmo-dae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Wolkboer_(Pty)_Ltd",
     "document_validations": [
@@ -3524,7 +5170,15 @@
         "actual_hash": "e70cc97bb4997a1f6096fadbbb9a7f6368975a8be2d5cc2566d2c30df9d4aa7f",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "385c87fa4547748e2f58708a211a485b466f55482bdbdb742593ae4a",
+      "most_recent_reward_e8s": 250954569308,
+      "most_recent_reward_xdr": 12242.065799982856,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 1515155158776,
+      "total_rewards_xdr": 97936.52639972845
+    }
   },
   {
     "name": "Zarety LLC",
@@ -3536,8 +5190,8 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/glrjs-2dbzh-owbdd-fpp5e-eweoz-nsuto-e3jmk-tl42c-wem4f-qfpfa-qqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Zarety_LLC",
     "document_validations": [
@@ -3555,7 +5209,15 @@
         "actual_hash": "4f9983a12136922e80784bfa3781a7795d3f6dda14401c653b63e5818a87b36b",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "a33a5a9222426e09624f4680edc836ba1fde7fdc294cd99973239ec1",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Zenith Code LLC",
@@ -3569,8 +5231,12 @@
     "regions": [
       "Asia"
     ],
-    "country": "IN",
-    "town": "New Delhi",
+    "countries": [
+      "IN"
+    ],
+    "towns": [
+      "New Delhi"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/pa5mu-yxsey-b4yrk-bodka-dhjnm-a3nx4-w2grw-3b766-ddr6e-nupu4-pqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/User:Zenithcode",
     "document_validations": [
@@ -3588,7 +5254,15 @@
         "actual_hash": "60b4da47a6236b9b62c1c1780d7ead7dfc5f95db406e3e35f59cb4828df54a2d",
         "matches": true
       }
-    ]
+    ],
+    "rewards": {
+      "reward_account_hex": "81f2877dae740c1ca3d1bdd66783c03836baa1d59e1408c626c51b21",
+      "most_recent_reward_e8s": 83906590545,
+      "most_recent_reward_xdr": 4093.1312999661895,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 506591706500,
+      "total_rewards_xdr": 32745.05039971625
+    }
   },
   {
     "name": "Zondax AG",
@@ -3602,11 +5276,23 @@
     "regions": [
       "Europe"
     ],
-    "country": "CH",
-    "town": "Zurich",
+    "countries": [
+      "CH"
+    ],
+    "towns": [
+      "Zurich"
+    ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/hzqcb-iiagd-4erjo-qn7rq-syqro-zztl6-cpble-atnkd-2c6bg-bxjoa-qae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Zondax_AG",
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "4bf47bf70901f123191b7930b456e810fe73904bac649b4c018f7d4a",
+      "most_recent_reward_e8s": 61619552293,
+      "most_recent_reward_xdr": 3005.924999957126,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 372032208046,
+      "total_rewards_xdr": 24047.399999801502
+    }
   },
   {
     "name": "ZTLC PTE LTD",
@@ -3618,11 +5304,19 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/amsdj-4ss2k-wwcae-kroro-ippwx-lcro4-ysoha-uqlvc-3267j-vt3fy-yqe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "b7f363a5eec19a835bedb4c8a879f2089699c77e6a0325400622ad6d",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1742004534,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "ZTLC PTE LTD (deprecated)",
@@ -3634,11 +5328,19 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/xsrwt-tl3tk-n3aya-rafh3-ta6xu-eviw5-ae5dg-2f3bf-siaab-wdwdo-dqe",
     "wiki_link": null,
-    "document_validations": []
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "bf2b0e773f5d52018e6d6a27edb100964bbf4f49811150ea4c31d968",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_rewards_e8s": 0,
+      "total_rewards_xdr": 0.0
+    }
   },
   {
     "name": "Stamper Co., Ltd.",
@@ -3650,11 +5352,12 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Stamper_Co.,_Ltd.",
-    "document_validations": []
+    "document_validations": [],
+    "rewards": null
   },
   {
     "name": "Technical University of Munich",
@@ -3666,10 +5369,11 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
     "regions": [],
-    "country": null,
-    "town": null,
+    "countries": [],
+    "towns": [],
     "dashboard_link": "",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Technical_University_of_Munich",
-    "document_validations": []
+    "document_validations": [],
+    "rewards": null
   }
 ]

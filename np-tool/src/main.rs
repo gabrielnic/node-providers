@@ -1,9 +1,47 @@
+use candid::{CandidType, Decode, Encode};
+use ic_agent::{export::Principal, Agent};
 use serde::{Deserialize, Serialize};
 use std::collections::{HashMap, HashSet};
-use std::error::Error;
 use std::fs::{self, File};
 use std::io::{self, Read};
 use std::path::Path;
+use thiserror::Error;
+
+// Configuration constants
+const JSON_PATH: &str = "node_providers.json";
+const TOML_PATH: &str = "node_providers-wiki.toml";
+const DOCS_DIR: &str = "../np-list";
+const OUTPUT_PATH: &str = "combined_providers.json";
+const GOVERNANCE_CANISTER_ID: &str = "rrkah-fqaaa-aaaaa-aaaaq-cai";
+const IC_URL: &str = "https://ic0.app";
+
+// Custom error type
+#[derive(Error, Debug)]
+enum MyError {
+    #[error("IO error: {0}")]
+    Io(#[from] io::Error),
+
+    #[error("JSON parsing error: {0}")]
+    Json(#[from] serde_json::Error),
+
+    #[error("TOML parsing error: {0}")]
+    Toml(String),
+
+    #[error("File hash calculation error: {0}")]
+    HashCalculation(String),
+
+    #[error("IC Agent error: {0}")]
+    IcAgent(#[from] ic_agent::AgentError),
+
+    #[error("Candid error: {0}")]
+    Candid(#[from] candid::Error),
+
+    #[error("Principal error: {0}")]
+    Principal(#[from] ic_agent::export::PrincipalError),
+}
+
+// Custom result type
+type Result<T> = std::result::Result<T, MyError>;
 
 // API Data Structures
 #[derive(Debug, Serialize, Deserialize)]
@@ -56,7 +94,90 @@ struct DocumentValidation {
     matches: bool,
 }
 
-// Combined Data Structure with regions
+// Governance API structures for rewards
+#[derive(Debug, Serialize, Deserialize, CandidType)]
+struct AccountIdentifier {
+    hash: Vec<u8>,
+}
+
+#[derive(Debug, Serialize, Deserialize, CandidType)]
+struct NodeProviderReward {
+    id: Option<Principal>,
+    reward_account: Option<AccountIdentifier>,
+}
+
+#[derive(Debug, Serialize, Deserialize, CandidType)]
+struct RewardToNeuron {
+    dissolve_delay_seconds: u64,
+}
+
+#[derive(Debug, Serialize, Deserialize, CandidType)]
+struct RewardToAccount {
+    to_account: Option<AccountIdentifier>,
+}
+
+#[derive(Debug, Serialize, Deserialize, CandidType)]
+enum RewardMode {
+    RewardToNeuron(RewardToNeuron),
+    RewardToAccount(RewardToAccount),
+}
+
+#[derive(Debug, Serialize, Deserialize, CandidType)]
+struct RewardNodeProvider {
+    node_provider: Option<NodeProviderReward>,
+    reward_mode: Option<RewardMode>,
+    amount_e8s: u64,
+}
+
+#[derive(Debug, Serialize, Deserialize, CandidType)]
+struct XdrConversionRate {
+    xdr_permyriad_per_icp: Option<u64>,
+    timestamp_seconds: Option<u64>,
+}
+
+#[derive(Debug, Serialize, Deserialize, CandidType)]
+struct MonthlyNodeProviderRewards {
+    timestamp: u64,
+    rewards: Vec<RewardNodeProvider>,
+    xdr_conversion_rate: Option<XdrConversionRate>,
+    #[serde(default)]
+    pub node_providers: Vec<NodeProviderReward>,
+    #[serde(default)]
+    pub registry_version: Option<u64>,
+    #[serde(default)]
+    pub minimum_xdr_permyriad_per_icp: Option<u64>,
+    #[serde(default)]
+    pub maximum_node_provider_rewards_e8s: Option<u64>,
+}
+
+#[derive(Debug, Serialize, Deserialize, CandidType)]
+struct DateRangeFilter {
+    start_timestamp_seconds: Option<u64>,
+    end_timestamp_seconds: Option<u64>,
+}
+
+#[derive(Debug, Serialize, Deserialize, CandidType)]
+struct ListNodeProviderRewardsRequest {
+    date_filter: Option<DateRangeFilter>,
+}
+
+#[derive(Debug, Serialize, Deserialize, CandidType)]
+struct ListNodeProviderRewardsResponse {
+    rewards: Vec<MonthlyNodeProviderRewards>,
+}
+
+// Provider reward info
+#[derive(Debug, Clone, Serialize)]
+struct ProviderRewardInfo {
+    reward_account_hex: Option<String>,
+    most_recent_reward_e8s: Option<u64>,
+    most_recent_reward_xdr: Option<f64>,
+    most_recent_timestamp: Option<u64>,
+    total_rewards_e8s: u64,
+    total_rewards_xdr: f64,
+}
+
+// Combined Data Structure with rewards
 #[derive(Debug, Clone, Serialize)]
 struct CombinedNodeProvider {
     // Core identifying information
@@ -73,8 +194,8 @@ struct CombinedNodeProvider {
 
     // Location info
     regions: Vec<String>,
-    country: Option<String>,
-    town: Option<String>,
+    countries: Vec<String>,
+    towns: Vec<String>,
     dashboard_link: String,
 
     // From Wiki
@@ -82,53 +203,59 @@ struct CombinedNodeProvider {
 
     // Document validations
     document_validations: Vec<DocumentValidation>,
+
+    // Reward information
+    rewards: Option<ProviderRewardInfo>,
 }
 
 // Parse JSON API data
-fn parse_json(content: &str) -> Result<ApiResponse, serde_json::Error> {
-    serde_json::from_str(content)
+fn parse_json(content: &str) -> Result<ApiResponse> {
+    Ok(serde_json::from_str(content)?)
 }
 
 // Extract location info from location data
-fn extract_location_info(locations: &[Location]) -> (Vec<String>, Option<String>, Option<String>) {
+fn extract_location_info(locations: &[Location]) -> (Vec<String>, Vec<String>, Vec<String>) {
     let mut regions = HashSet::new();
-    let mut country = None;
-    let mut town = None;
+    let mut countries = HashSet::new();
+    let mut towns = HashSet::new();
 
-    if let Some(first_location) = locations.first() {
-        let parts: Vec<&str> = first_location.region.split(',').collect();
+    for location in locations {
+        let parts: Vec<&str> = location.region.split(',').collect();
 
         // Extract region (first part)
         if let Some(region_part) = parts.first() {
-            regions.insert(region_part.trim().to_string());
+            if !region_part.trim().is_empty() {
+                regions.insert(region_part.trim().to_string());
+            }
         }
 
         // Extract country (second part if available)
         if parts.len() > 1 {
-            country = Some(parts[1].trim().to_string());
+            if !parts[1].trim().is_empty() {
+                countries.insert(parts[1].trim().to_string());
+            }
         }
 
         // Extract town (third part if available)
         if parts.len() > 2 {
-            town = Some(parts[2].trim().to_string());
+            if !parts[2].trim().is_empty() {
+                towns.insert(parts[2].trim().to_string());
+            }
         }
     }
 
-    // Add regions from other locations
-    for location in locations.iter().skip(1) {
-        if let Some(region_part) = location.region.split(',').next() {
-            regions.insert(region_part.trim().to_string());
-        }
-    }
-
-    (regions.into_iter().collect(), country, town)
+    (
+        regions.into_iter().collect(),
+        countries.into_iter().collect(),
+        towns.into_iter().collect(),
+    )
 }
 
 // Parse TOML wiki data
-fn parse_toml_content(content: &str) -> Result<HashMap<String, NodeProviderWikiInfo>, String> {
+fn parse_toml_content(content: &str) -> Result<HashMap<String, NodeProviderWikiInfo>> {
     let parsed_toml: toml::Table = match content.parse() {
         Ok(value) => value,
-        Err(err) => return Err(format!("Error parsing TOML: {}", err)),
+        Err(err) => return Err(MyError::Toml(format!("Error parsing TOML: {}", err))),
     };
 
     let mut result = HashMap::new();
@@ -195,7 +322,7 @@ fn parse_toml_content(content: &str) -> Result<HashMap<String, NodeProviderWikiI
 // Process document files in the specified directory
 fn process_document_files<P: AsRef<Path>>(
     base_path: P,
-) -> io::Result<HashMap<String, HashMap<String, String>>> {
+) -> Result<HashMap<String, HashMap<String, String>>> {
     let mut result = HashMap::new();
     let allowed_docs: HashSet<&str> = [
         "declaration",
@@ -252,7 +379,7 @@ fn process_document_files<P: AsRef<Path>>(
 }
 
 // Calculate SHA-256 hash of a file
-fn calculate_file_hash(file_path: &str) -> Result<String, io::Error> {
+fn calculate_file_hash(file_path: &str) -> Result<String> {
     let mut file = File::open(file_path)?;
     let mut buffer = Vec::new();
     file.read_to_end(&mut buffer)?;
@@ -282,7 +409,7 @@ fn merge_node_provider_data(
     // Process each API provider
     for provider in &api_data.node_providers {
         let normalized_api_name = provider.display_name.to_lowercase();
-        let (regions, country, town) = extract_location_info(&provider.locations);
+        let (regions, countries, towns) = extract_location_info(&provider.locations);
         let dashboard_link = format!(
             "https://dashboard.internetcomputer.org/provider/{}",
             provider.principal_id
@@ -298,11 +425,12 @@ fn merge_node_provider_data(
             total_subnets: provider.total_subnets,
             total_unassigned_nodes: provider.total_unassigned_nodes,
             regions,
-            country,
-            town,
+            countries,
+            towns,
             dashboard_link,
             wiki_link: None,
             document_validations: Vec::new(),
+            rewards: None,
         };
 
         // Try to match with wiki data based on name
@@ -394,11 +522,12 @@ fn merge_node_provider_data(
                 total_subnets: 0,
                 total_unassigned_nodes: 0,
                 regions: Vec::new(),
-                country: None,
-                town: None,
+                countries: Vec::new(),
+                towns: Vec::new(),
                 dashboard_link: String::new(),
                 wiki_link: info.wiki_link.clone(),
                 document_validations: Vec::new(),
+                rewards: None,
             };
             combined_providers.push(combined);
         }
@@ -425,31 +554,158 @@ fn count_document_validations(combined_data: &[CombinedNodeProvider]) -> (usize,
     (valid_count, invalid_count)
 }
 
-fn main() -> Result<(), Box<dyn Error>> {
-    // Configuration
-    let json_path = "node_providers.json";
-    let toml_path = "node_providers-wiki.toml";
-    let docs_dir = "../np-list";
-    let output_path = "combined_providers.json";
+// Fetch rewards data from the governance canister
+async fn fetch_node_provider_rewards(agent: &Agent) -> Result<ListNodeProviderRewardsResponse> {
+    // Create request with no date filter to get all rewards
+    let request = ListNodeProviderRewardsRequest { date_filter: None };
 
+    // Encode the request using Candid
+    let args = Encode!(&request)?;
+
+    // Call the governance canister
+    let principal = Principal::from_text(GOVERNANCE_CANISTER_ID)?;
+    let response = agent
+        .query(&principal, "list_node_provider_rewards")
+        .with_arg(args)
+        .call()
+        .await?;
+
+    // Decode the response
+    let result = Decode!(response.as_slice(), ListNodeProviderRewardsResponse)?;
+
+    Ok(result)
+}
+
+// Process rewards data into a map keyed by principal ID
+fn process_rewards_data(
+    rewards_response: ListNodeProviderRewardsResponse,
+) -> HashMap<String, ProviderRewardInfo> {
+    let mut result = HashMap::new();
+
+    for monthly_reward in rewards_response.rewards {
+        // Get XDR conversion rate
+        let xdr_rate = monthly_reward
+            .xdr_conversion_rate
+            .and_then(|rate| rate.xdr_permyriad_per_icp)
+            .unwrap_or(0) as f64
+            / 10000.0; // Convert from permyriad to ratio
+
+        for reward in monthly_reward.rewards {
+            if let Some(node_provider) = reward.node_provider {
+                if let Some(id) = node_provider.id {
+                    let principal_id = id.to_text();
+
+                    let reward_account_hex = if let Some(account) = &node_provider.reward_account {
+                        Some(hex::encode(&account.hash))
+                    } else if let Some(RewardMode::RewardToAccount(account)) = &reward.reward_mode {
+                        account
+                            .to_account
+                            .as_ref()
+                            .map(|acc| hex::encode(&acc.hash))
+                    } else {
+                        None
+                    };
+
+                    // Convert E8s to ICP then to XDR
+                    let reward_xdr = if xdr_rate > 0.0 {
+                        (reward.amount_e8s as f64 / 100_000_000.0) * xdr_rate
+                    } else {
+                        0.0
+                    };
+
+                    // Add or update reward info in the map
+                    result
+                        .entry(principal_id)
+                        .and_modify(|info: &mut ProviderRewardInfo| {
+                            // Update total rewards
+                            info.total_rewards_e8s += reward.amount_e8s;
+                            info.total_rewards_xdr += reward_xdr;
+
+                            // Update most recent info if this reward is newer
+                            if let Some(current_ts) = info.most_recent_timestamp {
+                                if monthly_reward.timestamp > current_ts {
+                                    info.most_recent_timestamp = Some(monthly_reward.timestamp);
+                                    info.most_recent_reward_e8s = Some(reward.amount_e8s);
+                                    info.most_recent_reward_xdr = Some(reward_xdr);
+
+                                    // Update reward account only if we have a new one
+                                    if reward_account_hex.is_some() {
+                                        info.reward_account_hex = reward_account_hex.clone();
+                                    }
+                                }
+                            }
+                        })
+                        .or_insert_with(|| ProviderRewardInfo {
+                            reward_account_hex: reward_account_hex.clone(),
+                            most_recent_reward_e8s: Some(reward.amount_e8s),
+                            most_recent_reward_xdr: Some(reward_xdr),
+                            most_recent_timestamp: Some(monthly_reward.timestamp),
+                            total_rewards_e8s: reward.amount_e8s,
+                            total_rewards_xdr: reward_xdr,
+                        });
+                }
+            }
+        }
+    }
+
+    result
+}
+
+// Add rewards data to combined providers
+fn add_rewards_to_providers(
+    combined_data: &mut [CombinedNodeProvider],
+    rewards_data: &HashMap<String, ProviderRewardInfo>,
+) {
+    for provider in combined_data {
+        if !provider.principal_id.is_empty() {
+            if let Some(rewards) = rewards_data.get(&provider.principal_id) {
+                provider.rewards = Some(rewards.clone());
+            }
+        }
+    }
+}
+
+#[tokio::main]
+async fn main() -> Result<()> {
     // Read the JSON API response
-    let json_data = fs::read_to_string(json_path)?;
+    let json_data = fs::read_to_string(JSON_PATH)?;
     let api_data = parse_json(&json_data)?;
 
     // Read the TOML wiki data
-    let toml_data = fs::read_to_string(toml_path)?;
-    let wiki_data =
-        parse_toml_content(&toml_data).map_err(|e| io::Error::new(io::ErrorKind::Other, e))?;
+    let toml_data = fs::read_to_string(TOML_PATH)?;
+    let wiki_data = parse_toml_content(&toml_data)?;
 
     // Process document files
-    let file_data = process_document_files(docs_dir)?;
+    let file_data = process_document_files(DOCS_DIR)?;
     println!("Document directories processed: {}", file_data.len());
 
     // Merge the data
-    let combined_data = merge_node_provider_data(&api_data, &wiki_data, &file_data);
+    let mut combined_data = merge_node_provider_data(&api_data, &wiki_data, &file_data);
 
     // Count document validations
     let (valid_hashes, invalid_hashes) = count_document_validations(&combined_data);
+
+    // Create an agent to communicate with the IC
+    println!("Connecting to IC to fetch rewards data...");
+    let transport = ic_agent::agent::http_transport::ReqwestTransport::create(IC_URL)?;
+    let agent = Agent::builder().with_transport(transport).build()?;
+
+    // Initialize the agent (fetch root key in development)
+    agent.fetch_root_key().await?;
+
+    // Fetch rewards data
+    let rewards_response = fetch_node_provider_rewards(&agent).await?;
+    println!("Successfully fetched rewards data from governance canister");
+
+    // Process rewards data
+    let rewards_by_principal = process_rewards_data(rewards_response);
+    println!(
+        "Processed reward data for {} principals",
+        rewards_by_principal.len()
+    );
+
+    // Add rewards to the combined provider data
+    add_rewards_to_providers(&mut combined_data, &rewards_by_principal);
 
     // Print statistics
     println!("API providers: {}", api_data.node_providers.len());
@@ -459,6 +715,16 @@ fn main() -> Result<(), Box<dyn Error>> {
         "Document hash validations: {} valid, {} invalid",
         valid_hashes, invalid_hashes
     );
+
+    // Print reward statistics
+    let providers_with_rewards = combined_data.iter().filter(|p| p.rewards.is_some()).count();
+    println!("Providers with rewards: {}", providers_with_rewards);
+
+    let total_rewards_xdr: f64 = rewards_by_principal
+        .values()
+        .map(|r| r.total_rewards_xdr)
+        .sum();
+    println!("Total rewards distributed: {:.2} XDR", total_rewards_xdr);
 
     // Find providers without wiki data
     let missing_wiki_count = combined_data.iter().filter(|p| p.toml_id.is_none()).count();
@@ -481,16 +747,26 @@ fn main() -> Result<(), Box<dyn Error>> {
         println!("  Principal ID: {}", provider.principal_id);
         println!("  Dashboard: {}", provider.dashboard_link);
         println!("  Regions: {:?}", provider.regions);
-        if let Some(country) = &provider.country {
-            println!("  Country: {}", country);
-        }
-        if let Some(town) = &provider.town {
-            println!("  Town: {}", town);
-        }
+        println!("  Countries: {:?}", provider.countries);
+        println!("  Towns: {:?}", provider.towns);
         println!(
             "  Nodes: {}/{} rewardable",
             provider.total_nodes, provider.total_rewardable_nodes
         );
+
+        if let Some(rewards) = &provider.rewards {
+            println!("  Rewards:");
+            if let Some(account) = &rewards.reward_account_hex {
+                println!("    Account: {}", account);
+            }
+            println!(
+                "    Total rewards: {:.2} XDR ({} E8s)",
+                rewards.total_rewards_xdr, rewards.total_rewards_e8s
+            );
+            if let Some(recent_xdr) = rewards.most_recent_reward_xdr {
+                println!("    Most recent reward: {:.2} XDR", recent_xdr);
+            }
+        }
 
         if !provider.document_validations.is_empty() {
             println!("  Document Validations:");
@@ -505,35 +781,10 @@ fn main() -> Result<(), Box<dyn Error>> {
         }
     }
 
-    // List some invalid hashes for inspection
-    let invalid_examples: Vec<_> = combined_data
-        .iter()
-        .flat_map(|p| {
-            p.document_validations
-                .iter()
-                .filter(|v| !v.matches)
-                .map(move |v| (p.name.clone(), v))
-        })
-        .take(5)
-        .collect();
-
-    if !invalid_examples.is_empty() {
-        println!("\nSample invalid hashes:");
-        for (provider_name, validation) in invalid_examples {
-            println!(
-                "  {} - {}: Expected {} | Actual {}",
-                provider_name,
-                validation.document_type,
-                &validation.expected_hash[..16],
-                &validation.actual_hash[..16]
-            );
-        }
-    }
-
     // Write to JSON file
     let combined_json = serde_json::to_string_pretty(&combined_data)?;
-    fs::write(output_path, combined_json)?;
-    println!("\nCombined data written to {}", output_path);
+    fs::write(OUTPUT_PATH, combined_json)?;
+    println!("\nCombined data written to {}", OUTPUT_PATH);
 
     Ok(())
 }
