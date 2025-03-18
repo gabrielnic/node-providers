@@ -3,10 +3,10 @@
 
 	let nodeProviders = nodeProvidersData;
 
-	let sortKey: 'name' | 'latest' | 'node_count' = 'name';
+	let sortKey: 'name' | 'latest' | 'node_count' | 'total' | 'start' = 'name';
 	let sortOrder = 1; // 1 for ascending, -1 for descending
 
-	function sortBy(key: 'name' | 'latest' | 'node_count') {
+	function sortBy(key: 'name' | 'latest' | 'node_count' | 'total' | 'start') {
 		if (sortKey === key) {
 			sortOrder *= -1;
 		} else {
@@ -28,8 +28,14 @@
 				valA = a.rewards?.most_recent_reward_e8s ?? 0;
 				valB = b.rewards?.most_recent_reward_e8s ?? 0;
 			} else if (key === 'node_count') {
-				valA = a.total_nodes ?? 0;
-				valB = b.total_nodes ?? 0;
+				valA = a.total_rewardable_nodes ?? 0;
+				valB = b.total_rewardable_nodes ?? 0;
+			} else if (key === 'total') {
+				valA = a.rewards?.total_mint_rewards_icp ?? 0;
+				valB = b.rewards?.total_mint_rewards_icp ?? 0;
+			} else if (key === 'start') {
+				valA = a.rewards?.first_mint_timestamp ?? 0;
+				valB = b.rewards?.first_mint_timestamp ?? 0;
 			}
 
 			return (((valA as number) - valB) as number) * sortOrder;
@@ -49,7 +55,8 @@
 			<th>Documents</th>
 			<th><a on:click={() => sortBy('node_count')}>Total Rewardable Nodes</a></th>
 			<th><a on:click={() => sortBy('latest')}>Last Rewards (ICP)</a></th>
-			<!-- <th><a on:click={() => sortBy('total')}>Total Rewards (ICP)</a></th> -->
+			<th><a on:click={() => sortBy('total')}>Total Rewards (ICP)</a></th>
+			<th><a on:click={() => sortBy('start')}>First Rewards</a></th>
 		</tr>
 	</thead>
 	<tbody>
@@ -74,11 +81,12 @@
 							).toLocaleString()}
 						</a>
 					</td>
-					<!-- <td>
+					<td>
 						<a href={nodeProvider.rewards.reward_account_dashboard_link} target="_blank">
-							{Math.floor(nodeProvider.rewards.total_rewards_e8s / 100_000_000).toLocaleString()}
+							{Math.floor(nodeProvider.rewards.total_mint_rewards_icp).toLocaleString()}
 						</a>
-					</td> -->
+					</td>
+					<td>{new Date(nodeProvider.rewards['first_mint_timestamp'] * 1000).toLocaleString()}</td>
 				{/if}
 			</tr>
 		{/each}
