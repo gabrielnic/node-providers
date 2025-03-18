@@ -388,7 +388,7 @@ identity = "9c0ff8a4bd195b0dc76b0c4bdd4e46d33b7e7484b07696bdbfe5f57594c8c6ad"
 declaration = "0af318f022d942aacd55b2bca683437b8787bee7fbd88dee0eefefde073d3bef"
 
 [nodao]
-name = ""
+name = "NODAO"
 wiki-link = "https://wiki.internetcomputer.org/wiki/NODAO"
 identity = "ba4fd2ee3fe5856a8ed62fb30dd03ecb50e18d22bd040dc5b26dc2da1f11b318"
 declaration = "110bea1dfcaf3c8d1a5a7c7c6b453e60c95c70268d4093b74b0321e857bc316c"
