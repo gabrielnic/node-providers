@@ -56,7 +56,8 @@
 			<th><a on:click={() => sortBy('node_count')}>Total Rewardable Nodes</a></th>
 			<th><a on:click={() => sortBy('latest')}>Last Rewards (ICP)</a></th>
 			<th><a on:click={() => sortBy('total')}>Total Rewards (ICP)</a></th>
-			<th><a on:click={() => sortBy('start')}>First Rewards</a></th>
+			<th><a on:click={() => sortBy('start')}>First Rewards Date</a></th>
+			<th>Last Rewards Date</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -87,6 +88,7 @@
 						</a>
 					</td>
 					<td>{new Date(nodeProvider.rewards['first_mint_timestamp'] * 1000).toLocaleString()}</td>
+					<td>{new Date(nodeProvider.rewards['last_mint_timestamp'] * 1000).toLocaleString()}</td>
 				{/if}
 			</tr>
 		{/each}
