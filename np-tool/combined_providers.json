@@ -44,6 +44,8 @@
     ],
     "rewards": {
       "reward_account_hex": "3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
+      "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
       "most_recent_reward_e8s": 624492640728,
       "most_recent_reward_xdr": 30463.99999999329,
       "most_recent_timestamp": 1742004534,
@@ -96,6 +98,8 @@
     ],
     "rewards": {
       "reward_account_hex": "4e0ebe81129df37f3d74e9f6c1d1a0c16280c84021987e567e3a809b",
+      "reward_account_formatted": "e9224b1a4e0ebe81129df37f3d74e9f6c1d1a0c16280c84021987e567e3a809b",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e9224b1a4e0ebe81129df37f3d74e9f6c1d1a0c16280c84021987e567e3a809b",
       "most_recent_reward_e8s": 514534049444,
       "most_recent_reward_xdr": 25099.999999977204,
       "most_recent_timestamp": 1742004534,
@@ -126,6 +130,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "1ed1002c09092b00373a8ef760209e0721a22586c6487201f4644d97",
+      "reward_account_formatted": "8b1cc0f51ed1002c09092b00373a8ef760209e0721a22586c6487201f4644d97",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/8b1cc0f51ed1002c09092b00373a8ef760209e0721a22586c6487201f4644d97",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -156,6 +162,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "4a022422eec98fef88737e61d9abc64ea89c0d1438540f11b93fbdc1",
+      "reward_account_formatted": "048f732e4a022422eec98fef88737e61d9abc64ea89c0d1438540f11b93fbdc1",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/048f732e4a022422eec98fef88737e61d9abc64ea89c0d1438540f11b93fbdc1",
       "most_recent_reward_e8s": 288139067688,
       "most_recent_reward_xdr": 14055.999999956013,
       "most_recent_timestamp": 1742004534,
@@ -210,6 +218,8 @@
     ],
     "rewards": {
       "reward_account_hex": "8966382ca1043e91f60d426f75c73c6afabe6b7eee01d0439ccc3074",
+      "reward_account_formatted": "a754940d8966382ca1043e91f60d426f75c73c6afabe6b7eee01d0439ccc3074",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/a754940d8966382ca1043e91f60d426f75c73c6afabe6b7eee01d0439ccc3074",
       "most_recent_reward_e8s": 864417203066,
       "most_recent_reward_xdr": 42167.99999996561,
       "most_recent_timestamp": 1742004534,
@@ -255,6 +265,8 @@
     ],
     "rewards": {
       "reward_account_hex": "c2e147159fdf2986fb9f34735d225aa265658f575c05750cd6a24a24",
+      "reward_account_formatted": "4fbefbd1c2e147159fdf2986fb9f34735d225aa265658f575c05750cd6a24a24",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/4fbefbd1c2e147159fdf2986fb9f34735d225aa265658f575c05750cd6a24a24",
       "most_recent_reward_e8s": 345319123857,
       "most_recent_reward_xdr": 16845.357499992173,
       "most_recent_timestamp": 1742004534,
@@ -285,6 +297,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "1c1ce5b0861822429066d0abd918b2e2843f1471887f4a97f6c46495",
+      "reward_account_formatted": "e722e1bc1c1ce5b0861822429066d0abd918b2e2843f1471887f4a97f6c46495",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e722e1bc1c1ce5b0861822429066d0abd918b2e2843f1471887f4a97f6c46495",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -315,6 +329,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "5da622a98d590510519aa6808addd69f3c7c811f5b2fecd551b445d3",
+      "reward_account_formatted": "d10e0b2d5da622a98d590510519aa6808addd69f3c7c811f5b2fecd551b445d3",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/d10e0b2d5da622a98d590510519aa6808addd69f3c7c811f5b2fecd551b445d3",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -354,6 +370,8 @@
     ],
     "rewards": {
       "reward_account_hex": "7cfe5953f0b797f76853f6df7fa2151eb3d4517de313f01a85b8eaf8",
+      "reward_account_formatted": "0f5019b47cfe5953f0b797f76853f6df7fa2151eb3d4517de313f01a85b8eaf8",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/0f5019b47cfe5953f0b797f76853f6df7fa2151eb3d4517de313f01a85b8eaf8",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -392,6 +410,8 @@
     ],
     "rewards": {
       "reward_account_hex": "7e2351821bc1adbc22eaeaaca3ab8f59e734ee08f5753f8ff8a4bee0",
+      "reward_account_formatted": "662e65227e2351821bc1adbc22eaeaaca3ab8f59e734ee08f5753f8ff8a4bee0",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/662e65227e2351821bc1adbc22eaeaaca3ab8f59e734ee08f5753f8ff8a4bee0",
       "most_recent_reward_e8s": 681890861383,
       "most_recent_reward_xdr": 33263.999999985506,
       "most_recent_timestamp": 1742004534,
@@ -438,6 +458,8 @@
     ],
     "rewards": {
       "reward_account_hex": "77713e32ec25a5c08070bc3db9ca3cbb0a4c9ccd1cf43fa50fcfcc59",
+      "reward_account_formatted": "6e6ce80077713e32ec25a5c08070bc3db9ca3cbb0a4c9ccd1cf43fa50fcfcc59",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/6e6ce80077713e32ec25a5c08070bc3db9ca3cbb0a4c9ccd1cf43fa50fcfcc59",
       "most_recent_reward_e8s": 913492681726,
       "most_recent_reward_xdr": 44561.999999957734,
       "most_recent_timestamp": 1742004534,
@@ -470,6 +492,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "45eb9882779c28d97c260639e134bd9fc4c72ea2d75a04a8ba97dd3b",
+      "reward_account_formatted": "de575e8245eb9882779c28d97c260639e134bd9fc4c72ea2d75a04a8ba97dd3b",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/de575e8245eb9882779c28d97c260639e134bd9fc4c72ea2d75a04a8ba97dd3b",
       "most_recent_reward_e8s": 407721497683,
       "most_recent_reward_xdr": 19889.470099972106,
       "most_recent_timestamp": 1742004534,
@@ -515,6 +539,8 @@
     ],
     "rewards": {
       "reward_account_hex": "299642a83c138e83e79749b448bf74cfe3ce4023fd508c948498baac",
+      "reward_account_formatted": "831b5d20299642a83c138e83e79749b448bf74cfe3ce4023fd508c948498baac",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/831b5d20299642a83c138e83e79749b448bf74cfe3ce4023fd508c948498baac",
       "most_recent_reward_e8s": 322170800705,
       "most_recent_reward_xdr": 15716.13599999131,
       "most_recent_timestamp": 1742004534,
@@ -567,6 +593,8 @@
     ],
     "rewards": {
       "reward_account_hex": "a4dffaed0d1164a8dbb8fb5911650ee27f0130bde2e38eca0f3a0288",
+      "reward_account_formatted": "349fd5eea4dffaed0d1164a8dbb8fb5911650ee27f0130bde2e38eca0f3a0288",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/349fd5eea4dffaed0d1164a8dbb8fb5911650ee27f0130bde2e38eca0f3a0288",
       "most_recent_reward_e8s": 555696773400,
       "most_recent_reward_xdr": 27107.999999998796,
       "most_recent_timestamp": 1742004534,
@@ -597,6 +625,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "431a9b258534f9dfef00745fcbf10d2b6992959e056123189c8d2a80",
+      "reward_account_formatted": "07e29d29431a9b258534f9dfef00745fcbf10d2b6992959e056123189c8d2a80",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/07e29d29431a9b258534f9dfef00745fcbf10d2b6992959e056123189c8d2a80",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -617,22 +647,22 @@
       "Europe"
     ],
     "countries": [
-      "PL",
-      "CZ",
       "EE",
       "LT",
-      "PT",
+      "CZ",
+      "LV",
       "ES",
-      "LV"
+      "PL",
+      "PT"
     ],
     "towns": [
-      "Madrid",
       "Lisbon",
       "Praha",
+      "Madrid",
       "Riga",
-      "Vilnius",
       "Tallinn",
-      "Warszawa"
+      "Warszawa",
+      "Vilnius"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/diyay-s4rfq-xnx23-zczwi-nptra-5254n-e4zn6-p7tqe-vqhzr-sd4gd-bqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Artem_Horodyskyi",
@@ -654,6 +684,8 @@
     ],
     "rewards": {
       "reward_account_hex": "cd370f7722764518922cd1562ac2c102fbb228a599efdd8aacc94bee",
+      "reward_account_formatted": "ec725e63cd370f7722764518922cd1562ac2c102fbb228a599efdd8aacc94bee",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/ec725e63cd370f7722764518922cd1562ac2c102fbb228a599efdd8aacc94bee",
       "most_recent_reward_e8s": 221198392849,
       "most_recent_reward_xdr": 10790.499999959917,
       "most_recent_timestamp": 1742004534,
@@ -678,6 +710,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "76909f07e531ac46ed68459ec49c611b06510f53387dbbebd2340301",
+      "reward_account_formatted": "19ef947676909f07e531ac46ed68459ec49c611b06510f53387dbbebd2340301",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/19ef947676909f07e531ac46ed68459ec49c611b06510f53387dbbebd2340301",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -702,6 +736,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "95c228a179e5658a65a4010286eb58ddfc97200ffc7cc52bf9f0764f",
+      "reward_account_formatted": "95349fc895c228a179e5658a65a4010286eb58ddfc97200ffc7cc52bf9f0764f",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/95349fc895c228a179e5658a65a4010286eb58ddfc97200ffc7cc52bf9f0764f",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -747,6 +783,8 @@
     ],
     "rewards": {
       "reward_account_hex": "5a01f52d6f6847ce331dceac11fe97a426b5f9dd6a815150bc77491b",
+      "reward_account_formatted": "8257bd8f5a01f52d6f6847ce331dceac11fe97a426b5f9dd6a815150bc77491b",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/8257bd8f5a01f52d6f6847ce331dceac11fe97a426b5f9dd6a815150bc77491b",
       "most_recent_reward_e8s": 164059034069,
       "most_recent_reward_xdr": 8003.127799953957,
       "most_recent_timestamp": 1742004534,
@@ -764,12 +802,12 @@
     "total_subnets": 1,
     "total_unassigned_nodes": 26,
     "regions": [
-      "North America",
-      "Oceania"
+      "Oceania",
+      "North America"
     ],
     "countries": [
-      "US",
-      "AU"
+      "AU",
+      "US"
     ],
     "towns": [
       "Melbourne",
@@ -795,6 +833,8 @@
     ],
     "rewards": {
       "reward_account_hex": "03923d86f89df8a9b1629f1c241963c3464182979263ccce10f12a61",
+      "reward_account_formatted": "231014cc03923d86f89df8a9b1629f1c241963c3464182979263ccce10f12a61",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/231014cc03923d86f89df8a9b1629f1c241963c3464182979263ccce10f12a61",
       "most_recent_reward_e8s": 576278135377,
       "most_recent_reward_xdr": 28111.999999960815,
       "most_recent_timestamp": 1742004534,
@@ -818,8 +858,8 @@
       "PT"
     ],
     "towns": [
-      "Lisbon",
-      "Barreiro"
+      "Barreiro",
+      "Lisbon"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/mjnyf-lzqq6-s7fzb-62rqm-xzvge-5oa26-humwp-dvwxp-jxxkf-hoel7-fqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Bitmoon",
@@ -841,6 +881,8 @@
     ],
     "rewards": {
       "reward_account_hex": "3d9448b0d053d6cfb82ff3c66788b090c2300cd53db25be2644a3be8",
+      "reward_account_formatted": "ab0db79e3d9448b0d053d6cfb82ff3c66788b090c2300cd53db25be2644a3be8",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/ab0db79e3d9448b0d053d6cfb82ff3c66788b090c2300cd53db25be2644a3be8",
       "most_recent_reward_e8s": 90138344061,
       "most_recent_reward_xdr": 4397.128699983701,
       "most_recent_timestamp": 1742004534,
@@ -880,6 +922,8 @@
     ],
     "rewards": {
       "reward_account_hex": "8b75f16dacf2a0a216ca1f746d3ab235cecc64f1300175b80df0fcd3",
+      "reward_account_formatted": "e3ce12fb8b75f16dacf2a0a216ca1f746d3ab235cecc64f1300175b80df0fcd3",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e3ce12fb8b75f16dacf2a0a216ca1f746d3ab235cecc64f1300175b80df0fcd3",
       "most_recent_reward_e8s": 936738961092,
       "most_recent_reward_xdr": 45695.99999998994,
       "most_recent_timestamp": 1742004534,
@@ -925,6 +969,8 @@
     ],
     "rewards": {
       "reward_account_hex": "97679691bcbe5f1a1d5e8d2c40c9596214eeca82ceac3a75f6adfe90",
+      "reward_account_formatted": "d665257a97679691bcbe5f1a1d5e8d2c40c9596214eeca82ceac3a75f6adfe90",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/d665257a97679691bcbe5f1a1d5e8d2c40c9596214eeca82ceac3a75f6adfe90",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -970,6 +1016,8 @@
     ],
     "rewards": {
       "reward_account_hex": "30364d3b9720bef7873e1a0dbc731faaf7576e24f2a5b87d5b03fa46",
+      "reward_account_formatted": "c96ec32c30364d3b9720bef7873e1a0dbc731faaf7576e24f2a5b87d5b03fa46",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/c96ec32c30364d3b9720bef7873e1a0dbc731faaf7576e24f2a5b87d5b03fa46",
       "most_recent_reward_e8s": 615308925423,
       "most_recent_reward_xdr": 30015.999999984782,
       "most_recent_timestamp": 1742004534,
@@ -1015,6 +1063,8 @@
     ],
     "rewards": {
       "reward_account_hex": "16f79e0a12d3e5eca8d03db512f258daf2b0e3b362c5784e197f25af",
+      "reward_account_formatted": "10a4ca4a16f79e0a12d3e5eca8d03db512f258daf2b0e3b362c5784e197f25af",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/10a4ca4a16f79e0a12d3e5eca8d03db512f258daf2b0e3b362c5784e197f25af",
       "most_recent_reward_e8s": 307654462711,
       "most_recent_reward_xdr": 15007.999999968,
       "most_recent_timestamp": 1742004534,
@@ -1039,6 +1089,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "c67905ba6e0d3de425c51c7e64082560aaf2ab6cd209e198dfb9bc90",
+      "reward_account_formatted": "b88d083cc67905ba6e0d3de425c51c7e64082560aaf2ab6cd209e198dfb9bc90",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/b88d083cc67905ba6e0d3de425c51c7e64082560aaf2ab6cd209e198dfb9bc90",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -1060,21 +1112,21 @@
     ],
     "countries": [
       "LT",
-      "CZ",
-      "PL",
       "PT",
-      "EE",
+      "CZ",
       "LV",
-      "ES"
+      "EE",
+      "ES",
+      "PL"
     ],
     "towns": [
-      "South Moravian Region",
       "Warszawa",
-      "Siauliai",
-      "Madrid",
       "Barreiro",
-      "Riga",
-      "Tallinn"
+      "South Moravian Region",
+      "Siauliai",
+      "Tallinn",
+      "Madrid",
+      "Riga"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/dhywe-eouw6-hstpj-ahsnw-xnjxq-cmqks-47mrg-nnncb-3sr5d-rac6m-nae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Bohatyrov_Volodymyr",
@@ -1103,6 +1155,8 @@
     ],
     "rewards": {
       "reward_account_hex": "27849a34007ec1d86d3c23e70025e8be9964f5192df2aa3bbbfd25b7",
+      "reward_account_formatted": "2d01674727849a34007ec1d86d3c23e70025e8be9964f5192df2aa3bbbfd25b7",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/2d01674727849a34007ec1d86d3c23e70025e8be9964f5192df2aa3bbbfd25b7",
       "most_recent_reward_e8s": 221198392849,
       "most_recent_reward_xdr": 10790.499999959917,
       "most_recent_timestamp": 1742004534,
@@ -1133,6 +1187,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "166b4eab6a0c2771a1e45b6345e9ae345ccd205c1d500c30b2c41f35",
+      "reward_account_formatted": "dbfadb54166b4eab6a0c2771a1e45b6345e9ae345ccd205c1d500c30b2c41f35",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/dbfadb54166b4eab6a0c2771a1e45b6345e9ae345ccd205c1d500c30b2c41f35",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -1163,6 +1219,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "0f8534ca391fa9f74dad7b1401fb068a6656f0f09ee49b7d6d9606f4",
+      "reward_account_formatted": "b6f282630f8534ca391fa9f74dad7b1401fb068a6656f0f09ee49b7d6d9606f4",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/b6f282630f8534ca391fa9f74dad7b1401fb068a6656f0f09ee49b7d6d9606f4",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -1202,6 +1260,8 @@
     ],
     "rewards": {
       "reward_account_hex": "7e2262f97e0e8114b250fe5ac9adc0e5372bfc524c98e48d1adede57",
+      "reward_account_formatted": "e9f7b8c97e2262f97e0e8114b250fe5ac9adc0e5372bfc524c98e48d1adede57",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e9f7b8c97e2262f97e0e8114b250fe5ac9adc0e5372bfc524c98e48d1adede57",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -1226,8 +1286,8 @@
       "FR"
     ],
     "towns": [
-      "Paris",
-      "Barcelona"
+      "Barcelona",
+      "Paris"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/qsdw4-ao5ye-6rtq4-y3zhm-icjbj-lutd2-sbejz-4ajqz-pcflr-xrhsg-jae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/CarbonTwelve",
@@ -1249,6 +1309,8 @@
     ],
     "rewards": {
       "reward_account_hex": "6d085f4aaf2b44e48f09f3c4986b406c117a3fb2c0791b43f483eb6c",
+      "reward_account_formatted": "44bcdc816d085f4aaf2b44e48f09f3c4986b406c117a3fb2c0791b43f483eb6c",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/44bcdc816d085f4aaf2b44e48f09f3c4986b406c117a3fb2c0791b43f483eb6c",
       "most_recent_reward_e8s": 197273410274,
       "most_recent_reward_xdr": 9623.391499986268,
       "most_recent_timestamp": 1742004534,
@@ -1270,12 +1332,12 @@
       "Oceania"
     ],
     "countries": [
-      "AU",
-      "UK"
+      "UK",
+      "AU"
     ],
     "towns": [
-      "New South Wales",
-      "London"
+      "London",
+      "New South Wales"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/i3cfo-s2tgu-qe5ym-wk7e6-y7ura-pptgu-kevuf-2feh7-z4enq-5hz4s-mqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Conic_Ventures",
@@ -1297,6 +1359,8 @@
     ],
     "rewards": {
       "reward_account_hex": "dea97b8868ba665d30c59370d4ae5aa35547961724ae74dedeadf50a",
+      "reward_account_formatted": "85f0815fdea97b8868ba665d30c59370d4ae5aa35547961724ae74dedeadf50a",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/85f0815fdea97b8868ba665d30c59370d4ae5aa35547961724ae74dedeadf50a",
       "most_recent_reward_e8s": 139901498503,
       "most_recent_reward_xdr": 6824.674899973345,
       "most_recent_timestamp": 1742004534,
@@ -1327,6 +1391,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "b272c34ea62ed9c3a58856fbbf19b504ec057313df092ae4589f9aed",
+      "reward_account_formatted": "cf88e70fb272c34ea62ed9c3a58856fbbf19b504ec057313df092ae4589f9aed",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/cf88e70fb272c34ea62ed9c3a58856fbbf19b504ec057313df092ae4589f9aed",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -1357,6 +1423,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "acfd2d5590f472fe14f8a5945c73aa38cee23ead6bf65d01ec9ffbb2",
+      "reward_account_formatted": "c2236472acfd2d5590f472fe14f8a5945c73aa38cee23ead6bf65d01ec9ffbb2",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/c2236472acfd2d5590f472fe14f8a5945c73aa38cee23ead6bf65d01ec9ffbb2",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -1409,6 +1477,8 @@
     ],
     "rewards": {
       "reward_account_hex": "36a82485cfd2897c3b246980033a920ec1c562865d491e05a7dc7549",
+      "reward_account_formatted": "6826718e36a82485cfd2897c3b246980033a920ec1c562865d491e05a7dc7549",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/6826718e36a82485cfd2897c3b246980033a920ec1c562865d491e05a7dc7549",
       "most_recent_reward_e8s": 326021893321,
       "most_recent_reward_xdr": 15903.999999985022,
       "most_recent_timestamp": 1742004534,
@@ -1461,6 +1531,8 @@
     ],
     "rewards": {
       "reward_account_hex": "4637d28a89b1a64004c757e5f853826b98949a741fd4b2045957fb14",
+      "reward_account_formatted": "4154ffe94637d28a89b1a64004c757e5f853826b98949a741fd4b2045957fb14",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/4154ffe94637d28a89b1a64004c757e5f853826b98949a741fd4b2045957fb14",
       "most_recent_reward_e8s": 304497560575,
       "most_recent_reward_xdr": 14853.999999969648,
       "most_recent_timestamp": 1742004534,
@@ -1487,14 +1559,16 @@
     ],
     "towns": [
       "Provence-Alpes-Cote d'Azur",
-      "Zurich",
-      "Stockholm"
+      "Stockholm",
+      "Zurich"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/bvcsg-3od6r-jnydw-eysln-aql7w-td5zn-ay5m6-sibd2-jzojt-anwag-mqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/DFINITY_Stiftung",
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "646ec1c69ae7112aee1414aca8cc1dd242e3d221b83049a852ad18e6",
+      "reward_account_formatted": "6a1f1bff646ec1c69ae7112aee1414aca8cc1dd242e3d221b83049a852ad18e6",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/6a1f1bff646ec1c69ae7112aee1414aca8cc1dd242e3d221b83049a852ad18e6",
       "most_recent_reward_e8s": 935017014472,
       "most_recent_reward_xdr": 45611.9999999731,
       "most_recent_timestamp": 1742004534,
@@ -1525,6 +1599,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "edf452b7c7754b83ff9998e20413646b6a9d5b70b039508276717482",
+      "reward_account_formatted": "661f3c4fedf452b7c7754b83ff9998e20413646b6a9d5b70b039508276717482",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/661f3c4fedf452b7c7754b83ff9998e20413646b6a9d5b70b039508276717482",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -1555,6 +1631,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "249736be68de610959865911aa543f4f53a4cba73f18ac1d2c0f87a6",
+      "reward_account_formatted": "e944a886249736be68de610959865911aa543f4f53a4cba73f18ac1d2c0f87a6",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e944a886249736be68de610959865911aa543f4f53a4cba73f18ac1d2c0f87a6",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -1585,6 +1663,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "8a2b4905b82786f1eb12c9d4c424e18291db3e86401996abfae33eb2",
+      "reward_account_formatted": "62ac3d3e8a2b4905b82786f1eb12c9d4c424e18291db3e86401996abfae33eb2",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/62ac3d3e8a2b4905b82786f1eb12c9d4c424e18291db3e86401996abfae33eb2",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -1609,6 +1689,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "726dba3f1b5120f5cc15a3f8e0cfd1ab3dd5cc513ca58ab255240f55",
+      "reward_account_formatted": "1fd2e516726dba3f1b5120f5cc15a3f8e0cfd1ab3dd5cc513ca58ab255240f55",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/1fd2e516726dba3f1b5120f5cc15a3f8e0cfd1ab3dd5cc513ca58ab255240f55",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -1639,6 +1721,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "d5c01973bbc0b06d71cd18966741fc6aa315f34c4f1819e0a9079d7f",
+      "reward_account_formatted": "b76f4c20d5c01973bbc0b06d71cd18966741fc6aa315f34c4f1819e0a9079d7f",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/b76f4c20d5c01973bbc0b06d71cd18966741fc6aa315f34c4f1819e0a9079d7f",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -1691,6 +1775,8 @@
     ],
     "rewards": {
       "reward_account_hex": "2aa9960c2c437a67f64113603ae06d8dcc337e4dea8b21b5ad30bcea",
+      "reward_account_formatted": "820d21432aa9960c2c437a67f64113603ae06d8dcc337e4dea8b21b5ad30bcea",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/820d21432aa9960c2c437a67f64113603ae06d8dcc337e4dea8b21b5ad30bcea",
       "most_recent_reward_e8s": 978065679963,
       "most_recent_reward_xdr": 47711.999999955064,
       "most_recent_timestamp": 1742004534,
@@ -1730,6 +1816,8 @@
     ],
     "rewards": {
       "reward_account_hex": "013582fbc1949e91f78f95a1de740ee9df347e47a3623633a8ada672",
+      "reward_account_formatted": "21469605013582fbc1949e91f78f95a1de740ee9df347e47a3623633a8ada672",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/21469605013582fbc1949e91f78f95a1de740ee9df347e47a3623633a8ada672",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -1760,6 +1848,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "bc9b82923bf06b3c2411d778282bae07e71a79cf1d7bc73d7d2a8965",
+      "reward_account_formatted": "f94d8363bc9b82923bf06b3c2411d778282bae07e71a79cf1d7bc73d7d2a8965",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/f94d8363bc9b82923bf06b3c2411d778282bae07e71a79cf1d7bc73d7d2a8965",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -1784,6 +1874,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "935a756a144531018cd899b11c7904d2a58fcde612e96b0d2ca6f984",
+      "reward_account_formatted": "18614cba935a756a144531018cd899b11c7904d2a58fcde612e96b0d2ca6f984",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/18614cba935a756a144531018cd899b11c7904d2a58fcde612e96b0d2ca6f984",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -1807,8 +1899,8 @@
       "SI"
     ],
     "towns": [
-      "Ljubljana",
-      "Maribor"
+      "Maribor",
+      "Ljubljana"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/wdjjk-blh44-lxm74-ojj43-rvgf4-j5rie-nm6xs-xvnuv-j3ptn-25t4v-6ae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Fractal_Labs,_LLC",
@@ -1830,6 +1922,8 @@
     ],
     "rewards": {
       "reward_account_hex": "8f27e2a008f8518e85db88793a9ff73238edfbc7da02b4438813e83d",
+      "reward_account_formatted": "685b69738f27e2a008f8518e85db88793a9ff73238edfbc7da02b4438813e83d",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/685b69738f27e2a008f8518e85db88793a9ff73238edfbc7da02b4438813e83d",
       "most_recent_reward_e8s": 991841252921,
       "most_recent_reward_xdr": 48383.999999992215,
       "most_recent_timestamp": 1742004534,
@@ -1860,6 +1954,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "c24e6fdd8d5948a6d52b52cefc19f215eaad6bfa8c159caafee69a87",
+      "reward_account_formatted": "232413d1c24e6fdd8d5948a6d52b52cefc19f215eaad6bfa8c159caafee69a87",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/232413d1c24e6fdd8d5948a6d52b52cefc19f215eaad6bfa8c159caafee69a87",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -1890,6 +1986,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "01eab990e97b490ef97b9818aa04161cfeca6404d92b567bcc0f42f0",
+      "reward_account_formatted": "e1e4355001eab990e97b490ef97b9818aa04161cfeca6404d92b567bcc0f42f0",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e1e4355001eab990e97b490ef97b9818aa04161cfeca6404d92b567bcc0f42f0",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -1935,6 +2033,8 @@
     ],
     "rewards": {
       "reward_account_hex": "e0a8a2cc8284d082a131974568e7c14b5bf129716e5baedb7042e987",
+      "reward_account_formatted": "e74f1c7de0a8a2cc8284d082a131974568e7c14b5bf129716e5baedb7042e987",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e74f1c7de0a8a2cc8284d082a131974568e7c14b5bf129716e5baedb7042e987",
       "most_recent_reward_e8s": 182060715017,
       "most_recent_reward_xdr": 8881.285799959294,
       "most_recent_timestamp": 1742004534,
@@ -1965,6 +2065,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "18242aa0dbfd2a9738664c1503d3e8bd3daf08ef4da1e793043b2fa8",
+      "reward_account_formatted": "d308be4018242aa0dbfd2a9738664c1503d3e8bd3daf08ef4da1e793043b2fa8",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/d308be4018242aa0dbfd2a9738664c1503d3e8bd3daf08ef4da1e793043b2fa8",
       "most_recent_reward_e8s": 238939703169,
       "most_recent_reward_xdr": 11655.956599990157,
       "most_recent_timestamp": 1742004534,
@@ -1982,22 +2084,24 @@
     "total_subnets": 9,
     "total_unassigned_nodes": 7,
     "regions": [
-      "North America",
-      "Asia"
+      "Asia",
+      "North America"
     ],
     "countries": [
       "CR",
       "IL"
     ],
     "towns": [
-      "Tel Aviv",
-      "San Jose"
+      "San Jose",
+      "Tel Aviv"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/6sq7t-knkul-fko6h-xzvnf-ktbvr-jhx7r-hapzr-kjlek-whugy-zt6ip-xqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/GeoNodes_LLC",
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "32330fa789ee3b3a449491270fbc435d970472b03b1c369f0309bcfc",
+      "reward_account_formatted": "a86d7adc32330fa789ee3b3a449491270fbc435d970472b03b1c369f0309bcfc",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/a86d7adc32330fa789ee3b3a449491270fbc435d970472b03b1c369f0309bcfc",
       "most_recent_reward_e8s": 582297408880,
       "most_recent_reward_xdr": 28405.632199984157,
       "most_recent_timestamp": 1742004534,
@@ -2019,18 +2123,20 @@
       "Asia"
     ],
     "countries": [
-      "GE",
-      "LT"
+      "LT",
+      "GE"
     ],
     "towns": [
-      "Vilnius",
-      "Tbilisi"
+      "Tbilisi",
+      "Vilnius"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/vegae-c4chr-aetfj-7gzuh-c23sx-u2paz-vmvbn-bcage-pu7lu-mptnn-eqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/George_Bassadone",
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "24b0b6999f8913dc84e70367db9f0345e7aa0e2cbbdf8ffcf6ce0a7e",
+      "reward_account_formatted": "6c2ec8bd24b0b6999f8913dc84e70367db9f0345e7aa0e2cbbdf8ffcf6ce0a7e",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/6c2ec8bd24b0b6999f8913dc84e70367db9f0345e7aa0e2cbbdf8ffcf6ce0a7e",
       "most_recent_reward_e8s": 782279029150,
       "most_recent_reward_xdr": 38161.1355999953,
       "most_recent_timestamp": 1742004534,
@@ -2054,8 +2160,8 @@
       "US"
     ],
     "towns": [
-      "Georgia",
-      "Florida"
+      "Florida",
+      "Georgia"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/wwdbq-xuqhf-eydzu-oyl7p-ga565-zm7s7-yrive-ozgsy-zzgh3-qwb3j-cae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Giant_Leaf,_LLC",
@@ -2077,6 +2183,8 @@
     ],
     "rewards": {
       "reward_account_hex": "9953f7179f972446706f57bae03b6d5c17e84b1794591b066590dd06",
+      "reward_account_formatted": "e4d0ed219953f7179f972446706f57bae03b6d5c17e84b1794591b066590dd06",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e4d0ed219953f7179f972446706f57bae03b6d5c17e84b1794591b066590dd06",
       "most_recent_reward_e8s": 922963388134,
       "most_recent_reward_xdr": 45023.999999952786,
       "most_recent_timestamp": 1742004534,
@@ -2107,6 +2215,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "cd77aa7350b843f94199842d1eb569ad069a56af665f75cf5388a48f",
+      "reward_account_formatted": "e003fd03cd77aa7350b843f94199842d1eb569ad069a56af665f75cf5388a48f",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e003fd03cd77aa7350b843f94199842d1eb569ad069a56af665f75cf5388a48f",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -2137,6 +2247,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "3fd4a7ac61b96b460cbee3d49015cdce7899626024298bc996a5a09b",
+      "reward_account_formatted": "c54439503fd4a7ac61b96b460cbee3d49015cdce7899626024298bc996a5a09b",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/c54439503fd4a7ac61b96b460cbee3d49015cdce7899626024298bc996a5a09b",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -2167,6 +2279,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "ec3eb245ebb6b51d1f217f4fb09c99840da7d0372264fdfa6647bb81",
+      "reward_account_formatted": "e7f2700aec3eb245ebb6b51d1f217f4fb09c99840da7d0372264fdfa6647bb81",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e7f2700aec3eb245ebb6b51d1f217f4fb09c99840da7d0372264fdfa6647bb81",
       "most_recent_reward_e8s": 435429236193,
       "most_recent_reward_xdr": 21241.108999966924,
       "most_recent_timestamp": 1742004534,
@@ -2212,6 +2326,8 @@
     ],
     "rewards": {
       "reward_account_hex": "3851340c5094534e0c23c2a1f4d7d24fdfce713b391889496b9a5958",
+      "reward_account_formatted": "9bbf62213851340c5094534e0c23c2a1f4d7d24fdfce713b391889496b9a5958",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/9bbf62213851340c5094534e0c23c2a1f4d7d24fdfce713b391889496b9a5958",
       "most_recent_reward_e8s": 608995121151,
       "most_recent_reward_xdr": 29707.99999998808,
       "most_recent_timestamp": 1742004534,
@@ -2257,6 +2373,8 @@
     ],
     "rewards": {
       "reward_account_hex": "9cb36c1fd55b06f31a1feaa14494db615677b9cfae845aabcf5e5949",
+      "reward_account_formatted": "2faa9a049cb36c1fd55b06f31a1feaa14494db615677b9cfae845aabcf5e5949",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/2faa9a049cb36c1fd55b06f31a1feaa14494db615677b9cfae845aabcf5e5949",
       "most_recent_reward_e8s": 483971643229,
       "most_recent_reward_xdr": 23609.104699997075,
       "most_recent_timestamp": 1742004534,
@@ -2287,6 +2405,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "373858f624de76a0ce9b84a8544626a8bb55e23a4432950767be8dcb",
+      "reward_account_formatted": "5707aeee373858f624de76a0ce9b84a8544626a8bb55e23a4432950767be8dcb",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/5707aeee373858f624de76a0ce9b84a8544626a8bb55e23a4432950767be8dcb",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -2332,6 +2452,8 @@
     ],
     "rewards": {
       "reward_account_hex": "d992c7e82880a5dced116a8eb8211589cc793712eba5bea2ae2a6016",
+      "reward_account_formatted": "ca4c919dd992c7e82880a5dced116a8eb8211589cc793712eba5bea2ae2a6016",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/ca4c919dd992c7e82880a5dced116a8eb8211589cc793712eba5bea2ae2a6016",
       "most_recent_reward_e8s": 250954569308,
       "most_recent_reward_xdr": 12242.065799982856,
       "most_recent_timestamp": 1742004534,
@@ -2362,6 +2484,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "24933ddfc4748230541de16e3de186e092000c7271d7c7d3466a22eb",
+      "reward_account_formatted": "3b1e147224933ddfc4748230541de16e3de186e092000c7271d7c7d3466a22eb",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/3b1e147224933ddfc4748230541de16e3de186e092000c7271d7c7d3466a22eb",
       "most_recent_reward_e8s": 53770429666,
       "most_recent_reward_xdr": 2623.0290999668114,
       "most_recent_timestamp": 1742004534,
@@ -2392,6 +2516,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "4493a30dc5816fde0f9fd3edf2fbdd1c8f4b435a4e35c85e6c5b80d2",
+      "reward_account_formatted": "8fd318bc4493a30dc5816fde0f9fd3edf2fbdd1c8f4b435a4e35c85e6c5b80d2",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/8fd318bc4493a30dc5816fde0f9fd3edf2fbdd1c8f4b435a4e35c85e6c5b80d2",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -2413,21 +2539,21 @@
     ],
     "countries": [
       "PL",
-      "ES",
-      "PT",
       "CZ",
       "LT",
       "LV",
-      "EE"
+      "EE",
+      "ES",
+      "PT"
     ],
     "towns": [
-      "Lisbon",
       "Madrid",
-      "Tallinn",
-      "Warszawa",
       "Vilnius",
+      "Lisbon",
       "Riga",
-      "Praha"
+      "Praha",
+      "Tallinn",
+      "Warszawa"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/ivf2y-crxj4-y6ewo-un35q-a7pum-wqmbw-pkepy-d6uew-bfmff-g5yxe-eae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Ivanov_Oleksandr",
@@ -2456,6 +2582,8 @@
     ],
     "rewards": {
       "reward_account_hex": "bc29f494cea76625859e4ae213265463307d299c3692a3d57da70e96",
+      "reward_account_formatted": "3efe74d5bc29f494cea76625859e4ae213265463307d299c3692a3d57da70e96",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/3efe74d5bc29f494cea76625859e4ae213265463307d299c3692a3d57da70e96",
       "most_recent_reward_e8s": 221198392849,
       "most_recent_reward_xdr": 10790.499999959917,
       "most_recent_timestamp": 1742004534,
@@ -2486,6 +2614,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "397b1be9c86cb0e54a5f32200cadcff65243653d5c9953fc8fc80a53",
+      "reward_account_formatted": "000e9f63397b1be9c86cb0e54a5f32200cadcff65243653d5c9953fc8fc80a53",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/000e9f63397b1be9c86cb0e54a5f32200cadcff65243653d5c9953fc8fc80a53",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -2516,6 +2646,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "ec5142ab4c3f6d907b17dafc325e0459376b6888e7119e2ad5ba6814",
+      "reward_account_formatted": "af3b62a7ec5142ab4c3f6d907b17dafc325e0459376b6888e7119e2ad5ba6814",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/af3b62a7ec5142ab4c3f6d907b17dafc325e0459376b6888e7119e2ad5ba6814",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -2546,6 +2678,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "7f422aa973394789e44efed362a73aee320aac66306e701eca667eed",
+      "reward_account_formatted": "5b2bedcb7f422aa973394789e44efed362a73aee320aac66306e701eca667eed",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/5b2bedcb7f422aa973394789e44efed362a73aee320aac66306e701eca667eed",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -2570,6 +2704,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "a575d7da6888be41001faab040d38b264ab57b25da2784e1ae2c4e25",
+      "reward_account_formatted": "69bbb81da575d7da6888be41001faab040d38b264ab57b25da2784e1ae2c4e25",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/69bbb81da575d7da6888be41001faab040d38b264ab57b25da2784e1ae2c4e25",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -2587,8 +2723,8 @@
     "total_subnets": 10,
     "total_unassigned_nodes": 7,
     "regions": [
-      "Africa",
-      "Oceania"
+      "Oceania",
+      "Africa"
     ],
     "countries": [
       "AU",
@@ -2603,6 +2739,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "14ab62ae87b9e65234ecb844c155ad39612f54d938e7617503450741",
+      "reward_account_formatted": "be21066714ab62ae87b9e65234ecb844c155ad39612f54d938e7617503450741",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/be21066714ab62ae87b9e65234ecb844c155ad39612f54d938e7617503450741",
       "most_recent_reward_e8s": 819310372678,
       "most_recent_reward_xdr": 39967.59859997819,
       "most_recent_timestamp": 1742004534,
@@ -2642,6 +2780,8 @@
     ],
     "rewards": {
       "reward_account_hex": "2d98189571198a0bbed4d50aa53ce59fdf7ddf628c75d07762fc08a5",
+      "reward_account_formatted": "fe9bc4522d98189571198a0bbed4d50aa53ce59fdf7ddf628c75d07762fc08a5",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/fe9bc4522d98189571198a0bbed4d50aa53ce59fdf7ddf628c75d07762fc08a5",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -2666,6 +2806,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "3dad87f574a7075783e8b7054ec0039de4e1b80df7711f0f2dbfc13d",
+      "reward_account_formatted": "29695cdd3dad87f574a7075783e8b7054ec0039de4e1b80df7711f0f2dbfc13d",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/29695cdd3dad87f574a7075783e8b7054ec0039de4e1b80df7711f0f2dbfc13d",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -2711,6 +2853,8 @@
     ],
     "rewards": {
       "reward_account_hex": "4a043e2fd5f8279c9adfe1aecd05064fc1d8c556c3348888ea28570b",
+      "reward_account_formatted": "1821ff3f4a043e2fd5f8279c9adfe1aecd05064fc1d8c556c3348888ea28570b",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/1821ff3f4a043e2fd5f8279c9adfe1aecd05064fc1d8c556c3348888ea28570b",
       "most_recent_reward_e8s": 250954569308,
       "most_recent_reward_xdr": 12242.065799982856,
       "most_recent_timestamp": 1742004534,
@@ -2741,6 +2885,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "d7593d3de9d678ffd28e986132f60e243830d449f3b87df333bccf1a",
+      "reward_account_formatted": "99540104d7593d3de9d678ffd28e986132f60e243830d449f3b87df333bccf1a",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/99540104d7593d3de9d678ffd28e986132f60e243830d449f3b87df333bccf1a",
       "most_recent_reward_e8s": 461881046287,
       "most_recent_reward_xdr": 22531.481199972433,
       "most_recent_timestamp": 1742004534,
@@ -2765,6 +2911,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "518930a15c098f433175d8391921c161cd942169d4a1505444980b0e",
+      "reward_account_formatted": "a19602be518930a15c098f433175d8391921c161cd942169d4a1505444980b0e",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/a19602be518930a15c098f433175d8391921c161cd942169d4a1505444980b0e",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -2804,6 +2952,8 @@
     ],
     "rewards": {
       "reward_account_hex": "a56577f858c2f629ad30d6e2790d4e9f8fe46fde924b56e7ce32588641deead6",
+      "reward_account_formatted": "a56577f858c2f629ad30d6e2790d4e9f8fe46fde924b56e7ce32588641deead6",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/a56577f858c2f629ad30d6e2790d4e9f8fe46fde924b56e7ce32588641deead6",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -2834,6 +2984,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "eb1058ff49015f4c5f1f0e0d13e2205cd48bb68fb9dc14d1ff9c029b",
+      "reward_account_formatted": "e53bd6f1eb1058ff49015f4c5f1f0e0d13e2205cd48bb68fb9dc14d1ff9c029b",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e53bd6f1eb1058ff49015f4c5f1f0e0d13e2205cd48bb68fb9dc14d1ff9c029b",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -2873,6 +3025,8 @@
     ],
     "rewards": {
       "reward_account_hex": "b85db6566781be14eab3ad1a6b2a78166c6d8e3c376df8a159905022",
+      "reward_account_formatted": "0616580eb85db6566781be14eab3ad1a6b2a78166c6d8e3c376df8a159905022",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/0616580eb85db6566781be14eab3ad1a6b2a78166c6d8e3c376df8a159905022",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -2903,6 +3057,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "723de4dca467d0666c906cb2acc4dd35a2aa171e8e7b05d8d4984768",
+      "reward_account_formatted": "a7aa27f9723de4dca467d0666c906cb2acc4dd35a2aa171e8e7b05d8d4984768",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/a7aa27f9723de4dca467d0666c906cb2acc4dd35a2aa171e8e7b05d8d4984768",
       "most_recent_reward_e8s": 167420704358,
       "most_recent_reward_xdr": 8167.116799991955,
       "most_recent_timestamp": 1742004534,
@@ -2927,6 +3083,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "eec8c1d5742c23488ba0443e0c12657fb4027810f0f37aa8b59eaf83",
+      "reward_account_formatted": "6ee207eeeec8c1d5742c23488ba0443e0c12657fb4027810f0f37aa8b59eaf83",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/6ee207eeeec8c1d5742c23488ba0443e0c12657fb4027810f0f37aa8b59eaf83",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -2948,21 +3106,21 @@
     ],
     "countries": [
       "PT",
-      "LT",
-      "PL",
-      "EE",
       "LV",
-      "CZ",
-      "ES"
+      "EE",
+      "LT",
+      "ES",
+      "PL",
+      "CZ"
     ],
     "towns": [
-      "Riga",
       "Warszawa",
       "South Moravian Region",
-      "Tallinn",
+      "Madrid",
+      "Riga",
       "Barreiro",
       "Vilnius",
-      "Madrid"
+      "Tallinn"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/4r6qy-tljxg-slziw-zoteo-pboxh-vlctz-hkv2d-7zior-u3pxm-mmuxb-cae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Maksym_Ishchenko",
@@ -2991,6 +3149,8 @@
     ],
     "rewards": {
       "reward_account_hex": "bfedc15bc3f1e558bd61fcc1f80d87ffcbe5d301477eb15b33685bcf",
+      "reward_account_formatted": "b58f9f91bfedc15bc3f1e558bd61fcc1f80d87ffcbe5d301477eb15b33685bcf",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/b58f9f91bfedc15bc3f1e558bd61fcc1f80d87ffcbe5d301477eb15b33685bcf",
       "most_recent_reward_e8s": 221198392849,
       "most_recent_reward_xdr": 10790.499999959917,
       "most_recent_timestamp": 1742004534,
@@ -3021,6 +3181,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "8c81c42a08ce2532c035ea22efcf3cbfb9933c5b3f319299e8abfb10",
+      "reward_account_formatted": "cc6550f78c81c42a08ce2532c035ea22efcf3cbfb9933c5b3f319299e8abfb10",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/cc6550f78c81c42a08ce2532c035ea22efcf3cbfb9933c5b3f319299e8abfb10",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -3066,6 +3228,8 @@
     ],
     "rewards": {
       "reward_account_hex": "ef7ac7329871db6310ab2b8db0e14a5f84ef64d6a87fce2bf16a6152",
+      "reward_account_formatted": "e7cd6e20ef7ac7329871db6310ab2b8db0e14a5f84ef64d6a87fce2bf16a6152",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e7cd6e20ef7ac7329871db6310ab2b8db0e14a5f84ef64d6a87fce2bf16a6152",
       "most_recent_reward_e8s": 182060715017,
       "most_recent_reward_xdr": 8881.285799959294,
       "most_recent_timestamp": 1742004534,
@@ -3083,8 +3247,8 @@
     "total_subnets": 10,
     "total_unassigned_nodes": 4,
     "regions": [
-      "North America",
-      "Asia"
+      "Asia",
+      "North America"
     ],
     "countries": [
       "IN",
@@ -3099,6 +3263,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "cf1b6a1af9ab82b1c997b6c8bdfc693966a07405773b0dffaae96307",
+      "reward_account_formatted": "396d317acf1b6a1af9ab82b1c997b6c8bdfc693966a07405773b0dffaae96307",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/396d317acf1b6a1af9ab82b1c997b6c8bdfc693966a07405773b0dffaae96307",
       "most_recent_reward_e8s": 449327528596,
       "most_recent_reward_xdr": 21919.09549997007,
       "most_recent_timestamp": 1742004534,
@@ -3129,6 +3295,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "8b75f16dacf2a0a216ca1f746d3ab235cecc64f1300175b80df0fcd3",
+      "reward_account_formatted": "e3ce12fb8b75f16dacf2a0a216ca1f746d3ab235cecc64f1300175b80df0fcd3",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e3ce12fb8b75f16dacf2a0a216ca1f746d3ab235cecc64f1300175b80df0fcd3",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -3149,8 +3317,8 @@
       "Europe"
     ],
     "countries": [
-      "LV",
-      "LT"
+      "LT",
+      "LV"
     ],
     "towns": [
       "Vilnius",
@@ -3161,6 +3329,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "0e8b8529bbbfb2c0f1dd170d405cbe1b6c3edac4e117e5478710554c",
+      "reward_account_formatted": "aacc97740e8b8529bbbfb2c0f1dd170d405cbe1b6c3edac4e117e5478710554c",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/aacc97740e8b8529bbbfb2c0f1dd170d405cbe1b6c3edac4e117e5478710554c",
       "most_recent_reward_e8s": 285938809396,
       "most_recent_reward_xdr": 13948.66699995567,
       "most_recent_timestamp": 1742004534,
@@ -3191,6 +3361,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "fa7b73adab48ba3e6c55a39fbce02cf09c49037114e62d1d8ccf0994",
+      "reward_account_formatted": "eee3ff7dfa7b73adab48ba3e6c55a39fbce02cf09c49037114e62d1d8ccf0994",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/eee3ff7dfa7b73adab48ba3e6c55a39fbce02cf09c49037114e62d1d8ccf0994",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -3214,9 +3386,9 @@
       "US"
     ],
     "towns": [
-      "Arizona",
       "Illinois",
-      "Virginia"
+      "Virginia",
+      "Arizona"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/izmhk-lpjum-uo4oy-lviba-yctpc-arg4b-2ywim-vgoiu-gqaj2-gskmw-2qe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/MI_Servers",
@@ -3245,6 +3417,8 @@
     ],
     "rewards": {
       "reward_account_hex": "43fcf5c1be79ff92f9c7e44165868d2932eb82f3d9b98cab16edeec2",
+      "reward_account_formatted": "edc9fbf743fcf5c1be79ff92f9c7e44165868d2932eb82f3d9b98cab16edeec2",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/edc9fbf743fcf5c1be79ff92f9c7e44165868d2932eb82f3d9b98cab16edeec2",
       "most_recent_reward_e8s": 802673117133,
       "most_recent_reward_xdr": 39155.999999982,
       "most_recent_timestamp": 1742004534,
@@ -3275,6 +3449,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "f7a90b11b6f873e5a207a966412105073ecb07c53f563caae88d71b0",
+      "reward_account_formatted": "eec71611f7a90b11b6f873e5a207a966412105073ecb07c53f563caae88d71b0",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/eec71611f7a90b11b6f873e5a207a966412105073ecb07c53f563caae88d71b0",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -3307,6 +3483,8 @@
     ],
     "rewards": {
       "reward_account_hex": "8104a638c539bd7a9599d7b175e35fba557b8a7c365d2f6690eaa1c8",
+      "reward_account_formatted": "4aca56538104a638c539bd7a9599d7b175e35fba557b8a7c365d2f6690eaa1c8",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/4aca56538104a638c539bd7a9599d7b175e35fba557b8a7c365d2f6690eaa1c8",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -3337,6 +3515,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "24abb4584bba6309b5847574ab871acfd8412287b1e5585090a00161",
+      "reward_account_formatted": "90b90ce324abb4584bba6309b5847574ab871acfd8412287b1e5585090a00161",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/90b90ce324abb4584bba6309b5847574ab871acfd8412287b1e5585090a00161",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -3367,6 +3547,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "edf452b7c7754b83ff9998e20413646b6a9d5b70b039508276717482",
+      "reward_account_formatted": "661f3c4fedf452b7c7754b83ff9998e20413646b6a9d5b70b039508276717482",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/661f3c4fedf452b7c7754b83ff9998e20413646b6a9d5b70b039508276717482",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -3406,6 +3588,8 @@
     ],
     "rewards": {
       "reward_account_hex": "efa8ffb869e505e64a29bdab7665b49a277d1aa84337fd55421bf543",
+      "reward_account_formatted": "3a2ec378efa8ffb869e505e64a29bdab7665b49a277d1aa84337fd55421bf543",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/3a2ec378efa8ffb869e505e64a29bdab7665b49a277d1aa84337fd55421bf543",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -3445,6 +3629,8 @@
     ],
     "rewards": {
       "reward_account_hex": "b2f0cab014594b9c7bbdaf7e57179491ead918266945da6fd8b8beef",
+      "reward_account_formatted": "2ea3cf31b2f0cab014594b9c7bbdaf7e57179491ead918266945da6fd8b8beef",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/2ea3cf31b2f0cab014594b9c7bbdaf7e57179491ead918266945da6fd8b8beef",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -3497,6 +3683,8 @@
     ],
     "rewards": {
       "reward_account_hex": "6de62b853f561e0bde6aebb2508ec62e4d3b1ef5b8ee9a7ec9952741",
+      "reward_account_formatted": "0cabf5766de62b853f561e0bde6aebb2508ec62e4d3b1ef5b8ee9a7ec9952741",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/0cabf5766de62b853f561e0bde6aebb2508ec62e4d3b1ef5b8ee9a7ec9952741",
       "most_recent_reward_e8s": 953431757615,
       "most_recent_reward_xdr": 46510.30799997493,
       "most_recent_timestamp": 1742004534,
@@ -3543,6 +3731,8 @@
     ],
     "rewards": {
       "reward_account_hex": "026b601683b69b45d0d2acfe28de125f6dc0ffd77ccc210f88bfaa37",
+      "reward_account_formatted": "d7abfd0d026b601683b69b45d0d2acfe28de125f6dc0ffd77ccc210f88bfaa37",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/d7abfd0d026b601683b69b45d0d2acfe28de125f6dc0ffd77ccc210f88bfaa37",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -3582,6 +3772,8 @@
     ],
     "rewards": {
       "reward_account_hex": "6bbbde35b6d63c9629491d79615171b052664de6c58b31469f8f4d0f",
+      "reward_account_formatted": "0566cc386bbbde35b6d63c9629491d79615171b052664de6c58b31469f8f4d0f",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/0566cc386bbbde35b6d63c9629491d79615171b052664de6c58b31469f8f4d0f",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -3599,16 +3791,16 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 26,
     "regions": [
-      "Europe",
-      "North America"
+      "North America",
+      "Europe"
     ],
     "countries": [
       "US",
       "BE"
     ],
     "towns": [
-      "Florida",
-      "Flanders"
+      "Flanders",
+      "Florida"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/g7dkt-aapqq-j3hqt-xtiys-pwapz-idulp-nwagd-zibqm-caxa4-gc23t-3qe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/NODAO",
@@ -3637,6 +3829,8 @@
     ],
     "rewards": {
       "reward_account_hex": "c939dfd6e9fccda41536e00a01b38316429bfc88a3c5e64e858c272d",
+      "reward_account_formatted": "e54f7c9cc939dfd6e9fccda41536e00a01b38316429bfc88a3c5e64e858c272d",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e54f7c9cc939dfd6e9fccda41536e00a01b38316429bfc88a3c5e64e858c272d",
       "most_recent_reward_e8s": 612152023287,
       "most_recent_reward_xdr": 29861.99999998643,
       "most_recent_timestamp": 1742004534,
@@ -3660,8 +3854,8 @@
       "US"
     ],
     "towns": [
-      "New York",
-      "California"
+      "California",
+      "New York"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/hk7eo-22zam-kqmsx-dtfbj-k5i6f-jg65h-micpf-2cztc-t2eqk-efgvx-vqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/NoviSystems",
@@ -3676,6 +3870,8 @@
     ],
     "rewards": {
       "reward_account_hex": "7e0919755f31644af2b7e97739f8cf09d34cb73acce549dd5a70aa57",
+      "reward_account_formatted": "ea7c7ec17e0919755f31644af2b7e97739f8cf09d34cb73acce549dd5a70aa57",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/ea7c7ec17e0919755f31644af2b7e97739f8cf09d34cb73acce549dd5a70aa57",
       "most_recent_reward_e8s": 69268963962,
       "most_recent_reward_xdr": 3379.0785999942836,
       "most_recent_timestamp": 1742004534,
@@ -3721,6 +3917,8 @@
     ],
     "rewards": {
       "reward_account_hex": "33f777364eaafde71d47bb7153110378033599c4571221e5643afd3d",
+      "reward_account_formatted": "d4c760b433f777364eaafde71d47bb7153110378033599c4571221e5643afd3d",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/d4c760b433f777364eaafde71d47bb7153110378033599c4571221e5643afd3d",
       "most_recent_reward_e8s": 1037144848509,
       "most_recent_reward_xdr": 50593.999999966036,
       "most_recent_timestamp": 1742004534,
@@ -3766,6 +3964,8 @@
     ],
     "rewards": {
       "reward_account_hex": "5cb1f96f2a10c8327d2589a7043dfd54c347c658bf9e0a8d4d66fd90",
+      "reward_account_formatted": "cff3c9a85cb1f96f2a10c8327d2589a7043dfd54c347c658bf9e0a8d4d66fd90",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/cff3c9a85cb1f96f2a10c8327d2589a7043dfd54c347c658bf9e0a8d4d66fd90",
       "most_recent_reward_e8s": 237775866098,
       "most_recent_reward_xdr": 11599.182299992635,
       "most_recent_timestamp": 1742004534,
@@ -3805,6 +4005,8 @@
     ],
     "rewards": {
       "reward_account_hex": "9ac9d5bc158c60b0456964d12d021d438ee999929af5a84374f8716c",
+      "reward_account_formatted": "98643f839ac9d5bc158c60b0456964d12d021d438ee999929af5a84374f8716c",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/98643f839ac9d5bc158c60b0456964d12d021d438ee999929af5a84374f8716c",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -3835,6 +4037,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "62633a664a75e6082e275d56bc0e87ca70abf02ef82dbc22580511da",
+      "reward_account_formatted": "9c1d2a9a62633a664a75e6082e275d56bc0e87ca70abf02ef82dbc22580511da",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/9c1d2a9a62633a664a75e6082e275d56bc0e87ca70abf02ef82dbc22580511da",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -3865,6 +4069,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "c5451744dab71cf30021a9c187f27a638e8db18831d7fd9ae36cd350",
+      "reward_account_formatted": "6bede554c5451744dab71cf30021a9c187f27a638e8db18831d7fd9ae36cd350",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/6bede554c5451744dab71cf30021a9c187f27a638e8db18831d7fd9ae36cd350",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -3895,6 +4101,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "0ce6b173ab3ab68a34c76996c4e8130332219a2df112a372cb9745b0",
+      "reward_account_formatted": "5da64aae0ce6b173ab3ab68a34c76996c4e8130332219a2df112a372cb9745b0",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/5da64aae0ce6b173ab3ab68a34c76996c4e8130332219a2df112a372cb9745b0",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -3927,6 +4135,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "dd57389f941a9d2d84223c48606b1dabe5cfbe892ceb2030a26859bb",
+      "reward_account_formatted": "f7a0c5e8dd57389f941a9d2d84223c48606b1dabe5cfbe892ceb2030a26859bb",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/f7a0c5e8dd57389f941a9d2d84223c48606b1dabe5cfbe892ceb2030a26859bb",
       "most_recent_reward_e8s": 1189471706777,
       "most_recent_reward_xdr": 58024.80879999561,
       "most_recent_timestamp": 1742004534,
@@ -3972,6 +4182,8 @@
     ],
     "rewards": {
       "reward_account_hex": "6bebf6f3b5e0710e40472df5627f7b8918ab3fca856b7b8185943750",
+      "reward_account_formatted": "75ea14366bebf6f3b5e0710e40472df5627f7b8918ab3fca856b7b8185943750",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/75ea14366bebf6f3b5e0710e40472df5627f7b8918ab3fca856b7b8185943750",
       "most_recent_reward_e8s": 178309856094,
       "most_recent_reward_xdr": 8698.311399977507,
       "most_recent_timestamp": 1742004534,
@@ -4002,6 +4214,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "aa8d4d7fd326f32fd22169b922722488a4bcdf4c67037b7491f4d6a8",
+      "reward_account_formatted": "d799d36aaa8d4d7fd326f32fd22169b922722488a4bcdf4c67037b7491f4d6a8",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/d799d36aaa8d4d7fd326f32fd22169b922722488a4bcdf4c67037b7491f4d6a8",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -4047,6 +4261,8 @@
     ],
     "rewards": {
       "reward_account_hex": "16615ce0774f65a5a91ebce56a94f0284b2f602f86b16cff915d5767",
+      "reward_account_formatted": "9b441d4716615ce0774f65a5a91ebce56a94f0284b2f602f86b16cff915d5767",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/9b441d4716615ce0774f65a5a91ebce56a94f0284b2f602f86b16cff915d5767",
       "most_recent_reward_e8s": 58051174613,
       "most_recent_reward_xdr": 2831.8523999713657,
       "most_recent_timestamp": 1742004534,
@@ -4092,6 +4308,8 @@
     ],
     "rewards": {
       "reward_account_hex": "a3c7ebfd95677c26ea1130ce060f0021d1b7c605b068f7e692e00aeb",
+      "reward_account_formatted": "215bcadda3c7ebfd95677c26ea1130ce060f0021d1b7c605b068f7e692e00aeb",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/215bcadda3c7ebfd95677c26ea1130ce060f0021d1b7c605b068f7e692e00aeb",
       "most_recent_reward_e8s": 682997827067,
       "most_recent_reward_xdr": 33317.99999998239,
       "most_recent_timestamp": 1742004534,
@@ -4122,6 +4340,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "504e96ae6a4853aaf5749aa074a3c6ad7aaf05b25e36b0d97fad441f",
+      "reward_account_formatted": "37c1b0e7504e96ae6a4853aaf5749aa074a3c6ad7aaf05b25e36b0d97fad441f",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/37c1b0e7504e96ae6a4853aaf5749aa074a3c6ad7aaf05b25e36b0d97fad441f",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -4174,6 +4394,8 @@
     ],
     "rewards": {
       "reward_account_hex": "7366492a04997ea736704dc9461104d86088a739b15d9fb1d2f59d56",
+      "reward_account_formatted": "6103cbc17366492a04997ea736704dc9461104d86088a739b15d9fb1d2f59d56",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/6103cbc17366492a04997ea736704dc9461104d86088a739b15d9fb1d2f59d56",
       "most_recent_reward_e8s": 652043786642,
       "most_recent_reward_xdr": 31807.999999970045,
       "most_recent_timestamp": 1742004534,
@@ -4204,6 +4426,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "8b75f16dacf2a0a216ca1f746d3ab235cecc64f1300175b80df0fcd3",
+      "reward_account_formatted": "e3ce12fb8b75f16dacf2a0a216ca1f746d3ab235cecc64f1300175b80df0fcd3",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e3ce12fb8b75f16dacf2a0a216ca1f746d3ab235cecc64f1300175b80df0fcd3",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -4234,6 +4458,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "7c872817f9aaa2b5734b5866f9c4725c81fb1f0a4f2674a5779b5cf2",
+      "reward_account_formatted": "20a85acd7c872817f9aaa2b5734b5866f9c4725c81fb1f0a4f2674a5779b5cf2",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/20a85acd7c872817f9aaa2b5734b5866f9c4725c81fb1f0a4f2674a5779b5cf2",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -4264,6 +4490,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "6d5ec2387648c9d3d8b7a12b0e94bde0db359f44481d9f9e2915ab1e",
+      "reward_account_formatted": "c2be56866d5ec2387648c9d3d8b7a12b0e94bde0db359f44481d9f9e2915ab1e",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/c2be56866d5ec2387648c9d3d8b7a12b0e94bde0db359f44481d9f9e2915ab1e",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -4294,6 +4522,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "6b2e4e0446b2aeebea76f2cdcd70b2e24048337481506a44bf2b3d49",
+      "reward_account_formatted": "f6b17a0a6b2e4e0446b2aeebea76f2cdcd70b2e24048337481506a44bf2b3d49",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/f6b17a0a6b2e4e0446b2aeebea76f2cdcd70b2e24048337481506a44bf2b3d49",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -4317,9 +4547,9 @@
       "US"
     ],
     "towns": [
-      "Florida",
       "New York",
-      "Illinois"
+      "Illinois",
+      "Florida"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/spp3m-vawt7-3gyh6-pjz5d-6zidf-up3qb-yte62-otexv-vfpqg-n6awf-lqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Rivonia_Holdings,_LLC",
@@ -4348,6 +4578,8 @@
     ],
     "rewards": {
       "reward_account_hex": "13345c21cc95fa064f8ffdfddcbed03396a0c9e4f94f0da26e908758",
+      "reward_account_formatted": "524fa16613345c21cc95fa064f8ffdfddcbed03396a0c9e4f94f0da26e908758",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/524fa16613345c21cc95fa064f8ffdfddcbed03396a0c9e4f94f0da26e908758",
       "most_recent_reward_e8s": 903447993112,
       "most_recent_reward_xdr": 44071.99999998958,
       "most_recent_timestamp": 1742004534,
@@ -4365,22 +4597,24 @@
     "total_subnets": 10,
     "total_unassigned_nodes": 3,
     "regions": [
-      "Asia",
-      "North America"
+      "North America",
+      "Asia"
     ],
     "countries": [
       "IN",
       "CA"
     ],
     "towns": [
-      "Navi Mumbai",
-      "Quebec"
+      "Quebec",
+      "Navi Mumbai"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/ulyfm-vkxtj-o42dg-e4nam-l4tzf-37wci-ggntw-4ma7y-d267g-ywxi6-iae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Rivram_Inc",
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "ff363a8cf4f83becbea95435e70fc5f42a4a3d2317e5ed7bdb992953",
+      "reward_account_formatted": "a5c6a5e8ff363a8cf4f83becbea95435e70fc5f42a4a3d2317e5ed7bdb992953",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/a5c6a5e8ff363a8cf4f83becbea95435e70fc5f42a4a3d2317e5ed7bdb992953",
       "most_recent_reward_e8s": 590281851912,
       "most_recent_reward_xdr": 28795.12929997118,
       "most_recent_timestamp": 1742004534,
@@ -4411,6 +4645,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "3585a5d229733ffbfef4a4729b25feac161108a2ba1e33befa8c0a2d",
+      "reward_account_formatted": "a909ccc13585a5d229733ffbfef4a4729b25feac161108a2ba1e33befa8c0a2d",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/a909ccc13585a5d229733ffbfef4a4729b25feac161108a2ba1e33befa8c0a2d",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -4441,6 +4677,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "a46db803163c77fb785e913accca87a5b433ca5d69a3215a4b4f87e9",
+      "reward_account_formatted": "3d8276cea46db803163c77fb785e913accca87a5b433ca5d69a3215a4b4f87e9",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/3d8276cea46db803163c77fb785e913accca87a5b433ca5d69a3215a4b4f87e9",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -4471,6 +4709,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "d9a7342d5c63284e00655629827dc6c1e685df5cc11b88e47b79594a",
+      "reward_account_formatted": "be63caded9a7342d5c63284e00655629827dc6c1e685df5cc11b88e47b79594a",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/be63caded9a7342d5c63284e00655629827dc6c1e685df5cc11b88e47b79594a",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -4495,6 +4735,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "17597224eb87089079924f4113c9b24e475389ec721cb4118c2a399a",
+      "reward_account_formatted": "4046f63117597224eb87089079924f4113c9b24e475389ec721cb4118c2a399a",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/4046f63117597224eb87089079924f4113c9b24e475389ec721cb4118c2a399a",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -4534,6 +4776,8 @@
     ],
     "rewards": {
       "reward_account_hex": "ed55390f24a55d2ff373f2582a3413c67285f1a1c79b99739ff7b105",
+      "reward_account_formatted": "dd3891a1ed55390f24a55d2ff373f2582a3413c67285f1a1c79b99739ff7b105",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/dd3891a1ed55390f24a55d2ff373f2582a3413c67285f1a1c79b99739ff7b105",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -4564,6 +4808,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "fb5776905609de83fe601470c0a68f3dd0fd310009a19226d23e7f7f",
+      "reward_account_formatted": "eb75a74bfb5776905609de83fe601470c0a68f3dd0fd310009a19226d23e7f7f",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/eb75a74bfb5776905609de83fe601470c0a68f3dd0fd310009a19226d23e7f7f",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -4588,6 +4834,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "105d7ddc59d849ec86103bb6180c834f4096ffdbd723cdd781f4dde5",
+      "reward_account_formatted": "bfb09f6c105d7ddc59d849ec86103bb6180c834f4096ffdbd723cdd781f4dde5",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/bfb09f6c105d7ddc59d849ec86103bb6180c834f4096ffdbd723cdd781f4dde5",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -4633,6 +4881,8 @@
     ],
     "rewards": {
       "reward_account_hex": "77d0acc4c8da71ac7651b528914473f6f86533f267621d08916c3d5a",
+      "reward_account_formatted": "2355bf4177d0acc4c8da71ac7651b528914473f6f86533f267621d08916c3d5a",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/2355bf4177d0acc4c8da71ac7651b528914473f6f86533f267621d08916c3d5a",
       "most_recent_reward_e8s": 998483047025,
       "most_recent_reward_xdr": 48707.99999997355,
       "most_recent_timestamp": 1742004534,
@@ -4663,6 +4913,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "87d8a86241149e63e84698c11056ce90ed214ac4647657ddd42377ad",
+      "reward_account_formatted": "cacf86ca87d8a86241149e63e84698c11056ce90ed214ac4647657ddd42377ad",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/cacf86ca87d8a86241149e63e84698c11056ce90ed214ac4647657ddd42377ad",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -4715,6 +4967,8 @@
     ],
     "rewards": {
       "reward_account_hex": "c81cb7e8820e954f082a48897aaea4b9601e11ee3a5a09276d95fc9d",
+      "reward_account_formatted": "64860a52c81cb7e8820e954f082a48897aaea4b9601e11ee3a5a09276d95fc9d",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/64860a52c81cb7e8820e954f082a48897aaea4b9601e11ee3a5a09276d95fc9d",
       "most_recent_reward_e8s": 978065679963,
       "most_recent_reward_xdr": 47711.999999955064,
       "most_recent_timestamp": 1742004534,
@@ -4754,6 +5008,8 @@
     ],
     "rewards": {
       "reward_account_hex": "57ec85d9334cdd73b1a90108882508f2ffde49e853fbc5fa5e6990ec",
+      "reward_account_formatted": "58dda08e57ec85d9334cdd73b1a90108882508f2ffde49e853fbc5fa5e6990ec",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/58dda08e57ec85d9334cdd73b1a90108882508f2ffde49e853fbc5fa5e6990ec",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -4799,6 +5055,8 @@
     ],
     "rewards": {
       "reward_account_hex": "ef8be46ea0c92591a9087b90cee923bd08dd237968093bdc72a794f6",
+      "reward_account_formatted": "29d6bf0cef8be46ea0c92591a9087b90cee923bd08dd237968093bdc72a794f6",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/29d6bf0cef8be46ea0c92591a9087b90cee923bd08dd237968093bdc72a794f6",
       "most_recent_reward_e8s": 978065679963,
       "most_recent_reward_xdr": 47711.999999955064,
       "most_recent_timestamp": 1742004534,
@@ -4851,6 +5109,8 @@
     ],
     "rewards": {
       "reward_account_hex": "32575eb043429d6ac04d4f6301ef10b26fc185dd5e113b7781cc7b08",
+      "reward_account_formatted": "8a48a35632575eb043429d6ac04d4f6301ef10b26fc185dd5e113b7781cc7b08",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/8a48a35632575eb043429d6ac04d4f6301ef10b26fc185dd5e113b7781cc7b08",
       "most_recent_reward_e8s": 576278135377,
       "most_recent_reward_xdr": 28111.999999960815,
       "most_recent_timestamp": 1742004534,
@@ -4896,6 +5156,8 @@
     ],
     "rewards": {
       "reward_account_hex": "9745c45b325886895dfbfe41b23ca42f9e4b4b4e45b9473e2d7adb50",
+      "reward_account_formatted": "7202d9009745c45b325886895dfbfe41b23ca42f9e4b4b4e45b9473e2d7adb50",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/7202d9009745c45b325886895dfbfe41b23ca42f9e4b4b4e45b9473e2d7adb50",
       "most_recent_reward_e8s": 587245295395,
       "most_recent_reward_xdr": 28646.999999958887,
       "most_recent_timestamp": 1742004534,
@@ -4916,22 +5178,22 @@
       "Europe"
     ],
     "countries": [
-      "EE",
-      "ES",
-      "LT",
-      "LV",
       "PT",
+      "LV",
+      "EE",
+      "LT",
       "PL",
+      "ES",
       "CZ"
     ],
     "towns": [
-      "Praha",
-      "Siauliai",
-      "Warszawa",
-      "Lisbon",
       "Tallinn",
       "Madrid",
-      "Riga"
+      "Warszawa",
+      "Lisbon",
+      "Praha",
+      "Riga",
+      "Siauliai"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/3oqw6-vmpk2-mlwlx-52z5x-e3p7u-fjlcw-yxc34-lf2zq-6ub2f-v63hk-lae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Vladyslav_Popov",
@@ -4960,6 +5222,8 @@
     ],
     "rewards": {
       "reward_account_hex": "8650803e3140853ba635398530a90620726eaa8cba7488a59227d954",
+      "reward_account_formatted": "1b47b5c38650803e3140853ba635398530a90620726eaa8cba7488a59227d954",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/1b47b5c38650803e3140853ba635398530a90620726eaa8cba7488a59227d954",
       "most_recent_reward_e8s": 221198392849,
       "most_recent_reward_xdr": 10790.499999959917,
       "most_recent_timestamp": 1742004534,
@@ -4990,6 +5254,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "3845d07c374e44bf18b266ee4aca732d521cac70ae9e242d20a038a3",
+      "reward_account_formatted": "f69c482f3845d07c374e44bf18b266ee4aca732d521cac70ae9e242d20a038a3",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/f69c482f3845d07c374e44bf18b266ee4aca732d521cac70ae9e242d20a038a3",
       "most_recent_reward_e8s": 208805245787,
       "most_recent_reward_xdr": 10185.937499981434,
       "most_recent_timestamp": 1742004534,
@@ -5014,8 +5280,8 @@
       "HK"
     ],
     "towns": [
-      "Seoul",
-      "HongKong"
+      "HongKong",
+      "Seoul"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/64xe5-tx2s3-4gjmj-pnozr-fejw2-77y5y-rhcjk-glnmx-62brf-qin5q-pqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/User:Web3game",
@@ -5051,6 +5317,8 @@
     ],
     "rewards": {
       "reward_account_hex": "47d4b33772360770d502724de897b3cd3e25ee883ea512a9111907a5",
+      "reward_account_formatted": "251f1a6147d4b33772360770d502724de897b3cd3e25ee883ea512a9111907a5",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/251f1a6147d4b33772360770d502724de897b3cd3e25ee883ea512a9111907a5",
       "most_recent_reward_e8s": 592667576155,
       "most_recent_reward_xdr": 28911.509699993207,
       "most_recent_timestamp": 1742004534,
@@ -5081,6 +5349,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "2dcfe2c4dc1986944c27d8853d699c141c83a7f278a62c1b71b5047b",
+      "reward_account_formatted": "178bef572dcfe2c4dc1986944c27d8853d699c141c83a7f278a62c1b71b5047b",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/178bef572dcfe2c4dc1986944c27d8853d699c141c83a7f278a62c1b71b5047b",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -5105,6 +5375,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "6f6fdc7d039dd9dd18093799735e344b933b8c552f7dd4288499273e",
+      "reward_account_formatted": "da3c63406f6fdc7d039dd9dd18093799735e344b933b8c552f7dd4288499273e",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/da3c63406f6fdc7d039dd9dd18093799735e344b933b8c552f7dd4288499273e",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -5135,6 +5407,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "4ed82cc94dc958810fb421276dd75785ba08558cdf3ba467d9e6dcb6",
+      "reward_account_formatted": "18cbd29c4ed82cc94dc958810fb421276dd75785ba08558cdf3ba467d9e6dcb6",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/18cbd29c4ed82cc94dc958810fb421276dd75785ba08558cdf3ba467d9e6dcb6",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
@@ -5173,6 +5447,8 @@
     ],
     "rewards": {
       "reward_account_hex": "385c87fa4547748e2f58708a211a485b466f55482bdbdb742593ae4a",
+      "reward_account_formatted": "3b9290f1385c87fa4547748e2f58708a211a485b466f55482bdbdb742593ae4a",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/3b9290f1385c87fa4547748e2f58708a211a485b466f55482bdbdb742593ae4a",
       "most_recent_reward_e8s": 250954569308,
       "most_recent_reward_xdr": 12242.065799982856,
       "most_recent_timestamp": 1742004534,
@@ -5212,6 +5488,8 @@
     ],
     "rewards": {
       "reward_account_hex": "a33a5a9222426e09624f4680edc836ba1fde7fdc294cd99973239ec1",
+      "reward_account_formatted": "3298bb5ba33a5a9222426e09624f4680edc836ba1fde7fdc294cd99973239ec1",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/3298bb5ba33a5a9222426e09624f4680edc836ba1fde7fdc294cd99973239ec1",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -5257,6 +5535,8 @@
     ],
     "rewards": {
       "reward_account_hex": "81f2877dae740c1ca3d1bdd66783c03836baa1d59e1408c626c51b21",
+      "reward_account_formatted": "87f7b98581f2877dae740c1ca3d1bdd66783c03836baa1d59e1408c626c51b21",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/87f7b98581f2877dae740c1ca3d1bdd66783c03836baa1d59e1408c626c51b21",
       "most_recent_reward_e8s": 83906590545,
       "most_recent_reward_xdr": 4093.1312999661895,
       "most_recent_timestamp": 1742004534,
@@ -5287,6 +5567,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "4bf47bf70901f123191b7930b456e810fe73904bac649b4c018f7d4a",
+      "reward_account_formatted": "29e187194bf47bf70901f123191b7930b456e810fe73904bac649b4c018f7d4a",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/29e187194bf47bf70901f123191b7930b456e810fe73904bac649b4c018f7d4a",
       "most_recent_reward_e8s": 61619552293,
       "most_recent_reward_xdr": 3005.924999957126,
       "most_recent_timestamp": 1742004534,
@@ -5311,6 +5593,8 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "b7f363a5eec19a835bedb4c8a879f2089699c77e6a0325400622ad6d",
+      "reward_account_formatted": "18f00dadb7f363a5eec19a835bedb4c8a879f2089699c77e6a0325400622ad6d",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/18f00dadb7f363a5eec19a835bedb4c8a879f2089699c77e6a0325400622ad6d",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1742004534,
@@ -5335,29 +5619,14 @@
     "document_validations": [],
     "rewards": {
       "reward_account_hex": "bf2b0e773f5d52018e6d6a27edb100964bbf4f49811150ea4c31d968",
+      "reward_account_formatted": "1a6d0159bf2b0e773f5d52018e6d6a27edb100964bbf4f49811150ea4c31d968",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/1a6d0159bf2b0e773f5d52018e6d6a27edb100964bbf4f49811150ea4c31d968",
       "most_recent_reward_e8s": 0,
       "most_recent_reward_xdr": 0.0,
       "most_recent_timestamp": 1739374733,
       "total_rewards_e8s": 0,
       "total_rewards_xdr": 0.0
     }
-  },
-  {
-    "name": "Stamper Co., Ltd.",
-    "toml_id": "stamper",
-    "principal_id": "",
-    "location_count": 0,
-    "total_nodes": 0,
-    "total_rewardable_nodes": 0,
-    "total_subnets": 0,
-    "total_unassigned_nodes": 0,
-    "regions": [],
-    "countries": [],
-    "towns": [],
-    "dashboard_link": "",
-    "wiki_link": "https://wiki.internetcomputer.org/wiki/Stamper_Co.,_Ltd.",
-    "document_validations": [],
-    "rewards": null
   },
   {
     "name": "Technical University of Munich",
@@ -5373,6 +5642,23 @@
     "towns": [],
     "dashboard_link": "",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Technical_University_of_Munich",
+    "document_validations": [],
+    "rewards": null
+  },
+  {
+    "name": "Stamper Co., Ltd.",
+    "toml_id": "stamper",
+    "principal_id": "",
+    "location_count": 0,
+    "total_nodes": 0,
+    "total_rewardable_nodes": 0,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 0,
+    "regions": [],
+    "countries": [],
+    "towns": [],
+    "dashboard_link": "",
+    "wiki_link": "https://wiki.internetcomputer.org/wiki/Stamper_Co.,_Ltd.",
     "document_validations": [],
     "rewards": null
   }
