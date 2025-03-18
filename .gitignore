@@ -1,8 +1,23 @@
-/target
+.canbench/
+.dfx/
+deps/
+.env
+target/
+tests/pocket-ic
+tests/logs
 
+# Various IDEs and Editors
+.vscode/
+.idea/
+**/*~
 
-# Added by cargo
-#
-# already existing elements were commented out
+# Mac OSX temporary files
+.DS_Store
+**/.DS_Store
 
-#/target
+# frontend code
+node_modules/
+dist/
+.svelte-kit/
+
+frontend/.vite/
