@@ -1,5 +1,51 @@
 # Node Providers
 
+
+
+
+```
+{
+    "name": "NP Name",
+    "principal": "principal",
+    # can be missing
+    "declaration-path": "/path",
+    "declaration-wiki-hash": "hash",
+    "declaration-real-hash": "hash",
+    # can be missing
+    "identity-path": "/path",
+    "identity-wiki-hash": "hash",
+    "identity-real-hash": "hash",
+    "wiki-link": "link",
+    "dashboard-link": "link",
+    "rewards XDR": "191919",
+    "account id rewards": "account id",
+    "region": ["Europe", "US"],
+    "number of nodes": 0,
+    "additional documents": [
+        {
+            "name": "dummy",
+            "path": "dummy",
+            "wiki-hash": "dummy",
+            "real-hash": "dummy"
+        },
+        {
+            "name": "dummy1",
+            "path": "dummy1",
+            "wiki-hash": "dummy",
+            "real-hash": "dummy"
+        }
+    ]
+}
+```
+
+
+
+
+
+
+
+
+
 Every node provider from the IC network is documented here, from the
 declaration document, to the proposals related to that node provider.
 
