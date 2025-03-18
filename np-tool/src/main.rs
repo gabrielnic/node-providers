@@ -1,18 +1,18 @@
+use candid::{CandidType, Decode, Encode};
+use ic_agent::{export::Principal, Agent};
+use icp_ledger::AccountIdentifier;
+use reqwest;
 use serde::{Deserialize, Serialize};
 use std::collections::{HashMap, HashSet};
 use std::fs::{self, File};
 use std::io::{self, Read};
 use std::path::Path;
 use thiserror::Error;
-use ic_agent::{Agent, export::Principal};
-use candid::{CandidType, Decode, Encode};
-use icp_ledger::AccountIdentifier;
-use reqwest;
 
 // Configuration constants
 const TOML_PATH: &str = "node_providers-wiki.toml";
-const DOCS_DIR: &str = "../np-list";
-const OUTPUT_PATH: &str = "combined_providers.json";
+const DOCS_DIR: &str = "../frontend/static/np-list";
+const OUTPUT_PATH: &str = "../frontend/src/routes/combined_providers.json";
 const GOVERNANCE_CANISTER_ID: &str = "rrkah-fqaaa-aaaaa-aaaaq-cai";
 const IC_URL: &str = "https://ic0.app";
 const API_URL: &str = "https://ic-api.internetcomputer.org/api/v3/node-providers?format=json";
@@ -218,7 +218,8 @@ async fn fetch_node_providers() -> Result<ApiResponse> {
     println!("Fetching node providers data from API: {}", API_URL);
 
     let client = reqwest::Client::new();
-    let response = client.get(API_URL)
+    let response = client
+        .get(API_URL)
         .header("accept", "application/json")
         .send()
         .await?;
@@ -234,7 +235,10 @@ async fn fetch_node_providers() -> Result<ApiResponse> {
 
     let json_data = response.text().await?;
     let api_data: ApiResponse = serde_json::from_str(&json_data)?;
-    println!("Successfully fetched {} node providers from API", api_data.node_providers.len());
+    println!(
+        "Successfully fetched {} node providers from API",
+        api_data.node_providers.len()
+    );
 
     // Optionally save the JSON response to a file for debugging
     fs::write("node_providers.json", &json_data)?;
@@ -277,7 +281,7 @@ fn extract_location_info(locations: &[Location]) -> (Vec<String>, Vec<String>, V
     (
         regions.into_iter().collect(),
         countries.into_iter().collect(),
-        towns.into_iter().collect()
+        towns.into_iter().collect(),
     )
 }
 
@@ -350,12 +354,25 @@ fn parse_toml_content(content: &str) -> Result<HashMap<String, NodeProviderWikiI
 }
 
 // Process document files in the specified directory
-fn process_document_files<P: AsRef<Path>>(base_path: P) -> Result<HashMap<String, HashMap<String, String>>> {
+fn process_document_files<P: AsRef<Path>>(
+    base_path: P,
+) -> Result<HashMap<String, HashMap<String, String>>> {
     let mut result = HashMap::new();
     let allowed_docs: HashSet<&str> = [
-        "declaration", "identity", "handover", "invoice", "contract",
-        "passeport", "order", "registration", "authenticity", "decentralization",
-    ].iter().copied().collect();
+        "declaration",
+        "identity",
+        "handover",
+        "invoice",
+        "contract",
+        "passeport",
+        "order",
+        "registration",
+        "authenticity",
+        "decentralization",
+    ]
+    .iter()
+    .copied()
+    .collect();
 
     for entry in fs::read_dir(base_path)? {
         let entry = entry?;
@@ -427,7 +444,10 @@ fn merge_node_provider_data(
     for provider in &api_data.node_providers {
         let normalized_api_name = provider.display_name.to_lowercase();
         let (regions, countries, towns) = extract_location_info(&provider.locations);
-        let dashboard_link = format!("https://dashboard.internetcomputer.org/provider/{}", provider.principal_id);
+        let dashboard_link = format!(
+            "https://dashboard.internetcomputer.org/provider/{}",
+            provider.principal_id
+        );
 
         let mut combined = CombinedNodeProvider {
             name: provider.display_name.clone(),
@@ -461,7 +481,8 @@ fn merge_node_provider_data(
                 if let Some(expected_hash) = &wiki_info.declaration {
                     if let Some(file_path) = doc_paths.get("declaration") {
                         if let Ok(actual_hash) = calculate_file_hash(file_path) {
-                            let matches = expected_hash.to_lowercase() == actual_hash.to_lowercase();
+                            let matches =
+                                expected_hash.to_lowercase() == actual_hash.to_lowercase();
                             validations.push(DocumentValidation {
                                 document_type: "declaration".to_string(),
                                 file_path: file_path.clone().to_string(),
@@ -477,7 +498,8 @@ fn merge_node_provider_data(
                 if let Some(expected_hash) = &wiki_info.identity {
                     if let Some(file_path) = doc_paths.get("identity") {
                         if let Ok(actual_hash) = calculate_file_hash(file_path) {
-                            let matches = expected_hash.to_lowercase() == actual_hash.to_lowercase();
+                            let matches =
+                                expected_hash.to_lowercase() == actual_hash.to_lowercase();
                             validations.push(DocumentValidation {
                                 document_type: "identity".to_string(),
                                 file_path: file_path.clone().to_string(),
@@ -493,7 +515,8 @@ fn merge_node_provider_data(
                 for (doc_type, expected_hash) in &wiki_info.additional_documents {
                     if let Some(file_path) = doc_paths.get(doc_type) {
                         if let Ok(actual_hash) = calculate_file_hash(file_path) {
-                            let matches = expected_hash.to_lowercase() == actual_hash.to_lowercase();
+                            let matches =
+                                expected_hash.to_lowercase() == actual_hash.to_lowercase();
                             validations.push(DocumentValidation {
                                 document_type: doc_type.clone(),
                                 file_path: file_path.clone().to_string(),
@@ -568,9 +591,7 @@ fn count_document_validations(combined_data: &[CombinedNodeProvider]) -> (usize,
 // Fetch rewards data from the governance canister
 async fn fetch_node_provider_rewards(agent: &Agent) -> Result<ListNodeProviderRewardsResponse> {
     // Create request with no date filter to get all rewards
-    let request = ListNodeProviderRewardsRequest {
-        date_filter: None,
-    };
+    let request = ListNodeProviderRewardsRequest { date_filter: None };
 
     // Encode the request using Candid
     let args = Encode!(&request)?;
@@ -590,14 +611,18 @@ async fn fetch_node_provider_rewards(agent: &Agent) -> Result<ListNodeProviderRe
 }
 
 // Process rewards data into a map keyed by principal ID
-fn process_rewards_data(rewards_response: ListNodeProviderRewardsResponse) -> HashMap<String, ProviderRewardInfo> {
+fn process_rewards_data(
+    rewards_response: ListNodeProviderRewardsResponse,
+) -> HashMap<String, ProviderRewardInfo> {
     let mut result = HashMap::new();
 
     for monthly_reward in rewards_response.rewards {
         // Get XDR conversion rate
-        let xdr_rate = monthly_reward.xdr_conversion_rate
+        let xdr_rate = monthly_reward
+            .xdr_conversion_rate
             .and_then(|rate| rate.xdr_permyriad_per_icp)
-            .unwrap_or(0) as f64 / 10000.0; // Convert from permyriad to ratio
+            .unwrap_or(0) as f64
+            / 10000.0; // Convert from permyriad to ratio
 
         for reward in monthly_reward.rewards {
             if let Some(node_provider) = reward.node_provider {
@@ -605,20 +630,23 @@ fn process_rewards_data(rewards_response: ListNodeProviderRewardsResponse) -> Ha
                     let principal_id = id.to_text();
 
                     // Get reward account hash
-                    let (reward_account_hex, reward_account_formatted, reward_account_dashboard_link) =
-                        if let Some(account) = &node_provider.reward_account {
-                            let hex = hex::encode(&account.hash);
+                    let (
+                        reward_account_hex,
+                        reward_account_formatted,
+                        reward_account_dashboard_link,
+                    ) = if let Some(account) = &node_provider.reward_account {
+                        let hex = hex::encode(&account.hash);
+                        process_account_hex(&hex)
+                    } else if let Some(RewardMode::RewardToAccount(account)) = &reward.reward_mode {
+                        if let Some(acc) = &account.to_account {
+                            let hex = hex::encode(&acc.hash);
                             process_account_hex(&hex)
-                        } else if let Some(RewardMode::RewardToAccount(account)) = &reward.reward_mode {
-                            if let Some(acc) = &account.to_account {
-                                let hex = hex::encode(&acc.hash);
-                                process_account_hex(&hex)
-                            } else {
-                                (None, None, None)
-                            }
                         } else {
                             (None, None, None)
-                        };
+                        }
+                    } else {
+                        (None, None, None)
+                    };
 
                     // Convert E8s to ICP then to XDR
                     let reward_xdr = if xdr_rate > 0.0 {
@@ -641,8 +669,10 @@ fn process_rewards_data(rewards_response: ListNodeProviderRewardsResponse) -> Ha
                                     // Update reward account only if we have a new one
                                     if reward_account_hex.is_some() {
                                         info.reward_account_hex = reward_account_hex.clone();
-                                        info.reward_account_formatted = reward_account_formatted.clone();
-                                        info.reward_account_dashboard_link = reward_account_dashboard_link.clone();
+                                        info.reward_account_formatted =
+                                            reward_account_formatted.clone();
+                                        info.reward_account_dashboard_link =
+                                            reward_account_dashboard_link.clone();
                                     }
                                 }
                             }
@@ -671,7 +701,10 @@ fn process_account_hex(hex: &str) -> (Option<String>, Option<String>, Option<Str
     // Try to convert to proper AccountIdentifier format
     if let Ok(account) = AccountIdentifier::from_hex(hex) {
         let formatted = account.to_hex();
-        let dashboard_link = format!("https://dashboard.internetcomputer.org/account/{}", formatted);
+        let dashboard_link = format!(
+            "https://dashboard.internetcomputer.org/account/{}",
+            formatted
+        );
         return (orig_hex, Some(formatted), Some(dashboard_link));
     }
 
@@ -682,7 +715,7 @@ fn process_account_hex(hex: &str) -> (Option<String>, Option<String>, Option<Str
 // Add rewards data to combined providers
 fn add_rewards_to_providers(
     combined_data: &mut [CombinedNodeProvider],
-    rewards_data: &HashMap<String, ProviderRewardInfo>
+    rewards_data: &HashMap<String, ProviderRewardInfo>,
 ) {
     for provider in combined_data {
         if !provider.principal_id.is_empty() {
@@ -714,9 +747,7 @@ async fn main() -> Result<()> {
 
     // Create an agent to communicate with the IC
     println!("Connecting to IC to fetch rewards data...");
-    let agent = Agent::builder()
-        .with_url(IC_URL)
-        .build()?;
+    let agent = Agent::builder().with_url(IC_URL).build()?;
 
     // Initialize the agent (fetch root key in development)
     agent.fetch_root_key().await?;
@@ -727,7 +758,10 @@ async fn main() -> Result<()> {
 
     // Process rewards data
     let rewards_by_principal = process_rewards_data(rewards_response);
-    println!("Processed reward data for {} principals", rewards_by_principal.len());
+    println!(
+        "Processed reward data for {} principals",
+        rewards_by_principal.len()
+    );
 
     // Add rewards to the combined provider data
     add_rewards_to_providers(&mut combined_data, &rewards_by_principal);
@@ -736,7 +770,10 @@ async fn main() -> Result<()> {
     println!("API providers: {}", api_data.node_providers.len());
     println!("Wiki providers: {}", wiki_data.len());
     println!("Combined providers: {}", combined_data.len());
-    println!("Document hash validations: {} valid, {} invalid", valid_hashes, invalid_hashes);
+    println!(
+        "Document hash validations: {} valid, {} invalid",
+        valid_hashes, invalid_hashes
+    );
 
     // Print reward statistics
     let providers_with_rewards = combined_data.iter().filter(|p| p.rewards.is_some()).count();
@@ -751,7 +788,10 @@ async fn main() -> Result<()> {
         .iter()
         .filter(|p| p.toml_id.is_some() && p.document_validations.is_empty())
         .count();
-    println!("\nProviders with wiki entries but missing documents: {}", missing_docs_count);
+    println!(
+        "\nProviders with wiki entries but missing documents: {}",
+        missing_docs_count
+    );
 
     // Print sample of combined data
     println!("\nSample provider data:");
@@ -762,7 +802,10 @@ async fn main() -> Result<()> {
         println!("  Regions: {:?}", provider.regions);
         println!("  Countries: {:?}", provider.countries);
         println!("  Towns: {:?}", provider.towns);
-        println!("  Nodes: {}/{} rewardable", provider.total_nodes, provider.total_rewardable_nodes);
+        println!(
+            "  Nodes: {}/{} rewardable",
+            provider.total_nodes, provider.total_rewardable_nodes
+        );
 
         if let Some(rewards) = &provider.rewards {
             println!("  Rewards:");
