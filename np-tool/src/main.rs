@@ -9,6 +9,8 @@ use std::io::{self, Read};
 use std::path::Path;
 use thiserror::Error;
 
+mod icp;
+
 // Configuration constants
 const TOML_PATH: &str = "node_providers-wiki.toml";
 const DOCS_DIR: &str = "../frontend/static/np-list";
@@ -180,6 +182,11 @@ struct ProviderRewardInfo {
     most_recent_reward_e8s: Option<u64>,
     most_recent_reward_xdr: Option<f64>,
     most_recent_timestamp: Option<u64>,
+    total_mint_rewards_e8s: Option<u64>,
+    total_mint_rewards_icp: Option<f64>,
+    mint_transaction_count: Option<u32>,
+    first_mint_timestamp: Option<u64>,
+    last_mint_timestamp: Option<u64>,
 }
 
 // Combined Data Structure with rewards
@@ -588,6 +595,44 @@ fn count_document_validations(combined_data: &[CombinedNodeProvider]) -> (usize,
     (valid_count, invalid_count)
 }
 
+// Step 3: Add this function to your main code to process reward accounts
+async fn add_mint_data_to_providers(combined_data: &mut [CombinedNodeProvider]) -> Result<()> {
+    for provider in combined_data.iter_mut() {
+        if let Some(reward_info) = &mut provider.rewards {
+            if let Some(account_hex) = &reward_info.reward_account_formatted {
+                println!(
+                    "Processing mint transactions for {} ({})",
+                    provider.name, account_hex
+                );
+
+                match icp::get_account_rewards(account_hex).await {
+                    Ok(summary) => {
+                        // Update the reward info with mint transaction data
+                        reward_info.total_mint_rewards_e8s = Some(summary.total_e8s);
+                        reward_info.total_mint_rewards_icp = Some(summary.total_icp);
+                        reward_info.mint_transaction_count =
+                            Some(summary.total_transactions as u32);
+                        reward_info.first_mint_timestamp = summary.first_transaction_timestamp;
+                        reward_info.last_mint_timestamp = summary.last_transaction_timestamp;
+
+                        println!(
+                            "  Total mint rewards: {:.4} ICP ({} transactions)",
+                            summary.total_icp, summary.total_transactions
+                        );
+                    }
+                    Err(e) => {
+                        eprintln!("  Error processing mint transactions: {}", e);
+                    }
+                }
+
+                tokio::time::sleep(tokio::time::Duration::from_millis(100)).await;
+            }
+        }
+    }
+
+    Ok(())
+}
+
 // Fetch rewards data from the governance canister
 async fn fetch_node_provider_rewards(agent: &Agent) -> Result<ListNodeProviderRewardsResponse> {
     // Create request with no date filter to get all rewards
@@ -684,6 +729,11 @@ fn process_rewards_data(
                             most_recent_reward_e8s: Some(reward.amount_e8s),
                             most_recent_reward_xdr: Some(reward_xdr),
                             most_recent_timestamp: Some(monthly_reward.timestamp),
+                            first_mint_timestamp: None,
+                            last_mint_timestamp: None,
+                            mint_transaction_count: None,
+                            total_mint_rewards_e8s: None,
+                            total_mint_rewards_icp: None,
                         });
                 }
             }
@@ -835,6 +885,24 @@ async fn main() -> Result<()> {
             }
         }
     }
+
+    println!("Fetching mint transaction data for providers...");
+    add_mint_data_to_providers(&mut combined_data).await?;
+
+    // Count providers with mint data
+    let providers_with_mint_data = combined_data
+        .iter()
+        .filter(|p| {
+            p.rewards
+                .as_ref()
+                .and_then(|r| r.total_mint_rewards_icp)
+                .is_some()
+        })
+        .count();
+    println!(
+        "Providers with mint transaction data: {}",
+        providers_with_mint_data
+    );
 
     // Write to JSON file
     let combined_json = serde_json::to_string_pretty(&combined_data)?;

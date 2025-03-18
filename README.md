@@ -6,3 +6,4 @@
 
 * Documents come from https://wiki.internetcomputer.org/wiki/Node_Provider_Self_Declarations
 * Node providers data come from https://ic-api.internetcomputer.org/api/v3/swagger
+* ICP mint data from https://ledger-api.internetcomputer.org/accounts/
