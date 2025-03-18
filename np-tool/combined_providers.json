@@ -8,18 +8,13 @@
     "total_rewardable_nodes": 27,
     "total_subnets": 0,
     "total_unassigned_nodes": 27,
-    "website": null,
-    "declaration": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-    "identity": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
+    "regions": [
+      "North America"
+    ],
+    "country": "CA",
+    "town": "Ontario",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/2wxzd-qrbrs-ailta-kdtyb-ucg35-xcxd4-txevb-ot7hx-wiyus-szcca-nqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-    "additional_documents": {
-      "handover": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e"
-    },
-    "document_paths": {
-      "declaration": "../np-list/0x52/declaration.pdf",
-      "handover": "../np-list/0x52/handover.pdf",
-      "identity": "../np-list/0x52/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -53,18 +48,13 @@
     "total_rewardable_nodes": 25,
     "total_subnets": 0,
     "total_unassigned_nodes": 23,
-    "website": null,
-    "declaration": "f5daccdb2a577ac86e7fbbe709d4a60c97ed8bc2a4c66717bb1f6b8cd19df13c",
-    "identity": "cc42a3bc6f61d8ee2b28de1a329c8207db61fecea5c80c8d1e9912e219df6fc3",
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Illinois",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/2dgp4-h57n4-a4kgx-n4uun-huo3a-wbdlc-m57wd-jtkuh-g5vcc-fcbby-6qe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/100_Count_Holdings,_LLC",
-    "additional_documents": {
-      "handover": "48e4c859db33eb48007e00761fc0dd0382fc73d0f195cb42067cace63ac104e0"
-    },
-    "document_paths": {
-      "handover": "../np-list/100/handover.pdf",
-      "identity": "../np-list/100/identity.pdf",
-      "declaration": "../np-list/100/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -98,12 +88,13 @@
     "total_rewardable_nodes": 5,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/7k7b7-4pzhf-aivy6-y654t-uqyup-2auiz-ew2cm-4qkl4-nsl4v-bul5k-5qe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -115,14 +106,13 @@
     "total_rewardable_nodes": 14,
     "total_subnets": 2,
     "total_unassigned_nodes": 11,
-    "website": "https://www.43rdbigideafilms.com",
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Texas",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/sqhxa-h6ili-qkwup-ohzwn-yofnm-vvnp5-kxdhg-saabw-rvua3-xp325-zqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/43rd_Big_Idea_Films,_LLC",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/43/declaration.pdf"
-    },
     "document_validations": []
   },
   {
@@ -134,18 +124,13 @@
     "total_rewardable_nodes": 41,
     "total_subnets": 18,
     "total_unassigned_nodes": 23,
-    "website": null,
-    "declaration": "86cb37d2e3d30305978a951675ffd66f497f3c14c6434ef179eced7ee73e39f9",
-    "identity": "41ee1cc7c50c7884a11d602b2aa3af2dd414761a72a9b0ec18066cf40336939c",
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Texas",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/eipr5-izbom-neyqh-s3ec2-52eww-cyfpg-qfomg-3dpwj-4pffh-34xcu-7qe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/87m_Neuron,_LLC",
-    "additional_documents": {
-      "handover": "cce9ed442f3b5aa428413a0994bf814c40db64ccd3c3aaa0a48f016ae63b5e1d"
-    },
-    "document_paths": {
-      "handover": "../np-list/87/handover.pdf",
-      "identity": "../np-list/87/identity.pdf",
-      "declaration": "../np-list/87/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -179,15 +164,13 @@
     "total_rewardable_nodes": 10,
     "total_subnets": 6,
     "total_unassigned_nodes": 4,
-    "website": null,
-    "declaration": "26fd3daf90363f4c9c24b78add3f344d7e4f3e765d70d861b08481a9fdcc69fa",
-    "identity": "2722e9ae94c2b1ad596a5937e9ec90dedc76c7b5909ea3b4a48690788ce45912",
+    "regions": [
+      "Asia"
+    ],
+    "country": "IN",
+    "town": "Greater Noida",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/cp5ib-twnmx-h4dvd-isef2-tu44u-kb2ka-fise5-m4hta-hnxoq-k45mm-hqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/ACCUSET_SOLUTIONS",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/accuset/identity.pdf",
-      "declaration": "../np-list/accuset/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -214,12 +197,13 @@
     "total_rewardable_nodes": 2,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/n32q7-33lmk-m33tr-o5ltb-po6cb-tqqrr-2x6wp-pzhw7-ymizu-o3fyp-sqe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -231,12 +215,13 @@
     "total_rewardable_nodes": 1,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Georgia",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/uvawj-nnt3i-4ch3a-hruy4-hyfjn-7owvl-wgkli-uq2hd-e6lkq-v4b2o-4ae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -248,15 +233,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "867990ecde96b8362eb137911199aafbbaef61ded0805912b36bfb86df689974",
-    "identity": "89e6063e8abc1b76aa4f13b6d2ea9fc1e0fe950e23093565facf3c4cd82e8d3e",
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/znw2p-4cx6u-ocqls-277iu-2lkir-xjy7g-4s3sj-sjy6j-mtlay-rnnra-yqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Aitubi_AG",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/aitubi/identity.pdf",
-      "declaration": "../np-list/aitubi/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -283,14 +264,13 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 28,
-    "website": null,
-    "declaration": "fc1342d687c1aeedd10787379bb98d5023a687fe91c612d09b549951437c0fd3",
-    "identity": "8fcdcd9edb3f09d74fa4f4a23f39f358061da06d3fe3d787129d6661f8f8c19a",
+    "regions": [
+      "Asia"
+    ],
+    "country": "JP",
+    "town": "Tokyo",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/wlxga-ebupj-sj2nf-g3sii-75i6b-oh64s-qmq7u-gmros-vi2if-3ktdv-cqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Aksinia_Stavskaya",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/aksinia/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -310,15 +290,13 @@
     "total_rewardable_nodes": 70,
     "total_subnets": 21,
     "total_unassigned_nodes": 20,
-    "website": "https://www.allusion.be",
-    "declaration": "ce7805a31ef5f5830a9d6526762c6206b32e2450e82927d2840b57ae9caf7d28",
-    "identity": "dec7a6a2654df1a7164b3dd2472f0fc1e13fabebbe7a5a85d490ee808426717a",
+    "regions": [
+      "Europe"
+    ],
+    "country": "BE",
+    "town": "Flanders",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/rbn2y-6vfsb-gv35j-4cyvy-pzbdu-e5aum-jzjg6-5b4n5-vuguf-ycubq-zae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/ALLUSION_BV",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/allusion/identity.pdf",
-      "declaration": "../np-list/allusion/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -345,12 +323,13 @@
     "total_rewardable_nodes": 16,
     "total_subnets": 14,
     "total_unassigned_nodes": 1,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "Europe"
+    ],
+    "country": "SI",
+    "town": "Ljubljana",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/kos24-5xact-6aror-uofg2-tnvt6-dq3bk-c2c5z-jtptt-jbqvc-lmegy-qae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -362,17 +341,13 @@
     "total_rewardable_nodes": 10,
     "total_subnets": 7,
     "total_unassigned_nodes": 3,
-    "website": null,
-    "declaration": "2423220dcd5bc4744d4db65fdce8004f6010c56825f039dd1e270dc8d2b07d3b",
-    "identity": "1a904b830d90beb42166e2b504ba573bb4a6257cbbaf644f37c7487da8bce407",
+    "regions": [
+      "Oceania"
+    ],
+    "country": "AU",
+    "town": "Queensland",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/fwnmn-zn7yt-5jaia-fkxlr-dzwyu-keguq-npfxq-mc72w-exeae-n5thj-oae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/ANYPOINT_PTY_LTD",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/anypoint/identity.pdf",
-      "declaration": "../np-list/anypoint/declaration.pdf",
-      "invoice": "../np-list/anypoint/invoice.pdf",
-      "handover": "../np-list/anypoint/handover.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -399,18 +374,13 @@
     "total_rewardable_nodes": 27,
     "total_subnets": 0,
     "total_unassigned_nodes": 27,
-    "website": null,
-    "declaration": "b24ab500e3b7a54ed948fdb2e763a2477c6d9529a5adc107c7bfda77df29b335",
-    "identity": "a84db3c6bee54844407d3bbf0c2311b5beb06e6b37ec457f77d476c5a1b81918",
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Illinois",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/ss6oe-fm7b2-b5r57-y3x74-omrz5-d5pgy-5iwtw-4aew5-aqj3l-6ydra-wqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Arceau_NP_LLC",
-    "additional_documents": {
-      "handover": "b855c7ef7738be197db502fca07201353ce360bf8c5f2d2edfa3763494e13459"
-    },
-    "document_paths": {
-      "identity": "../np-list/arceau/identity.pdf",
-      "handover": "../np-list/arceau/handover.pdf",
-      "declaration": "../np-list/arceau/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -444,12 +414,13 @@
     "total_rewardable_nodes": 1,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/l2kri-jarwr-7whc4-pjdpn-n6hlb-45ltr-l6ghm-twttl-pcsvt-rynko-dqe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -461,18 +432,13 @@
     "total_rewardable_nodes": 7,
     "total_subnets": 5,
     "total_unassigned_nodes": 2,
-    "website": null,
-    "declaration": "7ab6456b747b13dfcf3e95754698ff247f7dd7cc6ee5da1ded4a0c81e49d3f69",
-    "identity": "3f1ec7bf0e8c3be87c9b2a47317947514bb78d81d859e59ec17e6644a82f440e",
+    "regions": [
+      "Europe"
+    ],
+    "country": "LT",
+    "town": "Vilnius",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/diyay-s4rfq-xnx23-zczwi-nptra-5254n-e4zn6-p7tqe-vqhzr-sd4gd-bqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Artem_Horodyskyi",
-    "additional_documents": {
-      "hardware": "c90af353a7540387587398e39080d5c20c711adfb26690a8acf1e2430a9d01f2"
-    },
-    "document_paths": {
-      "identity": "../np-list/artem/identity.pdf",
-      "order": "../np-list/artem/order.pdf",
-      "declaration": "../np-list/artem/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -499,12 +465,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/2byzn-q2crt-hgczo-eruff-6p7af-pemor-n2z4z-6d2sd-wvdqa-yqvxb-mqe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -516,15 +481,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/33aps-ovxje-mwpux-cy2hh-f2qwp-5tzxs-2edbb-gblfn-ev5pv-cfnvj-pqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/AVRVM_AG",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/avrvm/declaration.png",
-      "identity": "../np-list/avrvm/identity.pdf"
-    },
     "document_validations": []
   },
   {
@@ -536,16 +497,13 @@
     "total_rewardable_nodes": 4,
     "total_subnets": 3,
     "total_unassigned_nodes": 1,
-    "website": null,
-    "declaration": "ca3973712c4d7947b0b835368ca0648696d52ff6e7ed69a7c92766c1da51e0ce",
-    "identity": "2c1fa30253103788b7c6510bb1fc66fd4e11b9e9df163ec936c9a460b377ade2",
+    "regions": [
+      "North America"
+    ],
+    "country": "PA",
+    "town": "Panama City",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/eatbv-nlydd-n655c-g7j7p-gnmpz-pszdg-6e6et-veobv-ftz2y-4m752-vqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Bianca-Martina_Rohner",
-    "additional_documents": {},
-    "document_paths": {
-      "decentralization": "../np-list/bianca/decentralization.pdf",
-      "declaration": "../np-list/bianca/declaration.pdf",
-      "identity": "../np-list/bianca/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -572,15 +530,14 @@
     "total_rewardable_nodes": 52,
     "total_subnets": 1,
     "total_unassigned_nodes": 26,
-    "website": "https://bigger.capital",
-    "declaration": "3d084d13fb536b771e68abd52c7ab2046128095159f4d05df23783331070a939",
-    "identity": "46ccf5a7d1619d7c839b1e1b11dffc46bfe2419f67365b47fce6338d1d846860",
+    "regions": [
+      "North America",
+      "Oceania"
+    ],
+    "country": "US",
+    "town": "Pennsylvania",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/7a4u2-gevsy-5c5fs-hsgri-n2kdz-dxxwf-btcfp-jykro-l4y7c-7xky2-aqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Bigger_Capital",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/bigger/identity.pdf",
-      "declaration": "../np-list/bigger/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -607,16 +564,13 @@
     "total_rewardable_nodes": 3,
     "total_subnets": 3,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "6217297B57728231E6DACD52E68787539B8A07494854E303DEF508B0B9967800",
-    "identity": "0B2764C306DD0D46B67DDE4F35AAE7BCFCA3446E3940884EA384B8F6EE97105D",
+    "regions": [
+      "Europe"
+    ],
+    "country": "PT",
+    "town": "Barreiro",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/mjnyf-lzqq6-s7fzb-62rqm-xzvge-5oa26-humwp-dvwxp-jxxkf-hoel7-fqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Bitmoon",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/bitmoon/declaration.pdf",
-      "identity": "../np-list/bitmoon/identity.pdf",
-      "invoice": "../np-list/bitmoon/invoice.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -643,14 +597,13 @@
     "total_rewardable_nodes": 67,
     "total_subnets": 33,
     "total_unassigned_nodes": 8,
-    "website": null,
-    "declaration": "5B5D9AB6103048E9F2FDBC4473525FD850A325F1D03B192ED1C2E72D0FDC29A3",
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "CA",
+    "town": "British Columbia",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/7at4h-nhtvt-a4s55-jigss-wr2ha-ysxkn-e6w7x-7ggnm-qd3d5-ry66r-cae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Blockchain_Development_Labs_Inc",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/blockchain/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -670,15 +623,13 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "f60e2dae584ddf2cb101767f393d417eb30c9f4552ca116b634a858f8448c6a1",
-    "identity": "b612315036562eb9a1b07757430e2f0995a76f4fb981f36433b8ac6abce453e4",
+    "regions": [
+      "Europe"
+    ],
+    "country": "SI",
+    "town": "Maribor",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/c5svp-7pkmf-agz5x-536k7-r7rcw-4wn3a-eo7pt-ry7su-j42uq-bvnzf-iqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/BlockFinance_LLC",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/blockfinance/declaration.pdf",
-      "identity": "../np-list/blockfinance/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -705,15 +656,13 @@
     "total_rewardable_nodes": 28,
     "total_subnets": 1,
     "total_unassigned_nodes": 25,
-    "website": "https://blocktech.vc",
-    "declaration": "5336e2b4e59742ae655f896d61453bd41883795d9677926abb4b5de9879abf5e",
-    "identity": "bbd9ed4e8b49068f587014edb3aed85fe376de43d6e30794dbd92795fd073a8b",
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/ks7ow-zvs7i-ratdk-azq34-zio2b-gbekj-qjicg-pfhp3-ovhgu-k5qql-dae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Blocktech_Ventures_LLC",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/blocktech/declaration.pdf",
-      "identity": "../np-list/blocktech/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -740,15 +689,13 @@
     "total_rewardable_nodes": 14,
     "total_subnets": 2,
     "total_unassigned_nodes": 12,
-    "website": null,
-    "declaration": "9dbabd5e2e2ce3f8dfa19dc78934899c9b43394fd40e8379eab4f2a34b762573",
-    "identity": "e76a55e659282447f89272cebe484aa221413b4dced7e5d66142d83e94e7389d",
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Georgia",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/sma3p-ivkif-hz7nu-ngmvq-ibnjg-nubke-zf6gh-wbnfc-2dlng-l3die-zqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/BLP22,_LLC",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/blp22/identity.png",
-      "declaration": "../np-list/blp22/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -775,15 +722,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/rpfvr-s3kuw-xdqrr-pvuuj-hc7hl-olytw-yxlie-fmr74-sr572-6gdqx-iqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Blueant_LLC",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/blueant/identity.pdf",
-      "declaration": "../np-list/blueant/declaration.pdf"
-    },
     "document_validations": []
   },
   {
@@ -795,18 +738,13 @@
     "total_rewardable_nodes": 7,
     "total_subnets": 7,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "82fa2bfb0f25ff19204eb1b8c5fe1209317042fb0ec9333dbbfc7725a29bd5e3",
-    "identity": "6abf8dd9bde2f6127be4da609cfa778bbac09405c9978382d037b09b0f55c1bc",
+    "regions": [
+      "Europe"
+    ],
+    "country": "PT",
+    "town": "Barreiro",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/dhywe-eouw6-hstpj-ahsnw-xnjxq-cmqks-47mrg-nnncb-3sr5d-rac6m-nae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Bohatyrov_Volodymyr",
-    "additional_documents": {
-      "invoice": "fe1d2612e5307bb5cb86ca85e587f6d49bf39a850a8358ceda36d3839ceb4272"
-    },
-    "document_paths": {
-      "invoice": "../np-list/bohatyrov/invoice.pdf",
-      "declaration": "../np-list/bohatyrov/declaration.pdf",
-      "identity": "../np-list/bohatyrov/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -840,12 +778,13 @@
     "total_rewardable_nodes": 7,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": "https://booleanbit.us",
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/qdj4d-76lh3-w2q5i-kwjcd-643pq-pk42d-cziag-4hkau-35gib-m7s33-6qe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -857,12 +796,13 @@
     "total_rewardable_nodes": 2,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/2wxxr-qwylo-n7dhz-6co6m-iektd-vl7dn-ocvyc-xazaf-hbfxq-66spe-aae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -874,15 +814,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "79831c77930473be111551c497063269b8b2be63f9372fea825171437e41de12",
-    "identity": "bc39f6908c7db90d06eddb9348b60a6e21753904b173e4e42a3e1b27654756cd",
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/qipsq-44ztq-4oxob-dulxs-35tho-zjf5o-onu2b-sjuhk-4jd7x-yfdhz-qae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Buldakova_Rehina",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/buldakova/declaration.pdf",
-      "identity": "../np-list/buldakova/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -909,15 +845,13 @@
     "total_rewardable_nodes": 8,
     "total_subnets": 5,
     "total_unassigned_nodes": 3,
-    "website": null,
-    "declaration": "9272f640d2c243ed42476bc3511b9787bd19d4937229eb3aecaf662dd4e55d9d",
-    "identity": "1541c3df1cfb02b76b74096dc9303e8a45e0efc2cd8f2386e0cf5d9726173779",
+    "regions": [
+      "Europe"
+    ],
+    "country": "ES",
+    "town": "Barcelona",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/qsdw4-ao5ye-6rtq4-y3zhm-icjbj-lutd2-sbejz-4ajqz-pcflr-xrhsg-jae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/CarbonTwelve",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/carbon/identity.png",
-      "declaration": "../np-list/carbon/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -944,15 +878,14 @@
     "total_rewardable_nodes": 4,
     "total_subnets": 4,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "b01a30985df37336173969e30a533000524ce19f77a3dd3f7ebfa1de1db232e3",
-    "identity": "68ec5196be0e038f1a99026ba68bd7bf062286b561da9cfa8a47cfd050c641c0",
+    "regions": [
+      "Europe",
+      "Oceania"
+    ],
+    "country": "UK",
+    "town": "London",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/i3cfo-s2tgu-qe5ym-wk7e6-y7ura-pptgu-kevuf-2feh7-z4enq-5hz4s-mqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Conic_Ventures",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/conic/identity.pdf",
-      "declaration": "../np-list/conic/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -979,14 +912,13 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "Asia"
+    ],
+    "country": "HK",
+    "town": "HongKong",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/jz47c-irtey-dr2nb-wienh-emhaz-jo6ua-gsbho-t2z5j-l7kbf-5i7p5-5ae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Coplus_Limited",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/coplus/declaration.pdf"
-    },
     "document_validations": []
   },
   {
@@ -998,12 +930,13 @@
     "total_rewardable_nodes": 1,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/7nxxb-6qgm4-fftx3-xkwpj-sjrcm-tzmk5-dvuqk-l4ei4-3hvii-scwnj-tae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -1015,18 +948,13 @@
     "total_rewardable_nodes": 14,
     "total_subnets": 0,
     "total_unassigned_nodes": 14,
-    "website": null,
-    "declaration": "38734075a8577fc9e1d1ded846b41050f1f0255d5fefad747a9e5660a1c2b67f",
-    "identity": "db50f9440a1c3d8318687afa17ec20c1b3af211eb52ce37cfab4a45ea2466f7c",
+    "regions": [
+      "Europe"
+    ],
+    "country": "CH",
+    "town": "Geneva",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/w4buy-lgwzr-pccs7-huzhh-qqnws-rns75-iaoox-jolrm-xs2ra-vdu3o-2qe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Decentralized_Entities_Foundation",
-    "additional_documents": {
-      "handover": "fd2d272b40734d4164c956156634dd5b23b0d3a327755bdef668ed77005b7db3"
-    },
-    "document_paths": {
-      "identity": "../np-list/def/identity.pdf",
-      "declaration": "../np-list/def/declaration.pdf",
-      "handover": "../np-list/def/handover.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -1060,18 +988,13 @@
     "total_rewardable_nodes": 14,
     "total_subnets": 0,
     "total_unassigned_nodes": 14,
-    "website": null,
-    "declaration": "6e46fd7be576166a1af786d805eac8237561645bd2afee2bbfd194888cc9f68b",
-    "identity": "c5d9a2a647fbfd3d345a026d43fafe48a03c64006d41d302827eefb3dcee43e0",
+    "regions": [
+      "Europe"
+    ],
+    "country": "BE",
+    "town": "Flanders",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/acqus-l4yyc-h44lw-grfxw-h7jqf-mtvt3-huwmj-4s372-sc5db-5nsfr-2ae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/DENODE",
-    "additional_documents": {
-      "handover": "e973ebd05f3f2c0a73d5a4195bdd97854831e0ef70e55a7cbfb83a501f676b93"
-    },
-    "document_paths": {
-      "declaration": "../np-list/denode/declaration.pdf",
-      "handover": "../np-list/denode/handover.pdf",
-      "identity": "../np-list/denode/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -1105,15 +1028,13 @@
     "total_rewardable_nodes": 41,
     "total_subnets": 37,
     "total_unassigned_nodes": 2,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "Europe"
+    ],
+    "country": "FR",
+    "town": "Provence-Alpes-Cote d'Azur",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/bvcsg-3od6r-jnydw-eysln-aql7w-td5zn-ay5m6-sibd2-jzojt-anwag-mqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/DFINITY_Stiftung",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/dfinity/identity.pdf",
-      "declaration": "../np-list/dfinity/declaration.pdf"
-    },
     "document_validations": []
   },
   {
@@ -1125,12 +1046,13 @@
     "total_rewardable_nodes": 15,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Massachusetts",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/r2qgy-abcek-yc2ot-3powq-gayr6-4dibc-jvvfl-ri376-gmfmw-u2v7w-4qe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -1142,12 +1064,13 @@
     "total_rewardable_nodes": 28,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": "dfinity.org",
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Massachusetts",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/lq5ra-f4ibl-t7wpy-hennc-m4eb7-tnfxe-eorgd-onpsl-wervo-7chjj-6qe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -1159,12 +1082,13 @@
     "total_rewardable_nodes": 1,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/olgti-2hegv-ya7pd-ky2wt-of57j-tzs6q-ydrpy-hdxyy-cjnwx-ox5t4-3qe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -1176,15 +1100,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/veamq-6zmtx-dtdky-ctoun-gokvu-cr6zm-ffsky-dz35w-e2euw-zvv7e-vae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Eastman_Ventures_Pty_Ltd",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/eastman/identity.pdf",
-      "declaration": "../np-list/eastman/declaration.pdf"
-    },
     "document_validations": []
   },
   {
@@ -1196,15 +1116,13 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "Europe"
+    ],
+    "country": "FR",
+    "town": "Normandie",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/xo7ih-nswlt-hbq3n-v5ixi-etu7j-sasg6-fjf4p-zx6or-cc7c3-pnh7t-2ae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Exaion",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/exaion/declaration.pdf",
-      "identity": "../np-list/exaion/identity.pdf"
-    },
     "document_validations": []
   },
   {
@@ -1216,18 +1134,13 @@
     "total_rewardable_nodes": 56,
     "total_subnets": 17,
     "total_unassigned_nodes": 24,
-    "website": "https://bochlsersolutions.com",
-    "declaration": "3665e7a5033c564d33599b170b486fc01300e1a9d9d4e32578d248530523b4e2",
-    "identity": "e8a435b81f6412debe94827b67d1aec40e023efae567d01881b0ea9fec6b3902",
+    "regions": [
+      "Europe"
+    ],
+    "country": "CH",
+    "town": "Geneva",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/7ryes-jnj73-bsyu4-lo6h7-lbxk5-x4ien-lylws-5qwzl-hxd5f-xjh3w-mqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Extragone",
-    "additional_documents": {
-      "handover": "e7791686676bb6dc5b211a0255151754c47cd63ade9e42548c33773c3da88fc5"
-    },
-    "document_paths": {
-      "handover": "../np-list/extragone/handover.pdf",
-      "identity": "../np-list/extragone/identity.pdf",
-      "declaration": "../np-list/extragone/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -1261,15 +1174,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "2b8e85fe14fbbb3e3bcbf181ce6c5de1acee61367a45023b949932b1390066f1",
-    "identity": "de4f19b3f21c4a8d8d94f177c6e524e39d63710ecc3179d9d2b23a16eef91266",
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/34cav-6s7rb-uwa3c-awdly-5md4r-lwueh-atzbn-unqpe-c5ope-f3nqj-wae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Ferndale_International",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/ferndale/declaration.pdf",
-      "identity": "../np-list/ferndale/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -1296,12 +1205,13 @@
     "total_rewardable_nodes": 1,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/ob633-g55bt-y6pu5-5iby6-jmcvi-oylqs-q6ahw-cvecq-5ckeh-m4wws-nae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -1313,12 +1223,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/x3zyd-pkcbf-5n3w2-n7uov-2qrbt-d3kfn-ojdd7-pxog5-vpqnt-6lex5-fqe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -1330,17 +1239,13 @@
     "total_rewardable_nodes": 56,
     "total_subnets": 29,
     "total_unassigned_nodes": 27,
-    "website": null,
-    "declaration": "d203530bc0216adcf022772fc609ed70696c31a00e7e71be1129fa6ff70b3e9b",
-    "identity": "ef8029e828140ce48c5ce8ee53a3c8e71c7925cab0147a4e281800d51b6db557",
+    "regions": [
+      "Europe"
+    ],
+    "country": "SI",
+    "town": "Ljubljana",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/wdjjk-blh44-lxm74-ojj43-rvgf4-j5rie-nm6xs-xvnuv-j3ptn-25t4v-6ae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Fractal_Labs,_LLC",
-    "additional_documents": {
-      "handover": "ddf7bb6cf777b7b3e85be0062681fddfb942eded73076450eada545bd8c0f763"
-    },
-    "document_paths": {
-      "declaration": "../np-list/fractal/declaration.pdf",
-      "identity": "../np-list/fractal/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -1367,12 +1272,13 @@
     "total_rewardable_nodes": 2,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/67gkg-gkgzz-g2ubz-3cc6h-jr3zm-twsii-7i325-r3gzr-kp2kh-dwxg6-pqe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -1384,12 +1290,13 @@
     "total_rewardable_nodes": 1,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Florida",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/zgupw-boshs-mg6kz-2ciwm-upk7g-igjpn-75t3p-np6g4-47l7q-nuefa-6qe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -1401,15 +1308,13 @@
     "total_rewardable_nodes": 4,
     "total_subnets": 4,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "454e41ea6b63fc2fc6c25f5353c3138da6d84ff49d92fd422c1db06706355bec",
-    "identity": "06d21b40f5d1739418e661cd489aebcc147b41b7e1fc387e3cf3fd13cb960072",
+    "regions": [
+      "South America"
+    ],
+    "country": "CO",
+    "town": "Bogota",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/otzuu-dldzs-avvu2-qwowd-hdj73-aocy7-lacgi-carzj-m6f2r-ffluy-fae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Geeta_Kalwani",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/geeta/declaration.pdf",
-      "identity": "../np-list/geeta/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -1436,15 +1341,13 @@
     "total_rewardable_nodes": 6,
     "total_subnets": 4,
     "total_unassigned_nodes": 2,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "Asia"
+    ],
+    "country": "LK",
+    "town": "Colombo",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/eybf4-6t6bb-unfb2-h2hhn-rrfi2-cd2vs-phksn-jdmbn-i463m-4lzds-vqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Geodd_Pvt_Ltd",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/geodd/declaration.pdf",
-      "identity": "../np-list/geodd/identity.pdf"
-    },
     "document_validations": []
   },
   {
@@ -1456,16 +1359,14 @@
     "total_rewardable_nodes": 16,
     "total_subnets": 9,
     "total_unassigned_nodes": 7,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "Asia",
+      "North America"
+    ],
+    "country": "CR",
+    "town": "San Jose",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/6sq7t-knkul-fko6h-xzvnf-ktbvr-jhx7r-hapzr-kjlek-whugy-zt6ip-xqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/GeoNodes_LLC",
-    "additional_documents": {},
-    "document_paths": {
-      "invoice": "../np-list/geonodes/invoice.pdf",
-      "declaration": "../np-list/geonodes/declaration.pdf",
-      "identity": "../np-list/geonodes/identity.pdf"
-    },
     "document_validations": []
   },
   {
@@ -1477,15 +1378,14 @@
     "total_rewardable_nodes": 25,
     "total_subnets": 17,
     "total_unassigned_nodes": 8,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "Asia",
+      "Europe"
+    ],
+    "country": "GE",
+    "town": "Tbilisi",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/vegae-c4chr-aetfj-7gzuh-c23sx-u2paz-vmvbn-bcage-pu7lu-mptnn-eqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/George_Bassadone",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/george/identity.pdf",
-      "declaration": "../np-list/george/declaration.pdf"
-    },
     "document_validations": []
   },
   {
@@ -1497,15 +1397,13 @@
     "total_rewardable_nodes": 97,
     "total_subnets": 8,
     "total_unassigned_nodes": 31,
-    "website": "giantleafllc.com",
-    "declaration": "f58b0610cd7472e14336042eb517bd977d4c4d0b27086ade40a16776e7fd3b95",
-    "identity": "62b777bf1b43b8279aec8da2865ae630166088f3697ae939c802a6224761c0c7",
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Georgia",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/wwdbq-xuqhf-eydzu-oyl7p-ga565-zm7s7-yrive-ozgsy-zzgh3-qwb3j-cae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Giant_Leaf,_LLC",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/giant/declaration.pdf",
-      "identity": "../np-list/giant/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -1532,12 +1430,13 @@
     "total_rewardable_nodes": 7,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Georgia",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/p6fou-ngmgk-rxc6t-7ckzz-hojr2-kk6r3-xnlrk-ewzvu-g6xms-rfafz-zae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -1549,12 +1448,13 @@
     "total_rewardable_nodes": 1,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/myrs2-bc6j6-mydpr-2jmli-l45mu-35ybt-c34mo-kjpve-zmaao-ajusy-nqe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -1566,15 +1466,13 @@
     "total_rewardable_nodes": 12,
     "total_subnets": 10,
     "total_unassigned_nodes": 2,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "Africa"
+    ],
+    "country": "ZA",
+    "town": "Gauteng",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/nmdd6-rouxw-55leh-wcbkn-kejit-njvje-p4s6e-v64d3-nlbjb-vipul-mae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/HoneyComb_Capital",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/honey/identity.pdf",
-      "declaration": "../np-list/honey/declaration.pdf"
-    },
     "document_validations": []
   },
   {
@@ -1586,15 +1484,13 @@
     "total_rewardable_nodes": 28,
     "total_subnets": 26,
     "total_unassigned_nodes": 1,
-    "website": null,
-    "declaration": "5ed8f7717261c608cf8fc1d59a0c4f4b795f65bb694d09912593eddcb7687609",
-    "identity": "5320f55c840a0951eed84443255ffceb2874da00ce95ebae7cf9c61b7a6b8532",
+    "regions": [
+      "Europe"
+    ],
+    "country": "RO",
+    "town": "Bucuresti",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/i7dto-bgkj2-xo5dx-cyrb7-zkk5y-q46eh-gz6iq-qkgyc-w4qte-scgtb-6ae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Iancu-Aurel",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/iancu/identity.pdf",
-      "declaration": "../np-list/iancu/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -1621,17 +1517,13 @@
     "total_rewardable_nodes": 18,
     "total_subnets": 15,
     "total_unassigned_nodes": 3,
-    "website": null,
-    "declaration": "3c2bec3aeda3318d86ecfa0b646db10f37503914d9946f4551fd845e3b79cbd5",
-    "identity": "3e5e8e0934d4fd9c386586f2f50936bdb85b10ee778ffe041f028ccf8541d8e1",
+    "regions": [
+      "Oceania"
+    ],
+    "country": "AU",
+    "town": "Melbourne",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/ihbuj-erwnc-tkjux-tqtnv-zkoar-uniy2-sk2go-xfpkc-znbb4-seukm-wqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Icaria_Systems_Pty_Ltd",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/icaria/declaration.pdf",
-      "identity": "../np-list/icaria/identity.pdf",
-      "invoice": "../np-list/icaria/invoice.pdf",
-      "registration": "../np-list/icaria/registration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -1658,12 +1550,13 @@
     "total_rewardable_nodes": 1,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "Europe"
+    ],
+    "country": "CH",
+    "town": "Zurich",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/srga3-cikqa-srnxx-rwejf-672jj-5o6qy-tuzsa-khds3-2ofjw-5gnew-mae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -1675,15 +1568,13 @@
     "total_rewardable_nodes": 6,
     "total_subnets": 4,
     "total_unassigned_nodes": 2,
-    "website": null,
-    "declaration": "35e13e1e731a95714108d44be84cb2ea6b2a42299c1100f40e779704f4ee3d3b",
-    "identity": "27e98c3737462db4f8da258c10eeb10d0fc42a3095f3fa280785b165bcaba993",
+    "regions": [
+      "Africa"
+    ],
+    "country": "ZA",
+    "town": "Cape Town",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/optdi-nwa4m-hly3k-6ua4n-sqyxf-yahvb-wps77-ddayn-r7zcz-edla5-7qe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Illusions_in_Art_Ltd",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/illusion/declaration.pdf",
-      "identity": "../np-list/illusion/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -1710,14 +1601,13 @@
     "total_rewardable_nodes": 2,
     "total_subnets": 0,
     "total_unassigned_nodes": 2,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/7ws2n-wqorv-vmo4m-5e222-n42c3-hk43s-ei3kp-4hpbn-xlkzo-jgv7i-tqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/InfoObjects_Inc",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/info/declaration.png"
-    },
     "document_validations": []
   },
   {
@@ -1729,12 +1619,13 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "Europe"
+    ],
+    "country": "PT",
+    "town": "Barreiro",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/i7v7g-cwjtl-gzd2s-nt2ko-4d5su-vh64h-bqu4h-rio26-tbaej-dtj6d-fae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -1746,18 +1637,13 @@
     "total_rewardable_nodes": 7,
     "total_subnets": 6,
     "total_unassigned_nodes": 1,
-    "website": null,
-    "declaration": "577537d188a10394b290bdcbf68973aee61f7304e59181441e5dfc5a5dbd63bb",
-    "identity": "723aa68d984f37822e7da2e1e137d1c465288d49f96aa09f971954c076d0026f",
+    "regions": [
+      "Europe"
+    ],
+    "country": "LT",
+    "town": "Vilnius",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/ivf2y-crxj4-y6ewo-un35q-a7pum-wqmbw-pkepy-d6uew-bfmff-g5yxe-eae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Ivanov_Oleksandr",
-    "additional_documents": {
-      "invoice": "cfa52fc312116003e3e48c634a6267a9ec4c3a3afbb6aa29d4db1e4989097780"
-    },
-    "document_paths": {
-      "invoice": "../np-list/ivanov/invoice.pdf",
-      "declaration": "../np-list/ivanov/declaration.pdf",
-      "identity": "../np-list/ivanov/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -1791,12 +1677,13 @@
     "total_rewardable_nodes": 2,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Florida",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/5zqo2-omblo-i7knq-qyrfu-mjccn-tljyd-qslab-b7ukn-7tshi-pbeke-pae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -1808,12 +1695,13 @@
     "total_rewardable_nodes": 7,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Georgia",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/dzxyh-fo4sw-pxckk-kwqvc-xjten-3yqon-fm62b-2hz4s-raa4g-jzczg-iqe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -1825,12 +1713,13 @@
     "total_rewardable_nodes": 1,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/qcs4o-yswwp-7ozhg-m2ago-ytjyl-zlckb-raykw-fi5hl-cflyt-4beyv-zqe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -1842,12 +1731,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/f5wg2-kl4aq-cj4ym-nq7ul-i4kxy-t4x3x-yiyc5-3wlu6-opzwd-o5qes-hae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -1859,15 +1747,14 @@
     "total_rewardable_nodes": 18,
     "total_subnets": 10,
     "total_unassigned_nodes": 7,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "Africa",
+      "Oceania"
+    ],
+    "country": "ZA",
+    "town": "Gauteng",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/unqqg-no4b2-vbyad-ytik2-t3vly-3e57q-aje2t-sjb5l-bd4ke-chggn-uqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Karel_Frank",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/karel/identity.pdf",
-      "declaration": "../np-list/karel/declaration.pdf"
-    },
     "document_validations": []
   },
   {
@@ -1879,15 +1766,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "e4a1b47b5a5544282b87d50027ee68138d790ba3f6b04ed98736f24a40871ab0",
-    "identity": "965e28cfb17df505534fe72dcb29cdd43fe1eb74b5e9106d168f466fdea072dd",
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/3teor-k2wwx-3xzqe-eufmv-zhysu-i4ml6-ka2qz-rgeei-oobbw-xka6i-vae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Katerina_Karapuz",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/katerina/identity.pdf",
-      "declaration": "../np-list/katerina/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -1914,12 +1797,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/pcwis-xaq3p-xvasz-5cfws-oelni-xs72v-acbwz-umxnq-nb2bc-ziyuu-sqe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -1931,15 +1813,13 @@
     "total_rewardable_nodes": 6,
     "total_subnets": 5,
     "total_unassigned_nodes": 1,
-    "website": null,
-    "declaration": "4a3dcb2d4be1dad6f1cc8b6c124083284ade988618a73ae196514d763805d218",
-    "identity": "2b816da720ac366647a68350d03a0742e5a361160de2c9768464a0ff18a883a5",
+    "regions": [
+      "Africa"
+    ],
+    "country": "ZA",
+    "town": "Cape Town",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/py2kr-ipr2p-ryh66-x3a3v-5ts6u-7rfhf-alkna-ueffh-hz5ox-lt6du-qqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Kontrapunt_(Pty)_Ltd",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/kontrapunt/identity.pdf",
-      "declaration": "../np-list/kontrapunt/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -1966,15 +1846,13 @@
     "total_rewardable_nodes": 15,
     "total_subnets": 12,
     "total_unassigned_nodes": 2,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "Asia"
+    ],
+    "country": "IN",
+    "town": "Panvel",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/zy4m7-z5mhs-zfkpl-zlsjl-blrbx-mvvmq-5z4zu-mf7eq-hhv7o-ezfro-3ae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Krishna_Enterprises",
-    "additional_documents": {},
-    "document_paths": {
-      "invoice": "../np-list/krishna/invoice.png",
-      "declaration": "../np-list/krishna/declaration.pdf"
-    },
     "document_validations": []
   },
   {
@@ -1986,12 +1864,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/sajvr-l5iok-rj6c2-r76co-k2mde-d3kir-pnmjs-443f6-lxto4-pu55q-uae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -2003,15 +1880,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "ac47b0a59d4509975e09209e4c218a418c01ade4187b6b7e6bea1b2ac153fa62",
-    "identity": "0a5cfdd7efa057413bdc74b7e3Cb707c46f6c84fd5f0e6a4d9f9bd7eccd5712d",
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/j2tnr-f5tmm-afnyl-762n7-o272x-ji2xi-bcpld-ihimy-fw52d-2zqov-xae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Krzysztof_%C5%BBelazko",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/krzysztof/identity.pdf",
-      "declaration": "../np-list/krzysztof/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -2038,12 +1911,13 @@
     "total_rewardable_nodes": 1,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Florida",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/abscc-3lezh-oezci-5i3kz-pkwlc-ozz3r-5wv4n-htujn-rtajh-6cgyv-jae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -2055,15 +1929,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "2b425dbb1a6a4030157f0b0f9a6d2950f67b1fe72fb68ed088a6f3e4cd735694",
-    "identity": "20b9d99195d7a157833fc399d6c94c05b6ba80fc43095f88002eab9b023dcebc",
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/fnzev-s6xem-s2myy-rrxoa-2mpp6-oet33-pmnba-ajo75-qhfdw-esys7-7qe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Louise_Velayo",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/louise/identity.pdf",
-      "declaration": "../np-list/louise/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -2090,15 +1960,13 @@
     "total_rewardable_nodes": 6,
     "total_subnets": 6,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "Europe"
+    ],
+    "country": "CZ",
+    "town": "South Moravian Region",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/efem5-kmwaw-xose7-zzhgg-6bfif-twmcw-csg7a-lmqvn-wrdou-mjwlb-vqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Lukas_Helebrandt",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/lukas/identity.pdf",
-      "declaration": "../np-list/lukas/declaration.pdf"
-    },
     "document_validations": []
   },
   {
@@ -2110,12 +1978,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/6dwst-olsa5-tagsr-jylgj-oicju-rf42e-o7job-gedre-fgoxt-7br62-jqe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -2127,18 +1994,13 @@
     "total_rewardable_nodes": 7,
     "total_subnets": 5,
     "total_unassigned_nodes": 2,
-    "website": null,
-    "declaration": "e93de8d5b1ebe292df3bdbb781537bae0b478ab9d1242b65a8ac1f92cb1e95d7",
-    "identity": "d1f00e96f1042037235767210b105f72f4cbaa94aa34be84a0400bacb2ca4e77",
+    "regions": [
+      "Europe"
+    ],
+    "country": "PT",
+    "town": "Barreiro",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/4r6qy-tljxg-slziw-zoteo-pboxh-vlctz-hkv2d-7zior-u3pxm-mmuxb-cae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Maksym_Ishchenko",
-    "additional_documents": {
-      "invoice": "3ee9fa7343991112c4f43fc808ec6bcdd9c320dfc9d8d07a1675934863c62f97"
-    },
-    "document_paths": {
-      "declaration": "../np-list/maksym/declaration.pdf",
-      "invoice": "../np-list/maksym/invoice.pdf",
-      "identity": "../np-list/maksym/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -2172,12 +2034,13 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "Europe"
+    ],
+    "country": "FR",
+    "town": "Paris",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/xfvlz-qkgs4-xyeyx-lbke5-aarza-ovi52-wzpxl-3p27l-ov6ki-csxv6-qqe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -2189,15 +2052,13 @@
     "total_rewardable_nodes": 4,
     "total_subnets": 4,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "549b11c43bd4d4705066ee24a65ce530d67f9db35d9f4b406700d866c3d4d85a",
-    "identity": "292d36140c03081b63bd76ec7758ce2654c9e7b4ee5d086b14915f09554d2ef6",
+    "regions": [
+      "South America"
+    ],
+    "country": "AR",
+    "town": "CABA",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/s5nvr-ipdxf-xg6wd-ofacm-7tl4i-nwjzx-uulum-cugwb-kbpsa-wrsgs-cae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Mariano_Stoll",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/mariano/identity.pdf",
-      "declaration": "../np-list/mariano/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -2224,15 +2085,14 @@
     "total_rewardable_nodes": 14,
     "total_subnets": 10,
     "total_unassigned_nodes": 4,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "Asia",
+      "North America"
+    ],
+    "country": "CA",
+    "town": "Quebec",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/7uioy-xitfw-yqcko-5gpya-3lpsw-dw7zt-dyyyf-wfqif-jvi76-fdbkg-cqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Marvelous_Web3",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/marvelous/declaration.pdf",
-      "identity": "../np-list/marvelous/identity.pdf"
-    },
     "document_validations": []
   },
   {
@@ -2244,12 +2104,13 @@
     "total_rewardable_nodes": 5,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/vdzyg-amckj-thvl5-bsn52-2elzd-drgii-ryh4c-izba3-xaehb-sohtd-aae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -2261,12 +2122,13 @@
     "total_rewardable_nodes": 10,
     "total_subnets": 8,
     "total_unassigned_nodes": 2,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "Europe"
+    ],
+    "country": "LT",
+    "town": "Vilnius",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/4jjya-hlyyc-s766p-fd6gr-d6tvv-vo3ah-j5ptx-i73gw-mwgyd-rw6w2-rae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -2278,12 +2140,13 @@
     "total_rewardable_nodes": 4,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Florida",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/3siog-htc6j-ed3wz-sguhu-2objz-g5qct-npoma-t3wwt-bd6wy-chwsi-4ae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -2295,18 +2158,13 @@
     "total_rewardable_nodes": 63,
     "total_subnets": 7,
     "total_unassigned_nodes": 32,
-    "website": null,
-    "declaration": "9fc5eac74b983ea375d2c0a10985ecb1b504b53df5ac6615f726a71625a63daa",
-    "identity": "5520f569efcf2f8d17df86b719438d5e7c5674ba6f4267b37d0bfe6150a179c7",
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Illinois",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/izmhk-lpjum-uo4oy-lviba-yctpc-arg4b-2ywim-vgoiu-gqaj2-gskmw-2qe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/MI_Servers",
-    "additional_documents": {
-      "handover": "48e4c859db33eb48007e00761fc0dd0382fc73d0f195cb42067cace63ac104e0"
-    },
-    "document_paths": {
-      "declaration": "../np-list/mi/declaration.pdf",
-      "handover": "../np-list/mi/handover.pdf",
-      "identity": "../np-list/mi/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -2340,12 +2198,13 @@
     "total_rewardable_nodes": 1,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Florida",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/4anlt-yam7x-eodmx-ik7mo-nl3kx-t35fj-52hfy-uv4jj-u2iea-ntg76-pqe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -2357,14 +2216,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "f92612f76063cfd7270a2010a184085d83a1cb43d45d6eec649ae928fb9a4d6e",
-    "identity": null,
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/n6w7e-4cio3-an35h-hntwl-zzg4p-krqjk-yfmni-q7jiu-bage2-hef5b-pae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/File:NODE-PROVIDER-SELF.pdf",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/ml/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -2384,12 +2240,13 @@
     "total_rewardable_nodes": 2,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/sdal5-w2c3d-p3buy-zieck-2wyuj-eu5bn-rkfe6-uuspi-o4n2b-gpei7-iae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -2401,12 +2258,13 @@
     "total_rewardable_nodes": 7,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/ou3o7-akyjc-ldwd5-anyjn-l2buz-cwhbg-nehlc-abkde-qtc7w-fozdi-hae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -2418,15 +2276,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "5805a18c064f2427c06c124f3b22a0459c2306427480e8d1432bbb0df8b8f075",
-    "identity": "e2963b868f0c9f1b06f14e7f551e9aa93fffa2684038c0b9bb2829296c9baec8",
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/6ryfx-xszlo-xpvyj-b7vx6-m4erk-zwdkc-5lzfw-fty7k-arl66-uc3jk-nae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Natalia_Kulesha",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/natalia/identity.pdf",
-      "declaration": "../np-list/natalia/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -2453,15 +2307,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "f1dc53b1abd658dca89b7ed8901771dd82d7181e40dc111b926d95341c36012d",
-    "identity": "05a8828277a2ca2bc9cc641a20e4e58ead0fc5d31a6e0bbc16df3222a4154d67",
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/kf7dx-5wayj-3p2u4-yd4hf-m2en4-np75j-tta25-wqe7y-rlm6s-nqceb-7ae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Nataliia_Nykyforak",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/nataliia/identity.pdf",
-      "declaration": "../np-list/nataliia/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -2488,18 +2338,13 @@
     "total_rewardable_nodes": 25,
     "total_subnets": 20,
     "total_unassigned_nodes": 5,
-    "website": null,
-    "declaration": "212c43503bbbe421e213a7b46da2c91c70c80ae7326b91d2ddedc29f4e26a984",
-    "identity": "78588307b8273d3b9ac7f4e26194c76da7a5c74aea91b4246def566ab97cd568",
+    "regions": [
+      "Asia"
+    ],
+    "country": "KR",
+    "town": "Seoul",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/4dibr-2alzr-h6kva-bvwn2-yqgsl-o577t-od46o-v275p-a2zov-tcw4f-eae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Neptune_Partners",
-    "additional_documents": {
-      "invoice": "35712cda62bf07210b3851365dfec40d356265caa549e2b69b899e96f6849102"
-    },
-    "document_paths": {
-      "identity": "../np-list/neptune/identity.pdf",
-      "invoice": "../np-list/neptune/invoice.pdf",
-      "declaration": "../np-list/neptune/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -2533,18 +2378,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "d0386dcf8a5366b50c7eb9b066747c4b16fad684096908d2be98112828c4ec1e",
-    "identity": "fabd668885237dd9214b56107a0beff7933564c7993f7c48e6beca77396e50e3",
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/kn4u4-unhbe-qwud4-ki6lq-o4try-6l2gv-yrxmg-vw6st-fmlss-nsztj-7qe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Nikola_Nikov",
-    "additional_documents": {
-      "passeport": "7d85328f9aa9019ad71e0030f2dc602390ec76e059e0f18f05f3874e49d56415"
-    },
-    "document_paths": {
-      "passeport": "../np-list/nikola/passeport.pdf",
-      "identity": "../np-list/nikola/identity.pdf",
-      "declaration": "../np-list/nikola/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -2578,16 +2416,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "0af318f022d942aacd55b2bca683437b8787bee7fbd88dee0eefefde073d3bef",
-    "identity": "9c0ff8a4bd195b0dc76b0c4bdd4e46d33b7e7484b07696bdbfe5f57594c8c6ad",
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/kgfpq-4th36-lvnpn-ayygq-hikoq-dndag-vvafx-msvg5-aczmu-pkzsv-7ae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/NODAL_CAPITAL",
-    "additional_documents": {},
-    "document_paths": {
-      "authenticity": "../np-list/nodal/authenticity.pdf",
-      "declaration": "../np-list/nodal/declaration.pdf",
-      "identity": "../np-list/nodal/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -2614,19 +2447,14 @@
     "total_rewardable_nodes": 14,
     "total_subnets": 0,
     "total_unassigned_nodes": 26,
-    "website": null,
-    "declaration": "110bea1dfcaf3c8d1a5a7c7c6b453e60c95c70268d4093b74b0321e857bc316c",
-    "identity": "ba4fd2ee3fe5856a8ed62fb30dd03ecb50e18d22bd040dc5b26dc2da1f11b318",
+    "regions": [
+      "Europe",
+      "North America"
+    ],
+    "country": "BE",
+    "town": "Flanders",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/g7dkt-aapqq-j3hqt-xtiys-pwapz-idulp-nwagd-zibqm-caxa4-gc23t-3qe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/NODAO",
-    "additional_documents": {
-      "handover": "166f1537e12fc673591c55b3c26985f20060ab2d618864fff709a619554c8865",
-      "handover_02": "a24bcba0528bf63937b9de36a52c5c222a8c65d12774ac23973adbdd5df307ed"
-    },
-    "document_paths": {
-      "handover": "../np-list/nodao/handover.pdf",
-      "identity": "../np-list/nodao/identity.pdf",
-      "declaration": "../np-list/nodao/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -2660,14 +2488,13 @@
     "total_rewardable_nodes": 3,
     "total_subnets": 0,
     "total_unassigned_nodes": 3,
-    "website": null,
-    "declaration": "c3d8ef713908aa1cc170fb07ff402c424ea7b44658a1c9845062c83d2a142506",
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/hk7eo-22zam-kqmsx-dtfbj-k5i6f-jg65h-micpf-2cztc-t2eqk-efgvx-vqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/NoviSystems",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/novi/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -2687,15 +2514,13 @@
     "total_rewardable_nodes": 41,
     "total_subnets": 35,
     "total_unassigned_nodes": 4,
-    "website": "https://162digitalcapital.com",
-    "declaration": "6ec85540ddc21bff4605ac7dd73c9423db1310d3c11c6fbc66b5c71c140397ff",
-    "identity": "b8b894f7bb5e34f11d96a346a493ee20f13f1f41be586844de4aca8641c1db51",
+    "regions": [
+      "Asia"
+    ],
+    "country": "SG",
+    "town": "Singapore",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/6nbcy-kprg6-ax3db-kh3cz-7jllk-oceyh-jznhs-riguq-fvk6z-6tsds-rqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/OneSixtyTwo_Digital_Capital",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/162/identity.pdf",
-      "declaration": "../np-list/162/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -2722,15 +2547,13 @@
     "total_rewardable_nodes": 7,
     "total_subnets": 4,
     "total_unassigned_nodes": 3,
-    "website": null,
-    "declaration": "72fd6a6116bc259f41032959f8eb7b30ed9d3ad8384c5615a462ce135f23133d",
-    "identity": "5aa03c61a57a0d6bd8d993898d87f2f5909e813ea9ec7e38a8ff63fd12fdcd93",
+    "regions": [
+      "Asia"
+    ],
+    "country": "HK",
+    "town": "HongKong",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/cgmhq-c4zja-yov4u-zeyao-64ua5-idlhb-ezcgr-cultv-3vqjs-dhwo7-rqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/User:Soekawat",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/origin/declaration.pdf",
-      "identity": "../np-list/origin/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -2757,15 +2580,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "7e2a2ace6cda079772a0187c25d1873a6d913abdb2a71aec37f445863b051f4b",
-    "identity": "c15022cf023708273cc963cecd4f3aed3b19ffdf05e1d972474d1a4cb3009b57",
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/xv5l6-677tb-f4ree-7cz2e-sawob-auqy2-23x7u-funsg-46eb2-sujic-jae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Paul_Creasey",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/creasey/declaration.pdf",
-      "identity": "../np-list/creasey/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -2792,12 +2611,13 @@
     "total_rewardable_nodes": 1,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/yr4eg-kwk3m-q44vj-ale35-2mtxk-5dyn7-vgppx-z6tcw-kzo4o-ezpm5-fqe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -2809,12 +2629,13 @@
     "total_rewardable_nodes": 2,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/72idx-a7c3y-nrcwc-lboj4-mmsas-sfdpm-gq23i-h2yuy-lykcj-vrxn2-jqe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -2826,12 +2647,13 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "CR",
+    "town": "San Jose",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/2c4m6-25hos-qroi3-mk4aj-nog6s-zbzcv-ccpcc-cbv7s-sjy6p-bv3g5-fae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -2843,14 +2665,13 @@
     "total_rewardable_nodes": 36,
     "total_subnets": 26,
     "total_unassigned_nodes": 10,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "Asia"
+    ],
+    "country": "HK",
+    "town": "HongKong",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/r3yjn-kthmg-pfgmb-2fngg-5c7d7-t6kqg-wi37r-j7gy6-iee64-kjdja-jae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/PindarTechnologyLimited",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/pindar/declaration.pdf"
-    },
     "document_validations": []
   },
   {
@@ -2862,15 +2683,13 @@
     "total_rewardable_nodes": 5,
     "total_subnets": 4,
     "total_unassigned_nodes": 1,
-    "website": null,
-    "declaration": "39003cc833863871ce71223189584997fd32e164ba749605cf2bfdc2b7f7d7f1",
-    "identity": "6db12fdac101756eeb6de5e568d4ce4e58e0dbb5fafd002001e0aa6c410cde12",
+    "regions": [
+      "Asia"
+    ],
+    "country": "HK",
+    "town": "HongKong",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/4fedi-eu6ue-nd7ts-vnof5-hzg66-hgzl7-liy5n-3otyp-h7ipw-owycg-uae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/User:Powermetacorp",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/power/identity.pdf",
-      "declaration": "../np-list/power/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -2897,12 +2716,13 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/waj5k-wlyvv-jbj4n-vxwjm-dmkyg-uw2nl-ggojp-34kln-wgx3n-d7xih-5qe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -2914,17 +2734,13 @@
     "total_rewardable_nodes": 3,
     "total_subnets": 1,
     "total_unassigned_nodes": 2,
-    "website": null,
-    "declaration": "08250486876f73627fe209724de09f4962923ded5afaaca01405c3aa5cccda85",
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Utah",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/trxbq-wy5xi-3y27q-bkpaf-mhi2m-puexs-yatgt-nhwiy-dh6jy-rolw5-zqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Privoxy_Solutions,_LLC.",
-    "additional_documents": {
-      "invoice": "13be81b338fa16661391ddfcf8c7721ec26fe964f1ad649dc9fe8f5ae7905f45"
-    },
-    "document_paths": {
-      "invoice": "../np-list/privoxy/invoice.pdf",
-      "declaration": "../np-list/privoxy/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -2951,15 +2767,13 @@
     "total_rewardable_nodes": 27,
     "total_subnets": 0,
     "total_unassigned_nodes": 27,
-    "website": null,
-    "declaration": "d433497932de39d880974dc0e50ae34cf4227ae53d0eaf3f364c83c16eff06e6",
-    "identity": "ba5d2bead0ad9dd5777287257607ad79678d8638a76bb6af2c46b3eb855daf8b",
+    "regions": [
+      "Asia"
+    ],
+    "country": "SG",
+    "town": "Singapore",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/x7uok-pi537-itm37-unjn3-ewkze-kuetg-kptap-nuqak-auq7z-tn5ey-dqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/User:Protocol16",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/protocol16/identity.pdf",
-      "declaration": "../np-list/protocol16/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -2986,12 +2800,13 @@
     "total_rewardable_nodes": 1,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Georgia",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/chnsu-yaqt5-6osy5-au4zn-li6yu-nufmw-dewrt-utkiu-twd76-ujypw-rae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -3003,18 +2818,13 @@
     "total_rewardable_nodes": 28,
     "total_subnets": 0,
     "total_unassigned_nodes": 28,
-    "website": null,
-    "declaration": "c2fa10e0743e8ef554f878167541ea537a81da1cd18853dcbf0de4af75533fd4",
-    "identity": "898be083b1c60c772c07f169d364b61f4a2e83c683619251a192a3d1d84cc4da",
+    "regions": [
+      "Europe"
+    ],
+    "country": "CH",
+    "town": "Zurich",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/ma7dp-gz4tg-3c2wv-pgnsv-wna7u-czvhu-fpu47-t4dr6-gzxql-wr2m2-qae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Reist_Telecom_AG",
-    "additional_documents": {
-      "handover": "e64a2061eefa819b581c2977763fa1eb2a40fea92f801485d0a92d53b6b7bfa6"
-    },
-    "document_paths": {
-      "declaration": "../np-list/reist/declaration.pdf",
-      "handover": "../np-list/reist/handover.pdf",
-      "identity": "../np-list/reist/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -3048,12 +2858,13 @@
     "total_rewardable_nodes": 7,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": "https://blockchaindevlabs.com",
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Florida",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/egb3e-rzi2e-vpsmm-akysp-l2owk-4dgst-b5hmg-xrkwa-cr3uk-zlzds-mae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -3065,12 +2876,13 @@
     "total_rewardable_nodes": 1,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/cmcjw-6c5ve-4zjnt-lipnl-2lp43-oh5wk-ewciz-xyvnv-m2rz5-hkm6a-hqe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -3082,12 +2894,13 @@
     "total_rewardable_nodes": 2,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/q22bo-3uyqa-jvtpt-gapjk-pseor-esx4a-zyb74-vzea4-o7nx2-tafgq-hae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -3099,12 +2912,13 @@
     "total_rewardable_nodes": 7,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Florida",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/6tg64-cdfoh-kl35i-p6qti-sose3-746lr-jk5ex-phuvu-jfu3d-5svwa-7qe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -3116,18 +2930,13 @@
     "total_rewardable_nodes": 112,
     "total_subnets": 4,
     "total_unassigned_nodes": 38,
-    "website": null,
-    "declaration": "d93ed2516d8da80587bdf42335a77920d048e26ebebd031487bbc8e613b2c273",
-    "identity": "06a22cb9df8dfe84541dad6fde2143464586881062f1068b7b27283e27d78842",
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Illinois",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/spp3m-vawt7-3gyh6-pjz5d-6zidf-up3qb-yte62-otexv-vfpqg-n6awf-lqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Rivonia_Holdings,_LLC",
-    "additional_documents": {
-      "handover": "b855c7ef7738be197db502fca07201353ce360bf8c5f2d2edfa3763494e13459"
-    },
-    "document_paths": {
-      "identity": "../np-list/rivonia/identity.pdf",
-      "handover": "../np-list/rivonia/handover.pdf",
-      "declaration": "../np-list/rivonia/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -3161,14 +2970,14 @@
     "total_rewardable_nodes": 13,
     "total_subnets": 10,
     "total_unassigned_nodes": 3,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America",
+      "Asia"
+    ],
+    "country": "CA",
+    "town": "Quebec",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/ulyfm-vkxtj-o42dg-e4nam-l4tzf-37wci-ggntw-4ma7y-d267g-ywxi6-iae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Rivram_Inc",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/rivram/declaration.pdf"
-    },
     "document_validations": []
   },
   {
@@ -3180,12 +2989,13 @@
     "total_rewardable_nodes": 1,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/bgprp-b2mnt-ci5in-57vuk-p7qvo-tj2tb-5w5su-qwenk-gbe77-mnuiq-sqe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -3197,12 +3007,13 @@
     "total_rewardable_nodes": 2,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Georgia",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/wwxec-c2gd2-bu5on-ktpwz-z2ph3-vlr4p-m7ztf-6ck7r-nt3r4-fxbdq-mae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -3214,12 +3025,13 @@
     "total_rewardable_nodes": 1,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Georgia",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/p5jx4-lsrog-ep5o3-5uudg-opdg3-ur45z-xeefi-4ejfz-47t2k-riwfv-dae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -3231,12 +3043,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/i6sxi-fks25-viets-mboa7-3i23b-qeocf-e57qj-ar6vy-2mchu-xb5vp-aqe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -3248,15 +3059,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "75c6c41df1f82d8af6f900da4a124d17035482b28d0615d574f9ab44f6989b1b",
-    "identity": "f16619f9877016b4c43055e8d112f549ac0c84a66245082898550f9e12f7f691",
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/2cfu2-qyug6-y4cme-lvj3c-6fs65-cbti4-ea6ig-nkaoj-fsbte-7n5gp-wae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Serenity_lotus_limited",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/serenity/identity.pdf",
-      "declaration": "../np-list/serenity/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -3283,12 +3090,13 @@
     "total_rewardable_nodes": 7,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": "https://www.shelburneventures.com/",
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/a24zv-2ndbz-hqogc-ev63f-qxnpb-7ramd-usexl-ennaq-4om4k-sod6u-gae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -3300,12 +3108,11 @@
     "total_rewardable_nodes": 28,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/niw4y-easue-l3qvz-sozsi-tfkvb-cxcx6-pzslg-5dqld-ooudp-hsuui-xae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -3317,16 +3124,13 @@
     "total_rewardable_nodes": 42,
     "total_subnets": 19,
     "total_unassigned_nodes": 22,
-    "website": "starbase.co",
-    "declaration": "51ad0b02ee669b578f528aa57ac12c76cd0818a4756924aa04339c2aa9e865b3",
-    "identity": "c2ee042289c9b2028a9d5e7c874afa190df7dfad5c05cbb9abf0f3c54e5c6e91",
+    "regions": [
+      "Asia"
+    ],
+    "country": "JP",
+    "town": "Tokyo",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/sixix-2nyqd-t2k2v-vlsyz-dssko-ls4hl-hyij4-y7mdp-ja6cj-nsmpf-yae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Starbase",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/starbase/identity.pdf",
-      "declaration": "../np-list/starbase/declaration.pdf",
-      "handover": "../np-list/starbase/handover.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -3353,12 +3157,13 @@
     "total_rewardable_nodes": 1,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": "https://starseedtech.wordpress.com/",
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/ruxoj-jnqql-uau6o-xwrtb-ufde4-geddn-mnhni-wpew4-zhzi5-xjrxi-lqe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -3370,18 +3175,13 @@
     "total_rewardable_nodes": 42,
     "total_subnets": 8,
     "total_unassigned_nodes": 33,
-    "website": "sygnum.com",
-    "declaration": "50bd080608c4e8e03bea8e33921e69c943ba414b1191a0af9e9b365976bf90cb",
-    "identity": "f7240e5d637a7df3d2702b02335528907ecdb5db0876195dc0ec4e925ac60f2c",
+    "regions": [
+      "Europe"
+    ],
+    "country": "CH",
+    "town": "Zurich",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/6r5lw-l7db7-uwixn-iw5en-yy55y-ilbtq-e6gcv-g22r2-j3g6q-y37jk-jqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Sygnum",
-    "additional_documents": {
-      "handover": "e64a2061eefa819b581c2977763fa1eb2a40fea92f801485d0a92d53b6b7bfa6"
-    },
-    "document_paths": {
-      "handover": "../np-list/sygnum/handover.pdf",
-      "identity": "../np-list/sygnum/identity.pdf",
-      "declaration": "../np-list/sygnum/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -3415,15 +3215,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "1ac3f6c3eeae84ee4efc72695e440dd62eda9cd7b6c42800ce090a72d7dfd273",
-    "identity": "fe0994cb2abc2b0c12d42f61b56b08314b897ca617f2cb4aa4df424b26edfad9",
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/b7yyj-o7vc6-hdbzl-eggkm-bp2hg-3jmcv-5j5nn-t6zkq-ino4b-cvyde-yqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/User:FenexLLC",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/fenex/declaration.pdf",
-      "identity": "../np-list/fenex/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -3450,15 +3246,13 @@
     "total_rewardable_nodes": 42,
     "total_subnets": 9,
     "total_unassigned_nodes": 32,
-    "website": "https://www.tomahawk.vc/",
-    "declaration": "166009bc60582ea9a49daa64081e6a289aa0b5487b2e34b391b2207246270628",
-    "identity": "9fe65bd2732699feb62bbb4e762ebb247bbfee8888edc257368eff0954082ff9",
+    "regions": [
+      "Europe"
+    ],
+    "country": "CH",
+    "town": "Zurich",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/ucjqj-jmbj3-rs4aq-ekzpw-ltjs3-zrcma-t6r3t-m5wxc-j5yrj-unwoj-mae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Tenderloin_Ventures_AG",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/tomahawk/identity.pdf",
-      "declaration": "../np-list/tomahawk/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -3485,18 +3279,13 @@
     "total_rewardable_nodes": 27,
     "total_subnets": 0,
     "total_unassigned_nodes": 28,
-    "website": null,
-    "declaration": "670c0277a8caae4cbd7684f7a64d50d9cd1df7e56111b3a5f2b7316be6bb537f",
-    "identity": "b6999e26b55d61cf1c7ff578ab512a801090afde71e570bcd9fee1ec6e094843",
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Oregon",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/dodsd-rsjlg-sgekb-gr6mi-l6fck-tscwk-4jzgl-fwk4q-ncoyu-ulx53-aqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Uvaca_Labs_LLC",
-    "additional_documents": {
-      "handover": "cce9ed442f3b5aa428413a0994bf814c40db64ccd3c3aaa0a48f016ae63b5e1d"
-    },
-    "document_paths": {
-      "declaration": "../np-list/uvaca/declaration.pdf",
-      "identity": "../np-list/uvaca/identity.pdf",
-      "handover": "../np-list/uvaca/handover.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -3530,15 +3319,13 @@
     "total_rewardable_nodes": 27,
     "total_subnets": 18,
     "total_unassigned_nodes": 8,
-    "website": "https://virtualhive.io",
-    "declaration": "D4597A48D1E6A3150680A5B821BC28DEFB552D618D3DE687344533AB8FA2F8A8",
-    "identity": "3948F6E645970FFBFB8981FC38101DA4C120A28657EA5E924B9F53D1A2703E62",
+    "regions": [
+      "Europe"
+    ],
+    "country": "DE",
+    "town": "Hesse",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/wdnqm-clqti-im5yf-iapio-avjom-kyppl-xuiza-oaz6z-smmts-52wyg-5ae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/VirtualHiveLtd",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/virtual/declaration.pdf",
-      "identity": "../np-list/virtual/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -3565,18 +3352,13 @@
     "total_rewardable_nodes": 7,
     "total_subnets": 7,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "703f8b2dddf13759a3d7f0b4e2dc49fd2a660f48e3a4522c32c8eba6d1c98d1f",
-    "identity": "b463385eeead89eb2ba18ef711a442b5b59dd3da65cb10be6c2409f7d14d8103",
+    "regions": [
+      "Europe"
+    ],
+    "country": "PT",
+    "town": "Lisbon",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/3oqw6-vmpk2-mlwlx-52z5x-e3p7u-fjlcw-yxc34-lf2zq-6ub2f-v63hk-lae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Vladyslav_Popov",
-    "additional_documents": {
-      "invoice": "5d2b108c25d54e4d5d5ca12a55c5165341bbcbbe2c907816c8b026f7cd5f73f6"
-    },
-    "document_paths": {
-      "declaration": "../np-list/vladyslav/declaration.pdf",
-      "invoice": "../np-list/vladyslav/invoice.pdf",
-      "identity": "../np-list/vladyslav/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -3610,12 +3392,13 @@
     "total_rewardable_nodes": 6,
     "total_subnets": 8,
     "total_unassigned_nodes": 2,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "Asia"
+    ],
+    "country": "HK",
+    "town": "HongKong",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/g2ax6-jrkmb-3zuh3-jibtb-q5xoq-njrgo-5utbc-j2o7g-zfq2w-yyhky-dqe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -3627,20 +3410,13 @@
     "total_rewardable_nodes": 17,
     "total_subnets": 5,
     "total_unassigned_nodes": 11,
-    "website": null,
-    "declaration": "64dd2baa2e3eb1fb5491892936df0928ae719f3b8e65192db416e3743e38c160",
-    "identity": "c7788fb16dccdded7664ee1fa443a84fb968b3a32bb2949479f019c29f3d8af7",
+    "regions": [
+      "Asia"
+    ],
+    "country": "HK",
+    "town": "HongKong",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/64xe5-tx2s3-4gjmj-pnozr-fejw2-77y5y-rhcjk-glnmx-62brf-qin5q-pqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/User:Web3game",
-    "additional_documents": {
-      "invoice": "8e9d7086fd6eb84ab7da4c3bf474dbfccdd6480f5005f54e4284a98f5f088332",
-      "contract": "9e60ea6c6b51c0e86a5870c69dc1acbbfea51dc81a7a729d5ee9c5ac6e1aa04d"
-    },
-    "document_paths": {
-      "declaration": "../np-list/web3game/declaration.pdf",
-      "contract": "../np-list/web3game/contract.pdf",
-      "invoice": "../np-list/web3game/invoice.pdf",
-      "identity": "../np-list/web3game/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -3657,17 +3433,17 @@
         "matches": true
       },
       {
-        "document_type": "invoice",
-        "file_path": "../np-list/web3game/invoice.pdf",
-        "expected_hash": "8e9d7086fd6eb84ab7da4c3bf474dbfccdd6480f5005f54e4284a98f5f088332",
-        "actual_hash": "8e9d7086fd6eb84ab7da4c3bf474dbfccdd6480f5005f54e4284a98f5f088332",
-        "matches": true
-      },
-      {
         "document_type": "contract",
         "file_path": "../np-list/web3game/contract.pdf",
         "expected_hash": "9e60ea6c6b51c0e86a5870c69dc1acbbfea51dc81a7a729d5ee9c5ac6e1aa04d",
         "actual_hash": "9e60ea6c6b51c0e86a5870c69dc1acbbfea51dc81a7a729d5ee9c5ac6e1aa04d",
+        "matches": true
+      },
+      {
+        "document_type": "invoice",
+        "file_path": "../np-list/web3game/invoice.pdf",
+        "expected_hash": "8e9d7086fd6eb84ab7da4c3bf474dbfccdd6480f5005f54e4284a98f5f088332",
+        "actual_hash": "8e9d7086fd6eb84ab7da4c3bf474dbfccdd6480f5005f54e4284a98f5f088332",
         "matches": true
       }
     ]
@@ -3681,12 +3457,13 @@
     "total_rewardable_nodes": 1,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "California",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/usau7-upgoh-sg464-6qnso-lud42-nxho6-ith26-a2jhq-q5bgy-ajeou-4ae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -3698,12 +3475,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/7ne6c-3ahs2-76so4-te6hs-oq4mv-zhz4c-pqj2b-rxjmq-q56vn-tvpgj-2ae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -3715,12 +3491,13 @@
     "total_rewardable_nodes": 2,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "North America"
+    ],
+    "country": "US",
+    "town": "Georgia",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/6mifr-stcqy-w5pzr-qpijh-jopft-p6jl3-n2sww-jhmzg-uzknn-hte4m-pae",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -3732,15 +3509,13 @@
     "total_rewardable_nodes": 6,
     "total_subnets": 5,
     "total_unassigned_nodes": 1,
-    "website": null,
-    "declaration": null,
-    "identity": "e70cc97bb4997a1f6096fadbbb9a7f6368975a8be2d5cc2566d2c30df9d4aa7f",
+    "regions": [
+      "Africa"
+    ],
+    "country": "ZA",
+    "town": "Gauteng",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/mme7u-zxs3z-jq3un-fbaly-nllcz-toct2-l2kp3-larrb-gti4r-u2bmo-dae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Wolkboer_(Pty)_Ltd",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/wolkboer/declaration.png",
-      "identity": "../np-list/wolkboer/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "identity",
@@ -3760,15 +3535,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "31b5d8004094e572dd6b97e0c08884d2bf45210eb595b54bec63772ae67f38d7",
-    "identity": "4f9983a12136922e80784bfa3781a7795d3f6dda14401c653b63e5818a87b36b",
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/glrjs-2dbzh-owbdd-fpp5e-eweoz-nsuto-e3jmk-tl42c-wem4f-qfpfa-qqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Zarety_LLC",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/zarety/declaration.pdf",
-      "identity": "../np-list/zarety/identity.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -3795,15 +3566,13 @@
     "total_rewardable_nodes": 2,
     "total_subnets": 1,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "eafe82de656da7b8aa3d8dede42ba4dd47e55c3855e99767256483f83a05f1be",
-    "identity": "60b4da47a6236b9b62c1c1780d7ead7dfc5f95db406e3e35f59cb4828df54a2d",
+    "regions": [
+      "Asia"
+    ],
+    "country": "IN",
+    "town": "New Delhi",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/pa5mu-yxsey-b4yrk-bodka-dhjnm-a3nx4-w2grw-3b766-ddr6e-nupu4-pqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/User:Zenithcode",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/zenith/identity.pdf",
-      "declaration": "../np-list/zenith/declaration.pdf"
-    },
     "document_validations": [
       {
         "document_type": "declaration",
@@ -3830,14 +3599,13 @@
     "total_rewardable_nodes": 2,
     "total_subnets": 0,
     "total_unassigned_nodes": 1,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [
+      "Europe"
+    ],
+    "country": "CH",
+    "town": "Zurich",
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/hzqcb-iiagd-4erjo-qn7rq-syqro-zztl6-cpble-atnkd-2c6bg-bxjoa-qae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Zondax_AG",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/zondax/declaration.png"
-    },
     "document_validations": []
   },
   {
@@ -3849,12 +3617,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/amsdj-4ss2k-wwcae-kroro-ippwx-lcro4-ysoha-uqlvc-3267j-vt3fy-yqe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -3866,12 +3633,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": null,
-    "identity": null,
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/xsrwt-tl3tk-n3aya-rafh3-ta6xu-eviw5-ae5dg-2f3bf-siaab-wdwdo-dqe",
     "wiki_link": null,
-    "additional_documents": {},
-    "document_paths": {},
     "document_validations": []
   },
   {
@@ -3883,31 +3649,12 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "C1BE3518EBE9A095DA56B02702FCEA349D720FA6CDF474172C7116DDE8FA4F23",
-    "identity": "276737D61FDC07089F74D44865655B67191BE6073827C5773CB2D5C1D84D43D3",
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Stamper_Co.,_Ltd.",
-    "additional_documents": {},
-    "document_paths": {
-      "identity": "../np-list/stamper/identity.pdf",
-      "declaration": "../np-list/stamper/declaration.pdf"
-    },
-    "document_validations": [
-      {
-        "document_type": "declaration",
-        "file_path": "../np-list/stamper/declaration.pdf",
-        "expected_hash": "C1BE3518EBE9A095DA56B02702FCEA349D720FA6CDF474172C7116DDE8FA4F23",
-        "actual_hash": "c1be3518ebe9a095da56b02702fcea349d720fa6cdf474172c7116dde8fa4f23",
-        "matches": true
-      },
-      {
-        "document_type": "identity",
-        "file_path": "../np-list/stamper/identity.pdf",
-        "expected_hash": "276737D61FDC07089F74D44865655B67191BE6073827C5773CB2D5C1D84D43D3",
-        "actual_hash": "276737d61fdc07089f74d44865655b67191be6073827c5773cb2d5c1d84d43d3",
-        "matches": true
-      }
-    ]
+    "document_validations": []
   },
   {
     "name": "Technical University of Munich",
@@ -3918,30 +3665,11 @@
     "total_rewardable_nodes": 0,
     "total_subnets": 0,
     "total_unassigned_nodes": 0,
-    "website": null,
-    "declaration": "cdbcad5d8c01a6050cc196b9bcc13f017afeead6c3c22243f340985451fb9796",
-    "identity": "59c107e3dcc37fc7654921e242147294926959a650b8dd7d386f380e45c4a62f",
+    "regions": [],
+    "country": null,
+    "town": null,
+    "dashboard_link": "",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Technical_University_of_Munich",
-    "additional_documents": {},
-    "document_paths": {
-      "declaration": "../np-list/tum/declaration.pdf",
-      "identity": "../np-list/tum/identity.pdf"
-    },
-    "document_validations": [
-      {
-        "document_type": "declaration",
-        "file_path": "../np-list/tum/declaration.pdf",
-        "expected_hash": "cdbcad5d8c01a6050cc196b9bcc13f017afeead6c3c22243f340985451fb9796",
-        "actual_hash": "cdbcad5d8c01a6050cc196b9bcc13f017afeead6c3c22243f340985451fb9796",
-        "matches": true
-      },
-      {
-        "document_type": "identity",
-        "file_path": "../np-list/tum/identity.pdf",
-        "expected_hash": "59c107e3dcc37fc7654921e242147294926959a650b8dd7d386f380e45c4a62f",
-        "actual_hash": "59c107e3dcc37fc7654921e242147294926959a650b8dd7d386f380e45c4a62f",
-        "matches": true
-      }
-    ]
+    "document_validations": []
   }
 ]
