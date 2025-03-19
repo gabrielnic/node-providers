@@ -1,7 +1,9 @@
 <script lang="ts">
 	import nodeProvidersData from './combined_providers.json';
+	import nodeStakeData from './stake.json';
 
 	let nodeProviders = nodeProvidersData;
+	const nodeStake = new Map(nodeStakeData.map((provider) => [provider.toml_id, provider.stake]));
 
 	let sortKey: 'name' | 'latest' | 'node_count' | 'total' | 'start' = 'name';
 	let sortOrder = 1; // 1 for ascending, -1 for descending
@@ -58,6 +60,7 @@
 			<th><a on:click={() => sortBy('total')}>Total Rewards (ICP)</a></th>
 			<th><a on:click={() => sortBy('start')}>First Rewards Date</a></th>
 			<th>Last Rewards Date</th>
+			<th>Network Stake</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -90,6 +93,13 @@
 					<td>{new Date(nodeProvider.rewards['first_mint_timestamp'] * 1000).toLocaleString()}</td>
 					<td>{new Date(nodeProvider.rewards['last_mint_timestamp'] * 1000).toLocaleString()}</td>
 				{/if}
+				<td>
+					{#if nodeProvider.toml_id && nodeStake.get(nodeProvider.toml_id)}
+						{@html nodeStake.get(nodeProvider.toml_id)}
+					{:else}
+						?
+					{/if}
+				</td>
 			</tr>
 		{/each}
 	</tbody>

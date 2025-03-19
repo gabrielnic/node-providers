@@ -180,9 +180,6 @@
 	.content-container {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		gap: 3em;
-		padding: 2em;
+		padding: 1em;
 	}
 </style>
