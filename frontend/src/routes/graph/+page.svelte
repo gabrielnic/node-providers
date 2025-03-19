@@ -45,9 +45,8 @@
 		'62dd39780d34f2dc21eb680f99962659a6a0c2ccd9c68ec365962ae0eaf293f0'
 	];
 	// https://forum.dfinity.org/t/node-provider-icp-address-graph/42655/11
+	// https://forum.dfinity.org/t/node-provider-icp-address-graph/42655/13
 	const knownCEXAccounts: Record<string, string> = {
-		acd76fff0536f863d9dd4b326a1435466f82305758b4b1b4f62ff9fa81c14073: '?',
-		'00c3df112e62ad353b7cc7bf8ad8ce2fec8f5e633f1733834bf71e40b250c685': '?',
 		'609d3e1e45103a82adc97d4f88c51f78dedb25701e8e51e8c4fec53448aadc29': 'Binance 1',
 		'220c3a33f90601896e26f76fa619fe288742df1fa75426edfaf759d39f2455a5': 'Binance 2',
 		d3e13d4777e22367532053190b6c6ccf57444a61337e996242b1abfb52cf92c8: 'Binance 3',
@@ -62,7 +61,10 @@
 		d2c6135510eaf107bdc2128ef5962c7db2ae840efdf95b9395cdaf4983942978: 'OKX 2',
 		'040834c30cdf5d7a13aae8b57d94ae2d07eefe2bc3edd8cf88298730857ac2eb': 'Kraken',
 		'935b1a3adc28fd68cacc95afcdec62e985244ce0cfbbb12cdc7d0b8d198b416d': 'Houbi',
-		efa01544f509c56dd85449edf2381244a48fad1ede5183836229c00ab00d52df: 'KuCoin'
+		efa01544f509c56dd85449edf2381244a48fad1ede5183836229c00ab00d52df: 'KuCoin',
+		'00c3df112e62ad353b7cc7bf8ad8ce2fec8f5e633f1733834bf71e40b250c685': 'KuCoin 2',
+		acd76fff0536f863d9dd4b326a1435466f82305758b4b1b4f62ff9fa81c14073: 'Bybit',
+		bad030b417484232fd2019cb89096feea3fdd3d9eb39e1d07bcb9a13c7673464: 'Bitget'
 	};
 
 	function getColor(account: string): string | undefined {
