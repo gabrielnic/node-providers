@@ -19,6 +19,7 @@
 		"@sveltejs/adapter-static": "^2.0.3",
 		"@sveltejs/kit": "^1.30.4",
 		"@sveltejs/vite-plugin-svelte": "^2.4.2",
+		"@types/d3": "^7.4.3",
 		"@types/node": "^20.14.10",
 		"bignumber.js": "^9.1.2",
 		"buffer": "^6.0.3",
@@ -52,6 +53,7 @@
 		"@slide-computer/signer-transport-auth-client": "^3.7.0",
 		"@slide-computer/signer-transport-plug": "^3.7.0",
 		"@slide-computer/signer-web": "^3.11.0",
+		"d3": "^7.9.0",
 		"process": "^0.11.10"
 	}
 }
