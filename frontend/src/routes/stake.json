@@ -67,10 +67,10 @@
 		"toml_id": "blockchain",
 		"stake": "Not active in the ecosystem."
 	},
-    {
-        "toml_id": "mi",
-        "stake": "Not active in the ecosystem."
-    },
+	{
+		"toml_id": "mi",
+		"stake": "Not active in the ecosystem."
+	},
 	{
 		"toml_id": "serenity",
 		"stake": null

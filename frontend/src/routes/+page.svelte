@@ -47,7 +47,9 @@
 	$: nodeProviders;
 </script>
 
-<h1>Internet Computer Node Provider Verification Status</h1>
+<h1>Internet Computer Node Providers</h1>
+
+<a href="/graph">Node Providers Transaction graph</a>
 
 <table>
 	<thead>

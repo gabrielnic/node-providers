@@ -302,6 +302,8 @@
 </script>
 
 <div>
+	<h1>Internet Computer Node Providers</h1>
+	<a href="/">home</a>
 	<p>
 		NOTE: All transactions are fetched from the <a
 			href="https://dashboard.internetcomputer.org"
