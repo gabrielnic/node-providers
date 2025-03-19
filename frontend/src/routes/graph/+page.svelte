@@ -9,7 +9,7 @@
 	let selectedAccount: string | null = null;
 	let nodeProviderData: any = null;
 	let filterDeadEndsEnabled = true;
-	let filterKnownExchangesEnabled = true;
+	let filterKnownExchangesEnabled = false;
 	let filterUnconnectedNodesEnabled = true;
 	let nodes: Node[] = [];
 	let links: Link[] = [];
@@ -26,6 +26,13 @@
 		d2c6135510eaf107bdc2128ef5962c7db2ae840efdf95b9395cdaf4983942978: 'OKX 2',
 		'040834c30cdf5d7a13aae8b57d94ae2d07eefe2bc3edd8cf88298730857ac2eb': 'Kraken'
 	};
+
+	function getColor(account: string): string | undefined {
+		if (knownAddresses[account]) {
+			return 'blue';
+		}
+		return undefined;
+	}
 
 	let rootAddresses: Node[] = nodeProviders
 		.filter((p) => p.rewards)
@@ -143,7 +150,7 @@
 							fromNode = {
 								id: block.from_account_identifier,
 								account: block.from_account_identifier,
-								color: knownAddresses[block.from_account_identifier] ? 'blue' : undefined
+								color: getColor(block.from_account_identifier)
 							};
 							nodes.push(fromNode);
 						}
@@ -152,7 +159,7 @@
 							toNode = {
 								id: block.to_account_identifier,
 								account: block.to_account_identifier,
-								color: knownAddresses[block.to_account_identifier] ? 'blue' : undefined
+								color: getColor(block.to_account_identifier)
 							};
 							nodes.push(toNode);
 						}

@@ -36,8 +36,8 @@ export function newSimulation(
 	const r = 5;
 
 	const simulation = forceSimulation(nodes)
-		.force('link', forceLink(links).distance(130 + 2 * r))
-		.force('charge', forceManyBody().strength(-30).distanceMax(100))
+		.force('link', forceLink(links).distance(50 + 2 * r))
+		.force('charge', forceManyBody().strength(-30).distanceMax(300))
 		.force('center', forceCenter(width / 2, height / 2))
 		.force('collide', forceCollide(r + 2))
 		.on('tick', tick);
