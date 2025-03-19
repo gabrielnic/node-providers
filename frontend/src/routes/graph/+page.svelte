@@ -14,7 +14,10 @@
 	let nodes: Node[] = [];
 	let links: Link[] = [];
 
-	let knownAddresses: Record<string, string> = {
+	// Thanks @borovan for the list of addresses:
+	// https://forum.dfinity.org/t/node-provider-icp-address-graph/42655/3
+	const foundationAccount = "62dd39780d34f2dc21eb680f99962659a6a0c2ccd9c68ec365962ae0eaf293f0";
+	const knownCEXAccounts: Record<string, string> = {
 		dd15f3040edab88d2e277f9d2fa5cc11616ebf1442279092e37924ab7cce8a74: '?',
 		'00c3df112e62ad353b7cc7bf8ad8ce2fec8f5e633f1733834bf71e40b250c685': '?',
 		'4dfa940def17f1427ae47378c440f10185867677109a02bc8374fc25b9dee8af': '?',
@@ -28,7 +31,10 @@
 	};
 
 	function getColor(account: string): string | undefined {
-		if (knownAddresses[account]) {
+		if (account === foundationAccount) {
+			return 'orange';
+		}
+		if (knownCEXAccounts[account]) {
 			return 'blue';
 		}
 		return undefined;
@@ -372,8 +378,8 @@
 						target="_blank">{selectedAccount}</a
 					>
 				</p>
-				{#if knownAddresses[selectedAccount]}
-					<p>Name: {knownAddresses[selectedAccount]}</p>
+				{#if knownCEXAccounts[selectedAccount]}
+					<p>CEX Name: {knownCEXAccounts[selectedAccount]}</p>
 				{/if}
 				{#if nodeProviderData}
 					<p>
@@ -393,6 +399,9 @@
 					</li>
 					<li>
 						<span style="color: red;">○</span>: Node Provider Reward Account
+					</li>
+					<li>
+						<span style="color: orange;">○</span>: Foundation Account
 					</li>
 					<li>
 						<span style="color: blue;">○</span>: Known Exchange Account?<small
