@@ -15,8 +15,8 @@
 	let nodes: Node[] = [];
 	let links: Link[] = [];
 
-	// Thanks @borovan for the list of addresses:
-	// https://forum.dfinity.org/t/node-provider-icp-address-graph/42655/3
+	// Thanks @borovan and others for the list of addresses:
+	// https://forum.dfinity.org/t/node-provider-icp-address-graph/42655
 	const foundationAccounts = [
 		'1a481b7aa86fa89029117f0487479f52fe3ee27ad63d48bac78fa60b3ebf9237',
 		'12b7c1c6269b2021758ed5da65448a4ac3ac9fa0cf015caa4bb4c3e3dc7ca1c1',
@@ -44,8 +44,6 @@
 		'f7d23ad118bab9eae59055a98addd2a1738cc281fa1dc7ca4568e8e661e21283',
 		'62dd39780d34f2dc21eb680f99962659a6a0c2ccd9c68ec365962ae0eaf293f0'
 	];
-	// https://forum.dfinity.org/t/node-provider-icp-address-graph/42655/11
-	// https://forum.dfinity.org/t/node-provider-icp-address-graph/42655/13
 	const knownCEXAccounts: Record<string, string> = {
 		'609d3e1e45103a82adc97d4f88c51f78dedb25701e8e51e8c4fec53448aadc29': 'Binance 1',
 		'220c3a33f90601896e26f76fa619fe288742df1fa75426edfaf759d39f2455a5': 'Binance 2',
@@ -64,7 +62,8 @@
 		efa01544f509c56dd85449edf2381244a48fad1ede5183836229c00ab00d52df: 'KuCoin',
 		'00c3df112e62ad353b7cc7bf8ad8ce2fec8f5e633f1733834bf71e40b250c685': 'KuCoin 2',
 		acd76fff0536f863d9dd4b326a1435466f82305758b4b1b4f62ff9fa81c14073: 'Bybit',
-		bad030b417484232fd2019cb89096feea3fdd3d9eb39e1d07bcb9a13c7673464: 'Bitget'
+		bad030b417484232fd2019cb89096feea3fdd3d9eb39e1d07bcb9a13c7673464: 'Bitget',
+		'9e62737aab36f0baffc1faac9edd92a99279723eb3feb2e916fa99bb7fe54b59': 'MEXC'
 	};
 
 	function getColor(account: string): string | undefined {
