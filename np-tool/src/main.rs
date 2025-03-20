@@ -15,6 +15,7 @@ mod icp;
 const TOML_PATH: &str = "node_providers-wiki.toml";
 const DOCS_DIR: &str = "../frontend/static/np-list";
 const OUTPUT_PATH: &str = "../frontend/src/routes/combined_providers.json";
+const NP_STATIC: &str = "np_list.json";
 const GOVERNANCE_CANISTER_ID: &str = "rrkah-fqaaa-aaaaa-aaaaq-cai";
 const IC_URL: &str = "https://ic0.app";
 const API_URL: &str = "https://ic-api.internetcomputer.org/api/v3/node-providers?format=json";
@@ -248,7 +249,7 @@ async fn fetch_node_providers() -> Result<ApiResponse> {
     );
 
     // Optionally save the JSON response to a file for debugging
-    fs::write("node_providers.json", &json_data)?;
+    fs::write("node_providers.json", &NP_STATIC)?;
     println!("Saved API response to node_providers.json");
 
     Ok(api_data)
