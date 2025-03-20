@@ -1,1 +1,3511 @@
-np_list.json
+{
+    "node_providers": [
+        {
+            "display_name": "0X52",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "2wxzd-qrbrs-ailta-kdtyb-ucg35-xcxd4-txevb-ot7hx-wiyus-szcca-nqe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "100 Count Holdings, LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "ch3",
+                    "display_name": "Chicago 3",
+                    "latitude": 41.9347,
+                    "longitude": -87.7768,
+                    "owner": "CyrusOne",
+                    "region": "North America,US,Illinois"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "2dgp4-h57n4-a4kgx-n4uun-huo3a-wbdlc-m57wd-jtkuh-g5vcc-fcbby-6qe",
+            "total_node_allowance": 3,
+            "total_nodes": 25,
+            "total_rewardable_nodes": 25,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 25,
+            "website": null
+        },
+        {
+            "display_name": "43rd Big Idea Films",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "hu1",
+                    "display_name": "Houston",
+                    "latitude": 29.7398,
+                    "longitude": -95.3963,
+                    "owner": "TRG",
+                    "region": "North America,US,Texas"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "sqhxa-h6ili-qkwup-ohzwn-yofnm-vvnp5-kxdhg-saabw-rvua3-xp325-zqe",
+            "total_node_allowance": 0,
+            "total_nodes": 14,
+            "total_rewardable_nodes": 14,
+            "total_subnets": 2,
+            "total_unassigned_nodes": 11,
+            "website": "https://www.43rdbigideafilms.com"
+        },
+        {
+            "display_name": "87m Neuron, LLC",
+            "location_count": 3,
+            "locations": [
+                {
+                    "dc_key": "dl1",
+                    "display_name": "Dallas",
+                    "latitude": 32.7767,
+                    "longitude": -96.797,
+                    "owner": "Flexential",
+                    "region": "North America,US,Texas"
+                },
+                {
+                    "dc_key": "lv1",
+                    "display_name": "Las Vegas",
+                    "latitude": 36.08,
+                    "longitude": -115.17,
+                    "owner": "Flexential",
+                    "region": "North America,US,Nevada"
+                },
+                {
+                    "dc_key": "pl1",
+                    "display_name": "Portland",
+                    "latitude": 45.5051,
+                    "longitude": -122.675,
+                    "owner": "Flexential",
+                    "region": "North America,US,Oregon"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "eipr5-izbom-neyqh-s3ec2-52eww-cyfpg-qfomg-3dpwj-4pffh-34xcu-7qe",
+            "total_node_allowance": 0,
+            "total_nodes": 42,
+            "total_rewardable_nodes": 42,
+            "total_subnets": 18,
+            "total_unassigned_nodes": 23,
+            "website": null
+        },
+        {
+            "display_name": "ACCUSET SOLUTIONS",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "gn1",
+                    "display_name": "Greater Noida 1",
+                    "latitude": 28.55256,
+                    "longitude": 77.48345,
+                    "owner": "Yotta",
+                    "region": "Asia,IN,Greater Noida"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "cp5ib-twnmx-h4dvd-isef2-tu44u-kb2ka-fise5-m4hta-hnxoq-k45mm-hqe",
+            "total_node_allowance": 0,
+            "total_nodes": 10,
+            "total_rewardable_nodes": 10,
+            "total_subnets": 6,
+            "total_unassigned_nodes": 4,
+            "website": null
+        },
+        {
+            "display_name": "Aitubi AG",
+            "location_count": 0,
+            "locations": [],
+            "logo_url": null,
+            "principal_id": "znw2p-4cx6u-ocqls-277iu-2lkir-xjy7g-4s3sj-sjy6j-mtlay-rnnra-yqe",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Aksinia Stavskaya",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "ty2",
+                    "display_name": "Tokyo 2",
+                    "latitude": 35.6762,
+                    "longitude": 139.6503,
+                    "owner": "Equinix",
+                    "region": "Asia,JP,Tokyo"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "wlxga-ebupj-sj2nf-g3sii-75i6b-oh64s-qmq7u-gmros-vi2if-3ktdv-cqe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 28,
+            "website": null
+        },
+        {
+            "display_name": "Allusion",
+            "location_count": 3,
+            "locations": [
+                {
+                    "dc_key": "an1",
+                    "display_name": "Antwerp",
+                    "latitude": 51.2194,
+                    "longitude": 4.4025,
+                    "owner": "Datacenter United",
+                    "region": "Europe,BE,Flanders"
+                },
+                {
+                    "dc_key": "br1",
+                    "display_name": "Brussels",
+                    "latitude": 50.8386,
+                    "longitude": 4.3475,
+                    "owner": "Digital Realty",
+                    "region": "Europe,BE,Brussels Capital"
+                },
+                {
+                    "dc_key": "br2",
+                    "display_name": "Brussels 2",
+                    "latitude": 50.8571,
+                    "longitude": 4.3471,
+                    "owner": "AtlasEdge",
+                    "region": "Europe,BE,Brussels Capital"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "rbn2y-6vfsb-gv35j-4cyvy-pzbdu-e5aum-jzjg6-5b4n5-vuguf-ycubq-zae",
+            "total_node_allowance": 70,
+            "total_nodes": 42,
+            "total_rewardable_nodes": 70,
+            "total_subnets": 21,
+            "total_unassigned_nodes": 20,
+            "website": "https://www.allusion.be"
+        },
+        {
+            "display_name": "Anonstake",
+            "location_count": 2,
+            "locations": [
+                {
+                    "dc_key": "lj2",
+                    "display_name": "Ljubljana 2",
+                    "latitude": 46.0766,
+                    "longitude": 14.48509,
+                    "owner": "Anonstake",
+                    "region": "Europe,SI,Ljubljana"
+                },
+                {
+                    "dc_key": "zg1",
+                    "display_name": "Zagreb 1",
+                    "latitude": 45.803616,
+                    "longitude": 15.944661,
+                    "owner": "Anonstake",
+                    "region": "Europe,HR,Zagreb"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "kos24-5xact-6aror-uofg2-tnvt6-dq3bk-c2c5z-jtptt-jbqvc-lmegy-qae",
+            "total_node_allowance": 16,
+            "total_nodes": 16,
+            "total_rewardable_nodes": 16,
+            "total_subnets": 14,
+            "total_unassigned_nodes": 1,
+            "website": null
+        },
+        {
+            "display_name": "ANYPOINT PTY LTD",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "sc1",
+                    "display_name": "Queensland 1",
+                    "latitude": -26.659637,
+                    "longitude": 153.09305,
+                    "owner": "NEXTDC",
+                    "region": "Oceania,AU,Queensland"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "fwnmn-zn7yt-5jaia-fkxlr-dzwyu-keguq-npfxq-mc72w-exeae-n5thj-oae",
+            "total_node_allowance": 1,
+            "total_nodes": 10,
+            "total_rewardable_nodes": 10,
+            "total_subnets": 7,
+            "total_unassigned_nodes": 3,
+            "website": null
+        },
+        {
+            "display_name": "Arceau NP LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "ch2",
+                    "display_name": "Chicago 2",
+                    "latitude": 41.97438,
+                    "longitude": -87.6839,
+                    "owner": "Tierpoint",
+                    "region": "North America,US,Illinois"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "ss6oe-fm7b2-b5r57-y3x74-omrz5-d5pgy-5iwtw-4aew5-aqj3l-6ydra-wqe",
+            "total_node_allowance": 1,
+            "total_nodes": 27,
+            "total_rewardable_nodes": 27,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Artem Horodyskyi",
+            "location_count": 7,
+            "locations": [
+                {
+                    "dc_key": "bt1",
+                    "display_name": "Vilnius 1",
+                    "latitude": 54.640133,
+                    "longitude": 25.306004,
+                    "owner": "Baltneta",
+                    "region": "Europe,LT,Vilnius"
+                },
+                {
+                    "dc_key": "li1",
+                    "display_name": "Lisbon 1",
+                    "latitude": 38.747547,
+                    "longitude": -9.09864,
+                    "owner": "Dotsi",
+                    "region": "Europe,PT,Lisbon"
+                },
+                {
+                    "dc_key": "ma1",
+                    "display_name": "Madrid 1",
+                    "latitude": 40.438904,
+                    "longitude": -3.6230261,
+                    "owner": "Ginernet",
+                    "region": "Europe,ES,Madrid"
+                },
+                {
+                    "dc_key": "pa2",
+                    "display_name": "Praha 2",
+                    "latitude": 50.078022,
+                    "longitude": 14.473687,
+                    "owner": "Coolhousing",
+                    "region": "Europe,CZ,Praha"
+                },
+                {
+                    "dc_key": "rg3",
+                    "display_name": "Riga 3",
+                    "latitude": 56.921062,
+                    "longitude": 24.169752,
+                    "owner": "Nano",
+                    "region": "Europe,LV,Riga"
+                },
+                {
+                    "dc_key": "ta2",
+                    "display_name": "Tallinn 2",
+                    "latitude": 59.40129,
+                    "longitude": 24.699966,
+                    "owner": "Telia DC",
+                    "region": "Europe,EE,Tallinn"
+                },
+                {
+                    "dc_key": "wa3",
+                    "display_name": "Warszawa 3",
+                    "latitude": 52.194801330566406,
+                    "longitude": 20.925399780273438,
+                    "owner": "DataHouse",
+                    "region": "Europe,PL,Warszawa"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "diyay-s4rfq-xnx23-zczwi-nptra-5254n-e4zn6-p7tqe-vqhzr-sd4gd-bqe",
+            "total_node_allowance": 0,
+            "total_nodes": 7,
+            "total_rewardable_nodes": 7,
+            "total_subnets": 7,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Aspire Properties",
+            "location_count": 0,
+            "locations": [],
+            "logo_url": null,
+            "principal_id": "2byzn-q2crt-hgczo-eruff-6p7af-pemor-n2z4z-6d2sd-wvdqa-yqvxb-mqe",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "AVRVM AG",
+            "location_count": 0,
+            "locations": [],
+            "logo_url": null,
+            "principal_id": "33aps-ovxje-mwpux-cy2hh-f2qwp-5tzxs-2edbb-gblfn-ev5pv-cfnvj-pqe",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Bianca-Martina Rohner",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "pc1",
+                    "display_name": "Panama City 1",
+                    "latitude": 8.948325,
+                    "longitude": -79.5607,
+                    "owner": "Navegalo",
+                    "region": "North America,PA,Panama City"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "eatbv-nlydd-n655c-g7j7p-gnmpz-pszdg-6e6et-veobv-ftz2y-4m752-vqe",
+            "total_node_allowance": 0,
+            "total_nodes": 4,
+            "total_rewardable_nodes": 4,
+            "total_subnets": 3,
+            "total_unassigned_nodes": 1,
+            "website": null
+        },
+        {
+            "display_name": "Bigger Capital",
+            "location_count": 2,
+            "locations": [
+                {
+                    "dc_key": "aw1",
+                    "display_name": "Allentown",
+                    "latitude": 40.6022,
+                    "longitude": -75.4712,
+                    "owner": "Tierpoint",
+                    "region": "North America,US,Pennsylvania"
+                },
+                {
+                    "dc_key": "me3",
+                    "display_name": "Melbourne 3",
+                    "latitude": -37.81735,
+                    "longitude": 144.95679,
+                    "owner": "5G Networks",
+                    "region": "Oceania,AU,Melbourne"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "7a4u2-gevsy-5c5fs-hsgri-n2kdz-dxxwf-btcfp-jykro-l4y7c-7xky2-aqe",
+            "total_node_allowance": 60,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 56,
+            "total_subnets": 1,
+            "total_unassigned_nodes": 27,
+            "website": "https://bigger.capital"
+        },
+        {
+            "display_name": "Bitmoon",
+            "location_count": 2,
+            "locations": [
+                {
+                    "dc_key": "ba1",
+                    "display_name": "Barreiro 1",
+                    "latitude": 38.664528,
+                    "longitude": -9.067395,
+                    "owner": "Online",
+                    "region": "Europe,PT,Barreiro"
+                },
+                {
+                    "dc_key": "li2",
+                    "display_name": "Lisbon 2",
+                    "latitude": 38.747635,
+                    "longitude": -9.098029,
+                    "owner": "Edgoo Networks",
+                    "region": "Europe,PT,Lisbon"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "mjnyf-lzqq6-s7fzb-62rqm-xzvge-5oa26-humwp-dvwxp-jxxkf-hoel7-fqe",
+            "total_node_allowance": 0,
+            "total_nodes": 3,
+            "total_rewardable_nodes": 3,
+            "total_subnets": 3,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Blockchain Development Labs",
+            "location_count": 3,
+            "locations": [
+                {
+                    "dc_key": "bc1",
+                    "display_name": "Vancouver",
+                    "latitude": 49.2638,
+                    "longitude": -123.1887,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,British Columbia"
+                },
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                },
+                {
+                    "dc_key": "to2",
+                    "display_name": "Toronto 2",
+                    "latitude": 43.6597,
+                    "longitude": -79.3695,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "7at4h-nhtvt-a4s55-jigss-wr2ha-ysxkn-e6w7x-7ggnm-qd3d5-ry66r-cae",
+            "total_node_allowance": 70,
+            "total_nodes": 42,
+            "total_rewardable_nodes": 70,
+            "total_subnets": 33,
+            "total_unassigned_nodes": 8,
+            "website": null
+        },
+        {
+            "display_name": "BlockFinance",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "mb1",
+                    "display_name": "Maribor",
+                    "latitude": 46.557644,
+                    "longitude": 15.645585,
+                    "owner": "Posita.si",
+                    "region": "Europe,SI,Maribor"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "c5svp-7pkmf-agz5x-536k7-r7rcw-4wn3a-eo7pt-ry7su-j42uq-bvnzf-iqe",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "BlockTech Ventures, LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "sj2",
+                    "display_name": "San Jose",
+                    "latitude": 37.2747,
+                    "longitude": -121.9158,
+                    "owner": "Digital Realty",
+                    "region": "North America,US,California"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "ks7ow-zvs7i-ratdk-azq34-zio2b-gbekj-qjicg-pfhp3-ovhgu-k5qql-dae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 1,
+            "total_unassigned_nodes": 25,
+            "website": "https://blocktech.vc"
+        },
+        {
+            "display_name": "BLP22, LLC",
+            "location_count": 2,
+            "locations": [
+                {
+                    "dc_key": "at1",
+                    "display_name": "Atlanta",
+                    "latitude": 33.6844,
+                    "longitude": -84.382,
+                    "owner": "Flexential",
+                    "region": "North America,US,Georgia"
+                },
+                {
+                    "dc_key": "at2",
+                    "display_name": "Atlanta 2",
+                    "latitude": 33.818,
+                    "longitude": -84.3905,
+                    "owner": "Datasite",
+                    "region": "North America,US,Georgia"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "sma3p-ivkif-hz7nu-ngmvq-ibnjg-nubke-zf6gh-wbnfc-2dlng-l3die-zqe",
+            "total_node_allowance": 0,
+            "total_nodes": 14,
+            "total_rewardable_nodes": 14,
+            "total_subnets": 2,
+            "total_unassigned_nodes": 12,
+            "website": null
+        },
+        {
+            "display_name": "Blue Ant LLC",
+            "location_count": 0,
+            "locations": [],
+            "logo_url": null,
+            "principal_id": "rpfvr-s3kuw-xdqrr-pvuuj-hc7hl-olytw-yxlie-fmr74-sr572-6gdqx-iqe",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Bohatyrov Volodymyr",
+            "location_count": 7,
+            "locations": [
+                {
+                    "dc_key": "ba1",
+                    "display_name": "Barreiro 1",
+                    "latitude": 38.664528,
+                    "longitude": -9.067395,
+                    "owner": "Online",
+                    "region": "Europe,PT,Barreiro"
+                },
+                {
+                    "dc_key": "bn1",
+                    "display_name": "South Moravian Region 1",
+                    "latitude": 49.196938,
+                    "longitude": 16.618692,
+                    "owner": "Master Internet",
+                    "region": "Europe,CZ,South Moravian Region"
+                },
+                {
+                    "dc_key": "ma1",
+                    "display_name": "Madrid 1",
+                    "latitude": 40.438904,
+                    "longitude": -3.6230261,
+                    "owner": "Ginernet",
+                    "region": "Europe,ES,Madrid"
+                },
+                {
+                    "dc_key": "rg3",
+                    "display_name": "Riga 3",
+                    "latitude": 56.921062,
+                    "longitude": 24.169752,
+                    "owner": "Nano",
+                    "region": "Europe,LV,Riga"
+                },
+                {
+                    "dc_key": "si1",
+                    "display_name": "Siauliai 1",
+                    "latitude": 55.91061,
+                    "longitude": 23.316347,
+                    "owner": "Bacloud",
+                    "region": "Europe,LT,Siauliai"
+                },
+                {
+                    "dc_key": "ta1",
+                    "display_name": "Tallinn 1",
+                    "latitude": 59.45709,
+                    "longitude": 24.69322,
+                    "owner": "InfonetDC",
+                    "region": "Europe,EE,Tallinn"
+                },
+                {
+                    "dc_key": "wa2",
+                    "display_name": "Warszawa 2",
+                    "latitude": 52.22709,
+                    "longitude": 21.001675,
+                    "owner": "Central Tower DC",
+                    "region": "Europe,PL,Warszawa"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "dhywe-eouw6-hstpj-ahsnw-xnjxq-cmqks-47mrg-nnncb-3sr5d-rac6m-nae",
+            "total_node_allowance": 0,
+            "total_nodes": 7,
+            "total_rewardable_nodes": 7,
+            "total_subnets": 6,
+            "total_unassigned_nodes": 1,
+            "website": null
+        },
+        {
+            "display_name": "Buldakova Rehina",
+            "location_count": 0,
+            "locations": [],
+            "logo_url": null,
+            "principal_id": "qipsq-44ztq-4oxob-dulxs-35tho-zjf5o-onu2b-sjuhk-4jd7x-yfdhz-qae",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Carbon Twelve",
+            "location_count": 2,
+            "locations": [
+                {
+                    "dc_key": "es1",
+                    "display_name": "Barcelona 1",
+                    "latitude": 41.409122,
+                    "longitude": 2.1700408,
+                    "owner": "Adam",
+                    "region": "Europe,ES,Barcelona"
+                },
+                {
+                    "dc_key": "pr1",
+                    "display_name": "Paris 1",
+                    "latitude": 48.83561,
+                    "longitude": 2.5877786,
+                    "owner": "Celeste",
+                    "region": "Europe,FR,Paris"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "qsdw4-ao5ye-6rtq4-y3zhm-icjbj-lutd2-sbejz-4ajqz-pcflr-xrhsg-jae",
+            "total_node_allowance": 3,
+            "total_nodes": 8,
+            "total_rewardable_nodes": 8,
+            "total_subnets": 5,
+            "total_unassigned_nodes": 3,
+            "website": null
+        },
+        {
+            "display_name": "Conic Ventures",
+            "location_count": 2,
+            "locations": [
+                {
+                    "dc_key": "ld1",
+                    "display_name": "London 1",
+                    "latitude": 51.568878173828125,
+                    "longitude": -0.23037000000476837,
+                    "owner": "Latitude.sh",
+                    "region": "Europe,UK,London"
+                },
+                {
+                    "dc_key": "ns1",
+                    "display_name": "New South Wales 1",
+                    "latitude": -33.87548828125,
+                    "longitude": 151.1975555419922,
+                    "owner": "Latitude.sh",
+                    "region": "Oceania,AU,New South Wales"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "i3cfo-s2tgu-qe5ym-wk7e6-y7ura-pptgu-kevuf-2feh7-z4enq-5hz4s-mqe",
+            "total_node_allowance": 0,
+            "total_nodes": 4,
+            "total_rewardable_nodes": 4,
+            "total_subnets": 4,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Coplus Limited",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "hk2",
+                    "display_name": "HongKong 2",
+                    "latitude": 22.286,
+                    "longitude": 114.269,
+                    "owner": "Global Switch",
+                    "region": "Asia,HK,HongKong"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "jz47c-irtey-dr2nb-wienh-emhaz-jo6ua-gsbho-t2z5j-l7kbf-5i7p5-5ae",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Decentralized Entities Foundation",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "ge1",
+                    "display_name": "Geneva",
+                    "latitude": 46.2044,
+                    "longitude": 6.1432,
+                    "owner": "HighDC",
+                    "region": "Europe,CH,Geneva"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "w4buy-lgwzr-pccs7-huzhh-qqnws-rns75-iaoox-jolrm-xs2ra-vdu3o-2qe",
+            "total_node_allowance": 0,
+            "total_nodes": 14,
+            "total_rewardable_nodes": 14,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 14,
+            "website": null
+        },
+        {
+            "display_name": "DeNoDe",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "an1",
+                    "display_name": "Antwerp",
+                    "latitude": 51.2194,
+                    "longitude": 4.4025,
+                    "owner": "Datacenter United",
+                    "region": "Europe,BE,Flanders"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "acqus-l4yyc-h44lw-grfxw-h7jqf-mtvt3-huwmj-4s372-sc5db-5nsfr-2ae",
+            "total_node_allowance": 0,
+            "total_nodes": 14,
+            "total_rewardable_nodes": 14,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 14,
+            "website": null
+        },
+        {
+            "display_name": "DFINITY Stiftung",
+            "location_count": 3,
+            "locations": [
+                {
+                    "dc_key": "mr1",
+                    "display_name": "Marseille",
+                    "latitude": 43.2965,
+                    "longitude": 5.3698,
+                    "owner": "Digital Realty",
+                    "region": "Europe,FR,Provence-Alpes-Cote d'Azur"
+                },
+                {
+                    "dc_key": "sh1",
+                    "display_name": "Stockholm 1",
+                    "latitude": 59.3293,
+                    "longitude": 18.0686,
+                    "owner": "Digital Realty",
+                    "region": "Europe,SE,Stockholm"
+                },
+                {
+                    "dc_key": "zh2",
+                    "display_name": "Zurich 2",
+                    "latitude": 47.3744,
+                    "longitude": 8.541,
+                    "owner": "Everyware",
+                    "region": "Europe,CH,Zurich"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "bvcsg-3od6r-jnydw-eysln-aql7w-td5zn-ay5m6-sibd2-jzojt-anwag-mqe",
+            "total_node_allowance": 27,
+            "total_nodes": 43,
+            "total_rewardable_nodes": 42,
+            "total_subnets": 37,
+            "total_unassigned_nodes": 2,
+            "website": null
+        },
+        {
+            "display_name": "DFINITY USA Research LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "bo1",
+                    "display_name": "Boston",
+                    "latitude": 42.3601,
+                    "longitude": -71.0589,
+                    "owner": "INAP",
+                    "region": "North America,US,Massachusetts"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "r2qgy-abcek-yc2ot-3powq-gayr6-4dibc-jvvfl-ri376-gmfmw-u2v7w-4qe",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 15,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "DFINITY USA Research LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "bo1",
+                    "display_name": "Boston",
+                    "latitude": 42.3601,
+                    "longitude": -71.0589,
+                    "owner": "INAP",
+                    "region": "North America,US,Massachusetts"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "lq5ra-f4ibl-t7wpy-hennc-m4eb7-tnfxe-eorgd-onpsl-wervo-7chjj-6qe",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": "dfinity.org"
+        },
+        {
+            "display_name": "Eastman Ventures (Pty) Ltd",
+            "location_count": 0,
+            "locations": [],
+            "logo_url": null,
+            "principal_id": "veamq-6zmtx-dtdky-ctoun-gokvu-cr6zm-ffsky-dz35w-e2euw-zvv7e-vae",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Exaion",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "ev1",
+                    "display_name": "Normandie 1",
+                    "latitude": 49.02422,
+                    "longitude": 1.152285,
+                    "owner": "Exaion",
+                    "region": "Europe,FR,Normandie"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "xo7ih-nswlt-hbq3n-v5ixi-etu7j-sasg6-fjf4p-zx6or-cc7c3-pnh7t-2ae",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Extragone SA",
+            "location_count": 2,
+            "locations": [
+                {
+                    "dc_key": "ge1",
+                    "display_name": "Geneva",
+                    "latitude": 46.2044,
+                    "longitude": 6.1432,
+                    "owner": "HighDC",
+                    "region": "Europe,CH,Geneva"
+                },
+                {
+                    "dc_key": "ge2",
+                    "display_name": "Geneva 2",
+                    "latitude": 46.2022,
+                    "longitude": 6.13628,
+                    "owner": "SafeHost",
+                    "region": "Europe,CH,Geneva"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "7ryes-jnj73-bsyu4-lo6h7-lbxk5-x4ien-lylws-5qwzl-hxd5f-xjh3w-mqe",
+            "total_node_allowance": 14,
+            "total_nodes": 42,
+            "total_rewardable_nodes": 42,
+            "total_subnets": 16,
+            "total_unassigned_nodes": 25,
+            "website": "https://bochlsersolutions.com"
+        },
+        {
+            "display_name": "Ferndale International",
+            "location_count": 0,
+            "locations": [],
+            "logo_url": null,
+            "principal_id": "34cav-6s7rb-uwa3c-awdly-5md4r-lwueh-atzbn-unqpe-c5ope-f3nqj-wae",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Fidgitville Ventures LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "sj1",
+                    "display_name": "San Jose",
+                    "latitude": 37.3517,
+                    "longitude": -121.8819,
+                    "owner": "INAP",
+                    "region": "North America,US,California"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "ob633-g55bt-y6pu5-5iby6-jmcvi-oylqs-q6ahw-cvecq-5ckeh-m4wws-nae",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 1,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Fractal Labs AG",
+            "location_count": 2,
+            "locations": [
+                {
+                    "dc_key": "lj1",
+                    "display_name": "Ljubljana",
+                    "latitude": 46.04998,
+                    "longitude": 14.50686,
+                    "owner": "Posita.si",
+                    "region": "Europe,SI,Ljubljana"
+                },
+                {
+                    "dc_key": "mb1",
+                    "display_name": "Maribor",
+                    "latitude": 46.557644,
+                    "longitude": 15.645585,
+                    "owner": "Posita.si",
+                    "region": "Europe,SI,Maribor"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "wdjjk-blh44-lxm74-ojj43-rvgf4-j5rie-nm6xs-xvnuv-j3ptn-25t4v-6ae",
+            "total_node_allowance": 0,
+            "total_nodes": 56,
+            "total_rewardable_nodes": 42,
+            "total_subnets": 30,
+            "total_unassigned_nodes": 26,
+            "website": null
+        },
+        {
+            "display_name": "Geeta Kalwani",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "bg1",
+                    "display_name": "Bogota 1",
+                    "latitude": 4.680663,
+                    "longitude": -74.04094,
+                    "owner": "EdgeUno",
+                    "region": "South America,CO,Bogota"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "otzuu-dldzs-avvu2-qwowd-hdj73-aocy7-lacgi-carzj-m6f2r-ffluy-fae",
+            "total_node_allowance": 0,
+            "total_nodes": 4,
+            "total_rewardable_nodes": 4,
+            "total_subnets": 4,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Geodd Pvt Ltd",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "cm1",
+                    "display_name": "Colombo 1",
+                    "latitude": 6.941655,
+                    "longitude": 79.87952,
+                    "owner": "OrionStellar",
+                    "region": "Asia,LK,Colombo"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "eybf4-6t6bb-unfb2-h2hhn-rrfi2-cd2vs-phksn-jdmbn-i463m-4lzds-vqe",
+            "total_node_allowance": 4,
+            "total_nodes": 6,
+            "total_rewardable_nodes": 6,
+            "total_subnets": 4,
+            "total_unassigned_nodes": 2,
+            "website": null
+        },
+        {
+            "display_name": "GeoNodes LLC",
+            "location_count": 2,
+            "locations": [
+                {
+                    "dc_key": "cr1",
+                    "display_name": "San Jos\u00e9 1",
+                    "latitude": 9.935999,
+                    "longitude": -84.09665,
+                    "owner": "Navegalo",
+                    "region": "North America,CR,San Jose"
+                },
+                {
+                    "dc_key": "tv1",
+                    "display_name": "Tel Aviv 1",
+                    "latitude": 32.080303,
+                    "longitude": 34.849342,
+                    "owner": "Interhost",
+                    "region": "Asia,IL,Tel Aviv"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "6sq7t-knkul-fko6h-xzvnf-ktbvr-jhx7r-hapzr-kjlek-whugy-zt6ip-xqe",
+            "total_node_allowance": 0,
+            "total_nodes": 16,
+            "total_rewardable_nodes": 16,
+            "total_subnets": 8,
+            "total_unassigned_nodes": 8,
+            "website": null
+        },
+        {
+            "display_name": "George Bassadone",
+            "location_count": 2,
+            "locations": [
+                {
+                    "dc_key": "tb1",
+                    "display_name": "Tbilisi 1",
+                    "latitude": 41.722145,
+                    "longitude": 44.79061,
+                    "owner": "Cloud9",
+                    "region": "Asia,GE,Tbilisi"
+                },
+                {
+                    "dc_key": "vl2",
+                    "display_name": "Vilnius 2",
+                    "latitude": 54.611744,
+                    "longitude": 25.12092,
+                    "owner": "Data Inn",
+                    "region": "Europe,LT,Vilnius"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "vegae-c4chr-aetfj-7gzuh-c23sx-u2paz-vmvbn-bcage-pu7lu-mptnn-eqe",
+            "total_node_allowance": 0,
+            "total_nodes": 25,
+            "total_rewardable_nodes": 25,
+            "total_subnets": 17,
+            "total_unassigned_nodes": 8,
+            "website": null
+        },
+        {
+            "display_name": "Giant Leaf, LLC",
+            "location_count": 4,
+            "locations": [
+                {
+                    "dc_key": "at2",
+                    "display_name": "Atlanta 2",
+                    "latitude": 33.818,
+                    "longitude": -84.3905,
+                    "owner": "Datasite",
+                    "region": "North America,US,Georgia"
+                },
+                {
+                    "dc_key": "mm1",
+                    "display_name": "Miami",
+                    "latitude": 25.7617,
+                    "longitude": -80.1918,
+                    "owner": "Digital Realty",
+                    "region": "North America,US,Florida"
+                },
+                {
+                    "dc_key": "or1",
+                    "display_name": "Orlando",
+                    "latitude": 28.5883,
+                    "longitude": -81.3792,
+                    "owner": "Datasite",
+                    "region": "North America,US,Florida"
+                },
+                {
+                    "dc_key": "tp1",
+                    "display_name": "Tampa",
+                    "latitude": 27.9506,
+                    "longitude": -82.4572,
+                    "owner": "Flexential",
+                    "region": "North America,US,Florida"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "wwdbq-xuqhf-eydzu-oyl7p-ga565-zm7s7-yrive-ozgsy-zzgh3-qwb3j-cae",
+            "total_node_allowance": 102,
+            "total_nodes": 42,
+            "total_rewardable_nodes": 98,
+            "total_subnets": 8,
+            "total_unassigned_nodes": 31,
+            "website": "giantleafllc.com"
+        },
+        {
+            "display_name": "Honeycomb Capital (Pty) Ltd",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "jb2",
+                    "display_name": "Gauteng 2",
+                    "latitude": -25.93044,
+                    "longitude": 28.138489,
+                    "owner": "Africa Data Centres",
+                    "region": "Africa,ZA,Gauteng"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "nmdd6-rouxw-55leh-wcbkn-kejit-njvje-p4s6e-v64d3-nlbjb-vipul-mae",
+            "total_node_allowance": 0,
+            "total_nodes": 12,
+            "total_rewardable_nodes": 12,
+            "total_subnets": 10,
+            "total_unassigned_nodes": 2,
+            "website": null
+        },
+        {
+            "display_name": "Iancu Aurel",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "bu1",
+                    "display_name": "Bucharest",
+                    "latitude": 44.4268,
+                    "longitude": 26.1025,
+                    "owner": "M247 ",
+                    "region": "Europe,RO,Bucuresti"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "i7dto-bgkj2-xo5dx-cyrb7-zkk5y-q46eh-gz6iq-qkgyc-w4qte-scgtb-6ae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 26,
+            "total_unassigned_nodes": 1,
+            "website": null
+        },
+        {
+            "display_name": "Icaria Systems Pty Ltd",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "mn2",
+                    "display_name": "Melbourne 2",
+                    "latitude": -37.70878,
+                    "longitude": 144.87614,
+                    "owner": "NEXTDC",
+                    "region": "Oceania,AU,Melbourne"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "ihbuj-erwnc-tkjux-tqtnv-zkoar-uniy2-sk2go-xfpkc-znbb4-seukm-wqe",
+            "total_node_allowance": 0,
+            "total_nodes": 18,
+            "total_rewardable_nodes": 18,
+            "total_subnets": 15,
+            "total_unassigned_nodes": 3,
+            "website": null
+        },
+        {
+            "display_name": "Illusions In Art (Pty) Ltd",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "ct1",
+                    "display_name": "Cape Town 1",
+                    "latitude": -34.037502,
+                    "longitude": 18.47787,
+                    "owner": "Africa Data Centres",
+                    "region": "Africa,ZA,Cape Town"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "optdi-nwa4m-hly3k-6ua4n-sqyxf-yahvb-wps77-ddayn-r7zcz-edla5-7qe",
+            "total_node_allowance": 0,
+            "total_nodes": 6,
+            "total_rewardable_nodes": 6,
+            "total_subnets": 4,
+            "total_unassigned_nodes": 2,
+            "website": null
+        },
+        {
+            "display_name": "InfoObjects",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "sj3",
+                    "display_name": "California 3",
+                    "latitude": 37.28977,
+                    "longitude": -121.98804,
+                    "owner": "InfoObjects",
+                    "region": "North America,US,California"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "7ws2n-wqorv-vmo4m-5e222-n42c3-hk43s-ei3kp-4hpbn-xlkzo-jgv7i-tqe",
+            "total_node_allowance": 2,
+            "total_nodes": 2,
+            "total_rewardable_nodes": 2,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 2,
+            "website": null
+        },
+        {
+            "display_name": "Ivanov Oleksandr",
+            "location_count": 7,
+            "locations": [
+                {
+                    "dc_key": "bt1",
+                    "display_name": "Vilnius 1",
+                    "latitude": 54.640133,
+                    "longitude": 25.306004,
+                    "owner": "Baltneta",
+                    "region": "Europe,LT,Vilnius"
+                },
+                {
+                    "dc_key": "li1",
+                    "display_name": "Lisbon 1",
+                    "latitude": 38.747547,
+                    "longitude": -9.09864,
+                    "owner": "Dotsi",
+                    "region": "Europe,PT,Lisbon"
+                },
+                {
+                    "dc_key": "ma1",
+                    "display_name": "Madrid 1",
+                    "latitude": 40.438904,
+                    "longitude": -3.6230261,
+                    "owner": "Ginernet",
+                    "region": "Europe,ES,Madrid"
+                },
+                {
+                    "dc_key": "pa1",
+                    "display_name": "Praha 1",
+                    "latitude": 50.06963,
+                    "longitude": 14.46379,
+                    "owner": "MasterDC",
+                    "region": "Europe,CZ,Praha"
+                },
+                {
+                    "dc_key": "rg1",
+                    "display_name": "Riga 1",
+                    "latitude": 56.88984,
+                    "longitude": 24.232077,
+                    "owner": "DEAC",
+                    "region": "Europe,LV,Riga"
+                },
+                {
+                    "dc_key": "ta2",
+                    "display_name": "Tallinn 2",
+                    "latitude": 59.40129,
+                    "longitude": 24.699966,
+                    "owner": "Telia DC",
+                    "region": "Europe,EE,Tallinn"
+                },
+                {
+                    "dc_key": "wa3",
+                    "display_name": "Warszawa 3",
+                    "latitude": 52.194801330566406,
+                    "longitude": 20.925399780273438,
+                    "owner": "DataHouse",
+                    "region": "Europe,PL,Warszawa"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "ivf2y-crxj4-y6ewo-un35q-a7pum-wqmbw-pkepy-d6uew-bfmff-g5yxe-eae",
+            "total_node_allowance": 0,
+            "total_nodes": 7,
+            "total_rewardable_nodes": 7,
+            "total_subnets": 6,
+            "total_unassigned_nodes": 1,
+            "website": null
+        },
+        {
+            "display_name": "Karel Frank",
+            "location_count": 3,
+            "locations": [
+                {
+                    "dc_key": "jb1",
+                    "display_name": "Gauteng 1",
+                    "latitude": -26.137756,
+                    "longitude": 28.19758,
+                    "owner": "Teraco",
+                    "region": "Africa,ZA,Gauteng"
+                },
+                {
+                    "dc_key": "jb2",
+                    "display_name": "Gauteng 2",
+                    "latitude": -25.93044,
+                    "longitude": 28.138489,
+                    "owner": "Africa Data Centres",
+                    "region": "Africa,ZA,Gauteng"
+                },
+                {
+                    "dc_key": "sc1",
+                    "display_name": "Queensland 1",
+                    "latitude": -26.659637,
+                    "longitude": 153.09305,
+                    "owner": "NEXTDC",
+                    "region": "Oceania,AU,Queensland"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "unqqg-no4b2-vbyad-ytik2-t3vly-3e57q-aje2t-sjb5l-bd4ke-chggn-uqe",
+            "total_node_allowance": 2,
+            "total_nodes": 18,
+            "total_rewardable_nodes": 18,
+            "total_subnets": 10,
+            "total_unassigned_nodes": 7,
+            "website": null
+        },
+        {
+            "display_name": "Katerina Karapuz",
+            "location_count": 0,
+            "locations": [],
+            "logo_url": null,
+            "principal_id": "3teor-k2wwx-3xzqe-eufmv-zhysu-i4ml6-ka2qz-rgeei-oobbw-xka6i-vae",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Kontrapunt (Pty) Ltd",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "ct2",
+                    "display_name": "Cape Town 2",
+                    "latitude": -33.896877,
+                    "longitude": 18.679499,
+                    "owner": "Teraco",
+                    "region": "Africa,ZA,Cape Town"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "py2kr-ipr2p-ryh66-x3a3v-5ts6u-7rfhf-alkna-ueffh-hz5ox-lt6du-qqe",
+            "total_node_allowance": 0,
+            "total_nodes": 6,
+            "total_rewardable_nodes": 6,
+            "total_subnets": 5,
+            "total_unassigned_nodes": 1,
+            "website": null
+        },
+        {
+            "display_name": "Krishna Enterprises",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "pl2",
+                    "display_name": "Panvel 2",
+                    "latitude": 18.912172,
+                    "longitude": 73.20085,
+                    "owner": "Yotta",
+                    "region": "Asia,IN,Panvel"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "zy4m7-z5mhs-zfkpl-zlsjl-blrbx-mvvmq-5z4zu-mf7eq-hhv7o-ezfro-3ae",
+            "total_node_allowance": 0,
+            "total_nodes": 15,
+            "total_rewardable_nodes": 15,
+            "total_subnets": 12,
+            "total_unassigned_nodes": 2,
+            "website": null
+        },
+        {
+            "display_name": "Krzysztof \u017belazko",
+            "location_count": 0,
+            "locations": [],
+            "logo_url": null,
+            "principal_id": "j2tnr-f5tmm-afnyl-762n7-o272x-ji2xi-bcpld-ihimy-fw52d-2zqov-xae",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Louise Velayo",
+            "location_count": 0,
+            "locations": [],
+            "logo_url": null,
+            "principal_id": "fnzev-s6xem-s2myy-rrxoa-2mpp6-oet33-pmnba-ajo75-qhfdw-esys7-7qe",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Lukas Helebrandt",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "bn1",
+                    "display_name": "South Moravian Region 1",
+                    "latitude": 49.196938,
+                    "longitude": 16.618692,
+                    "owner": "Master Internet",
+                    "region": "Europe,CZ,South Moravian Region"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "efem5-kmwaw-xose7-zzhgg-6bfif-twmcw-csg7a-lmqvn-wrdou-mjwlb-vqe",
+            "total_node_allowance": 0,
+            "total_nodes": 6,
+            "total_rewardable_nodes": 6,
+            "total_subnets": 6,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Maksym Ishchenko",
+            "location_count": 7,
+            "locations": [
+                {
+                    "dc_key": "ba1",
+                    "display_name": "Barreiro 1",
+                    "latitude": 38.664528,
+                    "longitude": -9.067395,
+                    "owner": "Online",
+                    "region": "Europe,PT,Barreiro"
+                },
+                {
+                    "dc_key": "bn1",
+                    "display_name": "South Moravian Region 1",
+                    "latitude": 49.196938,
+                    "longitude": 16.618692,
+                    "owner": "Master Internet",
+                    "region": "Europe,CZ,South Moravian Region"
+                },
+                {
+                    "dc_key": "bt1",
+                    "display_name": "Vilnius 1",
+                    "latitude": 54.640133,
+                    "longitude": 25.306004,
+                    "owner": "Baltneta",
+                    "region": "Europe,LT,Vilnius"
+                },
+                {
+                    "dc_key": "ma3",
+                    "display_name": "Madrid 3",
+                    "latitude": 40.445953369140625,
+                    "longitude": -3.5700926780700684,
+                    "owner": "IPCore",
+                    "region": "Europe,ES,Madrid"
+                },
+                {
+                    "dc_key": "rg1",
+                    "display_name": "Riga 1",
+                    "latitude": 56.88984,
+                    "longitude": 24.232077,
+                    "owner": "DEAC",
+                    "region": "Europe,LV,Riga"
+                },
+                {
+                    "dc_key": "ta1",
+                    "display_name": "Tallinn 1",
+                    "latitude": 59.45709,
+                    "longitude": 24.69322,
+                    "owner": "InfonetDC",
+                    "region": "Europe,EE,Tallinn"
+                },
+                {
+                    "dc_key": "wa1",
+                    "display_name": "Warszawa 1",
+                    "latitude": 52.22744,
+                    "longitude": 21.00335,
+                    "owner": "LIM DC",
+                    "region": "Europe,PL,Warszawa"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "4r6qy-tljxg-slziw-zoteo-pboxh-vlctz-hkv2d-7zior-u3pxm-mmuxb-cae",
+            "total_node_allowance": 0,
+            "total_nodes": 7,
+            "total_rewardable_nodes": 7,
+            "total_subnets": 5,
+            "total_unassigned_nodes": 2,
+            "website": null
+        },
+        {
+            "display_name": "Mariano Stoll",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "ar1",
+                    "display_name": "CABA 1",
+                    "latitude": -34.60550308227539,
+                    "longitude": -58.37938690185547,
+                    "owner": "SyT - Servicios y Telecomunicaciones S.A.",
+                    "region": "South America,AR,CABA"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "s5nvr-ipdxf-xg6wd-ofacm-7tl4i-nwjzx-uulum-cugwb-kbpsa-wrsgs-cae",
+            "total_node_allowance": 0,
+            "total_nodes": 4,
+            "total_rewardable_nodes": 4,
+            "total_subnets": 3,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Marvelous Web3",
+            "location_count": 2,
+            "locations": [
+                {
+                    "dc_key": "mtl1",
+                    "display_name": "Quebec l1",
+                    "latitude": 45.46804,
+                    "longitude": -73.53816,
+                    "owner": "Leaseweb",
+                    "region": "North America,CA,Quebec"
+                },
+                {
+                    "dc_key": "nd1",
+                    "display_name": "New Delhi 1",
+                    "latitude": 28.627478,
+                    "longitude": 77.38391,
+                    "owner": "Marvelous Web3 DC",
+                    "region": "Asia,IN,New Delhi"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "7uioy-xitfw-yqcko-5gpya-3lpsw-dw7zt-dyyyf-wfqif-jvi76-fdbkg-cqe",
+            "total_node_allowance": 7,
+            "total_nodes": 14,
+            "total_rewardable_nodes": 14,
+            "total_subnets": 10,
+            "total_unassigned_nodes": 4,
+            "website": null
+        },
+        {
+            "display_name": "MB Patrankos \u0161\u016bvis",
+            "location_count": 2,
+            "locations": [
+                {
+                    "dc_key": "bt1",
+                    "display_name": "Vilnius 1",
+                    "latitude": 54.640133,
+                    "longitude": 25.306004,
+                    "owner": "Baltneta",
+                    "region": "Europe,LT,Vilnius"
+                },
+                {
+                    "dc_key": "rg1",
+                    "display_name": "Riga 1",
+                    "latitude": 56.88984,
+                    "longitude": 24.232077,
+                    "owner": "DEAC",
+                    "region": "Europe,LV,Riga"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "4jjya-hlyyc-s766p-fd6gr-d6tvv-vo3ah-j5ptx-i73gw-mwgyd-rw6w2-rae",
+            "total_node_allowance": 10,
+            "total_nodes": 10,
+            "total_rewardable_nodes": 10,
+            "total_subnets": 8,
+            "total_unassigned_nodes": 2,
+            "website": null
+        },
+        {
+            "display_name": "MI Servers",
+            "location_count": 3,
+            "locations": [
+                {
+                    "dc_key": "ch3",
+                    "display_name": "Chicago 3",
+                    "latitude": 41.9347,
+                    "longitude": -87.7768,
+                    "owner": "CyrusOne",
+                    "region": "North America,US,Illinois"
+                },
+                {
+                    "dc_key": "ph1",
+                    "display_name": "Phoenix",
+                    "latitude": 33.4484,
+                    "longitude": -112.0741,
+                    "owner": "CyrusOne",
+                    "region": "North America,US,Arizona"
+                },
+                {
+                    "dc_key": "st1",
+                    "display_name": "Sterling",
+                    "latitude": 39.0038,
+                    "longitude": -77.4083,
+                    "owner": "CyrusOne",
+                    "region": "North America,US,Virginia"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "izmhk-lpjum-uo4oy-lviba-yctpc-arg4b-2ywim-vgoiu-gqaj2-gskmw-2qe",
+            "total_node_allowance": 74,
+            "total_nodes": 39,
+            "total_rewardable_nodes": 67,
+            "total_subnets": 7,
+            "total_unassigned_nodes": 32,
+            "website": null
+        },
+        {
+            "display_name": "ML SOLUTIONS LTD",
+            "location_count": 0,
+            "locations": [],
+            "logo_url": null,
+            "principal_id": "n6w7e-4cio3-an35h-hntwl-zzg4p-krqjk-yfmni-q7jiu-bage2-hef5b-pae",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Natalia Kulesha",
+            "location_count": 0,
+            "locations": [],
+            "logo_url": null,
+            "principal_id": "6ryfx-xszlo-xpvyj-b7vx6-m4erk-zwdkc-5lzfw-fty7k-arl66-uc3jk-nae",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Nataliia Nykyforak",
+            "location_count": 0,
+            "locations": [],
+            "logo_url": null,
+            "principal_id": "kf7dx-5wayj-3p2u4-yd4hf-m2en4-np75j-tta25-wqe7y-rlm6s-nqceb-7ae",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Neptune Partners",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "sl1",
+                    "display_name": "Seoul 1",
+                    "latitude": 37.511,
+                    "longitude": 127.037,
+                    "owner": "Megazone Cloud",
+                    "region": "Asia,KR,Seoul"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "4dibr-2alzr-h6kva-bvwn2-yqgsl-o577t-od46o-v275p-a2zov-tcw4f-eae",
+            "total_node_allowance": 0,
+            "total_nodes": 25,
+            "total_rewardable_nodes": 25,
+            "total_subnets": 20,
+            "total_unassigned_nodes": 5,
+            "website": null
+        },
+        {
+            "display_name": "Nikola Nikov",
+            "location_count": 0,
+            "locations": [],
+            "logo_url": null,
+            "principal_id": "kn4u4-unhbe-qwud4-ki6lq-o4try-6l2gv-yrxmg-vw6st-fmlss-nsztj-7qe",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "NODAL CAPITAL",
+            "location_count": 0,
+            "locations": [],
+            "logo_url": null,
+            "principal_id": "kgfpq-4th36-lvnpn-ayygq-hikoq-dndag-vvafx-msvg5-aczmu-pkzsv-7ae",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "NODAO",
+            "location_count": 2,
+            "locations": [
+                {
+                    "dc_key": "an1",
+                    "display_name": "Antwerp",
+                    "latitude": 51.2194,
+                    "longitude": 4.4025,
+                    "owner": "Datacenter United",
+                    "region": "Europe,BE,Flanders"
+                },
+                {
+                    "dc_key": "mm1",
+                    "display_name": "Miami",
+                    "latitude": 25.7617,
+                    "longitude": -80.1918,
+                    "owner": "Digital Realty",
+                    "region": "North America,US,Florida"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "g7dkt-aapqq-j3hqt-xtiys-pwapz-idulp-nwagd-zibqm-caxa4-gc23t-3qe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 28,
+            "website": null
+        },
+        {
+            "display_name": "NoviSystems, LLC",
+            "location_count": 2,
+            "locations": [
+                {
+                    "dc_key": "fm1",
+                    "display_name": "Fremont",
+                    "latitude": 37.5485,
+                    "longitude": -121.9886,
+                    "owner": "Hurricane Electric",
+                    "region": "North America,US,California"
+                },
+                {
+                    "dc_key": "ny2",
+                    "display_name": "New York",
+                    "latitude": 40.787,
+                    "longitude": -74.068,
+                    "owner": "INAP",
+                    "region": "North America,US,New York"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "hk7eo-22zam-kqmsx-dtfbj-k5i6f-jg65h-micpf-2cztc-t2eqk-efgvx-vqe",
+            "total_node_allowance": 4,
+            "total_nodes": 3,
+            "total_rewardable_nodes": 3,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 3,
+            "website": null
+        },
+        {
+            "display_name": "OneSixtyTwo Digital Capital",
+            "location_count": 3,
+            "locations": [
+                {
+                    "dc_key": "sg1",
+                    "display_name": "Singapore",
+                    "latitude": 1.3521,
+                    "longitude": 103.8289,
+                    "owner": "Telin",
+                    "region": "Asia,SG,Singapore"
+                },
+                {
+                    "dc_key": "sg2",
+                    "display_name": "Singapore 2",
+                    "latitude": 1.2995,
+                    "longitude": 103.8289,
+                    "owner": "Telin",
+                    "region": "Asia,SG,Singapore"
+                },
+                {
+                    "dc_key": "sg3",
+                    "display_name": "Singapore 3",
+                    "latitude": 1.3321,
+                    "longitude": 103.9527,
+                    "owner": "Racks Central",
+                    "region": "Asia,SG,Singapore"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "6nbcy-kprg6-ax3db-kh3cz-7jllk-oceyh-jznhs-riguq-fvk6z-6tsds-rqe",
+            "total_node_allowance": 47,
+            "total_nodes": 42,
+            "total_rewardable_nodes": 41,
+            "total_subnets": 35,
+            "total_unassigned_nodes": 5,
+            "website": "https://162digitalcapital.com"
+        },
+        {
+            "display_name": "Origin Game",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "hk4",
+                    "display_name": "HongKong 4",
+                    "latitude": 22.453768,
+                    "longitude": 114.18723,
+                    "owner": "hkntt",
+                    "region": "Asia,HK,HongKong"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "cgmhq-c4zja-yov4u-zeyao-64ua5-idlhb-ezcgr-cultv-3vqjs-dhwo7-rqe",
+            "total_node_allowance": 0,
+            "total_nodes": 7,
+            "total_rewardable_nodes": 7,
+            "total_subnets": 4,
+            "total_unassigned_nodes": 3,
+            "website": null
+        },
+        {
+            "display_name": "Paul Creasey",
+            "location_count": 0,
+            "locations": [],
+            "logo_url": null,
+            "principal_id": "xv5l6-677tb-f4ree-7cz2e-sawob-auqy2-23x7u-funsg-46eb2-sujic-jae",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Pindar Technology Limited",
+            "location_count": 2,
+            "locations": [
+                {
+                    "dc_key": "hk1",
+                    "display_name": "HongKong 1",
+                    "latitude": 22.28358,
+                    "longitude": 114.26856,
+                    "owner": "Unicom",
+                    "region": "Asia,HK,HongKong"
+                },
+                {
+                    "dc_key": "kr1",
+                    "display_name": "Seoul 3",
+                    "latitude": 37.47765,
+                    "longitude": 126.87979,
+                    "owner": "KT",
+                    "region": "Asia,KR,Seoul"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "r3yjn-kthmg-pfgmb-2fngg-5c7d7-t6kqg-wi37r-j7gy6-iee64-kjdja-jae",
+            "total_node_allowance": 12,
+            "total_nodes": 36,
+            "total_rewardable_nodes": 36,
+            "total_subnets": 26,
+            "total_unassigned_nodes": 10,
+            "website": null
+        },
+        {
+            "display_name": "Power Meta Corporation",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "hk3",
+                    "display_name": "HongKong 3",
+                    "latitude": 22.291012,
+                    "longitude": 114.27451,
+                    "owner": "hkcolo",
+                    "region": "Asia,HK,HongKong"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "4fedi-eu6ue-nd7ts-vnof5-hzg66-hgzl7-liy5n-3otyp-h7ipw-owycg-uae",
+            "total_node_allowance": 0,
+            "total_nodes": 5,
+            "total_rewardable_nodes": 5,
+            "total_subnets": 4,
+            "total_unassigned_nodes": 1,
+            "website": null
+        },
+        {
+            "display_name": "Privoxy Solutions, LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "dr1",
+                    "display_name": "Utah 1",
+                    "latitude": 40.511448,
+                    "longitude": -111.88796,
+                    "owner": "FiberState",
+                    "region": "North America,US,Utah"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "trxbq-wy5xi-3y27q-bkpaf-mhi2m-puexs-yatgt-nhwiy-dh6jy-rolw5-zqe",
+            "total_node_allowance": 0,
+            "total_nodes": 3,
+            "total_rewardable_nodes": 3,
+            "total_subnets": 1,
+            "total_unassigned_nodes": 2,
+            "website": null
+        },
+        {
+            "display_name": "Protocol16",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "sg3",
+                    "display_name": "Singapore 3",
+                    "latitude": 1.3321,
+                    "longitude": 103.9527,
+                    "owner": "Racks Central",
+                    "region": "Asia,SG,Singapore"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "x7uok-pi537-itm37-unjn3-ewkze-kuetg-kptap-nuqak-auq7z-tn5ey-dqe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 27,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 28,
+            "website": null
+        },
+        {
+            "display_name": "Reist Telecom AG",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "zh5",
+                    "display_name": "Zurich 5",
+                    "latitude": 47.3858,
+                    "longitude": 8.5273,
+                    "owner": "Green.ch",
+                    "region": "Europe,CH,Zurich"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "ma7dp-gz4tg-3c2wv-pgnsv-wna7u-czvhu-fpu47-t4dr6-gzxql-wr2m2-qae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 28,
+            "website": null
+        },
+        {
+            "display_name": "Richard Ma",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "tp1",
+                    "display_name": "Tampa",
+                    "latitude": 27.9506,
+                    "longitude": -82.4572,
+                    "owner": "Flexential",
+                    "region": "North America,US,Florida"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "egb3e-rzi2e-vpsmm-akysp-l2owk-4dgst-b5hmg-xrkwa-cr3uk-zlzds-mae",
+            "total_node_allowance": 1,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 7,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": "https://blockchaindevlabs.com"
+        },
+        {
+            "display_name": "Rivonia Holdings LLC",
+            "location_count": 3,
+            "locations": [
+                {
+                    "dc_key": "ch2",
+                    "display_name": "Chicago 2",
+                    "latitude": 41.97438,
+                    "longitude": -87.6839,
+                    "owner": "Tierpoint",
+                    "region": "North America,US,Illinois"
+                },
+                {
+                    "dc_key": "jv1",
+                    "display_name": "Jacksonville",
+                    "latitude": 30.3321,
+                    "longitude": -81.6556,
+                    "owner": "Tierpoint",
+                    "region": "North America,US,Florida"
+                },
+                {
+                    "dc_key": "ny1",
+                    "display_name": "New York",
+                    "latitude": 40.7128,
+                    "longitude": -74.006,
+                    "owner": "Tierpoint",
+                    "region": "North America,US,New York"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "spp3m-vawt7-3gyh6-pjz5d-6zidf-up3qb-yte62-otexv-vfpqg-n6awf-lqe",
+            "total_node_allowance": 108,
+            "total_nodes": 42,
+            "total_rewardable_nodes": 112,
+            "total_subnets": 4,
+            "total_unassigned_nodes": 38,
+            "website": null
+        },
+        {
+            "display_name": "Rivram Inc",
+            "location_count": 3,
+            "locations": [
+                {
+                    "dc_key": "mt1",
+                    "display_name": "Quebec 1",
+                    "latitude": 45.486538,
+                    "longitude": -73.75656,
+                    "owner": "Vantage",
+                    "region": "North America,CA,Quebec"
+                },
+                {
+                    "dc_key": "mtl1",
+                    "display_name": "Quebec l1",
+                    "latitude": 45.46804,
+                    "longitude": -73.53816,
+                    "owner": "Leaseweb",
+                    "region": "North America,CA,Quebec"
+                },
+                {
+                    "dc_key": "nm1",
+                    "display_name": "Navi Mumbai 1",
+                    "latitude": 19.141201,
+                    "longitude": 73.00894,
+                    "owner": "Rivram",
+                    "region": "Asia,IN,Navi Mumbai"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "ulyfm-vkxtj-o42dg-e4nam-l4tzf-37wci-ggntw-4ma7y-d267g-ywxi6-iae",
+            "total_node_allowance": 50,
+            "total_nodes": 13,
+            "total_rewardable_nodes": 13,
+            "total_subnets": 10,
+            "total_unassigned_nodes": 3,
+            "website": null
+        },
+        {
+            "display_name": "Serenity Lotus Limited",
+            "location_count": 0,
+            "locations": [],
+            "logo_url": null,
+            "principal_id": "2cfu2-qyug6-y4cme-lvj3c-6fs65-cbti4-ea6ig-nkaoj-fsbte-7n5gp-wae",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Starbase",
+            "location_count": 3,
+            "locations": [
+                {
+                    "dc_key": "ty1",
+                    "display_name": "Tokyo",
+                    "latitude": 35.6762,
+                    "longitude": 139.6503,
+                    "owner": "Equinix",
+                    "region": "Asia,JP,Tokyo"
+                },
+                {
+                    "dc_key": "ty2",
+                    "display_name": "Tokyo 2",
+                    "latitude": 35.6762,
+                    "longitude": 139.6503,
+                    "owner": "Equinix",
+                    "region": "Asia,JP,Tokyo"
+                },
+                {
+                    "dc_key": "ty3",
+                    "display_name": "Tokyo 3",
+                    "latitude": 35.6762,
+                    "longitude": 139.6503,
+                    "owner": "Equinix",
+                    "region": "Asia,JP,Tokyo"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "sixix-2nyqd-t2k2v-vlsyz-dssko-ls4hl-hyij4-y7mdp-ja6cj-nsmpf-yae",
+            "total_node_allowance": 65,
+            "total_nodes": 41,
+            "total_rewardable_nodes": 41,
+            "total_subnets": 19,
+            "total_unassigned_nodes": 22,
+            "website": "starbase.co"
+        },
+        {
+            "display_name": "Sygnum Bank",
+            "location_count": 3,
+            "locations": [
+                {
+                    "dc_key": "zh5",
+                    "display_name": "Zurich 5",
+                    "latitude": 47.3858,
+                    "longitude": 8.5273,
+                    "owner": "Green.ch",
+                    "region": "Europe,CH,Zurich"
+                },
+                {
+                    "dc_key": "zh6",
+                    "display_name": "Zurich 6",
+                    "latitude": 47.3858,
+                    "longitude": 8.5273,
+                    "owner": "Green.ch",
+                    "region": "Europe,CH,Zurich"
+                },
+                {
+                    "dc_key": "zh7",
+                    "display_name": "Zurich 7",
+                    "latitude": 47.3858,
+                    "longitude": 8.5273,
+                    "owner": "Green.ch",
+                    "region": "Europe,CH,Zurich"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "6r5lw-l7db7-uwixn-iw5en-yy55y-ilbtq-e6gcv-g22r2-j3g6q-y37jk-jqe",
+            "total_node_allowance": 0,
+            "total_nodes": 42,
+            "total_rewardable_nodes": 42,
+            "total_subnets": 8,
+            "total_unassigned_nodes": 33,
+            "website": "sygnum.com"
+        },
+        {
+            "display_name": "The Fenex Company LLC",
+            "location_count": 0,
+            "locations": [],
+            "logo_url": null,
+            "principal_id": "b7yyj-o7vc6-hdbzl-eggkm-bp2hg-3jmcv-5j5nn-t6zkq-ino4b-cvyde-yqe",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Tomahawk.vc",
+            "location_count": 2,
+            "locations": [
+                {
+                    "dc_key": "zh3",
+                    "display_name": "Zurich 3",
+                    "latitude": 47.368,
+                    "longitude": 8.5193,
+                    "owner": "Nine.Ch",
+                    "region": "Europe,CH,Zurich"
+                },
+                {
+                    "dc_key": "zh4",
+                    "display_name": "Zurich 4",
+                    "latitude": 47.3858,
+                    "longitude": 8.5273,
+                    "owner": "Nine.Ch",
+                    "region": "Europe,CH,Zurich"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "ucjqj-jmbj3-rs4aq-ekzpw-ltjs3-zrcma-t6r3t-m5wxc-j5yrj-unwoj-mae",
+            "total_node_allowance": 0,
+            "total_nodes": 42,
+            "total_rewardable_nodes": 42,
+            "total_subnets": 9,
+            "total_unassigned_nodes": 32,
+            "website": "https://www.tomahawk.vc/"
+        },
+        {
+            "display_name": "Uvaca Labs LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "pl1",
+                    "display_name": "Portland",
+                    "latitude": 45.5051,
+                    "longitude": -122.675,
+                    "owner": "Flexential",
+                    "region": "North America,US,Oregon"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "dodsd-rsjlg-sgekb-gr6mi-l6fck-tscwk-4jzgl-fwk4q-ncoyu-ulx53-aqe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 28,
+            "website": null
+        },
+        {
+            "display_name": "Virtual Hive Ltd",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "fr2",
+                    "display_name": "Frankfurt 2",
+                    "latitude": 50.1223,
+                    "longitude": 8.66366,
+                    "owner": "Equinix",
+                    "region": "Europe,DE,Hesse"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "wdnqm-clqti-im5yf-iapio-avjom-kyppl-xuiza-oaz6z-smmts-52wyg-5ae",
+            "total_node_allowance": 64,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 27,
+            "total_subnets": 18,
+            "total_unassigned_nodes": 8,
+            "website": "https://virtualhive.io"
+        },
+        {
+            "display_name": "Vladyslav Popov",
+            "location_count": 7,
+            "locations": [
+                {
+                    "dc_key": "li1",
+                    "display_name": "Lisbon 1",
+                    "latitude": 38.747547,
+                    "longitude": -9.09864,
+                    "owner": "Dotsi",
+                    "region": "Europe,PT,Lisbon"
+                },
+                {
+                    "dc_key": "ma3",
+                    "display_name": "Madrid 3",
+                    "latitude": 40.445953369140625,
+                    "longitude": -3.5700926780700684,
+                    "owner": "IPCore",
+                    "region": "Europe,ES,Madrid"
+                },
+                {
+                    "dc_key": "pa2",
+                    "display_name": "Praha 2",
+                    "latitude": 50.078022,
+                    "longitude": 14.473687,
+                    "owner": "Coolhousing",
+                    "region": "Europe,CZ,Praha"
+                },
+                {
+                    "dc_key": "rg1",
+                    "display_name": "Riga 1",
+                    "latitude": 56.88984,
+                    "longitude": 24.232077,
+                    "owner": "DEAC",
+                    "region": "Europe,LV,Riga"
+                },
+                {
+                    "dc_key": "si1",
+                    "display_name": "Siauliai 1",
+                    "latitude": 55.91061,
+                    "longitude": 23.316347,
+                    "owner": "Bacloud",
+                    "region": "Europe,LT,Siauliai"
+                },
+                {
+                    "dc_key": "ta2",
+                    "display_name": "Tallinn 2",
+                    "latitude": 59.40129,
+                    "longitude": 24.699966,
+                    "owner": "Telia DC",
+                    "region": "Europe,EE,Tallinn"
+                },
+                {
+                    "dc_key": "wa3",
+                    "display_name": "Warszawa 3",
+                    "latitude": 52.194801330566406,
+                    "longitude": 20.925399780273438,
+                    "owner": "DataHouse",
+                    "region": "Europe,PL,Warszawa"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "3oqw6-vmpk2-mlwlx-52z5x-e3p7u-fjlcw-yxc34-lf2zq-6ub2f-v63hk-lae",
+            "total_node_allowance": 0,
+            "total_nodes": 7,
+            "total_rewardable_nodes": 7,
+            "total_subnets": 7,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Wancloud limited",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "hk1",
+                    "display_name": "HongKong 1",
+                    "latitude": 22.28358,
+                    "longitude": 114.26856,
+                    "owner": "Unicom",
+                    "region": "Asia,HK,HongKong"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "g2ax6-jrkmb-3zuh3-jibtb-q5xoq-njrgo-5utbc-j2o7g-zfq2w-yyhky-dqe",
+            "total_node_allowance": 0,
+            "total_nodes": 10,
+            "total_rewardable_nodes": 6,
+            "total_subnets": 3,
+            "total_unassigned_nodes": 7,
+            "website": null
+        },
+        {
+            "display_name": "Web3game",
+            "location_count": 2,
+            "locations": [
+                {
+                    "dc_key": "hk4",
+                    "display_name": "HongKong 4",
+                    "latitude": 22.453768,
+                    "longitude": 114.18723,
+                    "owner": "hkntt",
+                    "region": "Asia,HK,HongKong"
+                },
+                {
+                    "dc_key": "kr2",
+                    "display_name": "Seoul 2",
+                    "latitude": 37.48227,
+                    "longitude": 126.87982,
+                    "owner": "Gasan",
+                    "region": "Asia,KR,Seoul"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "64xe5-tx2s3-4gjmj-pnozr-fejw2-77y5y-rhcjk-glnmx-62brf-qin5q-pqe",
+            "total_node_allowance": 0,
+            "total_nodes": 17,
+            "total_rewardable_nodes": 17,
+            "total_subnets": 11,
+            "total_unassigned_nodes": 5,
+            "website": null
+        },
+        {
+            "display_name": "William Zelver",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "sj1",
+                    "display_name": "San Jose",
+                    "latitude": 37.3517,
+                    "longitude": -121.8819,
+                    "owner": "INAP",
+                    "region": "North America,US,California"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "usau7-upgoh-sg464-6qnso-lud42-nxho6-ith26-a2jhq-q5bgy-ajeou-4ae",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 1,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "WMA Investments Limited",
+            "location_count": 0,
+            "locations": [],
+            "logo_url": null,
+            "principal_id": "7ne6c-3ahs2-76so4-te6hs-oq4mv-zhz4c-pqj2b-rxjmq-q56vn-tvpgj-2ae",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Wolkboer (Pty) Ltd",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "jb3",
+                    "display_name": "Gauteng 3",
+                    "latitude": -25.927364,
+                    "longitude": 28.142067,
+                    "owner": "Xneelo",
+                    "region": "Africa,ZA,Gauteng"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "mme7u-zxs3z-jq3un-fbaly-nllcz-toct2-l2kp3-larrb-gti4r-u2bmo-dae",
+            "total_node_allowance": 0,
+            "total_nodes": 6,
+            "total_rewardable_nodes": 6,
+            "total_subnets": 5,
+            "total_unassigned_nodes": 1,
+            "website": null
+        },
+        {
+            "display_name": "Zarety LLC",
+            "location_count": 0,
+            "locations": [],
+            "logo_url": null,
+            "principal_id": "glrjs-2dbzh-owbdd-fpp5e-eweoz-nsuto-e3jmk-tl42c-wem4f-qfpfa-qqe",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Zenith Code LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "nd1",
+                    "display_name": "New Delhi 1",
+                    "latitude": 28.627478,
+                    "longitude": 77.38391,
+                    "owner": "Marvelous Web3 DC",
+                    "region": "Asia,IN,New Delhi"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "pa5mu-yxsey-b4yrk-bodka-dhjnm-a3nx4-w2grw-3b766-ddr6e-nupu4-pqe",
+            "total_node_allowance": 0,
+            "total_nodes": 2,
+            "total_rewardable_nodes": 2,
+            "total_subnets": 1,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "Zondax AG",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "zh5",
+                    "display_name": "Zurich 5",
+                    "latitude": 47.3858,
+                    "longitude": 8.5273,
+                    "owner": "Green.ch",
+                    "region": "Europe,CH,Zurich"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "hzqcb-iiagd-4erjo-qn7rq-syqro-zztl6-cpble-atnkd-2c6bg-bxjoa-qae",
+            "total_node_allowance": 0,
+            "total_nodes": 2,
+            "total_rewardable_nodes": 2,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 1,
+            "website": null
+        },
+        {
+            "display_name": "ZTLC PTE LTD",
+            "location_count": 0,
+            "locations": [],
+            "logo_url": null,
+            "principal_id": "amsdj-4ss2k-wwcae-kroro-ippwx-lcro4-ysoha-uqlvc-3267j-vt3fy-yqe",
+            "total_node_allowance": 0,
+            "total_nodes": 0,
+            "total_rewardable_nodes": 0,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 0,
+            "website": null
+        },
+        {
+            "display_name": "1G",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "7k7b7-4pzhf-aivy6-y654t-uqyup-2auiz-ew2cm-4qkl4-nsl4v-bul5k-5qe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "A Dog's Boutique",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "uvawj-nnt3i-4ch3a-hruy4-hyfjn-7owvl-wgkli-uq2hd-e6lkq-v4b2o-4ae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Adam Dymecki",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "n32q7-33lmk-m33tr-o5ltb-po6cb-tqqrr-2x6wp-pzhw7-ymizu-o3fyp-sqe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Arjay LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "l2kri-jarwr-7whc4-pjdpn-n6hlb-45ltr-l6ghm-twttl-pcsvt-rynko-dqe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Boolean Bit, LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "qdj4d-76lh3-w2q5i-kwjcd-643pq-pk42d-cziag-4hkau-35gib-m7s33-6qe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Brener, Inc.",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "2wxxr-qwylo-n7dhz-6co6m-iektd-vl7dn-ocvyc-xazaf-hbfxq-66spe-aae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "CRM52 Systems, LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "7nxxb-6qgm4-fftx3-xkwpj-sjrcm-tzmk5-dvuqk-l4ei4-3hvii-scwnj-tae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "DRMxTech Enterprises, LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "olgti-2hegv-ya7pd-ky2wt-of57j-tzs6q-ydrpy-hdxyy-cjnwx-ox5t4-3qe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Finteck LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "x3zyd-pkcbf-5n3w2-n7uov-2qrbt-d3kfn-ojdd7-pxog5-vpqnt-6lex5-fqe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Fritz Huie",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "67gkg-gkgzz-g2ubz-3cc6h-jr3zm-twsii-7i325-r3gzr-kp2kh-dwxg6-pqe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "FUM Capital, LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "zgupw-boshs-mg6kz-2ciwm-upk7g-igjpn-75t3p-np6g4-47l7q-nuefa-6qe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Goat, LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "p6fou-ngmgk-rxc6t-7ckzz-hojr2-kk6r3-xnlrk-ewzvu-g6xms-rfafz-zae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Goodsir, LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "myrs2-bc6j6-mydpr-2jmli-l45mu-35ybt-c34mo-kjpve-zmaao-ajusy-nqe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "IC Pros",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "srga3-cikqa-srnxx-rwejf-672jj-5o6qy-tuzsa-khds3-2ofjw-5gnew-mae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Internet Computer Explorer",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "i7v7g-cwjtl-gzd2s-nt2ko-4d5su-vh64h-bqu4h-rio26-tbaej-dtj6d-fae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Jeffrey Schnettler",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "5zqo2-omblo-i7knq-qyrfu-mjccn-tljyd-qslab-b7ukn-7tshi-pbeke-pae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Jimmy Quach",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "dzxyh-fo4sw-pxckk-kwqvc-xjten-3yqon-fm62b-2hz4s-raa4g-jzczg-iqe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Jonathan Ziskind",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "qcs4o-yswwp-7ozhg-m2ago-ytjyl-zlckb-raykw-fi5hl-cflyt-4beyv-zqe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Joseph Stella",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "f5wg2-kl4aq-cj4ym-nq7ul-i4kxy-t4x3x-yiyc5-3wlu6-opzwd-o5qes-hae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "KLAW Media, LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "pcwis-xaq3p-xvasz-5cfws-oelni-xs72v-acbwz-umxnq-nb2bc-ziyuu-sqe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Krishna Sriram",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "sajvr-l5iok-rj6c2-r76co-k2mde-d3kir-pnmjs-443f6-lxto4-pu55q-uae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Lauren Dymecki Chickvara",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "abscc-3lezh-oezci-5i3kz-pkwlc-ozz3r-5wv4n-htujn-rtajh-6cgyv-jae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Luke Jacobson",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "6dwst-olsa5-tagsr-jylgj-oicju-rf42e-o7job-gedre-fgoxt-7br62-jqe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Marc Johnson",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "xfvlz-qkgs4-xyeyx-lbke5-aarza-ovi52-wzpxl-3p27l-ov6ki-csxv6-qqe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Mary Ren",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "vdzyg-amckj-thvl5-bsn52-2elzd-drgii-ryh4c-izba3-xaehb-sohtd-aae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Mika Properties, LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "3siog-htc6j-ed3wz-sguhu-2objz-g5qct-npoma-t3wwt-bd6wy-chwsi-4ae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Michel Guerra",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "4anlt-yam7x-eodmx-ik7mo-nl3kx-t35fj-52hfy-uv4jj-u2iea-ntg76-pqe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Moon Block Ventures",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "sdal5-w2c3d-p3buy-zieck-2wyuj-eu5bn-rkfe6-uuspi-o4n2b-gpei7-iae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Mostly Wholesome, Inc",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "ou3o7-akyjc-ldwd5-anyjn-l2buz-cwhbg-nehlc-abkde-qtc7w-fozdi-hae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Paul Legato",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "yr4eg-kwk3m-q44vj-ale35-2mtxk-5dyn7-vgppx-z6tcw-kzo4o-ezpm5-fqe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Peggy Shafaghi",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "72idx-a7c3y-nrcwc-lboj4-mmsas-sfdpm-gq23i-h2yuy-lykcj-vrxn2-jqe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Philippe Chapparone",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "2c4m6-25hos-qroi3-mk4aj-nog6s-zbzcv-ccpcc-cbv7s-sjy6p-bv3g5-fae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Prayit Jain",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "waj5k-wlyvv-jbj4n-vxwjm-dmkyg-uw2nl-ggojp-34kln-wgx3n-d7xih-5qe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Rachel Dymecki",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "chnsu-yaqt5-6osy5-au4zn-li6yu-nufmw-dewrt-utkiu-twd76-ujypw-rae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Richard Suarez",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "cmcjw-6c5ve-4zjnt-lipnl-2lp43-oh5wk-ewciz-xyvnv-m2rz5-hkm6a-hqe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Ricky Sidhu",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "q22bo-3uyqa-jvtpt-gapjk-pseor-esx4a-zyb74-vzea4-o7nx2-tafgq-hae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Rishi Sachdev",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "6tg64-cdfoh-kl35i-p6qti-sose3-746lr-jk5ex-phuvu-jfu3d-5svwa-7qe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Rodney Zorilla",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "bgprp-b2mnt-ci5in-57vuk-p7qvo-tj2tb-5w5su-qwenk-gbe77-mnuiq-sqe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Ronnie Pellizzari",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "wwxec-c2gd2-bu5on-ktpwz-z2ph3-vlr4p-m7ztf-6ck7r-nt3r4-fxbdq-mae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Russell Ford",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "p5jx4-lsrog-ep5o3-5uudg-opdg3-ur45z-xeefi-4ejfz-47t2k-riwfv-dae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Scott Hallock",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "i6sxi-fks25-viets-mboa7-3i23b-qeocf-e57qj-ar6vy-2mchu-xb5vp-aqe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Shelburne Ventures, LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "a24zv-2ndbz-hqogc-ev63f-qxnpb-7ramd-usexl-ennaq-4om4k-sod6u-gae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Staking Facilities",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
+            "principal_id": "niw4y-easue-l3qvz-sozsi-tfkvb-cxcx6-pzslg-5dqld-ooudp-hsuui-xae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Starseed Technology, LLC",
+            "location_count": 1,
+            "locations": [{
+                "dc_key": "to1",
+                "display_name": "Toronto",
+                "latitude": 43.6458,
+                "longitude": -79.4461,
+                "owner": "Cyxtera",
+                "region": "North America,CA,Ontario"
+            }],
+            "logo_url": null,
+            "principal_id": "ruxoj-jnqql-uau6o-xwrtb-ufde4-geddn-mnhni-wpew4-zhzi5-xjrxi-lqe",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        },
+        {
+            "display_name": "Wolfhound LLC",
+            "location_count": 1,
+            "locations": [{
+                "dc_key": "to1",
+                "display_name": "Toronto",
+                "latitude": 43.6458,
+                "longitude": -79.4461,
+                "owner": "Cyxtera",
+                "region": "North America,CA,Ontario"
+            }],
+            "logo_url": null,
+            "principal_id": "6mifr-stcqy-w5pzr-qpijh-jopft-p6jl3-n2sww-jhmzg-uzknn-hte4m-pae",
+            "total_node_allowance": 0,
+            "total_nodes": 28,
+            "total_rewardable_nodes": 28,
+            "total_subnets": 0,
+            "total_unassigned_nodes": 27,
+            "website": null
+        }
+    ]
+}

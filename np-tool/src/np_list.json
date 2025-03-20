@@ -2520,2627 +2520,992 @@
             "total_subnets": 0,
             "total_unassigned_nodes": 0,
             "website": null
-        }, {
-            "name": "1G",
-            "toml_id": "1G",
+        },
+        {
+            "display_name": "1G",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
+            ],
+            "logo_url": null,
             "principal_id": "7k7b7-4pzhf-aivy6-y654t-uqyup-2auiz-ew2cm-4qkl4-nsl4v-bul5k-5qe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "A Dog's Boutique",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/7k7b7-4pzhf-aivy6-y654t-uqyup-2auiz-ew2cm-4qkl4-nsl4v-bul5k-5qe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "8b1cc0f51ed1002c09092b00373a8ef760209e0721a22586c6487201f4644d97",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/8b1cc0f51ed1002c09092b00373a8ef760209e0721a22586c6487201f4644d97",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "A Dog's Boutique",
-            "toml_id": "A Dog's Boutique",
+            "logo_url": null,
             "principal_id": "uvawj-nnt3i-4ch3a-hruy4-hyfjn-7owvl-wgkli-uq2hd-e6lkq-v4b2o-4ae",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Adam Dymecki",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/uvawj-nnt3i-4ch3a-hruy4-hyfjn-7owvl-wgkli-uq2hd-e6lkq-v4b2o-4ae",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "d10e0b2d5da622a98d590510519aa6808addd69f3c7c811f5b2fecd551b445d3",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/d10e0b2d5da622a98d590510519aa6808addd69f3c7c811f5b2fecd551b445d3",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Adam Dymecki",
-            "toml_id": "Adam Dymecki",
+            "logo_url": null,
             "principal_id": "n32q7-33lmk-m33tr-o5ltb-po6cb-tqqrr-2x6wp-pzhw7-ymizu-o3fyp-sqe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Arjay LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/n32q7-33lmk-m33tr-o5ltb-po6cb-tqqrr-2x6wp-pzhw7-ymizu-o3fyp-sqe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "e722e1bc1c1ce5b0861822429066d0abd918b2e2843f1471887f4a97f6c46495",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e722e1bc1c1ce5b0861822429066d0abd918b2e2843f1471887f4a97f6c46495",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Arjay LLC",
-            "toml_id": "Arjay LLC",
+            "logo_url": null,
             "principal_id": "l2kri-jarwr-7whc4-pjdpn-n6hlb-45ltr-l6ghm-twttl-pcsvt-rynko-dqe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Boolean Bit, LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/l2kri-jarwr-7whc4-pjdpn-n6hlb-45ltr-l6ghm-twttl-pcsvt-rynko-dqe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "07e29d29431a9b258534f9dfef00745fcbf10d2b6992959e056123189c8d2a80",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/07e29d29431a9b258534f9dfef00745fcbf10d2b6992959e056123189c8d2a80",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Boolean Bit, LLC",
-            "toml_id": "Boolean Bit, LLC",
+            "logo_url": null,
             "principal_id": "qdj4d-76lh3-w2q5i-kwjcd-643pq-pk42d-cziag-4hkau-35gib-m7s33-6qe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Brener, Inc.",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/qdj4d-76lh3-w2q5i-kwjcd-643pq-pk42d-cziag-4hkau-35gib-m7s33-6qe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "dbfadb54166b4eab6a0c2771a1e45b6345e9ae345ccd205c1d500c30b2c41f35",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/dbfadb54166b4eab6a0c2771a1e45b6345e9ae345ccd205c1d500c30b2c41f35",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Brener, Inc.",
-            "toml_id": "Brener, Inc.",
+            "logo_url": null,
             "principal_id": "2wxxr-qwylo-n7dhz-6co6m-iektd-vl7dn-ocvyc-xazaf-hbfxq-66spe-aae",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "CRM52 Systems, LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/2wxxr-qwylo-n7dhz-6co6m-iektd-vl7dn-ocvyc-xazaf-hbfxq-66spe-aae",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "b6f282630f8534ca391fa9f74dad7b1401fb068a6656f0f09ee49b7d6d9606f4",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/b6f282630f8534ca391fa9f74dad7b1401fb068a6656f0f09ee49b7d6d9606f4",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "CRM52 Systems, LLC",
-            "toml_id": "CRM52 Systems, LLC",
+            "logo_url": null,
             "principal_id": "7nxxb-6qgm4-fftx3-xkwpj-sjrcm-tzmk5-dvuqk-l4ei4-3hvii-scwnj-tae",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "DRMxTech Enterprises, LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/7nxxb-6qgm4-fftx3-xkwpj-sjrcm-tzmk5-dvuqk-l4ei4-3hvii-scwnj-tae",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "c2236472acfd2d5590f472fe14f8a5945c73aa38cee23ead6bf65d01ec9ffbb2",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/c2236472acfd2d5590f472fe14f8a5945c73aa38cee23ead6bf65d01ec9ffbb2",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "DRMxTech Enterprises, LLC",
-            "toml_id": "DRMxTech Enterprises, LLC",
+            "logo_url": null,
             "principal_id": "olgti-2hegv-ya7pd-ky2wt-of57j-tzs6q-ydrpy-hdxyy-cjnwx-ox5t4-3qe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Finteck LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/olgti-2hegv-ya7pd-ky2wt-of57j-tzs6q-ydrpy-hdxyy-cjnwx-ox5t4-3qe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "62ac3d3e8a2b4905b82786f1eb12c9d4c424e18291db3e86401996abfae33eb2",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/62ac3d3e8a2b4905b82786f1eb12c9d4c424e18291db3e86401996abfae33eb2",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Finteck LLC",
-            "toml_id": "Finteck LLC",
+            "logo_url": null,
             "principal_id": "x3zyd-pkcbf-5n3w2-n7uov-2qrbt-d3kfn-ojdd7-pxog5-vpqnt-6lex5-fqe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Fritz Huie",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/x3zyd-pkcbf-5n3w2-n7uov-2qrbt-d3kfn-ojdd7-pxog5-vpqnt-6lex5-fqe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "18614cba935a756a144531018cd899b11c7904d2a58fcde612e96b0d2ca6f984",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/18614cba935a756a144531018cd899b11c7904d2a58fcde612e96b0d2ca6f984",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Fritz Huie",
-            "toml_id": "Fritz Huie",
+            "logo_url": null,
             "principal_id": "67gkg-gkgzz-g2ubz-3cc6h-jr3zm-twsii-7i325-r3gzr-kp2kh-dwxg6-pqe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "FUM Capital, LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/67gkg-gkgzz-g2ubz-3cc6h-jr3zm-twsii-7i325-r3gzr-kp2kh-dwxg6-pqe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "232413d1c24e6fdd8d5948a6d52b52cefc19f215eaad6bfa8c159caafee69a87",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/232413d1c24e6fdd8d5948a6d52b52cefc19f215eaad6bfa8c159caafee69a87",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "FUM Capital, LLC",
-            "toml_id": "FUM Capital, LLC",
+            "logo_url": null,
             "principal_id": "zgupw-boshs-mg6kz-2ciwm-upk7g-igjpn-75t3p-np6g4-47l7q-nuefa-6qe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Goat, LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/zgupw-boshs-mg6kz-2ciwm-upk7g-igjpn-75t3p-np6g4-47l7q-nuefa-6qe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "e1e4355001eab990e97b490ef97b9818aa04161cfeca6404d92b567bcc0f42f0",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e1e4355001eab990e97b490ef97b9818aa04161cfeca6404d92b567bcc0f42f0",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Goat, LLC",
-            "toml_id": "Goat, LLC",
+            "logo_url": null,
             "principal_id": "p6fou-ngmgk-rxc6t-7ckzz-hojr2-kk6r3-xnlrk-ewzvu-g6xms-rfafz-zae",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Goodsir, LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/p6fou-ngmgk-rxc6t-7ckzz-hojr2-kk6r3-xnlrk-ewzvu-g6xms-rfafz-zae",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "e003fd03cd77aa7350b843f94199842d1eb569ad069a56af665f75cf5388a48f",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e003fd03cd77aa7350b843f94199842d1eb569ad069a56af665f75cf5388a48f",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Goodsir, LLC",
-            "toml_id": "Goodsir, LLC",
+            "logo_url": null,
             "principal_id": "myrs2-bc6j6-mydpr-2jmli-l45mu-35ybt-c34mo-kjpve-zmaao-ajusy-nqe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "IC Pros",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/myrs2-bc6j6-mydpr-2jmli-l45mu-35ybt-c34mo-kjpve-zmaao-ajusy-nqe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "c54439503fd4a7ac61b96b460cbee3d49015cdce7899626024298bc996a5a09b",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/c54439503fd4a7ac61b96b460cbee3d49015cdce7899626024298bc996a5a09b",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "IC Pros",
-            "toml_id": "IC Pros",
+            "logo_url": null,
             "principal_id": "srga3-cikqa-srnxx-rwejf-672jj-5o6qy-tuzsa-khds3-2ofjw-5gnew-mae",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Internet Computer Explorer",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/srga3-cikqa-srnxx-rwejf-672jj-5o6qy-tuzsa-khds3-2ofjw-5gnew-mae",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "732b3db0ec0a20514976a08eeae1fd57c10d92764386fc2ca78b6e81deac27cb",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/732b3db0ec0a20514976a08eeae1fd57c10d92764386fc2ca78b6e81deac27cb",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Internet Computer Explorer",
-            "toml_id": "Internet Computer Explorer",
+            "logo_url": null,
             "principal_id": "i7v7g-cwjtl-gzd2s-nt2ko-4d5su-vh64h-bqu4h-rio26-tbaej-dtj6d-fae",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Jeffrey Schnettler",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/i7v7g-cwjtl-gzd2s-nt2ko-4d5su-vh64h-bqu4h-rio26-tbaej-dtj6d-fae",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "8fd318bc4493a30dc5816fde0f9fd3edf2fbdd1c8f4b435a4e35c85e6c5b80d2",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/8fd318bc4493a30dc5816fde0f9fd3edf2fbdd1c8f4b435a4e35c85e6c5b80d2",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Jeffrey Schnettler",
-            "toml_id": "Jeffrey Schnettler",
+            "logo_url": null,
             "principal_id": "5zqo2-omblo-i7knq-qyrfu-mjccn-tljyd-qslab-b7ukn-7tshi-pbeke-pae",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Jimmy Quach",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/5zqo2-omblo-i7knq-qyrfu-mjccn-tljyd-qslab-b7ukn-7tshi-pbeke-pae",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "25ab736990cae265334023b410744a7f23c616bbda941d64b466def9f4931810",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/25ab736990cae265334023b410744a7f23c616bbda941d64b466def9f4931810",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Jimmy Quach",
-            "toml_id": "Jimmy Quach",
+            "logo_url": null,
             "principal_id": "dzxyh-fo4sw-pxckk-kwqvc-xjten-3yqon-fm62b-2hz4s-raa4g-jzczg-iqe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Jonathan Ziskind",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/dzxyh-fo4sw-pxckk-kwqvc-xjten-3yqon-fm62b-2hz4s-raa4g-jzczg-iqe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "af3b62a7ec5142ab4c3f6d907b17dafc325e0459376b6888e7119e2ad5ba6814",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/af3b62a7ec5142ab4c3f6d907b17dafc325e0459376b6888e7119e2ad5ba6814",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Jonathan Ziskind",
-            "toml_id": "Jonathan Ziskind",
+            "logo_url": null,
             "principal_id": "qcs4o-yswwp-7ozhg-m2ago-ytjyl-zlckb-raykw-fi5hl-cflyt-4beyv-zqe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Joseph Stella",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/qcs4o-yswwp-7ozhg-m2ago-ytjyl-zlckb-raykw-fi5hl-cflyt-4beyv-zqe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "5b2bedcb7f422aa973394789e44efed362a73aee320aac66306e701eca667eed",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/5b2bedcb7f422aa973394789e44efed362a73aee320aac66306e701eca667eed",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Joseph Stella",
-            "toml_id": "Joseph Stella",
+            "logo_url": null,
             "principal_id": "f5wg2-kl4aq-cj4ym-nq7ul-i4kxy-t4x3x-yiyc5-3wlu6-opzwd-o5qes-hae",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "KLAW Media, LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/f5wg2-kl4aq-cj4ym-nq7ul-i4kxy-t4x3x-yiyc5-3wlu6-opzwd-o5qes-hae",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "69bbb81da575d7da6888be41001faab040d38b264ab57b25da2784e1ae2c4e25",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/69bbb81da575d7da6888be41001faab040d38b264ab57b25da2784e1ae2c4e25",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "KLAW Media, LLC",
-            "toml_id": "KLAW Media, LLC",
+            "logo_url": null,
             "principal_id": "pcwis-xaq3p-xvasz-5cfws-oelni-xs72v-acbwz-umxnq-nb2bc-ziyuu-sqe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Krishna Sriram",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/pcwis-xaq3p-xvasz-5cfws-oelni-xs72v-acbwz-umxnq-nb2bc-ziyuu-sqe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "29695cdd3dad87f574a7075783e8b7054ec0039de4e1b80df7711f0f2dbfc13d",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/29695cdd3dad87f574a7075783e8b7054ec0039de4e1b80df7711f0f2dbfc13d",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Krishna Sriram",
-            "toml_id": "Krishna Sriram",
+            "logo_url": null,
             "principal_id": "sajvr-l5iok-rj6c2-r76co-k2mde-d3kir-pnmjs-443f6-lxto4-pu55q-uae",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Lauren Dymecki Chickvara",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/sajvr-l5iok-rj6c2-r76co-k2mde-d3kir-pnmjs-443f6-lxto4-pu55q-uae",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "a19602be518930a15c098f433175d8391921c161cd942169d4a1505444980b0e",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/a19602be518930a15c098f433175d8391921c161cd942169d4a1505444980b0e",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Lauren Dymecki Chickvara",
-            "toml_id": "Lauren Dymecki Chickvara",
+            "logo_url": null,
             "principal_id": "abscc-3lezh-oezci-5i3kz-pkwlc-ozz3r-5wv4n-htujn-rtajh-6cgyv-jae",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Luke Jacobson",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/abscc-3lezh-oezci-5i3kz-pkwlc-ozz3r-5wv4n-htujn-rtajh-6cgyv-jae",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "e53bd6f1eb1058ff49015f4c5f1f0e0d13e2205cd48bb68fb9dc14d1ff9c029b",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e53bd6f1eb1058ff49015f4c5f1f0e0d13e2205cd48bb68fb9dc14d1ff9c029b",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Luke Jacobson",
-            "toml_id": "Luke Jacobson",
+            "logo_url": null,
             "principal_id": "6dwst-olsa5-tagsr-jylgj-oicju-rf42e-o7job-gedre-fgoxt-7br62-jqe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Marc Johnson",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/6dwst-olsa5-tagsr-jylgj-oicju-rf42e-o7job-gedre-fgoxt-7br62-jqe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "6ee207eeeec8c1d5742c23488ba0443e0c12657fb4027810f0f37aa8b59eaf83",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/6ee207eeeec8c1d5742c23488ba0443e0c12657fb4027810f0f37aa8b59eaf83",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Marc Johnson",
-            "toml_id": "Marc Johnson",
+            "logo_url": null,
             "principal_id": "xfvlz-qkgs4-xyeyx-lbke5-aarza-ovi52-wzpxl-3p27l-ov6ki-csxv6-qqe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Mary Ren",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/xfvlz-qkgs4-xyeyx-lbke5-aarza-ovi52-wzpxl-3p27l-ov6ki-csxv6-qqe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "cc6550f78c81c42a08ce2532c035ea22efcf3cbfb9933c5b3f319299e8abfb10",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/cc6550f78c81c42a08ce2532c035ea22efcf3cbfb9933c5b3f319299e8abfb10",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Mary Ren",
-            "toml_id": "Mary Ren",
+            "logo_url": null,
             "principal_id": "vdzyg-amckj-thvl5-bsn52-2elzd-drgii-ryh4c-izba3-xaehb-sohtd-aae",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Mika Properties, LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/vdzyg-amckj-thvl5-bsn52-2elzd-drgii-ryh4c-izba3-xaehb-sohtd-aae",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "122c316d89cb1e9cff5df5e7c0855ebd8675a3033678e56c289a992f1be5a95c",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/122c316d89cb1e9cff5df5e7c0855ebd8675a3033678e56c289a992f1be5a95c",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Mika Properties, LLC",
-            "toml_id": "Mika Properties, LLC",
+            "logo_url": null,
             "principal_id": "3siog-htc6j-ed3wz-sguhu-2objz-g5qct-npoma-t3wwt-bd6wy-chwsi-4ae",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Michel Guerra",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/3siog-htc6j-ed3wz-sguhu-2objz-g5qct-npoma-t3wwt-bd6wy-chwsi-4ae",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "eee3ff7dfa7b73adab48ba3e6c55a39fbce02cf09c49037114e62d1d8ccf0994",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/eee3ff7dfa7b73adab48ba3e6c55a39fbce02cf09c49037114e62d1d8ccf0994",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Michel Guerra",
-            "toml_id": "Michel Guerra",
+            "logo_url": null,
             "principal_id": "4anlt-yam7x-eodmx-ik7mo-nl3kx-t35fj-52hfy-uv4jj-u2iea-ntg76-pqe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Moon Block Ventures",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/4anlt-yam7x-eodmx-ik7mo-nl3kx-t35fj-52hfy-uv4jj-u2iea-ntg76-pqe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "eec71611f7a90b11b6f873e5a207a966412105073ecb07c53f563caae88d71b0",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/eec71611f7a90b11b6f873e5a207a966412105073ecb07c53f563caae88d71b0",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Moon Block Ventures",
-            "toml_id": "Moon Block Ventures",
+            "logo_url": null,
             "principal_id": "sdal5-w2c3d-p3buy-zieck-2wyuj-eu5bn-rkfe6-uuspi-o4n2b-gpei7-iae",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Mostly Wholesome, Inc",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/sdal5-w2c3d-p3buy-zieck-2wyuj-eu5bn-rkfe6-uuspi-o4n2b-gpei7-iae",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "90b90ce324abb4584bba6309b5847574ab871acfd8412287b1e5585090a00161",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/90b90ce324abb4584bba6309b5847574ab871acfd8412287b1e5585090a00161",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Mostly Wholesome, Inc",
-            "toml_id": "Mostly Wholesome, Inc",
+            "logo_url": null,
             "principal_id": "ou3o7-akyjc-ldwd5-anyjn-l2buz-cwhbg-nehlc-abkde-qtc7w-fozdi-hae",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Paul Legato",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/ou3o7-akyjc-ldwd5-anyjn-l2buz-cwhbg-nehlc-abkde-qtc7w-fozdi-hae",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "661f3c4fedf452b7c7754b83ff9998e20413646b6a9d5b70b039508276717482",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/661f3c4fedf452b7c7754b83ff9998e20413646b6a9d5b70b039508276717482",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Paul Legato",
-            "toml_id": "Paul Legato",
+            "logo_url": null,
             "principal_id": "yr4eg-kwk3m-q44vj-ale35-2mtxk-5dyn7-vgppx-z6tcw-kzo4o-ezpm5-fqe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Peggy Shafaghi",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/yr4eg-kwk3m-q44vj-ale35-2mtxk-5dyn7-vgppx-z6tcw-kzo4o-ezpm5-fqe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "88c3e82727c13e03c4b006c2f8d3394acddf0f07b12a20bd9bd79e7563e63621",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/88c3e82727c13e03c4b006c2f8d3394acddf0f07b12a20bd9bd79e7563e63621",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Peggy Shafaghi",
-            "toml_id": "Peggy Shafaghi",
+            "logo_url": null,
             "principal_id": "72idx-a7c3y-nrcwc-lboj4-mmsas-sfdpm-gq23i-h2yuy-lykcj-vrxn2-jqe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Philippe Chapparone",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/72idx-a7c3y-nrcwc-lboj4-mmsas-sfdpm-gq23i-h2yuy-lykcj-vrxn2-jqe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "6bede554c5451744dab71cf30021a9c187f27a638e8db18831d7fd9ae36cd350",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/6bede554c5451744dab71cf30021a9c187f27a638e8db18831d7fd9ae36cd350",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Philippe Chapparone",
-            "toml_id": "Philippe Chapparone",
+            "logo_url": null,
             "principal_id": "2c4m6-25hos-qroi3-mk4aj-nog6s-zbzcv-ccpcc-cbv7s-sjy6p-bv3g5-fae",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Prayit Jain",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/2c4m6-25hos-qroi3-mk4aj-nog6s-zbzcv-ccpcc-cbv7s-sjy6p-bv3g5-fae",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "5da64aae0ce6b173ab3ab68a34c76996c4e8130332219a2df112a372cb9745b0",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/5da64aae0ce6b173ab3ab68a34c76996c4e8130332219a2df112a372cb9745b0",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Prayit Jain",
-            "toml_id": "Prayit Jain",
+            "logo_url": null,
             "principal_id": "waj5k-wlyvv-jbj4n-vxwjm-dmkyg-uw2nl-ggojp-34kln-wgx3n-d7xih-5qe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Rachel Dymecki",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/waj5k-wlyvv-jbj4n-vxwjm-dmkyg-uw2nl-ggojp-34kln-wgx3n-d7xih-5qe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "d799d36aaa8d4d7fd326f32fd22169b922722488a4bcdf4c67037b7491f4d6a8",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/d799d36aaa8d4d7fd326f32fd22169b922722488a4bcdf4c67037b7491f4d6a8",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Rachel Dymecki",
-            "toml_id": "Rachel Dymecki",
+            "logo_url": null,
             "principal_id": "chnsu-yaqt5-6osy5-au4zn-li6yu-nufmw-dewrt-utkiu-twd76-ujypw-rae",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Richard Suarez",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/chnsu-yaqt5-6osy5-au4zn-li6yu-nufmw-dewrt-utkiu-twd76-ujypw-rae",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "37c1b0e7504e96ae6a4853aaf5749aa074a3c6ad7aaf05b25e36b0d97fad441f",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/37c1b0e7504e96ae6a4853aaf5749aa074a3c6ad7aaf05b25e36b0d97fad441f",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Richard Suarez",
-            "toml_id": "Richard Suarez",
+            "logo_url": null,
             "principal_id": "cmcjw-6c5ve-4zjnt-lipnl-2lp43-oh5wk-ewciz-xyvnv-m2rz5-hkm6a-hqe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Ricky Sidhu",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/cmcjw-6c5ve-4zjnt-lipnl-2lp43-oh5wk-ewciz-xyvnv-m2rz5-hkm6a-hqe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "7c8b1c9c62fc31b5ad8064f48c838655c06cd703622776a2fc3cecd2a5429adc",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/7c8b1c9c62fc31b5ad8064f48c838655c06cd703622776a2fc3cecd2a5429adc",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Ricky Sidhu",
-            "toml_id": "Ricky Sidhu",
+            "logo_url": null,
             "principal_id": "q22bo-3uyqa-jvtpt-gapjk-pseor-esx4a-zyb74-vzea4-o7nx2-tafgq-hae",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Rishi Sachdev",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/q22bo-3uyqa-jvtpt-gapjk-pseor-esx4a-zyb74-vzea4-o7nx2-tafgq-hae",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "c2be56866d5ec2387648c9d3d8b7a12b0e94bde0db359f44481d9f9e2915ab1e",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/c2be56866d5ec2387648c9d3d8b7a12b0e94bde0db359f44481d9f9e2915ab1e",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Rishi Sachdev",
-            "toml_id": "Rishi Sachdev",
+            "logo_url": null,
             "principal_id": "6tg64-cdfoh-kl35i-p6qti-sose3-746lr-jk5ex-phuvu-jfu3d-5svwa-7qe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Rodney Zorilla",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/6tg64-cdfoh-kl35i-p6qti-sose3-746lr-jk5ex-phuvu-jfu3d-5svwa-7qe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "f6b17a0a6b2e4e0446b2aeebea76f2cdcd70b2e24048337481506a44bf2b3d49",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/f6b17a0a6b2e4e0446b2aeebea76f2cdcd70b2e24048337481506a44bf2b3d49",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Rodney Zorilla",
-            "toml_id": "Rodney Zorilla",
+            "logo_url": null,
             "principal_id": "bgprp-b2mnt-ci5in-57vuk-p7qvo-tj2tb-5w5su-qwenk-gbe77-mnuiq-sqe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Ronnie Pellizzari",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/bgprp-b2mnt-ci5in-57vuk-p7qvo-tj2tb-5w5su-qwenk-gbe77-mnuiq-sqe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "a909ccc13585a5d229733ffbfef4a4729b25feac161108a2ba1e33befa8c0a2d",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/a909ccc13585a5d229733ffbfef4a4729b25feac161108a2ba1e33befa8c0a2d",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Ronnie Pellizzari",
-            "toml_id": "Ronnie Pellizzari",
+            "logo_url": null,
             "principal_id": "wwxec-c2gd2-bu5on-ktpwz-z2ph3-vlr4p-m7ztf-6ck7r-nt3r4-fxbdq-mae",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Russell Ford",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/wwxec-c2gd2-bu5on-ktpwz-z2ph3-vlr4p-m7ztf-6ck7r-nt3r4-fxbdq-mae",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "3d8276cea46db803163c77fb785e913accca87a5b433ca5d69a3215a4b4f87e9",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/3d8276cea46db803163c77fb785e913accca87a5b433ca5d69a3215a4b4f87e9",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Russell Ford",
-            "toml_id": "Russell Ford",
+            "logo_url": null,
             "principal_id": "p5jx4-lsrog-ep5o3-5uudg-opdg3-ur45z-xeefi-4ejfz-47t2k-riwfv-dae",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Scott Hallock",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/p5jx4-lsrog-ep5o3-5uudg-opdg3-ur45z-xeefi-4ejfz-47t2k-riwfv-dae",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "be63caded9a7342d5c63284e00655629827dc6c1e685df5cc11b88e47b79594a",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/be63caded9a7342d5c63284e00655629827dc6c1e685df5cc11b88e47b79594a",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Scott Hallock",
-            "toml_id": "Scott Hallock",
+            "logo_url": null,
             "principal_id": "i6sxi-fks25-viets-mboa7-3i23b-qeocf-e57qj-ar6vy-2mchu-xb5vp-aqe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Shelburne Ventures, LLC",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/i6sxi-fks25-viets-mboa7-3i23b-qeocf-e57qj-ar6vy-2mchu-xb5vp-aqe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "4046f63117597224eb87089079924f4113c9b24e475389ec721cb4118c2a399a",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/4046f63117597224eb87089079924f4113c9b24e475389ec721cb4118c2a399a",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Shelburne Ventures, LLC",
-            "toml_id": "Shelburne Ventures, LLC",
+            "logo_url": null,
             "principal_id": "a24zv-2ndbz-hqogc-ev63f-qxnpb-7ramd-usexl-ennaq-4om4k-sod6u-gae",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
+            "website": null
+        },
+        {
+            "display_name": "Staking Facilities",
+            "location_count": 1,
+            "locations": [
+                {
+                    "dc_key": "to1",
+                    "display_name": "Toronto",
+                    "latitude": 43.6458,
+                    "longitude": -79.4461,
+                    "owner": "Cyxtera",
+                    "region": "North America,CA,Ontario"
+                }
             ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/a24zv-2ndbz-hqogc-ev63f-qxnpb-7ramd-usexl-ennaq-4om4k-sod6u-gae",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "eb75a74bfb5776905609de83fe601470c0a68f3dd0fd310009a19226d23e7f7f",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/eb75a74bfb5776905609de83fe601470c0a68f3dd0fd310009a19226d23e7f7f",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Staking Facilities",
-            "toml_id": "Staking Facilities",
+            "logo_url": null,
             "principal_id": "niw4y-easue-l3qvz-sozsi-tfkvb-cxcx6-pzslg-5dqld-ooudp-hsuui-xae",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
-            ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/niw4y-easue-l3qvz-sozsi-tfkvb-cxcx6-pzslg-5dqld-ooudp-hsuui-xae",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "bfb09f6c105d7ddc59d849ec86103bb6180c834f4096ffdbd723cdd781f4dde5",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/bfb09f6c105d7ddc59d849ec86103bb6180c834f4096ffdbd723cdd781f4dde5",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Starseed Technology, LLC",
-            "toml_id": "Starseed Technology, LLC",
+            "website": null
+        },
+        {
+            "display_name": "Starseed Technology, LLC",
+            "location_count": 1,
+            "locations": [{
+                "dc_key": "to1",
+                "display_name": "Toronto",
+                "latitude": 43.6458,
+                "longitude": -79.4461,
+                "owner": "Cyxtera",
+                "region": "North America,CA,Ontario"
+            }],
+            "logo_url": null,
             "principal_id": "ruxoj-jnqql-uau6o-xwrtb-ufde4-geddn-mnhni-wpew4-zhzi5-xjrxi-lqe",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
-            ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/ruxoj-jnqql-uau6o-xwrtb-ufde4-geddn-mnhni-wpew4-zhzi5-xjrxi-lqe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "cacf86ca87d8a86241149e63e84698c11056ce90ed214ac4647657ddd42377ad",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/cacf86ca87d8a86241149e63e84698c11056ce90ed214ac4647657ddd42377ad",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "Wolfhound LLC",
-            "toml_id": "Wolfhound LLC",
+            "website": null
+        },
+        {
+            "display_name": "Wolfhound LLC",
+            "location_count": 1,
+            "locations": [{
+                "dc_key": "to1",
+                "display_name": "Toronto",
+                "latitude": 43.6458,
+                "longitude": -79.4461,
+                "owner": "Cyxtera",
+                "region": "North America,CA,Ontario"
+            }],
+            "logo_url": null,
             "principal_id": "6mifr-stcqy-w5pzr-qpijh-jopft-p6jl3-n2sww-jhmzg-uzknn-hte4m-pae",
-            "location_count": 1,
+            "total_node_allowance": 0,
             "total_nodes": 28,
             "total_rewardable_nodes": 28,
             "total_subnets": 0,
             "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
-            ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/6mifr-stcqy-w5pzr-qpijh-jopft-p6jl3-n2sww-jhmzg-uzknn-hte4m-pae",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "18cbd29c4ed82cc94dc958810fb421276dd75785ba08558cdf3ba467d9e6dcb6",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/18cbd29c4ed82cc94dc958810fb421276dd75785ba08558cdf3ba467d9e6dcb6",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          },
-          {
-            "name": "ZTLC PTE LTD (deprecated)",
-            "toml_id": "ZTLC PTE LTD (deprecated)",
-            "principal_id": "xsrwt-tl3tk-n3aya-rafh3-ta6xu-eviw5-ae5dg-2f3bf-siaab-wdwdo-dqe",
-            "location_count": 1,
-            "total_nodes": 28,
-            "total_rewardable_nodes": 28,
-            "total_subnets": 0,
-            "total_unassigned_nodes": 27,
-            "regions": [
-              "North America"
-            ],
-            "countries": [
-              "CA"
-            ],
-            "towns": [
-              "Ontario"
-            ],
-            "dashboard_link": "https://dashboard.internetcomputer.org/provider/xsrwt-tl3tk-n3aya-rafh3-ta6xu-eviw5-ae5dg-2f3bf-siaab-wdwdo-dqe",
-            "wiki_link": "https://wiki.internetcomputer.org/wiki/0X52",
-            "document_validations": [
-              {
-                "document_type": "declaration",
-                "file_path": "../frontend/static/np-list/0x52/declaration.pdf",
-                "expected_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "actual_hash": "42d3114d4cf04edbb2cfffae40ea05707882f3b7198e5804ef67cff5cebc3ece",
-                "matches": true
-              },
-              {
-                "document_type": "identity",
-                "file_path": "../frontend/static/np-list/0x52/identity.pdf",
-                "expected_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "actual_hash": "d26479db1dc5e48da70bb117c251af7b36b17db9e8c5180194be070e82b287a3",
-                "matches": true
-              },
-              {
-                "document_type": "handover",
-                "file_path": "../frontend/static/np-list/0x52/handover.pdf",
-                "expected_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "actual_hash": "9f8c7049cea647ce9e0431ece9a5b7593517563f651a850f2bad9c63c167ea8e",
-                "matches": true
-              }
-            ],
-            "rewards": {
-              "reward_account_hex": "1a6d0159bf2b0e773f5d52018e6d6a27edb100964bbf4f49811150ea4c31d968",
-              "reward_account_formatted": "b287413a3569526c48c93ba8c53d7f3974ebf6839fe67b6e0f90a29505017806",
-              "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/1a6d0159bf2b0e773f5d52018e6d6a27edb100964bbf4f49811150ea4c31d968",
-              "most_recent_reward_e8s": 624492640728,
-              "most_recent_reward_xdr": 30463.99999999329,
-              "most_recent_timestamp": 1742004534,
-              "total_mint_rewards_e8s": 624492640728,
-              "total_mint_rewards_icp": 6244.92640728,
-              "mint_transaction_count": 2,
-              "first_mint_timestamp": 1739374733,
-              "last_mint_timestamp": 1742004534
-            }
-          }
+            "website": null
+        }
     ]
 }

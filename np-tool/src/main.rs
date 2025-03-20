@@ -15,7 +15,7 @@ mod icp;
 const TOML_PATH: &str = "node_providers-wiki.toml";
 const DOCS_DIR: &str = "../frontend/static/np-list";
 const OUTPUT_PATH: &str = "../frontend/src/routes/combined_providers.json";
-const NP_STATIC: &str = "np_list.json";
+const NP_STATIC: &str = "src/np_list.json";
 const GOVERNANCE_CANISTER_ID: &str = "rrkah-fqaaa-aaaaa-aaaaq-cai";
 const IC_URL: &str = "https://ic0.app";
 const API_URL: &str = "https://ic-api.internetcomputer.org/api/v3/node-providers?format=json";
@@ -225,33 +225,36 @@ struct CombinedNodeProvider {
 async fn fetch_node_providers() -> Result<ApiResponse> {
     println!("Fetching node providers data from API: {}", API_URL);
 
-    let client = reqwest::Client::new();
-    let response = client
-        .get(API_URL)
-        .header("accept", "application/json")
-        .send()
-        .await?;
+    // let client = reqwest::Client::new();
+    // let response = client
+    //     .get(API_URL)
+    //     .header("accept", "application/json")
+    //     .send()
+    //     .await?;
 
-    if !response.status().is_success() {
-        let status = response.status();
-        eprintln!("Error: API returned status code {}", status);
+    // if !response.status().is_success() {
+    //     let status = response.status();
+    //     eprintln!("Error: API returned status code {}", status);
 
-        // Create a custom error message
-        let error_message = format!("API request failed with status code: {}", status);
-        return Err(MyError::Toml(error_message)); // Using the Toml error variant as a workaround
-    }
+    //     // Create a custom error message
+    //     let error_message = format!("API request failed with status code: {}", status);
+    //     return Err(MyError::Toml(error_message)); // Using the Toml error variant as a workaround
+    // }
 
-    let json_data = response.text().await?;
-    let api_data: ApiResponse = serde_json::from_str(&json_data)?;
-    println!(
-        "Successfully fetched {} node providers from API",
-        api_data.node_providers.len()
-    );
+    // let json_data = response.text().await?;
+    // let api_data: ApiResponse = serde_json::from_str(&json_data)?;
+    // println!(
+    //     "Successfully fetched {} node providers from API",
+    //     api_data.node_providers.len()
+    // );
 
     // Optionally save the JSON response to a file for debugging
-    fs::write("node_providers.json", &NP_STATIC)?;
-    println!("Saved API response to node_providers.json");
+    // fs::write("node_providers.json", &json_data)?;
+    let json_string = fs::read_to_string(NP_STATIC)?;
+    fs::write("node_providers.json", &json_string)?;
 
+    println!("Saved API response to node_providers.json");
+    let api_data: ApiResponse = serde_json::from_str(&json_string)?;
     Ok(api_data)
 }
 

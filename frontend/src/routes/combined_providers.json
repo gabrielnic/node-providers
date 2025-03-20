@@ -164,9 +164,9 @@
       "US"
     ],
     "towns": [
+      "Oregon",
       "Texas",
-      "Nevada",
-      "Oregon"
+      "Nevada"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/eipr5-izbom-neyqh-s3ec2-52eww-cyfpg-qfomg-3dpwj-4pffh-34xcu-7qe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/87m_Neuron,_LLC",
@@ -408,8 +408,8 @@
       "Europe"
     ],
     "countries": [
-      "HR",
-      "SI"
+      "SI",
+      "HR"
     ],
     "towns": [
       "Ljubljana",
@@ -552,22 +552,22 @@
       "Europe"
     ],
     "countries": [
-      "CZ",
-      "PL",
-      "ES",
-      "PT",
       "LT",
       "LV",
-      "EE"
+      "CZ",
+      "EE",
+      "PT",
+      "ES",
+      "PL"
     ],
     "towns": [
+      "Lisbon",
       "Warszawa",
       "Madrid",
       "Praha",
+      "Vilnius",
       "Riga",
-      "Lisbon",
-      "Tallinn",
-      "Vilnius"
+      "Tallinn"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/diyay-s4rfq-xnx23-zczwi-nptra-5254n-e4zn6-p7tqe-vqhzr-sd4gd-bqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Artem_Horodyskyi",
@@ -723,12 +723,12 @@
       "Oceania"
     ],
     "countries": [
-      "US",
-      "AU"
+      "AU",
+      "US"
     ],
     "towns": [
-      "Melbourne",
-      "Pennsylvania"
+      "Pennsylvania",
+      "Melbourne"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/7a4u2-gevsy-5c5fs-hsgri-n2kdz-dxxwf-btcfp-jykro-l4y7c-7xky2-aqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Bigger_Capital",
@@ -778,8 +778,8 @@
       "PT"
     ],
     "towns": [
-      "Barreiro",
-      "Lisbon"
+      "Lisbon",
+      "Barreiro"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/mjnyf-lzqq6-s7fzb-62rqm-xzvge-5oa26-humwp-dvwxp-jxxkf-hoel7-fqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Bitmoon",
@@ -829,8 +829,8 @@
       "CA"
     ],
     "towns": [
-      "Ontario",
-      "British Columbia"
+      "British Columbia",
+      "Ontario"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/7at4h-nhtvt-a4s55-jigss-wr2ha-ysxkn-e6w7x-7ggnm-qd3d5-ry66r-cae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Blockchain_Development_Labs_Inc",
@@ -1049,21 +1049,21 @@
       "Europe"
     ],
     "countries": [
-      "ES",
       "CZ",
       "LV",
-      "PT",
-      "LT",
       "EE",
-      "PL"
+      "ES",
+      "PT",
+      "PL",
+      "LT"
     ],
     "towns": [
-      "Madrid",
+      "Siauliai",
       "Tallinn",
       "Warszawa",
+      "Madrid",
       "South Moravian Region",
       "Riga",
-      "Siauliai",
       "Barreiro"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/dhywe-eouw6-hstpj-ahsnw-xnjxq-cmqks-47mrg-nnncb-3sr5d-rac6m-nae",
@@ -1211,16 +1211,16 @@
     "total_subnets": 4,
     "total_unassigned_nodes": 0,
     "regions": [
-      "Europe",
-      "Oceania"
+      "Oceania",
+      "Europe"
     ],
     "countries": [
       "AU",
       "UK"
     ],
     "towns": [
-      "New South Wales",
-      "London"
+      "London",
+      "New South Wales"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/i3cfo-s2tgu-qe5ym-wk7e6-y7ura-pptgu-kevuf-2feh7-z4enq-5hz4s-mqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Conic_Ventures",
@@ -1416,14 +1416,14 @@
       "Europe"
     ],
     "countries": [
-      "FR",
       "SE",
-      "CH"
+      "CH",
+      "FR"
     ],
     "towns": [
-      "Zurich",
+      "Stockholm",
       "Provence-Alpes-Cote d'Azur",
-      "Stockholm"
+      "Zurich"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/bvcsg-3od6r-jnydw-eysln-aql7w-td5zn-ay5m6-sibd2-jzojt-anwag-mqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/DFINITY_Stiftung",
@@ -1866,8 +1866,8 @@
       "CR"
     ],
     "towns": [
-      "Tel Aviv",
-      "San Jose"
+      "San Jose",
+      "Tel Aviv"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/6sq7t-knkul-fko6h-xzvnf-ktbvr-jhx7r-hapzr-kjlek-whugy-zt6ip-xqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/GeoNodes_LLC",
@@ -2208,22 +2208,22 @@
       "Europe"
     ],
     "countries": [
-      "LT",
-      "ES",
-      "CZ",
-      "PT",
       "LV",
       "EE",
-      "PL"
+      "LT",
+      "PL",
+      "ES",
+      "PT",
+      "CZ"
     ],
     "towns": [
-      "Tallinn",
       "Warszawa",
-      "Riga",
-      "Praha",
       "Vilnius",
+      "Praha",
+      "Riga",
       "Lisbon",
-      "Madrid"
+      "Madrid",
+      "Tallinn"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/ivf2y-crxj4-y6ewo-un35q-a7pum-wqmbw-pkepy-d6uew-bfmff-g5yxe-eae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Ivanov_Oleksandr",
@@ -2274,16 +2274,16 @@
     "total_subnets": 10,
     "total_unassigned_nodes": 7,
     "regions": [
-      "Oceania",
-      "Africa"
+      "Africa",
+      "Oceania"
     ],
     "countries": [
       "AU",
       "ZA"
     ],
     "towns": [
-      "Gauteng",
-      "Queensland"
+      "Queensland",
+      "Gauteng"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/unqqg-no4b2-vbyad-ytik2-t3vly-3e57q-aje2t-sjb5l-bd4ke-chggn-uqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Karel_Frank",
@@ -2567,22 +2567,22 @@
       "Europe"
     ],
     "countries": [
-      "ES",
-      "LV",
-      "EE",
       "PL",
-      "LT",
+      "CZ",
+      "ES",
       "PT",
-      "CZ"
+      "EE",
+      "LV",
+      "LT"
     ],
     "towns": [
-      "Vilnius",
       "Tallinn",
-      "Barreiro",
-      "Madrid",
-      "Riga",
       "Warszawa",
-      "South Moravian Region"
+      "Barreiro",
+      "South Moravian Region",
+      "Vilnius",
+      "Madrid",
+      "Riga"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/4r6qy-tljxg-slziw-zoteo-pboxh-vlctz-hkv2d-7zior-u3pxm-mmuxb-cae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Maksym_Ishchenko",
@@ -2687,8 +2687,8 @@
       "North America"
     ],
     "countries": [
-      "CA",
-      "IN"
+      "IN",
+      "CA"
     ],
     "towns": [
       "New Delhi",
@@ -2765,8 +2765,8 @@
     ],
     "towns": [
       "Illinois",
-      "Virginia",
-      "Arizona"
+      "Arizona",
+      "Virginia"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/izmhk-lpjum-uo4oy-lviba-yctpc-arg4b-2ywim-vgoiu-gqaj2-gskmw-2qe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/MI_Servers",
@@ -3094,12 +3094,12 @@
     "total_subnets": 0,
     "total_unassigned_nodes": 28,
     "regions": [
-      "Europe",
-      "North America"
+      "North America",
+      "Europe"
     ],
     "countries": [
-      "US",
-      "BE"
+      "BE",
+      "US"
     ],
     "towns": [
       "Flanders",
@@ -3345,12 +3345,12 @@
       "Asia"
     ],
     "countries": [
-      "KR",
-      "HK"
+      "HK",
+      "KR"
     ],
     "towns": [
-      "Seoul",
-      "HongKong"
+      "HongKong",
+      "Seoul"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/r3yjn-kthmg-pfgmb-2fngg-5c7d7-t6kqg-wi37r-j7gy6-iee64-kjdja-jae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/PindarTechnologyLimited",
@@ -3627,9 +3627,9 @@
       "US"
     ],
     "towns": [
-      "New York",
       "Illinois",
-      "Florida"
+      "Florida",
+      "New York"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/spp3m-vawt7-3gyh6-pjz5d-6zidf-up3qb-yte62-otexv-vfpqg-n6awf-lqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Rivonia_Holdings,_LLC",
@@ -3680,8 +3680,8 @@
     "total_subnets": 10,
     "total_unassigned_nodes": 3,
     "regions": [
-      "North America",
-      "Asia"
+      "Asia",
+      "North America"
     ],
     "countries": [
       "CA",
@@ -4073,22 +4073,22 @@
       "Europe"
     ],
     "countries": [
-      "ES",
-      "LV",
       "LT",
       "PL",
+      "LV",
       "PT",
-      "EE",
-      "CZ"
+      "CZ",
+      "ES",
+      "EE"
     ],
     "towns": [
-      "Siauliai",
       "Tallinn",
       "Praha",
+      "Lisbon",
       "Madrid",
       "Warszawa",
-      "Lisbon",
-      "Riga"
+      "Riga",
+      "Siauliai"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/3oqw6-vmpk2-mlwlx-52z5x-e3p7u-fjlcw-yxc34-lf2zq-6ub2f-v63hk-lae",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Vladyslav_Popov",
@@ -4177,12 +4177,12 @@
       "Asia"
     ],
     "countries": [
-      "HK",
-      "KR"
+      "KR",
+      "HK"
     ],
     "towns": [
-      "Seoul",
-      "HongKong"
+      "HongKong",
+      "Seoul"
     ],
     "dashboard_link": "https://dashboard.internetcomputer.org/provider/64xe5-tx2s3-4gjmj-pnozr-fejw2-77y5y-rhcjk-glnmx-62brf-qin5q-pqe",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/User:Web3game",
@@ -4496,21 +4496,1579 @@
     }
   },
   {
-    "name": "Stamper Co., Ltd.",
-    "toml_id": "stamper",
-    "principal_id": "",
-    "location_count": 0,
-    "total_nodes": 0,
-    "total_rewardable_nodes": 0,
+    "name": "1G",
+    "toml_id": null,
+    "principal_id": "7k7b7-4pzhf-aivy6-y654t-uqyup-2auiz-ew2cm-4qkl4-nsl4v-bul5k-5qe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
     "total_subnets": 0,
-    "total_unassigned_nodes": 0,
-    "regions": [],
-    "countries": [],
-    "towns": [],
-    "dashboard_link": "",
-    "wiki_link": "https://wiki.internetcomputer.org/wiki/Stamper_Co.,_Ltd.",
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/7k7b7-4pzhf-aivy6-y654t-uqyup-2auiz-ew2cm-4qkl4-nsl4v-bul5k-5qe",
+    "wiki_link": null,
     "document_validations": [],
-    "rewards": null
+    "rewards": {
+      "reward_account_hex": "1ed1002c09092b00373a8ef760209e0721a22586c6487201f4644d97",
+      "reward_account_formatted": "8b1cc0f51ed1002c09092b00373a8ef760209e0721a22586c6487201f4644d97",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/8b1cc0f51ed1002c09092b00373a8ef760209e0721a22586c6487201f4644d97",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 4431853543611,
+      "total_mint_rewards_icp": 44318.53543611,
+      "mint_transaction_count": 45,
+      "first_mint_timestamp": 1623704764,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "A Dog's Boutique",
+    "toml_id": null,
+    "principal_id": "uvawj-nnt3i-4ch3a-hruy4-hyfjn-7owvl-wgkli-uq2hd-e6lkq-v4b2o-4ae",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/uvawj-nnt3i-4ch3a-hruy4-hyfjn-7owvl-wgkli-uq2hd-e6lkq-v4b2o-4ae",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "5da622a98d590510519aa6808addd69f3c7c811f5b2fecd551b445d3",
+      "reward_account_formatted": "d10e0b2d5da622a98d590510519aa6808addd69f3c7c811f5b2fecd551b445d3",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/d10e0b2d5da622a98d590510519aa6808addd69f3c7c811f5b2fecd551b445d3",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 768629196708,
+      "total_mint_rewards_icp": 7686.29196708,
+      "mint_transaction_count": 36,
+      "first_mint_timestamp": 1647280089,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Adam Dymecki",
+    "toml_id": null,
+    "principal_id": "n32q7-33lmk-m33tr-o5ltb-po6cb-tqqrr-2x6wp-pzhw7-ymizu-o3fyp-sqe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/n32q7-33lmk-m33tr-o5ltb-po6cb-tqqrr-2x6wp-pzhw7-ymizu-o3fyp-sqe",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "1c1ce5b0861822429066d0abd918b2e2843f1471887f4a97f6c46495",
+      "reward_account_formatted": "e722e1bc1c1ce5b0861822429066d0abd918b2e2843f1471887f4a97f6c46495",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e722e1bc1c1ce5b0861822429066d0abd918b2e2843f1471887f4a97f6c46495",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 1778423363434,
+      "total_mint_rewards_icp": 17784.23363434,
+      "mint_transaction_count": 45,
+      "first_mint_timestamp": 1623704407,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Arjay LLC",
+    "toml_id": null,
+    "principal_id": "l2kri-jarwr-7whc4-pjdpn-n6hlb-45ltr-l6ghm-twttl-pcsvt-rynko-dqe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/l2kri-jarwr-7whc4-pjdpn-n6hlb-45ltr-l6ghm-twttl-pcsvt-rynko-dqe",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "431a9b258534f9dfef00745fcbf10d2b6992959e056123189c8d2a80",
+      "reward_account_formatted": "07e29d29431a9b258534f9dfef00745fcbf10d2b6992959e056123189c8d2a80",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/07e29d29431a9b258534f9dfef00745fcbf10d2b6992959e056123189c8d2a80",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 4113024391358,
+      "total_mint_rewards_icp": 41130.24391358,
+      "mint_transaction_count": 36,
+      "first_mint_timestamp": 1647280089,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Boolean Bit, LLC",
+    "toml_id": null,
+    "principal_id": "qdj4d-76lh3-w2q5i-kwjcd-643pq-pk42d-cziag-4hkau-35gib-m7s33-6qe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/qdj4d-76lh3-w2q5i-kwjcd-643pq-pk42d-cziag-4hkau-35gib-m7s33-6qe",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "166b4eab6a0c2771a1e45b6345e9ae345ccd205c1d500c30b2c41f35",
+      "reward_account_formatted": "dbfadb54166b4eab6a0c2771a1e45b6345e9ae345ccd205c1d500c30b2c41f35",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/dbfadb54166b4eab6a0c2771a1e45b6345e9ae345ccd205c1d500c30b2c41f35",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 5380404377062,
+      "total_mint_rewards_icp": 53804.04377062,
+      "mint_transaction_count": 36,
+      "first_mint_timestamp": 1647280089,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Brener, Inc.",
+    "toml_id": null,
+    "principal_id": "2wxxr-qwylo-n7dhz-6co6m-iektd-vl7dn-ocvyc-xazaf-hbfxq-66spe-aae",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/2wxxr-qwylo-n7dhz-6co6m-iektd-vl7dn-ocvyc-xazaf-hbfxq-66spe-aae",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "0f8534ca391fa9f74dad7b1401fb068a6656f0f09ee49b7d6d9606f4",
+      "reward_account_formatted": "b6f282630f8534ca391fa9f74dad7b1401fb068a6656f0f09ee49b7d6d9606f4",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/b6f282630f8534ca391fa9f74dad7b1401fb068a6656f0f09ee49b7d6d9606f4",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 4690503306364,
+      "total_mint_rewards_icp": 46905.03306364,
+      "mint_transaction_count": 34,
+      "first_mint_timestamp": 1652517456,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "CRM52 Systems, LLC",
+    "toml_id": null,
+    "principal_id": "7nxxb-6qgm4-fftx3-xkwpj-sjrcm-tzmk5-dvuqk-l4ei4-3hvii-scwnj-tae",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/7nxxb-6qgm4-fftx3-xkwpj-sjrcm-tzmk5-dvuqk-l4ei4-3hvii-scwnj-tae",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "acfd2d5590f472fe14f8a5945c73aa38cee23ead6bf65d01ec9ffbb2",
+      "reward_account_formatted": "c2236472acfd2d5590f472fe14f8a5945c73aa38cee23ead6bf65d01ec9ffbb2",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/c2236472acfd2d5590f472fe14f8a5945c73aa38cee23ead6bf65d01ec9ffbb2",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 768629196708,
+      "total_mint_rewards_icp": 7686.29196708,
+      "mint_transaction_count": 36,
+      "first_mint_timestamp": 1647280089,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "DRMxTech Enterprises, LLC",
+    "toml_id": null,
+    "principal_id": "olgti-2hegv-ya7pd-ky2wt-of57j-tzs6q-ydrpy-hdxyy-cjnwx-ox5t4-3qe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/olgti-2hegv-ya7pd-ky2wt-of57j-tzs6q-ydrpy-hdxyy-cjnwx-ox5t4-3qe",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "8a2b4905b82786f1eb12c9d4c424e18291db3e86401996abfae33eb2",
+      "reward_account_formatted": "62ac3d3e8a2b4905b82786f1eb12c9d4c424e18291db3e86401996abfae33eb2",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/62ac3d3e8a2b4905b82786f1eb12c9d4c424e18291db3e86401996abfae33eb2",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 768629196708,
+      "total_mint_rewards_icp": 7686.29196708,
+      "mint_transaction_count": 36,
+      "first_mint_timestamp": 1647280089,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Finteck LLC",
+    "toml_id": null,
+    "principal_id": "x3zyd-pkcbf-5n3w2-n7uov-2qrbt-d3kfn-ojdd7-pxog5-vpqnt-6lex5-fqe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/x3zyd-pkcbf-5n3w2-n7uov-2qrbt-d3kfn-ojdd7-pxog5-vpqnt-6lex5-fqe",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "935a756a144531018cd899b11c7904d2a58fcde612e96b0d2ca6f984",
+      "reward_account_formatted": "18614cba935a756a144531018cd899b11c7904d2a58fcde612e96b0d2ca6f984",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/18614cba935a756a144531018cd899b11c7904d2a58fcde612e96b0d2ca6f984",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 3277273675176,
+      "total_mint_rewards_icp": 32772.73675176,
+      "mint_transaction_count": 44,
+      "first_mint_timestamp": 1626877241,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Fritz Huie",
+    "toml_id": null,
+    "principal_id": "67gkg-gkgzz-g2ubz-3cc6h-jr3zm-twsii-7i325-r3gzr-kp2kh-dwxg6-pqe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/67gkg-gkgzz-g2ubz-3cc6h-jr3zm-twsii-7i325-r3gzr-kp2kh-dwxg6-pqe",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "c24e6fdd8d5948a6d52b52cefc19f215eaad6bfa8c159caafee69a87",
+      "reward_account_formatted": "232413d1c24e6fdd8d5948a6d52b52cefc19f215eaad6bfa8c159caafee69a87",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/232413d1c24e6fdd8d5948a6d52b52cefc19f215eaad6bfa8c159caafee69a87",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 1537258393434,
+      "total_mint_rewards_icp": 15372.58393434,
+      "mint_transaction_count": 36,
+      "first_mint_timestamp": 1647280089,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "FUM Capital, LLC",
+    "toml_id": null,
+    "principal_id": "zgupw-boshs-mg6kz-2ciwm-upk7g-igjpn-75t3p-np6g4-47l7q-nuefa-6qe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/zgupw-boshs-mg6kz-2ciwm-upk7g-igjpn-75t3p-np6g4-47l7q-nuefa-6qe",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "01eab990e97b490ef97b9818aa04161cfeca6404d92b567bcc0f42f0",
+      "reward_account_formatted": "e1e4355001eab990e97b490ef97b9818aa04161cfeca6404d92b567bcc0f42f0",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e1e4355001eab990e97b490ef97b9818aa04161cfeca6404d92b567bcc0f42f0",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 4167137271895,
+      "total_mint_rewards_icp": 41671.37271895,
+      "mint_transaction_count": 53,
+      "first_mint_timestamp": 1623396684,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Goat, LLC",
+    "toml_id": null,
+    "principal_id": "p6fou-ngmgk-rxc6t-7ckzz-hojr2-kk6r3-xnlrk-ewzvu-g6xms-rfafz-zae",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/p6fou-ngmgk-rxc6t-7ckzz-hojr2-kk6r3-xnlrk-ewzvu-g6xms-rfafz-zae",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "cd77aa7350b843f94199842d1eb569ad069a56af665f75cf5388a48f",
+      "reward_account_formatted": "e003fd03cd77aa7350b843f94199842d1eb569ad069a56af665f75cf5388a48f",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e003fd03cd77aa7350b843f94199842d1eb569ad069a56af665f75cf5388a48f",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 5525970508308,
+      "total_mint_rewards_icp": 55259.70508308,
+      "mint_transaction_count": 43,
+      "first_mint_timestamp": 1626275318,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Goodsir, LLC",
+    "toml_id": null,
+    "principal_id": "myrs2-bc6j6-mydpr-2jmli-l45mu-35ybt-c34mo-kjpve-zmaao-ajusy-nqe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/myrs2-bc6j6-mydpr-2jmli-l45mu-35ybt-c34mo-kjpve-zmaao-ajusy-nqe",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "3fd4a7ac61b96b460cbee3d49015cdce7899626024298bc996a5a09b",
+      "reward_account_formatted": "c54439503fd4a7ac61b96b460cbee3d49015cdce7899626024298bc996a5a09b",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/c54439503fd4a7ac61b96b460cbee3d49015cdce7899626024298bc996a5a09b",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 768629196708,
+      "total_mint_rewards_icp": 7686.29196708,
+      "mint_transaction_count": 36,
+      "first_mint_timestamp": 1647280089,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "IC Pros",
+    "toml_id": null,
+    "principal_id": "srga3-cikqa-srnxx-rwejf-672jj-5o6qy-tuzsa-khds3-2ofjw-5gnew-mae",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/srga3-cikqa-srnxx-rwejf-672jj-5o6qy-tuzsa-khds3-2ofjw-5gnew-mae",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "373858f624de76a0ce9b84a8544626a8bb55e23a4432950767be8dcb",
+      "reward_account_formatted": "5707aeee373858f624de76a0ce9b84a8544626a8bb55e23a4432950767be8dcb",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/5707aeee373858f624de76a0ce9b84a8544626a8bb55e23a4432950767be8dcb",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 63805041734,
+      "total_mint_rewards_icp": 638.05041734,
+      "mint_transaction_count": 28,
+      "first_mint_timestamp": 1668370114,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Internet Computer Explorer",
+    "toml_id": null,
+    "principal_id": "i7v7g-cwjtl-gzd2s-nt2ko-4d5su-vh64h-bqu4h-rio26-tbaej-dtj6d-fae",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/i7v7g-cwjtl-gzd2s-nt2ko-4d5su-vh64h-bqu4h-rio26-tbaej-dtj6d-fae",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "4493a30dc5816fde0f9fd3edf2fbdd1c8f4b435a4e35c85e6c5b80d2",
+      "reward_account_formatted": "8fd318bc4493a30dc5816fde0f9fd3edf2fbdd1c8f4b435a4e35c85e6c5b80d2",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/8fd318bc4493a30dc5816fde0f9fd3edf2fbdd1c8f4b435a4e35c85e6c5b80d2",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 4080162137465,
+      "total_mint_rewards_icp": 40801.62137465,
+      "mint_transaction_count": 36,
+      "first_mint_timestamp": 1647280089,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Jeffrey Schnettler",
+    "toml_id": null,
+    "principal_id": "5zqo2-omblo-i7knq-qyrfu-mjccn-tljyd-qslab-b7ukn-7tshi-pbeke-pae",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/5zqo2-omblo-i7knq-qyrfu-mjccn-tljyd-qslab-b7ukn-7tshi-pbeke-pae",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "397b1be9c86cb0e54a5f32200cadcff65243653d5c9953fc8fc80a53",
+      "reward_account_formatted": "000e9f63397b1be9c86cb0e54a5f32200cadcff65243653d5c9953fc8fc80a53",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/000e9f63397b1be9c86cb0e54a5f32200cadcff65243653d5c9953fc8fc80a53",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 1013909335324,
+      "total_mint_rewards_icp": 10139.09335324,
+      "mint_transaction_count": 24,
+      "first_mint_timestamp": 1678889315,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Jimmy Quach",
+    "toml_id": null,
+    "principal_id": "dzxyh-fo4sw-pxckk-kwqvc-xjten-3yqon-fm62b-2hz4s-raa4g-jzczg-iqe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/dzxyh-fo4sw-pxckk-kwqvc-xjten-3yqon-fm62b-2hz4s-raa4g-jzczg-iqe",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "ec5142ab4c3f6d907b17dafc325e0459376b6888e7119e2ad5ba6814",
+      "reward_account_formatted": "af3b62a7ec5142ab4c3f6d907b17dafc325e0459376b6888e7119e2ad5ba6814",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/af3b62a7ec5142ab4c3f6d907b17dafc325e0459376b6888e7119e2ad5ba6814",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 6191337017062,
+      "total_mint_rewards_icp": 61913.37017062,
+      "mint_transaction_count": 45,
+      "first_mint_timestamp": 1623705174,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Jonathan Ziskind",
+    "toml_id": null,
+    "principal_id": "qcs4o-yswwp-7ozhg-m2ago-ytjyl-zlckb-raykw-fi5hl-cflyt-4beyv-zqe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/qcs4o-yswwp-7ozhg-m2ago-ytjyl-zlckb-raykw-fi5hl-cflyt-4beyv-zqe",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "7f422aa973394789e44efed362a73aee320aac66306e701eca667eed",
+      "reward_account_formatted": "5b2bedcb7f422aa973394789e44efed362a73aee320aac66306e701eca667eed",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/5b2bedcb7f422aa973394789e44efed362a73aee320aac66306e701eca667eed",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 881897565458,
+      "total_mint_rewards_icp": 8818.97565458,
+      "mint_transaction_count": 44,
+      "first_mint_timestamp": 1623703985,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Joseph Stella",
+    "toml_id": null,
+    "principal_id": "f5wg2-kl4aq-cj4ym-nq7ul-i4kxy-t4x3x-yiyc5-3wlu6-opzwd-o5qes-hae",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/f5wg2-kl4aq-cj4ym-nq7ul-i4kxy-t4x3x-yiyc5-3wlu6-opzwd-o5qes-hae",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "a575d7da6888be41001faab040d38b264ab57b25da2784e1ae2c4e25",
+      "reward_account_formatted": "69bbb81da575d7da6888be41001faab040d38b264ab57b25da2784e1ae2c4e25",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/69bbb81da575d7da6888be41001faab040d38b264ab57b25da2784e1ae2c4e25",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 3277451325176,
+      "total_mint_rewards_icp": 32774.51325176,
+      "mint_transaction_count": 44,
+      "first_mint_timestamp": 1626877260,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "KLAW Media, LLC",
+    "toml_id": null,
+    "principal_id": "pcwis-xaq3p-xvasz-5cfws-oelni-xs72v-acbwz-umxnq-nb2bc-ziyuu-sqe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/pcwis-xaq3p-xvasz-5cfws-oelni-xs72v-acbwz-umxnq-nb2bc-ziyuu-sqe",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "3dad87f574a7075783e8b7054ec0039de4e1b80df7711f0f2dbfc13d",
+      "reward_account_formatted": "29695cdd3dad87f574a7075783e8b7054ec0039de4e1b80df7711f0f2dbfc13d",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/29695cdd3dad87f574a7075783e8b7054ec0039de4e1b80df7711f0f2dbfc13d",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 3277323905176,
+      "total_mint_rewards_icp": 32773.23905176,
+      "mint_transaction_count": 43,
+      "first_mint_timestamp": 1628977403,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Krishna Sriram",
+    "toml_id": null,
+    "principal_id": "sajvr-l5iok-rj6c2-r76co-k2mde-d3kir-pnmjs-443f6-lxto4-pu55q-uae",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/sajvr-l5iok-rj6c2-r76co-k2mde-d3kir-pnmjs-443f6-lxto4-pu55q-uae",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "518930a15c098f433175d8391921c161cd942169d4a1505444980b0e",
+      "reward_account_formatted": "a19602be518930a15c098f433175d8391921c161cd942169d4a1505444980b0e",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/a19602be518930a15c098f433175d8391921c161cd942169d4a1505444980b0e",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 3344395194642,
+      "total_mint_rewards_icp": 33443.95194642,
+      "mint_transaction_count": 36,
+      "first_mint_timestamp": 1647280089,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Lauren Dymecki Chickvara",
+    "toml_id": null,
+    "principal_id": "abscc-3lezh-oezci-5i3kz-pkwlc-ozz3r-5wv4n-htujn-rtajh-6cgyv-jae",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/abscc-3lezh-oezci-5i3kz-pkwlc-ozz3r-5wv4n-htujn-rtajh-6cgyv-jae",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "eb1058ff49015f4c5f1f0e0d13e2205cd48bb68fb9dc14d1ff9c029b",
+      "reward_account_formatted": "e53bd6f1eb1058ff49015f4c5f1f0e0d13e2205cd48bb68fb9dc14d1ff9c029b",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e53bd6f1eb1058ff49015f4c5f1f0e0d13e2205cd48bb68fb9dc14d1ff9c029b",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 768629196708,
+      "total_mint_rewards_icp": 7686.29196708,
+      "mint_transaction_count": 36,
+      "first_mint_timestamp": 1647280089,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Luke Jacobson",
+    "toml_id": null,
+    "principal_id": "6dwst-olsa5-tagsr-jylgj-oicju-rf42e-o7job-gedre-fgoxt-7br62-jqe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/6dwst-olsa5-tagsr-jylgj-oicju-rf42e-o7job-gedre-fgoxt-7br62-jqe",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "eec8c1d5742c23488ba0443e0c12657fb4027810f0f37aa8b59eaf83",
+      "reward_account_formatted": "6ee207eeeec8c1d5742c23488ba0443e0c12657fb4027810f0f37aa8b59eaf83",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/6ee207eeeec8c1d5742c23488ba0443e0c12657fb4027810f0f37aa8b59eaf83",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 3277341995176,
+      "total_mint_rewards_icp": 32773.41995176,
+      "mint_transaction_count": 44,
+      "first_mint_timestamp": 1626877281,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Marc Johnson",
+    "toml_id": null,
+    "principal_id": "xfvlz-qkgs4-xyeyx-lbke5-aarza-ovi52-wzpxl-3p27l-ov6ki-csxv6-qqe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/xfvlz-qkgs4-xyeyx-lbke5-aarza-ovi52-wzpxl-3p27l-ov6ki-csxv6-qqe",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "8c81c42a08ce2532c035ea22efcf3cbfb9933c5b3f319299e8abfb10",
+      "reward_account_formatted": "cc6550f78c81c42a08ce2532c035ea22efcf3cbfb9933c5b3f319299e8abfb10",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/cc6550f78c81c42a08ce2532c035ea22efcf3cbfb9933c5b3f319299e8abfb10",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 114995663984,
+      "total_mint_rewards_icp": 1149.95663984,
+      "mint_transaction_count": 19,
+      "first_mint_timestamp": 1692038317,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Mary Ren",
+    "toml_id": null,
+    "principal_id": "vdzyg-amckj-thvl5-bsn52-2elzd-drgii-ryh4c-izba3-xaehb-sohtd-aae",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/vdzyg-amckj-thvl5-bsn52-2elzd-drgii-ryh4c-izba3-xaehb-sohtd-aae",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "8b75f16dacf2a0a216ca1f746d3ab235cecc64f1300175b80df0fcd3",
+      "reward_account_formatted": "e3ce12fb8b75f16dacf2a0a216ca1f746d3ab235cecc64f1300175b80df0fcd3",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/e3ce12fb8b75f16dacf2a0a216ca1f746d3ab235cecc64f1300175b80df0fcd3",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 20775310019881,
+      "total_mint_rewards_icp": 207753.10019881,
+      "mint_transaction_count": 36,
+      "first_mint_timestamp": 1710446923,
+      "last_mint_timestamp": 1742004534
+    }
+  },
+  {
+    "name": "Mika Properties, LLC",
+    "toml_id": null,
+    "principal_id": "3siog-htc6j-ed3wz-sguhu-2objz-g5qct-npoma-t3wwt-bd6wy-chwsi-4ae",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/3siog-htc6j-ed3wz-sguhu-2objz-g5qct-npoma-t3wwt-bd6wy-chwsi-4ae",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "fa7b73adab48ba3e6c55a39fbce02cf09c49037114e62d1d8ccf0994",
+      "reward_account_formatted": "eee3ff7dfa7b73adab48ba3e6c55a39fbce02cf09c49037114e62d1d8ccf0994",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/eee3ff7dfa7b73adab48ba3e6c55a39fbce02cf09c49037114e62d1d8ccf0994",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 7947788094357,
+      "total_mint_rewards_icp": 79477.88094357,
+      "mint_transaction_count": 53,
+      "first_mint_timestamp": 1623704419,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Michel Guerra",
+    "toml_id": null,
+    "principal_id": "4anlt-yam7x-eodmx-ik7mo-nl3kx-t35fj-52hfy-uv4jj-u2iea-ntg76-pqe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/4anlt-yam7x-eodmx-ik7mo-nl3kx-t35fj-52hfy-uv4jj-u2iea-ntg76-pqe",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "f7a90b11b6f873e5a207a966412105073ecb07c53f563caae88d71b0",
+      "reward_account_formatted": "eec71611f7a90b11b6f873e5a207a966412105073ecb07c53f563caae88d71b0",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/eec71611f7a90b11b6f873e5a207a966412105073ecb07c53f563caae88d71b0",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 890158706708,
+      "total_mint_rewards_icp": 8901.58706708,
+      "mint_transaction_count": 45,
+      "first_mint_timestamp": 1623704343,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Moon Block Ventures",
+    "toml_id": null,
+    "principal_id": "sdal5-w2c3d-p3buy-zieck-2wyuj-eu5bn-rkfe6-uuspi-o4n2b-gpei7-iae",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/sdal5-w2c3d-p3buy-zieck-2wyuj-eu5bn-rkfe6-uuspi-o4n2b-gpei7-iae",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "24abb4584bba6309b5847574ab871acfd8412287b1e5585090a00161",
+      "reward_account_formatted": "90b90ce324abb4584bba6309b5847574ab871acfd8412287b1e5585090a00161",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/90b90ce324abb4584bba6309b5847574ab871acfd8412287b1e5585090a00161",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 6170762100905,
+      "total_mint_rewards_icp": 61707.62100905,
+      "mint_transaction_count": 52,
+      "first_mint_timestamp": 1623704445,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Mostly Wholesome, Inc",
+    "toml_id": null,
+    "principal_id": "ou3o7-akyjc-ldwd5-anyjn-l2buz-cwhbg-nehlc-abkde-qtc7w-fozdi-hae",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/ou3o7-akyjc-ldwd5-anyjn-l2buz-cwhbg-nehlc-abkde-qtc7w-fozdi-hae",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "edf452b7c7754b83ff9998e20413646b6a9d5b70b039508276717482",
+      "reward_account_formatted": "661f3c4fedf452b7c7754b83ff9998e20413646b6a9d5b70b039508276717482",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/661f3c4fedf452b7c7754b83ff9998e20413646b6a9d5b70b039508276717482",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 14728125259769,
+      "total_mint_rewards_icp": 147281.25259769,
+      "mint_transaction_count": 84,
+      "first_mint_timestamp": 1634269988,
+      "last_mint_timestamp": 1742004534
+    }
+  },
+  {
+    "name": "Paul Legato",
+    "toml_id": null,
+    "principal_id": "yr4eg-kwk3m-q44vj-ale35-2mtxk-5dyn7-vgppx-z6tcw-kzo4o-ezpm5-fqe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/yr4eg-kwk3m-q44vj-ale35-2mtxk-5dyn7-vgppx-z6tcw-kzo4o-ezpm5-fqe",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "62633a664a75e6082e275d56bc0e87ca70abf02ef82dbc22580511da",
+      "reward_account_formatted": "9c1d2a9a62633a664a75e6082e275d56bc0e87ca70abf02ef82dbc22580511da",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/9c1d2a9a62633a664a75e6082e275d56bc0e87ca70abf02ef82dbc22580511da",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 657625697709,
+      "total_mint_rewards_icp": 6576.25697709,
+      "mint_transaction_count": 29,
+      "first_mint_timestamp": 1665740314,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Peggy Shafaghi",
+    "toml_id": null,
+    "principal_id": "72idx-a7c3y-nrcwc-lboj4-mmsas-sfdpm-gq23i-h2yuy-lykcj-vrxn2-jqe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/72idx-a7c3y-nrcwc-lboj4-mmsas-sfdpm-gq23i-h2yuy-lykcj-vrxn2-jqe",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "c5451744dab71cf30021a9c187f27a638e8db18831d7fd9ae36cd350",
+      "reward_account_formatted": "6bede554c5451744dab71cf30021a9c187f27a638e8db18831d7fd9ae36cd350",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/6bede554c5451744dab71cf30021a9c187f27a638e8db18831d7fd9ae36cd350",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 1665494353434,
+      "total_mint_rewards_icp": 16654.94353434,
+      "mint_transaction_count": 45,
+      "first_mint_timestamp": 1623703974,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Philippe Chapparone",
+    "toml_id": null,
+    "principal_id": "2c4m6-25hos-qroi3-mk4aj-nog6s-zbzcv-ccpcc-cbv7s-sjy6p-bv3g5-fae",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/2c4m6-25hos-qroi3-mk4aj-nog6s-zbzcv-ccpcc-cbv7s-sjy6p-bv3g5-fae",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "0ce6b173ab3ab68a34c76996c4e8130332219a2df112a372cb9745b0",
+      "reward_account_formatted": "5da64aae0ce6b173ab3ab68a34c76996c4e8130332219a2df112a372cb9745b0",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/5da64aae0ce6b173ab3ab68a34c76996c4e8130332219a2df112a372cb9745b0",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 3009955675176,
+      "total_mint_rewards_icp": 30099.55675176,
+      "mint_transaction_count": 36,
+      "first_mint_timestamp": 1647280089,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Prayit Jain",
+    "toml_id": null,
+    "principal_id": "waj5k-wlyvv-jbj4n-vxwjm-dmkyg-uw2nl-ggojp-34kln-wgx3n-d7xih-5qe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/waj5k-wlyvv-jbj4n-vxwjm-dmkyg-uw2nl-ggojp-34kln-wgx3n-d7xih-5qe",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "aa8d4d7fd326f32fd22169b922722488a4bcdf4c67037b7491f4d6a8",
+      "reward_account_formatted": "d799d36aaa8d4d7fd326f32fd22169b922722488a4bcdf4c67037b7491f4d6a8",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/d799d36aaa8d4d7fd326f32fd22169b922722488a4bcdf4c67037b7491f4d6a8",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 4881653588083,
+      "total_mint_rewards_icp": 48816.53588083,
+      "mint_transaction_count": 36,
+      "first_mint_timestamp": 1647280089,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Rachel Dymecki",
+    "toml_id": null,
+    "principal_id": "chnsu-yaqt5-6osy5-au4zn-li6yu-nufmw-dewrt-utkiu-twd76-ujypw-rae",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/chnsu-yaqt5-6osy5-au4zn-li6yu-nufmw-dewrt-utkiu-twd76-ujypw-rae",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "504e96ae6a4853aaf5749aa074a3c6ad7aaf05b25e36b0d97fad441f",
+      "reward_account_formatted": "37c1b0e7504e96ae6a4853aaf5749aa074a3c6ad7aaf05b25e36b0d97fad441f",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/37c1b0e7504e96ae6a4853aaf5749aa074a3c6ad7aaf05b25e36b0d97fad441f",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 768629196708,
+      "total_mint_rewards_icp": 7686.29196708,
+      "mint_transaction_count": 36,
+      "first_mint_timestamp": 1647280089,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Richard Suarez",
+    "toml_id": null,
+    "principal_id": "cmcjw-6c5ve-4zjnt-lipnl-2lp43-oh5wk-ewciz-xyvnv-m2rz5-hkm6a-hqe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/cmcjw-6c5ve-4zjnt-lipnl-2lp43-oh5wk-ewciz-xyvnv-m2rz5-hkm6a-hqe",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "7c872817f9aaa2b5734b5866f9c4725c81fb1f0a4f2674a5779b5cf2",
+      "reward_account_formatted": "20a85acd7c872817f9aaa2b5734b5866f9c4725c81fb1f0a4f2674a5779b5cf2",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/20a85acd7c872817f9aaa2b5734b5866f9c4725c81fb1f0a4f2674a5779b5cf2",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 284496101872,
+      "total_mint_rewards_icp": 2844.96101872,
+      "mint_transaction_count": 17,
+      "first_mint_timestamp": 1697297917,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Ricky Sidhu",
+    "toml_id": null,
+    "principal_id": "q22bo-3uyqa-jvtpt-gapjk-pseor-esx4a-zyb74-vzea4-o7nx2-tafgq-hae",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/q22bo-3uyqa-jvtpt-gapjk-pseor-esx4a-zyb74-vzea4-o7nx2-tafgq-hae",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "6d5ec2387648c9d3d8b7a12b0e94bde0db359f44481d9f9e2915ab1e",
+      "reward_account_formatted": "c2be56866d5ec2387648c9d3d8b7a12b0e94bde0db359f44481d9f9e2915ab1e",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/c2be56866d5ec2387648c9d3d8b7a12b0e94bde0db359f44481d9f9e2915ab1e",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 6085635858157,
+      "total_mint_rewards_icp": 60856.35858157,
+      "mint_transaction_count": 36,
+      "first_mint_timestamp": 1647280089,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Rishi Sachdev",
+    "toml_id": null,
+    "principal_id": "6tg64-cdfoh-kl35i-p6qti-sose3-746lr-jk5ex-phuvu-jfu3d-5svwa-7qe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/6tg64-cdfoh-kl35i-p6qti-sose3-746lr-jk5ex-phuvu-jfu3d-5svwa-7qe",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "6b2e4e0446b2aeebea76f2cdcd70b2e24048337481506a44bf2b3d49",
+      "reward_account_formatted": "f6b17a0a6b2e4e0446b2aeebea76f2cdcd70b2e24048337481506a44bf2b3d49",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/f6b17a0a6b2e4e0446b2aeebea76f2cdcd70b2e24048337481506a44bf2b3d49",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 5380404377062,
+      "total_mint_rewards_icp": 53804.04377062,
+      "mint_transaction_count": 36,
+      "first_mint_timestamp": 1647280089,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Rodney Zorilla",
+    "toml_id": null,
+    "principal_id": "bgprp-b2mnt-ci5in-57vuk-p7qvo-tj2tb-5w5su-qwenk-gbe77-mnuiq-sqe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/bgprp-b2mnt-ci5in-57vuk-p7qvo-tj2tb-5w5su-qwenk-gbe77-mnuiq-sqe",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "3585a5d229733ffbfef4a4729b25feac161108a2ba1e33befa8c0a2d",
+      "reward_account_formatted": "a909ccc13585a5d229733ffbfef4a4729b25feac161108a2ba1e33befa8c0a2d",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/a909ccc13585a5d229733ffbfef4a4729b25feac161108a2ba1e33befa8c0a2d",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 890158706708,
+      "total_mint_rewards_icp": 8901.58706708,
+      "mint_transaction_count": 45,
+      "first_mint_timestamp": 1623704372,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Ronnie Pellizzari",
+    "toml_id": null,
+    "principal_id": "wwxec-c2gd2-bu5on-ktpwz-z2ph3-vlr4p-m7ztf-6ck7r-nt3r4-fxbdq-mae",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/wwxec-c2gd2-bu5on-ktpwz-z2ph3-vlr4p-m7ztf-6ck7r-nt3r4-fxbdq-mae",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "a46db803163c77fb785e913accca87a5b433ca5d69a3215a4b4f87e9",
+      "reward_account_formatted": "3d8276cea46db803163c77fb785e913accca87a5b433ca5d69a3215a4b4f87e9",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/3d8276cea46db803163c77fb785e913accca87a5b433ca5d69a3215a4b4f87e9",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 1778423363434,
+      "total_mint_rewards_icp": 17784.23363434,
+      "mint_transaction_count": 45,
+      "first_mint_timestamp": 1623704693,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Russell Ford",
+    "toml_id": null,
+    "principal_id": "p5jx4-lsrog-ep5o3-5uudg-opdg3-ur45z-xeefi-4ejfz-47t2k-riwfv-dae",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/p5jx4-lsrog-ep5o3-5uudg-opdg3-ur45z-xeefi-4ejfz-47t2k-riwfv-dae",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "d9a7342d5c63284e00655629827dc6c1e685df5cc11b88e47b79594a",
+      "reward_account_formatted": "be63caded9a7342d5c63284e00655629827dc6c1e685df5cc11b88e47b79594a",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/be63caded9a7342d5c63284e00655629827dc6c1e685df5cc11b88e47b79594a",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 890158706708,
+      "total_mint_rewards_icp": 8901.58706708,
+      "mint_transaction_count": 45,
+      "first_mint_timestamp": 1623704056,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Scott Hallock",
+    "toml_id": null,
+    "principal_id": "i6sxi-fks25-viets-mboa7-3i23b-qeocf-e57qj-ar6vy-2mchu-xb5vp-aqe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/i6sxi-fks25-viets-mboa7-3i23b-qeocf-e57qj-ar6vy-2mchu-xb5vp-aqe",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "17597224eb87089079924f4113c9b24e475389ec721cb4118c2a399a",
+      "reward_account_formatted": "4046f63117597224eb87089079924f4113c9b24e475389ec721cb4118c2a399a",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/4046f63117597224eb87089079924f4113c9b24e475389ec721cb4118c2a399a",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 3277401065176,
+      "total_mint_rewards_icp": 32774.01065176,
+      "mint_transaction_count": 44,
+      "first_mint_timestamp": 1626877206,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Shelburne Ventures, LLC",
+    "toml_id": null,
+    "principal_id": "a24zv-2ndbz-hqogc-ev63f-qxnpb-7ramd-usexl-ennaq-4om4k-sod6u-gae",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/a24zv-2ndbz-hqogc-ev63f-qxnpb-7ramd-usexl-ennaq-4om4k-sod6u-gae",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "fb5776905609de83fe601470c0a68f3dd0fd310009a19226d23e7f7f",
+      "reward_account_formatted": "eb75a74bfb5776905609de83fe601470c0a68f3dd0fd310009a19226d23e7f7f",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/eb75a74bfb5776905609de83fe601470c0a68f3dd0fd310009a19226d23e7f7f",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 5380404377062,
+      "total_mint_rewards_icp": 53804.04377062,
+      "mint_transaction_count": 36,
+      "first_mint_timestamp": 1647280089,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Staking Facilities",
+    "toml_id": null,
+    "principal_id": "niw4y-easue-l3qvz-sozsi-tfkvb-cxcx6-pzslg-5dqld-ooudp-hsuui-xae",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/niw4y-easue-l3qvz-sozsi-tfkvb-cxcx6-pzslg-5dqld-ooudp-hsuui-xae",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "105d7ddc59d849ec86103bb6180c834f4096ffdbd723cdd781f4dde5",
+      "reward_account_formatted": "bfb09f6c105d7ddc59d849ec86103bb6180c834f4096ffdbd723cdd781f4dde5",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/bfb09f6c105d7ddc59d849ec86103bb6180c834f4096ffdbd723cdd781f4dde5",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 16959196974863,
+      "total_mint_rewards_icp": 169591.96974863,
+      "mint_transaction_count": 24,
+      "first_mint_timestamp": 1678889315,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Starseed Technology, LLC",
+    "toml_id": null,
+    "principal_id": "ruxoj-jnqql-uau6o-xwrtb-ufde4-geddn-mnhni-wpew4-zhzi5-xjrxi-lqe",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/ruxoj-jnqql-uau6o-xwrtb-ufde4-geddn-mnhni-wpew4-zhzi5-xjrxi-lqe",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "87d8a86241149e63e84698c11056ce90ed214ac4647657ddd42377ad",
+      "reward_account_formatted": "cacf86ca87d8a86241149e63e84698c11056ce90ed214ac4647657ddd42377ad",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/cacf86ca87d8a86241149e63e84698c11056ce90ed214ac4647657ddd42377ad",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 768629196708,
+      "total_mint_rewards_icp": 7686.29196708,
+      "mint_transaction_count": 36,
+      "first_mint_timestamp": 1647280089,
+      "last_mint_timestamp": 1739374733
+    }
+  },
+  {
+    "name": "Wolfhound LLC",
+    "toml_id": null,
+    "principal_id": "6mifr-stcqy-w5pzr-qpijh-jopft-p6jl3-n2sww-jhmzg-uzknn-hte4m-pae",
+    "location_count": 1,
+    "total_nodes": 28,
+    "total_rewardable_nodes": 28,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 27,
+    "regions": [
+      "North America"
+    ],
+    "countries": [
+      "CA"
+    ],
+    "towns": [
+      "Ontario"
+    ],
+    "dashboard_link": "https://dashboard.internetcomputer.org/provider/6mifr-stcqy-w5pzr-qpijh-jopft-p6jl3-n2sww-jhmzg-uzknn-hte4m-pae",
+    "wiki_link": null,
+    "document_validations": [],
+    "rewards": {
+      "reward_account_hex": "4ed82cc94dc958810fb421276dd75785ba08558cdf3ba467d9e6dcb6",
+      "reward_account_formatted": "18cbd29c4ed82cc94dc958810fb421276dd75785ba08558cdf3ba467d9e6dcb6",
+      "reward_account_dashboard_link": "https://dashboard.internetcomputer.org/account/18cbd29c4ed82cc94dc958810fb421276dd75785ba08558cdf3ba467d9e6dcb6",
+      "most_recent_reward_e8s": 0,
+      "most_recent_reward_xdr": 0.0,
+      "most_recent_timestamp": 1739374733,
+      "total_mint_rewards_e8s": 1804560703434,
+      "total_mint_rewards_icp": 18045.60703434,
+      "mint_transaction_count": 53,
+      "first_mint_timestamp": 1623704705,
+      "last_mint_timestamp": 1739374733
+    }
   },
   {
     "name": "Technical University of Munich",
@@ -4526,6 +6084,23 @@
     "towns": [],
     "dashboard_link": "",
     "wiki_link": "https://wiki.internetcomputer.org/wiki/Technical_University_of_Munich",
+    "document_validations": [],
+    "rewards": null
+  },
+  {
+    "name": "Stamper Co., Ltd.",
+    "toml_id": "stamper",
+    "principal_id": "",
+    "location_count": 0,
+    "total_nodes": 0,
+    "total_rewardable_nodes": 0,
+    "total_subnets": 0,
+    "total_unassigned_nodes": 0,
+    "regions": [],
+    "countries": [],
+    "towns": [],
+    "dashboard_link": "",
+    "wiki_link": "https://wiki.internetcomputer.org/wiki/Stamper_Co.,_Ltd.",
     "document_validations": [],
     "rewards": null
   }
