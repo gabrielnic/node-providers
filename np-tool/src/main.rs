@@ -25,8 +25,24 @@ pub enum Error {
 pub struct Account {
     name: String,
     principal: Option<Principal>,
-    account_id: Option<String>,
-    ty: AccountType,
+    account: Option<String>,
+    ty: Type,
+}
+
+impl Account {
+    pub fn new(name: &str, address: &str, ty: Type) -> Self {
+        let (principal, account) = match Principal::from_text(address) {
+            Ok(p) => (Some(p), None),
+            Err(_) => (None, Some(address.to_string())),
+        };
+
+        Self {
+            name: name.to_string(),
+            principal,
+            account,
+            ty,
+        }
+    }
 }
 
 ///
@@ -34,7 +50,7 @@ pub struct Account {
 ///
 
 #[derive(Debug, Default, Serialize, Deserialize)]
-pub enum AccountType {
+pub enum Type {
     Exchange,
     Individual,
     NodeProvider,
@@ -45,14 +61,31 @@ pub enum AccountType {
 
 fn main() {
     // open file
-    let file = File::open("src/accounts.json").expect("Failed to open accounts.json");
-    let reader = BufReader::new(file);
 
-    // deserialize
-    let accounts: Vec<Account> =
-        serde_json::from_reader(reader).expect("Failed to deserialize accounts.json");
-
-    for account in &accounts {
+    for account in get_accounts() {
         println!("{:?}", account);
     }
+}
+
+fn get_accounts() -> Vec<Account> {
+    vec![
+        // Individuals
+        Account::new(
+            "Austin Fatheree",
+            "jrnhz-6ekxv-2fffs-wfcgt-l3pe7-456id-heznf-xyf64-nykjq-4jyso-zae",
+            Type::Individual,
+        ),
+        // Node Providers
+        Account::new(
+            "Staking Facilities",
+            "niw4y-easue-l3qvz-sozsi-tfkvb-cxcx6-pzslg-5dqld-ooudp-hsuui-xae",
+            Type::NodeProvider,
+        ),
+        // SNS
+        Account::new(
+            "Boom DAO",
+            "38af024c2f3a8681e661b67065e5d83d692d16252a7cdd96bae94452b65f498d",
+            Type::Sns,
+        ),
+    ]
 }
