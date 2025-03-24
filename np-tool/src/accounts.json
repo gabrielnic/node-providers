@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Austin Fatheree",
+        "principal": "jrnhz-6ekxv-2fffs-wfcgt-l3pe7-456id-heznf-xyf64-nykjq-4jyso-zae",
+        "ty": "Individual"
+    },
+    {
+        "name": "Boom DAO",
+        "account_id": "38af024c2f3a8681e661b67065e5d83d692d16252a7cdd96bae94452b65f498d",
+        "ty": "Sns"
+    },
+    {
+        "name": "Staking Facilities",
+        "principal": "niw4y-easue-l3qvz-sozsi-tfkvb-cxcx6-pzslg-5dqld-ooudp-hsuui-xae",
+        "ty": "NodeProvider"
+    }
+]
