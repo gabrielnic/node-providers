@@ -47,8 +47,10 @@ impl Account {
 #[derive(Debug, Default, Serialize, Deserialize)]
 pub enum Type {
     Exchange,
+    Foundation,
     Individual,
     NodeProvider,
+    Spammer,
     Sns,
     #[default]
     Unknown,
@@ -76,6 +78,33 @@ const EXCHANGES: &[(&str, &str)] = &[
     ("KuCoin 2", "00c3df112e62ad353b7cc7bf8ad8ce2fec8f5e633f1733834bf71e40b250c685"),
     ("MEXC", "9e62737aab36f0baffc1faac9edd92a99279723eb3feb2e916fa99bb7fe54b59"),
     ("OKX 1", "e7a879ea563d273c46dd28c1584eaa132fad6f3e316615b3eb657d067f3519b5"),
+];
+
+const FOUNDATION: &[&str] = &[
+    "1a481b7aa86fa89029117f0487479f52fe3ee27ad63d48bac78fa60b3ebf9237",
+    "12b7c1c6269b2021758ed5da65448a4ac3ac9fa0cf015caa4bb4c3e3dc7ca1c1",
+    "21b3cb5fccbbb1b4d92c03ace6f16f836e3425cf61ac3b2a9823499a60d5c7b5",
+    "36039b216d234b39bfc993df251deba6d7481d974f20a7aa4ea8a2aff8c7606e",
+    "406ae771636e9e6501166f71edb0b61b80a325640048b11b23b3eaf43a5048ed",
+    "5495612bb400e0dbd51ca4ae28835b3c47f6968127fe54d4aadc8704cc363057",
+    "54f4a6d3bc831c5217e4e313bca7f2549f6b51b9dc25d77ae045bbb59c8eafaf",
+    "57c9e0f1111d0aba921adf0056a16771e9a4fd84a6daee21267511b2b3410731",
+    "581ebcfa72dbed72cb0d18240d30879ac915df69dba3d1a8cfbb5508bb973df1",
+    "600bc2e6fa9dcf3543acc22bd8181ca7e11ef3f0a9ce662480fe61524c9bb8c1",
+    "61529f442b6fc6a2db07f4dc446b255e6702aa95ed8bb2fa5c38cb04358eea65",
+    "65675acf9e0752bbc58893b284e2c7558db61bfdbefe63c055bb69305f0da17e",
+    "6a6fe5e9936747faadb472f3d3790830c372eb4ab7039d207059bf34eacf4de9",
+    "78a6c47cc1e153e1b63eafcd471d5e6de1365592e73d0c41931461fd97271d03",
+    "860c10fd2e96106edccb48e657b265517fda354a4588a52a13384dd58ffcaab2",
+    "91ee71b84b7603de21bcf6cc1857a7cb91d12062d91f95013d300e0eb35e6d52",
+    "ad2d4c5c3b70fa1289c7b45ef252d608f8d70f0d9b8198d6a6d0c4f5bdfc9c65",
+    "b0c25df9be777bb84a2b8ddec02bbf42bfef588c44bc7fd483a515725cd68830",
+    "b30d4f02181bd81dbe5ef9f22b33a7d7a5fe61884964fc697721ca259cfd3c41",
+    "b93164c6ae75984345a3d47fa9877749acb19fee032ec6aac67cb3ee6100f302",
+    "b9cdb3a04e388736de3eea9426f4f83e79c90a6602b0805746ff7991e546df9f",
+    "d5336412e2107f4b0502234128dbc11ccf53221ae67bae5109eb4be11bb9babb",
+    "d539266d9e7784304ceb7b72a729794004646e4a39a56b51c3e911a698bbdd8d",
+    "f7d23ad118bab9eae59055a98addd2a1738cc281fa1dc7ca4568e8e661e21283",
 ];
 
 const INDIVIDUALS: &[(&str, &str)] = &[
@@ -231,6 +260,11 @@ const NODE_PROVIDERS: &[(&str, &str)] = &[
     ("ZTLC PTE LTD (deprecated)", "xsrwt-tl3tk-n3aya-rafh3-ta6xu-eviw5-ae5dg-2f3bf-siaab-wdwdo-dqe"),
 ];
 
+const SPAMMERS: &[&str] = &[
+    "a28c30427beceb4a1cae7bad6145ad58767aa1364cd4466c1ff2ee2c70c40726",
+    "62dd39780d34f2dc21eb680f99962659a6a0c2ccd9c68ec365962ae0eaf293f0",
+];
+
 const SNSES: &[(&str, &str)] = &[
     ("Alice", "9261d1ea5c1afe890603e74af26befad8aa2d81345d6ca78165fb5277efe816a"),
     ("Boom DAO", "38af024c2f3a8681e661b67065e5d83d692d16252a7cdd96bae94452b65f498d"),
@@ -273,11 +307,15 @@ const SNSES: &[(&str, &str)] = &[
 fn get_entries() -> Vec<Account> {
     let mut entries = Vec::new();
 
-    // extend
+    // named
     entries.extend(EXCHANGES.iter().map(|(name, addr)| Account::new(name, addr, Type::Exchange)));
     entries.extend(INDIVIDUALS.iter().map(|(name, addr)| Account::new(name, addr, Type::Individual)));
     entries.extend(NODE_PROVIDERS.iter().map(|(name, addr)| Account::new(name, addr, Type::NodeProvider)));
     entries.extend(SNSES.iter().map(|(name, addr)| Account::new(name, addr, Type::Sns)));
+
+    // no name
+    entries.extend(FOUNDATION.iter().map(|addr| Account::new(&addr[..5], addr, Type::Exchange)));
+    entries.extend(SPAMMERS.iter().map(|addr| Account::new(&addr[..5], addr, Type::Sns)));
 
     // check for dupes
     let mut seen_account_ids = HashSet::new();
