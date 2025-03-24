@@ -812,6 +812,7 @@ async fn main() -> Result<()> {
 
     // Process rewards data
     let rewards_by_principal = process_rewards_data(rewards_response);
+    println!("{:?}", rewards_by_principal);
     println!(
         "Processed reward data for {} principals",
         rewards_by_principal.len()
