@@ -1,5 +1,6 @@
 use candid::Principal;
 use serde::{Deserialize, Serialize};
+use std::collections::HashSet;
 use thiserror::Error as ThisError;
 
 ///
@@ -29,9 +30,10 @@ pub struct Account {
 
 impl Account {
     pub fn new(name: &str, address: &str, ty: Type) -> Self {
-        let (principal, account) = match Principal::from_text(address) {
-            Ok(p) => (Some(p), None),
-            Err(_) => (None, Some(address.to_string())),
+        let (principal, account) = if address.contains("-") {
+            (Some(Principal::from_text(address).unwrap()), None)
+        } else {
+            (None, Some(address.to_string()))
         };
 
         Self { name: name.to_string(), principal, account, ty }
@@ -54,12 +56,27 @@ pub enum Type {
 
 // main
 fn main() {
-    for account in get_accounts() {
-        println!("{:?}", account);
+    for entry in get_entries() {
+        println!("{entry:?}");
     }
 }
 
-const EXCHANGES: &[(&str, &str)] = &[("Coinbase 1", "")];
+const EXCHANGES: &[(&str, &str)] = &[
+    ("Binance 1", "220c3a33f90601896e26f76fa619fe288742df1fa75426edfaf759d39f2455a5"),
+    ("Binance 2", "d3e13d4777e22367532053190b6c6ccf57444a61337e996242b1abfb52cf92c8"),
+    ("Coinbase 1", "449ce7ad1298e2ed2781ed379aba25efc2748d14c60ede190ad7621724b9e8b2"),
+    ("Coinbase 2", "4dfa940def17f1427ae47378c440f10185867677109a02bc8374fc25b9dee8af"),
+    ("Coinbase 3", "a6ed987d89796f921c8a49d275ec7c9aa04e75a8fc8cd2dbaa5da799f0215ab0"),
+    ("Coinbase 4", "660b1680dafeedaa68c1f1f4cf8af42ed1dfb8564646efe935a2b9a48528b605"),
+    ("Coinbase 5", "dd15f3040edab88d2e277f9d2fa5cc11616ebf1442279092e37924ab7cce8a74"),
+    ("Coinbase 6", "4878d23a09b554157b31323004e1cc053567671426ca4eec7b7e835db607b965"),
+    ("HTX 1", "935b1a3adc28fd68cacc95afcdec62e985244ce0cfbbb12cdc7d0b8d198b416d"),
+    ("Kraken", "040834c30cdf5d7a13aae8b57d94ae2d07eefe2bc3edd8cf88298730857ac2eb"),
+    ("KuCoin 1", "efa01544f509c56dd85449edf2381244a48fad1ede5183836229c00ab00d52df"),
+    ("KuCoin 2", "00c3df112e62ad353b7cc7bf8ad8ce2fec8f5e633f1733834bf71e40b250c685"),
+    ("MEXC", "9e62737aab36f0baffc1faac9edd92a99279723eb3feb2e916fa99bb7fe54b59"),
+    ("OKX 1", "e7a879ea563d273c46dd28c1584eaa132fad6f3e316615b3eb657d067f3519b5"),
+];
 
 const INDIVIDUALS: &[(&str, &str)] = &[
     ("Austin Fatheree", "jrnhz-6ekxv-2fffs-wfcgt-l3pe7-456id-heznf-xyf64-nykjq-4jyso-zae"),
@@ -69,17 +86,17 @@ const INDIVIDUALS: &[(&str, &str)] = &[
 const NODE_PROVIDERS: &[(&str, &str)] = &[
     ("0X52", "2wxzd-qrbrs-ailta-kdtyb-ucg35-xcxd4-txevb-ot7hx-wiyus-szcca-nqe"),
     ("100 Count Holdings, LLC", "2dgp4-h57n4-a4kgx-n4uun-huo3a-wbdlc-m57wd-jtkuh-g5vcc-fcbby-6qe"),
-    ("43rd Big Idea Films", "	sqhxa-h6ili-qkwup-ohzwn-yofnm-vvnp5-kxdhg-saabw-rvua3-xp325-zqe"),
-    ("87m Neuron, LLC", "	eipr5-izbom-neyqh-s3ec2-52eww-cyfpg-qfomg-3dpwj-4pffh-34xcu-7qe"),
-    ("ACCUSET SOLUTIONS", "	cp5ib-twnmx-h4dvd-isef2-tu44u-kb2ka-fise5-m4hta-hnxoq-k45mm-hqe"),
-    ("Aitubi AG", "	znw2p-4cx6u-ocqls-277iu-2lkir-xjy7g-4s3sj-sjy6j-mtlay-rnnra-yqe"),
-    ("Aksinia Stavskaya", "	wlxga-ebupj-sj2nf-g3sii-75i6b-oh64s-qmq7u-gmros-vi2if-3ktdv-cqe"),
-    ("Allusion", "	rbn2y-6vfsb-gv35j-4cyvy-pzbdu-e5aum-jzjg6-5b4n5-vuguf-ycubq-zae"),
-    ("Anonstake", "	kos24-5xact-6aror-uofg2-tnvt6-dq3bk-c2c5z-jtptt-jbqvc-lmegy-qae"),
-    ("ANYPOINT PTY LTD", "	fwnmn-zn7yt-5jaia-fkxlr-dzwyu-keguq-npfxq-mc72w-exeae-n5thj-oae"),
-    ("Arceau NP LLC", "	ss6oe-fm7b2-b5r57-y3x74-omrz5-d5pgy-5iwtw-4aew5-aqj3l-6ydra-wqe"),
-    ("Artem Horodyskyi", "	diyay-s4rfq-xnx23-zczwi-nptra-5254n-e4zn6-p7tqe-vqhzr-sd4gd-bqe"),
-    ("Aspire Properties", "	2byzn-q2crt-hgczo-eruff-6p7af-pemor-n2z4z-6d2sd-wvdqa-yqvxb-mqe"),
+    ("43rd Big Idea Films", "sqhxa-h6ili-qkwup-ohzwn-yofnm-vvnp5-kxdhg-saabw-rvua3-xp325-zqe"),
+    ("87m Neuron, LLC", "eipr5-izbom-neyqh-s3ec2-52eww-cyfpg-qfomg-3dpwj-4pffh-34xcu-7qe"),
+    ("ACCUSET SOLUTIONS", "cp5ib-twnmx-h4dvd-isef2-tu44u-kb2ka-fise5-m4hta-hnxoq-k45mm-hqe"),
+    ("Aitubi AG", "znw2p-4cx6u-ocqls-277iu-2lkir-xjy7g-4s3sj-sjy6j-mtlay-rnnra-yqe"),
+    ("Aksinia Stavskaya", "wlxga-ebupj-sj2nf-g3sii-75i6b-oh64s-qmq7u-gmros-vi2if-3ktdv-cqe"),
+    ("Allusion", "rbn2y-6vfsb-gv35j-4cyvy-pzbdu-e5aum-jzjg6-5b4n5-vuguf-ycubq-zae"),
+    ("Anonstake", "kos24-5xact-6aror-uofg2-tnvt6-dq3bk-c2c5z-jtptt-jbqvc-lmegy-qae"),
+    ("ANYPOINT PTY LTD", "fwnmn-zn7yt-5jaia-fkxlr-dzwyu-keguq-npfxq-mc72w-exeae-n5thj-oae"),
+    ("Arceau NP LLC", "ss6oe-fm7b2-b5r57-y3x74-omrz5-d5pgy-5iwtw-4aew5-aqj3l-6ydra-wqe"),
+    ("Artem Horodyskyi", "diyay-s4rfq-xnx23-zczwi-nptra-5254n-e4zn6-p7tqe-vqhzr-sd4gd-bqe"),
+    ("Aspire Properties", "2byzn-q2crt-hgczo-eruff-6p7af-pemor-n2z4z-6d2sd-wvdqa-yqvxb-mqe"),
     ("AVRVM AG", "33aps-ovxje-mwpux-cy2hh-f2qwp-5tzxs-2edbb-gblfn-ev5pv-cfnvj-pqe"),
     ("Bianca-Martina Rohner", "eatbv-nlydd-n655c-g7j7p-gnmpz-pszdg-6e6et-veobv-ftz2y-4m752-vqe"),
     ("Bigger Capital", "7a4u2-gevsy-5c5fs-hsgri-n2kdz-dxxwf-btcfp-jykro-l4y7c-7xky2-aqe"),
@@ -214,20 +231,32 @@ const NODE_PROVIDERS: &[(&str, &str)] = &[
 
 const SNSES: &[(&str, &str)] = &[("Boom DAO", "")];
 
-fn get_accounts() -> Vec<Account> {
-    let mut accounts = Vec::new();
+fn get_entries() -> Vec<Account> {
+    let mut entries = Vec::new();
 
-    // exchanges
-    accounts.extend(EXCHANGES.iter().map(|(name, addr)| Account::new(name, addr, Type::Exchange)));
+    // extend
+    entries.extend(EXCHANGES.iter().map(|(name, addr)| Account::new(name, addr, Type::Exchange)));
+    entries.extend(INDIVIDUALS.iter().map(|(name, addr)| Account::new(name, addr, Type::Individual)));
+    entries.extend(NODE_PROVIDERS.iter().map(|(name, addr)| Account::new(name, addr, Type::NodeProvider)));
+    entries.extend(SNSES.iter().map(|(name, addr)| Account::new(name, addr, Type::Sns)));
 
-    // individuals
-    accounts.extend(INDIVIDUALS.iter().map(|(name, addr)| Account::new(name, addr, Type::Individual)));
+    // check for dupes
+    let mut seen_account_ids = HashSet::new();
+    let mut seen_principals = HashSet::new();
 
-    // node providers
-    accounts.extend(NODE_PROVIDERS.iter().map(|(name, addr)| Account::new(name, addr, Type::NodeProvider)));
+    for entry in &entries {
+        if let Some(acc) = &entry.account {
+            if !seen_account_ids.insert(acc) {
+                panic!("duplicate account found: {acc}");
+            }
+        }
 
-    // sns
-    accounts.extend(SNSES.iter().map(|(name, addr)| Account::new(name, addr, Type::Sns)));
+        if let Some(pid) = &entry.principal {
+            if !seen_principals.insert(pid) {
+                panic!("duplicate principal found: {pid}");
+            }
+        }
+    }
 
-    accounts
+    entries
 }
