@@ -1,13 +1,13 @@
+pub mod helper;
+pub mod transactions;
+
 use candid::Principal;
-use crc32fast::Hasher as Crc32Hasher;
 use ic_agent::Agent;
 use serde::{Deserialize, Serialize};
-use sha2::{Digest, Sha224};
+
 use std::collections::HashSet;
 use thiserror::Error as ThisError;
 use transactions::fetch_account_transactions;
-
-mod transactions;
 
 const IC_URL: &str = "https://ic0.app";
 ///
@@ -312,6 +312,37 @@ const SNSES: &[(&str, &str)] = &[
     ("Yuku AI", "auadn-oqaaa-aaaaq-aacya-cai"),
 ];
 
+#[tokio::main]
+async fn main() -> Result<(), Box<dyn std::error::Error>> {
+    let mut results = Vec::new();
+
+    let agent = Agent::builder().with_url(IC_URL).build()?;
+
+    // Initialize the agent (fetch root key in development)
+    agent.fetch_root_key().await?;
+    for entry in get_entries() {
+        match fetch_account_transactions(entry, &agent).await {
+            Ok(account_tx) => results.push(account_tx),
+            Err(e) => eprintln!("Error fetching account transactions: {}", e),
+        }
+    }
+
+    let json_string = serde_json::to_string_pretty(&results)?;
+    std::fs::write("account_transactions.json", json_string)?;
+    println!("Saved combined account transactions to account_transactions.json");
+
+    Ok(())
+
+    // let account_id = principal_to_account_id(
+    //     &Principal::from_text("ufwij-jggzv-owfkb-cs26m-p7j3y-awpqg-3oa33-x4ciu-vadlo-2jb7f-gae").unwrap(),
+    //     None,
+    // );
+
+    // let account_id_str = account_id.iter().map(|byte| format!("{:02x}", byte)).collect::<String>();
+
+    // println!("Account id: {:?}", account_id_str);
+}
+
 fn get_entries() -> Vec<AccountData> {
     let mut entries = Vec::new();
 
@@ -344,62 +375,4 @@ fn get_entries() -> Vec<AccountData> {
     }
 
     entries
-}
-
-pub fn principal_to_account_id(principal: &Principal, subaccount: Option<[u8; 32]>) -> [u8; 32] {
-    let subaccount = subaccount.unwrap_or([0u8; 32]);
-
-    // Concatenate the domain separator, the principal bytes, and the subaccount.
-    let mut hasher = Sha224::new();
-    hasher.update(b"\x0Aaccount-id"); // Domain separator
-    hasher.update(principal.as_slice());
-    hasher.update(subaccount);
-    let hash = hasher.finalize(); // This gives 28 bytes.
-
-    // Compute the CRC32 checksum of the hash.
-    let mut crc_hasher = Crc32Hasher::new();
-    crc_hasher.update(hash.as_slice());
-    let checksum = crc_hasher.finalize();
-
-    // Prepend the 4-byte checksum to the 28-byte hash.
-    let mut account_id = [0u8; 32];
-    account_id[..4].copy_from_slice(&checksum.to_be_bytes());
-    account_id[4..].copy_from_slice(hash.as_slice());
-    account_id
-}
-
-/// Converts a 32-byte account id into a hex string.
-pub fn account_id_to_hex(account_id: [u8; 32]) -> String {
-    account_id.iter().map(|b| format!("{:02x}", b)).collect()
-}
-
-#[tokio::main]
-async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let mut results = Vec::new();
-
-    let agent = Agent::builder().with_url(IC_URL).build()?;
-
-    // Initialize the agent (fetch root key in development)
-    agent.fetch_root_key().await?;
-    for entry in get_entries() {
-        match fetch_account_transactions(entry, &agent).await {
-            Ok(account_tx) => results.push(account_tx),
-            Err(e) => eprintln!("Error fetching account transactions: {}", e),
-        }
-    }
-
-    let json_string = serde_json::to_string_pretty(&results)?;
-    std::fs::write("account_transactions.json", json_string)?;
-    println!("Saved combined account transactions to account_transactions.json");
-
-    Ok(())
-
-    // let account_id = principal_to_account_id(
-    //     &Principal::from_text("ufwij-jggzv-owfkb-cs26m-p7j3y-awpqg-3oa33-x4ciu-vadlo-2jb7f-gae").unwrap(),
-    //     None,
-    // );
-
-    // let account_id_str = account_id.iter().map(|byte| format!("{:02x}", byte)).collect::<String>();
-
-    // println!("Account id: {:?}", account_id_str);
 }

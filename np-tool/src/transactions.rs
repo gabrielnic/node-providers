@@ -1,9 +1,10 @@
+use crate::{
+    helper::{is_valid_account_id, principal_to_account_id},
+    AccountData,
+};
 use candid::{CandidType, Decode, Encode};
-use crc32fast::Hasher as Crc32Hasher;
 use ic_agent::{export::Principal, Agent};
 use serde::{Deserialize, Serialize};
-
-use crate::{account_id_to_hex, principal_to_account_id, AccountData};
 
 const GOVERNANCE_CANISTER_ID: &str = "qhbym-qaaaa-aaaaa-aaafq-cai";
 
@@ -102,33 +103,13 @@ pub struct AccountTransactionsJson {
     pub oldest_tx_id: Option<u64>,
 }
 
-fn is_valid_account_id(account_id_hex: &str) -> Result<bool, Box<dyn std::error::Error>> {
-    if account_id_hex.len() != 64 {
-        return Ok(false);
-    }
-
-    let account_bytes = hex::decode(account_id_hex)?;
-    if account_bytes.len() != 32 {
-        return Ok(false);
-    }
-
-    let mut hasher = Crc32Hasher::new();
-    hasher.update(&account_bytes[4..]); // bytes[4..32]
-    let computed_checksum = hasher.finalize();
-
-    let provided_checksum =
-        u32::from_be_bytes([account_bytes[0], account_bytes[1], account_bytes[2], account_bytes[3]]);
-
-    Ok(computed_checksum == provided_checksum)
-}
-
 pub async fn fetch_account_transactions(
     account_data: AccountData,
     agent: &Agent,
 ) -> Result<AccountTransactionsJson, Box<dyn std::error::Error>> {
     let account_identifier = if let Some(principal) = account_data.principal {
         let account_id = principal_to_account_id(&principal, None);
-        account_id_to_hex(account_id) // Convert the byte array to a hex string
+        hex::encode(account_id) // Convert the byte array to a hex string
     } else if let Some(account_hex) = account_data.account.clone() {
         account_hex
     } else {
