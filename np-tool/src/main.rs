@@ -275,6 +275,7 @@ const SNSES: &[(&str, &str)] = &[
     ("Alice", "oa5dz-haaaa-aaaaq-aaegq-cai"),
     ("Boom DAO", "xomae-vyaaa-aaaaq-aabhq-cai"),
     ("Catalyze", "umz53-fiaaa-aaaaq-aabmq-cai"),
+    ("Cecil The Lion DAO", "jt5an-tqaaa-aaaaq-aaevq-cai"),
     ("Cycles Transfer Station", "igbbe-6yaaa-aaaaq-aadnq-cai"),
     ("DecideAI DAO", "xvj4b-paaaa-aaaaq-aabfa-cai"),
     ("DOGMI", "ni4my-zaaaa-aaaaq-aadra-cai"),
