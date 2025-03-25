@@ -117,20 +117,18 @@ export function newSimulation(
 		n.fy = null;
 	}
 
-	function linkText(this: SVGTextElement, l: Link): string {
+	function linkText(l: Link): string {
 		const x1 = (l.source as Node).x!;
 		const x2 = (l.target as Node).x!;
-
 		switch (l.direction) {
-			case Direction.SEND:
-				return x2 < x1 ? '←' : '→';
-			case Direction.RECEIVE:
-				return x2 < x1 ? '→' : '←';
-			default:
-				return '↔';
+		  case Direction.SEND:
+			return x2 < x1 ? '←' : '→';
+		  case Direction.RECEIVE:
+			return x2 < x1 ? '→' : '←';
+		  default:
+			return '↔';
 		}
-	}
-
+	  }
 	svg
 		.selectAll<SVGCircleElement, Node>('.node')
 		.call(
