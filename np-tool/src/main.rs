@@ -66,25 +66,31 @@ pub enum Type {
 // main
 
 const EXCHANGES: &[(&str, &str)] = &[
-    ("Binance 1", "220c3a33f90601896e26f76fa619fe288742df1fa75426edfaf759d39f2455a5"),
-    ("Binance 2", "d3e13d4777e22367532053190b6c6ccf57444a61337e996242b1abfb52cf92c8"),
+    ("Bitget", "bad030b417484232fd2019cb89096feea3fdd3d9eb39e1d07bcb9a13c7673464"),
+    ("Binance 1", "609d3e1e45103a82adc97d4f88c51f78dedb25701e8e51e8c4fec53448aadc29"),
+    ("Binance 2", "220c3a33f90601896e26f76fa619fe288742df1fa75426edfaf759d39f2455a5"),
+    ("Binance 3", "d3e13d4777e22367532053190b6c6ccf57444a61337e996242b1abfb52cf92c8"),
+    ("Bybit", "acd76fff0536f863d9dd4b326a1435466f82305758b4b1b4f62ff9fa81c14073"),
     ("Coinbase 1", "449ce7ad1298e2ed2781ed379aba25efc2748d14c60ede190ad7621724b9e8b2"),
     ("Coinbase 2", "4dfa940def17f1427ae47378c440f10185867677109a02bc8374fc25b9dee8af"),
     ("Coinbase 3", "a6ed987d89796f921c8a49d275ec7c9aa04e75a8fc8cd2dbaa5da799f0215ab0"),
     ("Coinbase 4", "660b1680dafeedaa68c1f1f4cf8af42ed1dfb8564646efe935a2b9a48528b605"),
     ("Coinbase 5", "dd15f3040edab88d2e277f9d2fa5cc11616ebf1442279092e37924ab7cce8a74"),
     ("Coinbase 6", "4878d23a09b554157b31323004e1cc053567671426ca4eec7b7e835db607b965"),
-    ("HTX 1", "935b1a3adc28fd68cacc95afcdec62e985244ce0cfbbb12cdc7d0b8d198b416d"),
+    ("Gate.io", "8fe706db7b08f957a15199e07761039a7718937aabcc0fe48bc380a4daf9afb0"),
+    ("HTX", "935b1a3adc28fd68cacc95afcdec62e985244ce0cfbbb12cdc7d0b8d198b416d"),
     ("Kraken", "040834c30cdf5d7a13aae8b57d94ae2d07eefe2bc3edd8cf88298730857ac2eb"),
     ("KuCoin 1", "efa01544f509c56dd85449edf2381244a48fad1ede5183836229c00ab00d52df"),
     ("KuCoin 2", "00c3df112e62ad353b7cc7bf8ad8ce2fec8f5e633f1733834bf71e40b250c685"),
     ("MEXC", "9e62737aab36f0baffc1faac9edd92a99279723eb3feb2e916fa99bb7fe54b59"),
     ("OKX 1", "e7a879ea563d273c46dd28c1584eaa132fad6f3e316615b3eb657d067f3519b5"),
+    ("OKX 2", "d2c6135510eaf107bdc2128ef5962c7db2ae840efdf95b9395cdaf4983942978"),
 ];
 
 const FOUNDATION: &[&str] = &[
     "1a481b7aa86fa89029117f0487479f52fe3ee27ad63d48bac78fa60b3ebf9237",
     "12b7c1c6269b2021758ed5da65448a4ac3ac9fa0cf015caa4bb4c3e3dc7ca1c1",
+    "1f5ef4de27f2880dac6409b431ba866170be8b04e87afe95c841ca163d9c3689",
     "21b3cb5fccbbb1b4d92c03ace6f16f836e3425cf61ac3b2a9823499a60d5c7b5",
     "36039b216d234b39bfc993df251deba6d7481d974f20a7aa4ea8a2aff8c7606e",
     "406ae771636e9e6501166f71edb0b61b80a325640048b11b23b3eaf43a5048ed",
@@ -112,7 +118,7 @@ const FOUNDATION: &[&str] = &[
 const INDIVIDUALS: &[(&str, &str)] = &[
     ("Austin Fatheree", "jrnhz-6ekxv-2fffs-wfcgt-l3pe7-456id-heznf-xyf64-nykjq-4jyso-zae"),
     ("Johannes Kriel", "2rjjb-gy24i-ghulj-zfsn6-cf6ju-6rrkc-osdlt-uxuhc-ibhmb-wvh2v-yae"),
-    ("Wenzel Bartlett", "d1e29b5a69280f29c556928ef6ca6ce3d51ade592a95310f1893571bf37f0747"),
+    // ("Wenzel Bartlett", "d1e29b5a69280f29c556928ef6ca6ce3d51ade592a95310f1893571bf37f0747"),
     ("ufwij", "ufwij-jggzv-owfkb-cs26m-p7j3y-awpqg-3oa33-x4ciu-vadlo-2jb7f-gae"),
 ];
 
@@ -271,6 +277,7 @@ const SNSES: &[(&str, &str)] = &[
     ("Alice", "oa5dz-haaaa-aaaaq-aaegq-cai"),
     ("Boom DAO", "xomae-vyaaa-aaaaq-aabhq-cai"),
     ("Catalyze", "umz53-fiaaa-aaaaq-aabmq-cai"),
+    ("Cecil The Lion DAO", "jt5an-tqaaa-aaaaq-aaevq-cai"),
     ("Cycles Transfer Station", "igbbe-6yaaa-aaaaq-aadnq-cai"),
     ("DecideAI DAO", "xvj4b-paaaa-aaaaq-aabfa-cai"),
     ("DOGMI", "ni4my-zaaaa-aaaaq-aadra-cai"),
