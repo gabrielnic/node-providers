@@ -116,7 +116,7 @@ const FOUNDATION: &[&str] = &[
 const INDIVIDUALS: &[(&str, &str)] = &[
     ("Austin Fatheree", "jrnhz-6ekxv-2fffs-wfcgt-l3pe7-456id-heznf-xyf64-nykjq-4jyso-zae"),
     ("Johannes Kriel", "2rjjb-gy24i-ghulj-zfsn6-cf6ju-6rrkc-osdlt-uxuhc-ibhmb-wvh2v-yae"),
-    ("Wenzel Bartlett", "d1e29b5a69280f29c556928ef6ca6ce3d51ade592a95310f1893571bf37f0747"),
+    // ("Wenzel Bartlett", "d1e29b5a69280f29c556928ef6ca6ce3d51ade592a95310f1893571bf37f0747"),
     ("ufwij", "ufwij-jggzv-owfkb-cs26m-p7j3y-awpqg-3oa33-x4ciu-vadlo-2jb7f-gae"),
 ];
 
