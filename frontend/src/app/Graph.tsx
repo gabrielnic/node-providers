@@ -137,7 +137,6 @@ const Graph: React.FC<GraphProps> = ({
                     })
             )
             .on("click", (event, d) => {
-                console.log(event);
                 event.preventDefault();
                 event.stopPropagation();
                 event.stopImmediatePropagation();
@@ -178,7 +177,6 @@ const Graph: React.FC<GraphProps> = ({
         svg.call(
             zoom<SVGSVGElement, unknown>()
                 .filter((event: any) => {
-                    console.log(event);
                     if (event.sourceEvent && event.sourceEvent.type === "click") {
                         return false;
                     }
