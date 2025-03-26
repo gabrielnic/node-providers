@@ -1,0 +1,13 @@
+{
+	"canisters": {
+		"dapp_frontend": {
+			"source": ["dist"],
+			"type": "assets",
+			"frontend": {
+				"entrypoint": "dist/index.html"
+			}
+		}
+	},
+	"output_env_file": ".env",
+	"version": 1
+}

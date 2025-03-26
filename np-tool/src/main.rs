@@ -340,7 +340,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     }
 
     let json_string = serde_json::to_string_pretty(&results)?;
-    std::fs::write("account_transactions.json", json_string)?;
+    std::fs::write("./../frontend3/public/account_transactions.json", json_string)?;
     println!("Saved combined account transactions to account_transactions.json");
 
     Ok(())
@@ -358,7 +358,7 @@ fn get_entries() -> Vec<AccountData> {
     entries.extend(UNKNOWN.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Unknown)));
 
     // no name
-    entries.extend(FOUNDATION.iter().map(|addr| AccountData::new(&addr[..5], addr, Type::Exchange)));
+    entries.extend(FOUNDATION.iter().map(|addr| AccountData::new(&addr[..5], addr, Type::Foundation)));
     entries.extend(SPAMMERS.iter().map(|addr| AccountData::new(&addr[..5], addr, Type::Spammer)));
 
     // check for dupes
