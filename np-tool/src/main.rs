@@ -312,6 +312,13 @@ const SNSES: &[(&str, &str)] = &[
     ("Yuku AI", "auadn-oqaaa-aaaaq-aacya-cai"),
 ];
 
+const UNKNOWN: &[(&str, &str)] = &[
+    ("Coinbase 2K 2021-05-10 1", "73a3e56c7177c29c731618b1c60cfeb271c00d70ae40aba9202cdec84e977d39"),
+    ("Coinbase 2K 2021-05-10 2", "843187c470d88e1b0958840c768d7592b140e4c93a0359388cc0e69c6a653833"),
+    ("Coinbase 2K 2021-05-10 3", "5a15ff1832772182e35bc73e53cd372286ca5185beed546989485349a211b798"),
+    ("Coinbase 2K 2021-05-10 4", "8b8fff2a81588e1c095af6cb9c69acc031e8bd5e2483887aceba5872e19f2424"),
+];
+
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut results = Vec::new();
@@ -332,17 +339,9 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("Saved combined account transactions to account_transactions.json");
 
     Ok(())
-
-    // let account_id = principal_to_account_id(
-    //     &Principal::from_text("ufwij-jggzv-owfkb-cs26m-p7j3y-awpqg-3oa33-x4ciu-vadlo-2jb7f-gae").unwrap(),
-    //     None,
-    // );
-
-    // let account_id_str = account_id.iter().map(|byte| format!("{:02x}", byte)).collect::<String>();
-
-    // println!("Account id: {:?}", account_id_str);
 }
 
+// get_entries
 fn get_entries() -> Vec<AccountData> {
     let mut entries = Vec::new();
 
@@ -351,6 +350,7 @@ fn get_entries() -> Vec<AccountData> {
     entries.extend(INDIVIDUALS.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Individual)));
     entries.extend(NODE_PROVIDERS.iter().map(|(name, addr)| AccountData::new(name, addr, Type::NodeProvider)));
     entries.extend(SNSES.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Sns)));
+    entries.extend(UNKNOWN.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Unknown)));
 
     // no name
     entries.extend(FOUNDATION.iter().map(|addr| AccountData::new(&addr[..5], addr, Type::Exchange)));
