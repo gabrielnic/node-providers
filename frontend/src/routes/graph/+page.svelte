@@ -449,25 +449,6 @@
 					<p>Provider: {nodeProviderData?.name}</p>
 				{/if}
 			{/if}
-			<div id="color-legend">
-				<h3>Color Legend</h3>
-				<ul>
-					<li>
-						<span style="color: green;">○</span>: Selected Account
-					</li>
-					<li>
-						<span style="color: red;">○</span>: Node Provider Reward Account
-					</li>
-					<li>
-						<span style="color: orange;">○</span>: Foundation Account
-					</li>
-					<li>
-						<span style="color: blue;">○</span>: Known Exchange Account?<small
-							style="font-size: .6em">* based on volume/txs</small
-						>
-					</li>
-				</ul>
-			</div>
 		</div>
 	</div>
 </div>
