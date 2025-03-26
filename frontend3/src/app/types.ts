@@ -1,4 +1,7 @@
-// Data from your JSON
+"use client";
+import { SimulationNodeDatum, SimulationLinkDatum } from "d3-force";
+
+
 export interface AccountData {
     name: string;
     principal?: string;
@@ -22,7 +25,7 @@ export interface AccountData {
     | { Transfer: { from: string; to: string; fee: { e8s: number }; amount: { e8s: number }; spender?: string | null } }
     | { Mint: { to: string; amount: { e8s: number } } }
     | { Burn: { from: string; amount: { e8s: number }; spender?: string | null } }
-    | { Approve: { /* omitted for brevity */ } };
+    | { Approve:  unknown };
   
   // D3 simulation node & link definitions
   
@@ -30,6 +33,7 @@ export interface AccountData {
     id: string;    // matches the "account" hex string
     label: string; // e.g. the name
     group: string; // e.g. "Exchange", "Individual"
+    color?: string
   }
   
   export interface GraphLink extends SimulationLinkDatum<GraphNode> {
@@ -38,7 +42,7 @@ export interface AccountData {
   }
 
 
-  import { SimulationNodeDatum, SimulationLinkDatum } from "d3-force";
+
 
 export enum Direction {
   SEND = "SEND",

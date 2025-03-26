@@ -5,23 +5,7 @@ import styles from "./page.module.css";
 import { AccountData, GraphNode } from './types';
 import MyGraph from './Graph';
 import { useEffect, useState } from "react";
-
-export function useWindowSize() {
-  const isClient = typeof window !== "undefined";
-	const [size, setSize] = useState<{ width: number; height: number }>(
-    isClient ? { width: window.innerWidth, height: window.innerHeight } : { width: 0, height: 0 }
-  );
-
-	useEffect(() => {
-		function handleResize() {
-			setSize({ width: window.innerWidth, height: window.innerHeight });
-		}
-		window.addEventListener("resize", handleResize);
-		return () => window.removeEventListener("resize", handleResize);
-	}, []);
-
-	return size;
-}
+import { useWindowSize } from './hooks/useWindowSize';
 
 export default function Home() {
 	const [data, setData] = useState<AccountData[]>([]);
@@ -47,7 +31,7 @@ export default function Home() {
       <main className={styles.main}>
         <ul>
           <li>
-            Source it by running the np-tool <code>cargo run np-tool</code>.
+            Source it by running this command <code>cargo run np-tool</code> inside the np-tool folder.
           </li>
           <li>
           Legend: 

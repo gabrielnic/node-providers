@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+"use client";
 import React, { useRef, useEffect } from "react";
 import { select } from "d3-selection";
 import {
@@ -7,7 +10,7 @@ import {
   forceCenter,
   forceCollide
 } from "d3-force";
-import { drag } from "d3-drag";
+import { D3DragEvent, drag } from "d3-drag";
 import { zoom } from "d3-zoom";
 import { AccountData, GraphNode } from "./types";
 import { buildGraph } from "./graphData";
@@ -43,7 +46,7 @@ const MyGraph: React.FC<MyGraphProps> = ({
     const svg = select(svgRef.current!)
       .attr("width", width)
       .attr("height", height)
-      .call(zoom<SVGSVGElement, undefined>().on('zoom', zoomBehavior));
+      .call(zoom<SVGSVGElement, any>().on('zoom', zoomBehavior));
     svg.selectAll("*").remove();
     function zoomBehavior(this: SVGSVGElement, event: any, _: undefined) {
       const { transform } = event;
@@ -88,7 +91,6 @@ const MyGraph: React.FC<MyGraphProps> = ({
       .attr("stroke", "#999")
       .attr("stroke-opacity", 0.6)
       .attr("stroke-width", 1.5)
-      .attr("marker-end", "url(#arrowhead)"); // Use marker-end
 
     // 6. Create node circles with drag and click handlers
     const nodeSelection = svg
@@ -119,17 +121,17 @@ const MyGraph: React.FC<MyGraphProps> = ({
       .attr("stroke-width", 1)
       .attr("stroke", (d) => d.color ?? "#999")
       .call(
-        drag<SVGCircleElement, GraphNode>()
-          .on("start", (event, d) => {
+        (drag<SVGCircleElement, GraphNode, GraphNode>() as any)
+        .on("start", (event: D3DragEvent<SVGCircleElement, GraphNode, GraphNode>, d: GraphNode) => {
             if (!event.active) simulation.alphaTarget(0.3).restart();
             d.fx = d.x;
             d.fy = d.y;
           })
-          .on("drag", (event, d) => {
+          .on("drag", (event: D3DragEvent<SVGCircleElement, GraphNode, GraphNode>, d: GraphNode)=> {
             d.fx = event.x;
             d.fy = event.y;
           })
-          .on("end", (event, d) => {
+          .on("end", (event: D3DragEvent<SVGCircleElement, GraphNode, GraphNode>, d: GraphNode) => {
             if (!event.active) simulation.alphaTarget(0);
             d.fx = null;
             d.fy = null;
@@ -159,10 +161,10 @@ const MyGraph: React.FC<MyGraphProps> = ({
     // 8. Update positions on each tick of the simulation
     simulation.on("tick", () => {
       linkSelection
-        .attr("x1", (d) => (typeof d.source !== "string" ? d.source.x : 0))
-        .attr("y1", (d) => (typeof d.source !== "string" ? d.source.y : 0))
-        .attr("x2", (d) => (typeof d.target !== "string" ? d.target.x : 0))
-        .attr("y2", (d) => (typeof d.target !== "string" ? d.target.y : 0));
+      .attr("x1", (d) => ((d.source as any).x) || 0)
+      .attr("y1", (d) => ((d.source as any).y) || 0)
+      .attr("x2", (d) => ((d.target as any).x) || 0)
+      .attr("y2", (d) => ((d.target as any).y) || 0);
 
       nodeSelection
         .attr("cx", (d) => d.x || 0)
@@ -201,6 +203,7 @@ const MyGraph: React.FC<MyGraphProps> = ({
     return () => {
       simulation.stop();
     };
+      // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data, width, height]);
 
   return <svg ref={svgRef} />;

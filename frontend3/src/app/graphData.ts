@@ -1,6 +1,5 @@
-import { AccountData, GraphNode, GraphLink, Direction } from "./types";
-
-
+"use client";
+import { AccountData, GraphNode, GraphLink } from "./types";
 
 // Build a graph from an array of AccountData
 export function buildGraph(data: AccountData[]): {
@@ -32,7 +31,6 @@ export function buildGraph(data: AccountData[]): {
           links.push({
             source: from,
             target: to,
-            direction: Direction.SEND, // Set as SEND (i.e. "from" sends to "to")
           });
         }
       }
