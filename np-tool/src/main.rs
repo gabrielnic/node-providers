@@ -27,7 +27,7 @@ pub enum Error {
 /// AccountData
 ///
 
-#[derive(Debug, Default, Serialize, Deserialize)]
+#[derive(Debug, Serialize, Deserialize)]
 pub struct AccountData {
     name: String,
     principal: Option<Principal>,
@@ -51,16 +51,15 @@ impl AccountData {
 /// AccountType
 ///
 
-#[derive(Debug, Default, Serialize, Deserialize)]
+#[derive(Debug, Serialize, Deserialize)]
 pub enum Type {
     Exchange,
     Foundation,
     Individual,
     NodeProvider,
-    Spammer,
     Sns,
-    #[default]
-    Unknown,
+    Spammer,
+    Suspect,
 }
 
 // main
@@ -334,7 +333,7 @@ const SNSES: &[(&str, &str)] = &[
     ("Yuku AI", "auadn-oqaaa-aaaaq-aacya-cai"),
 ];
 
-const UNKNOWN: &[(&str, &str)] = &[
+const SUSPECTS: &[(&str, &str)] = &[
     ("Genesis Whale (2000) 1", "73a3e56c7177c29c731618b1c60cfeb271c00d70ae40aba9202cdec84e977d39"),
     ("Genesis Whale (2000) 2", "843187c470d88e1b0958840c768d7592b140e4c93a0359388cc0e69c6a653833"),
     ("Genesis Whale (2000) 3", "5a15ff1832772182e35bc73e53cd372286ca5185beed546989485349a211b798"),
@@ -365,7 +364,7 @@ fn get_entries() -> Vec<AccountData> {
     entries.extend(INDIVIDUALS.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Individual)));
     entries.extend(NODE_PROVIDERS.iter().map(|(name, addr)| AccountData::new(name, addr, Type::NodeProvider)));
     entries.extend(SNSES.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Sns)));
-    entries.extend(UNKNOWN.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Unknown)));
+    entries.extend(SUSPECTS.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Suspect)));
 
     // no name
     entries.extend(FOUNDATION.iter().map(|addr| AccountData::new(&addr[..5], addr, Type::Foundation)));
