@@ -64,6 +64,27 @@ pub enum Type {
 }
 
 // main
+#[tokio::main]
+async fn main() -> Result<(), Box<dyn std::error::Error>> {
+    let mut results = Vec::new();
+
+    let agent = Agent::builder().with_url(IC_URL).build()?;
+
+    // Initialize the agent (fetch root key in development)
+    agent.fetch_root_key().await?;
+    for entry in get_entries() {
+        match fetch_account_transactions(entry, &agent).await {
+            Ok(account_tx) => results.push(account_tx),
+            Err(e) => eprintln!("Error fetching account transactions: {}", e),
+        }
+    }
+
+    let json_string = serde_json::to_string_pretty(&results)?;
+    std::fs::write("./../frontend3/public/account_transactions.json", json_string)?;
+    println!("Saved combined account transactions to account_transactions.json");
+
+    Ok(())
+}
 
 const EXCHANGES: &[(&str, &str)] = &[
     ("Bitget", "bad030b417484232fd2019cb89096feea3fdd3d9eb39e1d07bcb9a13c7673464"),
@@ -73,10 +94,10 @@ const EXCHANGES: &[(&str, &str)] = &[
     ("Bybit", "acd76fff0536f863d9dd4b326a1435466f82305758b4b1b4f62ff9fa81c14073"),
     ("Coinbase 1", "449ce7ad1298e2ed2781ed379aba25efc2748d14c60ede190ad7621724b9e8b2"),
     ("Coinbase 2", "4dfa940def17f1427ae47378c440f10185867677109a02bc8374fc25b9dee8af"),
-    ("Coinbase 3", "a6ed987d89796f921c8a49d275ec7c9aa04e75a8fc8cd2dbaa5da799f0215ab0"),
-    ("Coinbase 4", "660b1680dafeedaa68c1f1f4cf8af42ed1dfb8564646efe935a2b9a48528b605"),
-    ("Coinbase 5", "dd15f3040edab88d2e277f9d2fa5cc11616ebf1442279092e37924ab7cce8a74"),
-    ("Coinbase 6", "4878d23a09b554157b31323004e1cc053567671426ca4eec7b7e835db607b965"),
+    ("Coinbase 3", "dd15f3040edab88d2e277f9d2fa5cc11616ebf1442279092e37924ab7cce8a74"),
+    ("Coinbase (Inactive 2021) 1", "a6ed987d89796f921c8a49d275ec7c9aa04e75a8fc8cd2dbaa5da799f0215ab0"),
+    ("Coinbase (Inactive 2021) 2", "660b1680dafeedaa68c1f1f4cf8af42ed1dfb8564646efe935a2b9a48528b605"),
+    ("Coinbase (Inactive 2021) 3", "4878d23a09b554157b31323004e1cc053567671426ca4eec7b7e835db607b965"),
     ("Gate.io", "8fe706db7b08f957a15199e07761039a7718937aabcc0fe48bc380a4daf9afb0"),
     ("HTX", "935b1a3adc28fd68cacc95afcdec62e985244ce0cfbbb12cdc7d0b8d198b416d"),
     ("Kraken", "040834c30cdf5d7a13aae8b57d94ae2d07eefe2bc3edd8cf88298730857ac2eb"),
@@ -313,38 +334,20 @@ const SNSES: &[(&str, &str)] = &[
 ];
 
 const UNKNOWN: &[(&str, &str)] = &[
-    ("Coinbase 2K 2021-05-10 1", "73a3e56c7177c29c731618b1c60cfeb271c00d70ae40aba9202cdec84e977d39"),
-    ("Coinbase 2K 2021-05-10 2", "843187c470d88e1b0958840c768d7592b140e4c93a0359388cc0e69c6a653833"),
-    ("Coinbase 2K 2021-05-10 3", "5a15ff1832772182e35bc73e53cd372286ca5185beed546989485349a211b798"),
-    ("Coinbase 2K 2021-05-10 4", "8b8fff2a81588e1c095af6cb9c69acc031e8bd5e2483887aceba5872e19f2424"),
-    ("Coinbase 2K 2021-05-10 5", "f7641b665a8275f61c91cb743754ff2e6f575c68477fc351d101eb74eab7f042"),
-    ("Coinbase 2K 2021-05-10 6", "573501760b5e1654dbf24852f0045426586d96f00ffd13a212f2e9cc820c0630"),
-    ("Coinbase 2K 2021-05-10 7", "eefb4d05d68c147f596d9718c7336b08b0bbbd4f2d5be692b7072904b4c1fd1a"),
-    ("Coinbase 2K 2021-05-10 8", "25e4a7d6d45cf52c9ec02cf1fdf2f1118e3843a47f3f94817031c45170aa24b8"),
+    ("Genesis CB2K 1", "73a3e56c7177c29c731618b1c60cfeb271c00d70ae40aba9202cdec84e977d39"),
+    ("Genesis CB2K 2", "843187c470d88e1b0958840c768d7592b140e4c93a0359388cc0e69c6a653833"),
+    ("Genesis CB2K 3", "5a15ff1832772182e35bc73e53cd372286ca5185beed546989485349a211b798"),
+    ("Genesis CB2K 4", "8b8fff2a81588e1c095af6cb9c69acc031e8bd5e2483887aceba5872e19f2424"),
+    ("Genesis CB2K 5", "f7641b665a8275f61c91cb743754ff2e6f575c68477fc351d101eb74eab7f042"),
+    ("Genesis CB2K 6", "573501760b5e1654dbf24852f0045426586d96f00ffd13a212f2e9cc820c0630"),
+    ("Genesis CB2K 7", "eefb4d05d68c147f596d9718c7336b08b0bbbd4f2d5be692b7072904b4c1fd1a"),
+    ("Genesis CB2K 8", "25e4a7d6d45cf52c9ec02cf1fdf2f1118e3843a47f3f94817031c45170aa24b8"),
+    ("Genesis CB2K 9", "1055f803a4c8e19fa863c1933281b778732ffaa50b72e0e7bc8d2db25ed57ee4"),
+    ("Genesis CB2K 10", "8aeb77c9e83bd3063ee576ad97b37b893bad401d43b3a66822ae3b700a5d2085"),
+    ("Genesis Whale 1", "5257f7dc8da3ab4850f4d299b5ca34f29b89f149a834099d0bd9fecab27a537d"),
+    ("Genesis Whale 2", "125013e95bd5e008bd6d26f86f5ddda2b16c382372b3067672505c1f11418817"),
+    ("Genesis Mixer 1", "05ad474665f1eec0714c1a4ec941c3a395c703e14bb43100bd946d80b87828af"),
 ];
-
-// main
-#[tokio::main]
-async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let mut results = Vec::new();
-
-    let agent = Agent::builder().with_url(IC_URL).build()?;
-
-    // Initialize the agent (fetch root key in development)
-    agent.fetch_root_key().await?;
-    for entry in get_entries() {
-        match fetch_account_transactions(entry, &agent).await {
-            Ok(account_tx) => results.push(account_tx),
-            Err(e) => eprintln!("Error fetching account transactions: {}", e),
-        }
-    }
-
-    let json_string = serde_json::to_string_pretty(&results)?;
-    std::fs::write("./../frontend3/public/account_transactions.json", json_string)?;
-    println!("Saved combined account transactions to account_transactions.json");
-
-    Ok(())
-}
 
 // get_entries
 fn get_entries() -> Vec<AccountData> {
