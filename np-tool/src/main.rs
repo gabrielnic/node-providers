@@ -80,7 +80,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     }
 
     let json_string = serde_json::to_string_pretty(&results)?;
-    std::fs::write("./../frontend3/public/account_transactions.json", json_string)?;
+    std::fs::write("./../frontend/public/account_transactions.json", json_string)?;
     println!("Saved combined account transactions to account_transactions.json");
 
     Ok(())
