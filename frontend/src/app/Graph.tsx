@@ -39,7 +39,6 @@ const Graph: React.FC<GraphProps> = ({
 
   useEffect(() => {
     if (!data || data.length === 0) return;
-    console.log('refreshed...');
     const { nodes, links } = buildGraph(data);
 
     // 2. Select/prepare the SVG and clear previous content
