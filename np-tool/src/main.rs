@@ -317,8 +317,13 @@ const UNKNOWN: &[(&str, &str)] = &[
     ("Coinbase 2K 2021-05-10 2", "843187c470d88e1b0958840c768d7592b140e4c93a0359388cc0e69c6a653833"),
     ("Coinbase 2K 2021-05-10 3", "5a15ff1832772182e35bc73e53cd372286ca5185beed546989485349a211b798"),
     ("Coinbase 2K 2021-05-10 4", "8b8fff2a81588e1c095af6cb9c69acc031e8bd5e2483887aceba5872e19f2424"),
+    ("Coinbase 2K 2021-05-10 5", "f7641b665a8275f61c91cb743754ff2e6f575c68477fc351d101eb74eab7f042"),
+    ("Coinbase 2K 2021-05-10 6", "573501760b5e1654dbf24852f0045426586d96f00ffd13a212f2e9cc820c0630"),
+    ("Coinbase 2K 2021-05-10 7", "eefb4d05d68c147f596d9718c7336b08b0bbbd4f2d5be692b7072904b4c1fd1a"),
+    ("Coinbase 2K 2021-05-10 8", "25e4a7d6d45cf52c9ec02cf1fdf2f1118e3843a47f3f94817031c45170aa24b8"),
 ];
 
+// main
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut results = Vec::new();
@@ -359,7 +364,7 @@ fn get_entries() -> Vec<AccountData> {
     // check for dupes
     let mut seen_account_ids = HashSet::new();
     let mut seen_principals = HashSet::new();
-
+    print!("Validating {} addresses...", entries.len());
     for entry in &entries {
         if let Some(acc) = &entry.account {
             if !seen_account_ids.insert(acc) {
@@ -373,6 +378,7 @@ fn get_entries() -> Vec<AccountData> {
             }
         }
     }
+    println!(" ok");
 
     entries
 }
