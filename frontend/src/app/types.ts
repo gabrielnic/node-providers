@@ -6,7 +6,8 @@ export interface AccountData {
     name: string;
     principal?: string;
     account: string;
-    ty: string;  // "Exchange", "Individual", etc.
+    ty: string;
+    extra_accounts: string[];
     transactions: TransactionWithId[];
   }
   
