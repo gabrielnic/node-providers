@@ -353,6 +353,7 @@ const SUSPECTS: &[(&str, &str)] = &[
     ("Genesis Whale (10501) 5", "3f8de2ecb6c011ec265aec0ce9a23abf0278c07d0471d24e956f704fe0e63118"),
     ("Genesis Whale (10501) 1", "a4d4c3b7847ffd3188d659b85fc29836dc98bb183f9482225f6254634c4fb770"),
     ("Genesis Mixer 1", "05ad474665f1eec0714c1a4ec941c3a395c703e14bb43100bd946d80b87828af"),
+    ("BIL Hacker", "3axar-twhdo-biizl-yegt2-fatxq-go2ay-ib5ki-y6cmq-ziiav-vcn5x-mae"),
 ];
 
 // get_entries
