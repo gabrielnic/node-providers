@@ -8,6 +8,8 @@ import { useWindowSize } from './hooks/useWindowSize';
 import { GraphContainer } from './GraphContainer';
 
 export default function Home() {
+  const [highlightNodeId, setHighlightNodeId] = useState<string | undefined>(undefined);
+  const [searchQuery, setSearchQuery] = useState<string>("");
 
   const [loading, setLoading] = useState<boolean>(true);
   const [data, setData] = useState<AccountData[]>([]);
@@ -27,10 +29,34 @@ export default function Home() {
   };
 
   const { width, height } = useWindowSize();
-
+  const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const lowerQuery = searchQuery.toLowerCase();
+    const matchingEntry = data.find((entry) =>
+      entry.name.toLowerCase().includes(lowerQuery)
+    );
+    console.log(matchingEntry);
+    if (matchingEntry) {
+      // Use the account id as the node id.
+      setHighlightNodeId(matchingEntry.account);
+    } else {
+      setHighlightNodeId(undefined);
+    }
+  };
 
   return (
     <div className={styles.page}>
+       <header>
+        <form onSubmit={handleSearch}>
+          <input
+            type="text"
+            placeholder="Search node by name..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          />
+          <button type="submit">Search</button>
+        </form>
+      </header>
     <main className={styles.main}>
       <div className="row">
         <div className="col-7">
@@ -77,6 +103,7 @@ export default function Home() {
                 height={height}
                 onNodeClick={handleNodeClick}
                 loading={loading}
+                highlightNodeId={highlightNodeId}
               />
             </div>
           </div>

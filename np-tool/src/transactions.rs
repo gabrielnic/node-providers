@@ -96,18 +96,6 @@ pub enum GetAccountIdentifierTransactionsResult {
     Err(GetAccountIdentifierTransactionsError),
 }
 
-#[derive(Debug, Serialize, Deserialize)]
-pub struct AccountTransactionsJson {
-    pub name: String,
-    pub principal: Option<String>, // we'll convert the Principal to a text string if present
-    pub account: Option<String>,
-    pub ty: String,
-    extra_accounts: Vec<String>,
-    pub transactions: Vec<TransactionWithId>,
-    pub balance: u64,
-    pub oldest_tx_id: Option<u64>,
-}
-
 #[derive(Debug, Serialize, Deserialize, CandidType, Clone)]
 struct GovAccountIdentifierentifier {
     hash: Vec<u8>,
@@ -199,6 +187,24 @@ pub struct ProviderRewardInfo {
     mint_transaction_count: Option<u32>,
     first_mint_timestamp: Option<u64>,
     last_mint_timestamp: Option<u64>,
+}
+
+#[derive(Serialize, Debug, Deserialize)]
+pub struct SimplifiedTransfer {
+    pub op_type: String,
+    pub from: String,
+    pub to: String,
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+pub struct AccountTransactionsJson {
+    pub name: String,
+    pub principal: Option<String>,
+    pub account: Option<String>,
+    pub ty: String,
+    extra_accounts: Vec<String>,
+    pub transactions: Vec<SimplifiedTransfer>,
+    pub oldest_tx_id: Option<u64>,
 }
 
 pub fn process_account_hex(hex: &str) -> (Option<String>, Option<String>, Option<String>) {
@@ -333,6 +339,15 @@ pub async fn get_accounts_from_rewards(principal: Principal, rewards: ListNodePr
     extra_accounts.into_iter().collect()
 }
 
+fn get_operation_type(op: &Operation) -> &str {
+    match op {
+        Operation::Approve { .. } => "Approve",
+        Operation::Burn { .. } => "Burn",
+        Operation::Mint { .. } => "Mint",
+        Operation::Transfer { .. } => "Transfer",
+    }
+}
+
 pub async fn fetch_account_transactions(
     account_data: AccountData,
     agent: &Agent,
@@ -373,23 +388,41 @@ pub async fn fetch_account_transactions(
 
     let mut extra_accounts = Vec::new();
     if let Some(extra_acc) = extra_account.clone() {
-        extra_accounts.push(extra_acc.clone());
-        let extra_request =
-            GetAccountTransactionsArgs { max_results: 10000, start: None, account_identifier: extra_acc };
-        let extra_args = Encode!(&extra_request)?;
-        let extra_response_bytes =
-            agent.query(&principal, "get_account_identifier_transactions").with_arg(extra_args).call().await?;
-        let extra_result = Decode!(extra_response_bytes.as_slice(), GetAccountIdentifierTransactionsResult)?;
-        match extra_result {
-            GetAccountIdentifierTransactionsResult::Ok(extra_resp) => {
-                transactions.extend(extra_resp.transactions);
-                // Optionally, combine balances if needed.
-            }
-            GetAccountIdentifierTransactionsResult::Err(err) => {
-                return Err(err.message.into());
+        // Only proceed if the extra account is different from the main account identifier.
+        if extra_acc != account_identifier {
+            extra_accounts.push(extra_acc.clone());
+            let extra_request =
+                GetAccountTransactionsArgs { max_results: 10000, start: None, account_identifier: extra_acc };
+            let extra_args = Encode!(&extra_request)?;
+            let extra_response_bytes =
+                agent.query(&principal, "get_account_identifier_transactions").with_arg(extra_args).call().await?;
+            let extra_result = Decode!(extra_response_bytes.as_slice(), GetAccountIdentifierTransactionsResult)?;
+            match extra_result {
+                GetAccountIdentifierTransactionsResult::Ok(extra_resp) => {
+                    transactions.extend(extra_resp.transactions);
+                    // Optionally, combine balances if needed.
+                }
+                GetAccountIdentifierTransactionsResult::Err(err) => {
+                    return Err(err.message.into());
+                }
             }
         }
     }
+
+    let simplified_transactions: Vec<SimplifiedTransfer> = transactions
+        .into_iter()
+        .filter_map(|tx_with_id| {
+            if let Operation::Transfer { to, from, .. } = &tx_with_id.transaction.operation {
+                Some(SimplifiedTransfer {
+                    op_type: get_operation_type(&tx_with_id.transaction.operation).to_string(),
+                    from: from.clone(),
+                    to: to.clone(),
+                })
+            } else {
+                None
+            }
+        })
+        .collect();
 
     // 5. Build the final JSON output.
     let output = AccountTransactionsJson {
@@ -397,8 +430,7 @@ pub async fn fetch_account_transactions(
         principal: account_data.principal.map(|p| p.to_text()),
         account: Some(account_identifier),
         ty: format!("{:?}", account_data.ty),
-        transactions,
-        balance,
+        transactions: simplified_transactions,
         extra_accounts,
         oldest_tx_id,
     };

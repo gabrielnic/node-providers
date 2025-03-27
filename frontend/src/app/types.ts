@@ -1,32 +1,26 @@
 "use client";
 import { SimulationNodeDatum, SimulationLinkDatum } from "d3-force";
 
-
 export interface AccountData {
     name: string;
     principal?: string;
     account: string;
     ty: string;
     extra_accounts: string[];
-    transactions: TransactionWithId[];
+    transactions: Transaction[];
   }
   
-  export interface TransactionWithId {
-    id: number;
-    transaction: {
-      memo: number;
-      icrc1_memo: unknown | null;
-      operation: Operation;
-      timestamp?: { timestamp_nanos: number };
-      created_at_time?: { timestamp_nanos: number };
-    };
+  export interface Transaction {
+    op_type: Operation;
+    to: string;
+    from: string;
   }
   
   export type Operation =
-    | { Transfer: { from: string; to: string; fee: { e8s: number }; amount: { e8s: number }; spender?: string | null } }
-    | { Mint: { to: string; amount: { e8s: number } } }
-    | { Burn: { from: string; amount: { e8s: number }; spender?: string | null } }
-    | { Approve:  unknown };
+    | "Transfer"
+    | "Mint"
+    | "Burn"
+    | "Approve"
   
   // D3 simulation node & link definitions
   
@@ -34,15 +28,15 @@ export interface AccountData {
     id: string;    // matches the "account" hex string
     label: string; // e.g. the name
     group: string; // e.g. "Exchange", "Individual"
-    color?: string
+    color?: string;
+   
   }
   
   export interface GraphLink extends SimulationLinkDatum<GraphNode> {
     source: string; // account "from"
     target: string; // account "to"
+    direction?: string;
   }
-
-
 
 
 export enum Direction {

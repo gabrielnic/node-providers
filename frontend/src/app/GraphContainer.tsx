@@ -10,6 +10,7 @@ interface GraphContainerProps {
   height: number;
   onNodeClick: (node: GraphNode) => void;
   loading: boolean;
+  highlightNodeId?: string; 
 }
 
 export function GraphContainer({
@@ -18,6 +19,7 @@ export function GraphContainer({
   height,
   onNodeClick,
   loading,
+  highlightNodeId
 }: GraphContainerProps) {
   if (loading) {
     return (
@@ -33,7 +35,7 @@ export function GraphContainer({
   }
   return (
     <div className="graph-container">
-      <Graph data={data} width={width} height={height} onNodeClick={onNodeClick} />
+      <Graph data={data} width={width} height={height} onNodeClick={onNodeClick} highlightNodeId={highlightNodeId} />
     </div>
   );
 }
