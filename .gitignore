@@ -6,10 +6,6 @@ target/
 tests/pocket-ic
 tests/logs
 
-# frontend
-frontend/.vite/
-frontend/public/account_transactions.json
-
 # Various IDEs and Editors
 .vscode/
 .idea/
