@@ -105,6 +105,9 @@ const EXCHANGES: &[(&str, &str)] = &[
     ("MEXC", "9e62737aab36f0baffc1faac9edd92a99279723eb3feb2e916fa99bb7fe54b59"),
     ("OKX 1", "e7a879ea563d273c46dd28c1584eaa132fad6f3e316615b3eb657d067f3519b5"),
     ("OKX 2", "d2c6135510eaf107bdc2128ef5962c7db2ae840efdf95b9395cdaf4983942978"),
+    ("Unknown 1", "178197f9833164374be1e0ff8e9cf8b78c964f3ea294ab0da9bddc800c7ac64f"),
+    ("Unknown 2", "da29b27beb16a842882149b5380ff3b20f701c33ca8fddbecdb5201c600e0f0e"),
+    ("Unknown 2", "2117d6be92d5c43adae0443cca9d30409d52acdf17eead1e63916e46ca891c37"),
 ];
 
 const FOUNDATION: &[&str] = &[
@@ -139,6 +142,7 @@ const INDIVIDUALS: &[(&str, &str)] = &[
     ("Austin Fatheree", "jrnhz-6ekxv-2fffs-wfcgt-l3pe7-456id-heznf-xyf64-nykjq-4jyso-zae"),
     ("Johannes Kriel", "2rjjb-gy24i-ghulj-zfsn6-cf6ju-6rrkc-osdlt-uxuhc-ibhmb-wvh2v-yae"),
     ("ufwij", "ufwij-jggzv-owfkb-cs26m-p7j3y-awpqg-3oa33-x4ciu-vadlo-2jb7f-gae"),
+    ("ckBTC", "az453-x2sxf-wewfl-pszbd-4u4rh-yq7nk-hxkrp-6yvo3-mnlce-zjvsg-qae"),
 ];
 
 const NODE_PROVIDERS: &[(&str, &str)] = &[
@@ -353,7 +357,9 @@ const SUSPECTS: &[(&str, &str)] = &[
     ("Genesis Whale (10501) 5", "3f8de2ecb6c011ec265aec0ce9a23abf0278c07d0471d24e956f704fe0e63118"),
     ("Genesis Whale (10501) 1", "a4d4c3b7847ffd3188d659b85fc29836dc98bb183f9482225f6254634c4fb770"),
     ("Genesis Mixer 1", "05ad474665f1eec0714c1a4ec941c3a395c703e14bb43100bd946d80b87828af"),
-    ("BIL Hacker", "3axar-twhdo-biizl-yegt2-fatxq-go2ay-ib5ki-y6cmq-ziiav-vcn5x-mae"),
+    ("BIL Hacker 1", "3axar-twhdo-biizl-yegt2-fatxq-go2ay-ib5ki-y6cmq-ziiav-vcn5x-mae"),
+    ("BIL Weird Link 1", "ddc050bf2a59f2d905f0c7af45854cd4cc4e406c643c322e5fa65e83a36d97da"),
+    ("BIL Weird Link 2 (4 ICP)", "4ec84f148280c743948b2f54911bbcdcbc6996169f20b52eafd03544d03453fa"),
 ];
 
 // get_entries
