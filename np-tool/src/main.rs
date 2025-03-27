@@ -7,7 +7,7 @@ use serde::{Deserialize, Serialize};
 
 use std::collections::HashSet;
 use thiserror::Error as ThisError;
-use transactions::fetch_account_transactions;
+use transactions::{fetch_account_transactions, fetch_nodes_rewards, get_accounts_from_rewards, process_rewards_data};
 
 const IC_URL: &str = "https://ic0.app";
 ///
@@ -65,19 +65,18 @@ pub enum Type {
 // main
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let mut results = Vec::new();
-
     let agent = Agent::builder().with_url(IC_URL).build()?;
 
     // Initialize the agent (fetch root key in development)
     agent.fetch_root_key().await?;
+
+    let mut results = Vec::new();
     for entry in get_entries() {
         match fetch_account_transactions(entry, &agent).await {
             Ok(account_tx) => results.push(account_tx),
             Err(e) => eprintln!("Error fetching account transactions: {}", e),
         }
     }
-
     let json_string = serde_json::to_string_pretty(&results)?;
     std::fs::write("./../frontend/public/account_transactions.json", json_string)?;
     println!("Saved combined account transactions to account_transactions.json");
