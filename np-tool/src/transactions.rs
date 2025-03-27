@@ -201,7 +201,7 @@ pub struct ProviderRewardInfo {
     last_mint_timestamp: Option<u64>,
 }
 
-fn process_account_hex(hex: &str) -> (Option<String>, Option<String>, Option<String>) {
+pub fn process_account_hex(hex: &str) -> (Option<String>, Option<String>, Option<String>) {
     // Original hex
     let orig_hex = Some(hex.to_string());
 

@@ -76,6 +76,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
             Err(e) => eprintln!("Error fetching account transactions: {}", e),
         }
     }
+
     let json_string = serde_json::to_string_pretty(&results)?;
     std::fs::write("./../frontend/public/account_transactions.json", json_string)?;
     println!("Saved combined account transactions to account_transactions.json");
@@ -145,6 +146,7 @@ const FOUNDATION: &[&str] = &[
 const INDIVIDUALS: &[(&str, &str)] = &[
     ("Austin Fatheree", "jrnhz-6ekxv-2fffs-wfcgt-l3pe7-456id-heznf-xyf64-nykjq-4jyso-zae"),
     ("Johannes Kriel", "2rjjb-gy24i-ghulj-zfsn6-cf6ju-6rrkc-osdlt-uxuhc-ibhmb-wvh2v-yae"),
+    ("Utkarsh Goyal (GoBazzinga)", "736130c585e271287afc27a381acfcf5c2757203763caad6bf70be0e98a6a0e6"),
 ];
 
 const NODE_PROVIDERS: &[(&str, &str)] = &[
