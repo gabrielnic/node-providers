@@ -141,8 +141,6 @@ const FOUNDATION: &[&str] = &[
 const INDIVIDUALS: &[(&str, &str)] = &[
     ("Austin Fatheree", "jrnhz-6ekxv-2fffs-wfcgt-l3pe7-456id-heznf-xyf64-nykjq-4jyso-zae"),
     ("Johannes Kriel", "2rjjb-gy24i-ghulj-zfsn6-cf6ju-6rrkc-osdlt-uxuhc-ibhmb-wvh2v-yae"),
-    ("ufwij", "ufwij-jggzv-owfkb-cs26m-p7j3y-awpqg-3oa33-x4ciu-vadlo-2jb7f-gae"),
-    ("ckBTC", "az453-x2sxf-wewfl-pszbd-4u4rh-yq7nk-hxkrp-6yvo3-mnlce-zjvsg-qae"),
 ];
 
 const NODE_PROVIDERS: &[(&str, &str)] = &[
@@ -358,8 +356,17 @@ const SUSPECTS: &[(&str, &str)] = &[
     ("Genesis Whale (10501) 1", "a4d4c3b7847ffd3188d659b85fc29836dc98bb183f9482225f6254634c4fb770"),
     ("Genesis Mixer 1", "05ad474665f1eec0714c1a4ec941c3a395c703e14bb43100bd946d80b87828af"),
     ("BIL Hacker 1", "3axar-twhdo-biizl-yegt2-fatxq-go2ay-ib5ki-y6cmq-ziiav-vcn5x-mae"),
+    ("BIL Hacker ckBTC Account", "az453-x2sxf-wewfl-pszbd-4u4rh-yq7nk-hxkrp-6yvo3-mnlce-zjvsg-qae"),
     ("BIL Weird Link 1", "ddc050bf2a59f2d905f0c7af45854cd4cc4e406c643c322e5fa65e83a36d97da"),
     ("BIL Weird Link 2 (4 ICP)", "4ec84f148280c743948b2f54911bbcdcbc6996169f20b52eafd03544d03453fa"),
+    ("ufwij", "ufwij-jggzv-owfkb-cs26m-p7j3y-awpqg-3oa33-x4ciu-vadlo-2jb7f-gae"),
+    ("NF 1 (1845 ICP)", "afxjy-xzged-ttm2u-5rjp7-exday-s6uly-ea4pc-xkiok-tjzva-23isp-vae"),
+    ("NF 2 (986 ICP)", "byfqe-a6vvd-vxehg-k5hi3-ij3v3-7n6qv-smmxm-v3vg7-mye6g-thgrs-kae"),
+    ("NF 3 (660 ICP)", "c4dgi-zb67y-vgmq3-gpm55-szzjo-mc3kt-jjov3-yytoy-ltq6t-ptyyv-lqe"),
+    ("NF 4 (572 ICP)", "amatj-baend-pdd4b-tantp-b3heu-uvusn-abmj5-hkhf2-xlvfm-jy6xp-uae"),
+    ("NF 5 (557 ICP)", "etynm-5engo-23sxo-jlss2-7jnkl-zxqv2-3s3s7-w7kpt-uaqnb-ckg6m-rae"),
+    ("NF 6 (411 ICP)", "bgmtq-s5ra3-l4ftn-zmi5f-wg2o4-zolb4-pyyez-hyttd-7rvuw-r3gyl-4ae"),
+    ("NF 7 (396 ICP)", "oggca-p5idg-tq22l-meqsr-kupbo-m3lpf-h6wi7-zplva-coxgr-tm3vt-2qe"),
 ];
 
 // get_entries
