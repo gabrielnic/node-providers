@@ -58,7 +58,6 @@ pub enum Type {
     Individual,
     NodeProvider,
     Sns,
-    Spammer,
     Suspect,
 }
 
@@ -84,6 +83,12 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     Ok(())
 }
+
+// SKIP any transactions to these accounts in the graph
+const SKIP: &[&str] = &[
+    "a28c30427beceb4a1cae7bad6145ad58767aa1364cd4466c1ff2ee2c70c40726",
+    "62dd39780d34f2dc21eb680f99962659a6a0c2ccd9c68ec365962ae0eaf293f0",
+];
 
 const EXCHANGES: &[(&str, &str)] = &[
     ("Bitget", "bad030b417484232fd2019cb89096feea3fdd3d9eb39e1d07bcb9a13c7673464"),
@@ -289,11 +294,6 @@ const NODE_PROVIDERS: &[(&str, &str)] = &[
     ("ZTLC PTE LTD (deprecated)", "xsrwt-tl3tk-n3aya-rafh3-ta6xu-eviw5-ae5dg-2f3bf-siaab-wdwdo-dqe"),
 ];
 
-const SPAMMERS: &[&str] = &[
-    "a28c30427beceb4a1cae7bad6145ad58767aa1364cd4466c1ff2ee2c70c40726",
-    "62dd39780d34f2dc21eb680f99962659a6a0c2ccd9c68ec365962ae0eaf293f0",
-];
-
 const SNSES: &[(&str, &str)] = &[
     ("Alice", "oa5dz-haaaa-aaaaq-aaegq-cai"),
     ("Boom DAO", "xomae-vyaaa-aaaaq-aabhq-cai"),
@@ -388,7 +388,6 @@ fn get_entries() -> Vec<AccountData> {
 
     // no name
     entries.extend(FOUNDATION.iter().map(|addr| AccountData::new(&addr[..5], addr, Type::Foundation)));
-    entries.extend(SPAMMERS.iter().map(|addr| AccountData::new(&addr[..5], addr, Type::Spammer)));
 
     // check for dupes
     let mut seen_account_ids = HashSet::new();

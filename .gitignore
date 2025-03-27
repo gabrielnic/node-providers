@@ -6,7 +6,7 @@ target/
 tests/pocket-ic
 tests/logs
 
-np-tool/account_transactions.json
+frontend/public/account_transactions.json
 
 # Various IDEs and Editors
 .vscode/
