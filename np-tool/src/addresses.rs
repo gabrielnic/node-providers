@@ -13,6 +13,7 @@ pub const EXCHANGES: &[(&str, &str)] = &[
     ("Gate.io", "8fe706db7b08f957a15199e07761039a7718937aabcc0fe48bc380a4daf9afb0"),
     ("HTX", "935b1a3adc28fd68cacc95afcdec62e985244ce0cfbbb12cdc7d0b8d198b416d"),
     ("Kraken", "040834c30cdf5d7a13aae8b57d94ae2d07eefe2bc3edd8cf88298730857ac2eb"),
+    ("KongSwap", "2ipq2-uqaaa-aaaar-qailq-cai"),
     ("KuCoin 1", "efa01544f509c56dd85449edf2381244a48fad1ede5183836229c00ab00d52df"),
     ("KuCoin 2", "00c3df112e62ad353b7cc7bf8ad8ce2fec8f5e633f1733834bf71e40b250c685"),
     ("MEXC", "9e62737aab36f0baffc1faac9edd92a99279723eb3feb2e916fa99bb7fe54b59"),
@@ -320,6 +321,7 @@ pub const SPAMMERS: &[&str] = &[
     "855ef68f8da9261d564f99d2664e4bb57f54fdce9ce4c47d17d2496d944ced09",
     "89ae91070e925b60fc0f385f8551f24e98ad988d924a67ac12fd4ab8202fcac2",
     "8bb6566eec439670a76d36dc0ddb20ddcfa9be8ff84b81593c3eedb672db9bdb",
+    "8d5c3bca2cfcb1a527f8ee047aecc2d11c3fa4faf61aa17445f34dc9c2aeb3da",
     // 9
     "930b4eab708af98a0e5dc64f8e79232337a1c1bb1ed8b4cab59be00aabb876d9",
     "9e62dfd18216e3c0263d023dc85f14a5d3e58824221b49f9b625a4cb17994b59",
@@ -336,6 +338,7 @@ pub const SPAMMERS: &[&str] = &[
     "aced6a05c8c36579348ce15d72a89cfd667379a4d5cc2d2db47a07b2ef1a5700",
     "adc6f4ae401cf5464017e26f65ffe58f209fb1b7d8f0b89ec036ad3a8e85488f",
     // b
+    "b284073dbec634b97576d1ff0a88ffe57bcbcd3c2aed8cca0f41a2bca7fced84",
     "b9344c3c0d34e64fe39000794e4e9a2195205cf07540be8c6bf6188539288b08",
     "bca87516236f42102cca0efaf04d149bba0d9b58f511a25ae12ea684efa1c1e0",
     "bd24dfc5a86e6905b6f1e8f4d70e29cd83af6f8152163784914e5fcad1e65df3",
