@@ -1,4 +1,7 @@
 pub const EXCHANGES: &[(&str, &str)] = &[
+    //
+    // CEX
+    //
     ("Bitget", "bad030b417484232fd2019cb89096feea3fdd3d9eb39e1d07bcb9a13c7673464"),
     ("Binance 1", "609d3e1e45103a82adc97d4f88c51f78dedb25701e8e51e8c4fec53448aadc29"),
     ("Binance 2", "220c3a33f90601896e26f76fa619fe288742df1fa75426edfaf759d39f2455a5"),
@@ -13,12 +16,16 @@ pub const EXCHANGES: &[(&str, &str)] = &[
     ("Gate.io", "8fe706db7b08f957a15199e07761039a7718937aabcc0fe48bc380a4daf9afb0"),
     ("HTX", "935b1a3adc28fd68cacc95afcdec62e985244ce0cfbbb12cdc7d0b8d198b416d"),
     ("Kraken", "040834c30cdf5d7a13aae8b57d94ae2d07eefe2bc3edd8cf88298730857ac2eb"),
-    ("KongSwap", "2ipq2-uqaaa-aaaar-qailq-cai"),
     ("KuCoin 1", "efa01544f509c56dd85449edf2381244a48fad1ede5183836229c00ab00d52df"),
     ("KuCoin 2", "00c3df112e62ad353b7cc7bf8ad8ce2fec8f5e633f1733834bf71e40b250c685"),
     ("MEXC", "9e62737aab36f0baffc1faac9edd92a99279723eb3feb2e916fa99bb7fe54b59"),
     ("OKX 1", "e7a879ea563d273c46dd28c1584eaa132fad6f3e316615b3eb657d067f3519b5"),
     ("OKX 2", "d2c6135510eaf107bdc2128ef5962c7db2ae840efdf95b9395cdaf4983942978"),
+    //
+    // DEX
+    //
+    ("ICPSwap BOB/ICP", "2117d6be92d5c43adae0443cca9d30409d52acdf17eead1e63916e46ca891c37"),
+    ("KongSwap", "2ipq2-uqaaa-aaaar-qailq-cai"),
     //
     // Unknown
     //
@@ -400,7 +407,6 @@ pub const SUSPECTS: &[(&str, &str)] = &[
     //
     ("BIL Hacker", "3axar-twhdo-biizl-yegt2-fatxq-go2ay-ib5ki-y6cmq-ziiav-vcn5x-mae"),
     ("BIL Hacker ckBTC Account", "az453-x2sxf-wewfl-pszbd-4u4rh-yq7nk-hxkrp-6yvo3-mnlce-zjvsg-qae"),
-    ("CLOWN Rugger", "ubojc-qnw5m-ty4f7-svlu2-hrkqo-ctqld-5jv75-222sn-ezjla-lamyt-xae"),
     ("ufwij", "ufwij-jggzv-owfkb-cs26m-p7j3y-awpqg-3oa33-x4ciu-vadlo-2jb7f-gae"),
     //
     // Neuron Fund
@@ -419,7 +425,11 @@ pub const SUSPECTS: &[(&str, &str)] = &[
     ("NF 15 (411 ICP)", "bgmtq-s5ra3-l4ftn-zmi5f-wg2o4-zolb4-pyyez-hyttd-7rvuw-r3gyl-4ae"),
     ("NF 16 (396 ICP)", "oggca-p5idg-tq22l-meqsr-kupbo-m3lpf-h6wi7-zplva-coxgr-tm3vt-2qe"),
     ("Approver 1", "6202e0cfffbbb22acd373aba740d2c10d84a1c6b044b97fe4f649c9c7a2426b6"),
-    ("Possible Mixer", "2117d6be92d5c43adae0443cca9d30409d52acdf17eead1e63916e46ca891c37"),
+    //
+    // Scams
+    //
+    ("CigDAO", "onxlw-tiaaa-aaaan-qedoq-cai"),
+    ("CLOWN Rugger", "ubojc-qnw5m-ty4f7-svlu2-hrkqo-ctqld-5jv75-222sn-ezjla-lamyt-xae"),
     //
     // SNS Participants
     //
