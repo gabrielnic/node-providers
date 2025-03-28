@@ -61,6 +61,7 @@ pub const IDENTIFIED: &[(&str, &str)] = &[
     ("a16z -> 5.7m", "64a6e689034cec4ad68fe762f01c5be482cd2799b69583b66a16ec90f318b35d"),
     ("a16z Beneficiary", "ee5a229b0584939b880ffd446f2f8ae25252706d78298f20efe4a74665206554"),
     ("jrnhz", "jrnhz-6ekxv-2fffs-wfcgt-l3pe7-456id-heznf-xyf64-nykjq-4jyso-zae"),
+    ("Cartographer", "0d6960e0d0c92bdd7dfdd7ca6c5472f1506344c49d8e8402513aa94fa5bd2bd0"),
     ("CodeGov", "5awin-45z56-xtcpr-6xlsj-j25mu-q5de7-2rzdj-5675c-mrikh-m5vpg-aqe"),
     ("Gavin H", "7cfaeaa0e14ce862636f052ff307511032e030a3028ead7614f7fc0905c1de41"),
     ("IcDevs Tax Deductible", "c8e78c28beebd305370cfc798bbe96132fcade8ac88ec742084a4e6e248913cf"),
