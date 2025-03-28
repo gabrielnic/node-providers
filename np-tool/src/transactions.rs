@@ -373,7 +373,7 @@ pub async fn fetch_account_transactions(
 
     let response_bytes = agent.query(&principal, "get_account_identifier_transactions").with_arg(args).call().await?;
     let result = Decode!(response_bytes.as_slice(), GetAccountIdentifierTransactionsResult)?;
-    let (balance, mut transactions, oldest_tx_id) = match result {
+    let (_balance, mut transactions, oldest_tx_id) = match result {
         GetAccountIdentifierTransactionsResult::Ok(resp) => (resp.balance, resp.transactions, resp.oldest_tx_id),
         GetAccountIdentifierTransactionsResult::Err(err) => return Err(err.message.into()),
     };

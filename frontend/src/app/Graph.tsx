@@ -119,7 +119,7 @@ const Graph: React.FC<GraphProps> = ({
                 switch (d.group) {
                     case "Exchange":
                         return "blue";
-                    case "Individual":
+                    case "Identified":
                         return "green";
                     case "Foundation":
                         return "yellow";
