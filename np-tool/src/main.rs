@@ -107,7 +107,6 @@ const EXCHANGES: &[(&str, &str)] = &[
     ("OKX 2", "d2c6135510eaf107bdc2128ef5962c7db2ae840efdf95b9395cdaf4983942978"),
     ("Unknown 1", "178197f9833164374be1e0ff8e9cf8b78c964f3ea294ab0da9bddc800c7ac64f"),
     ("Unknown 2", "da29b27beb16a842882149b5380ff3b20f701c33ca8fddbecdb5201c600e0f0e"),
-    ("Unknown 2", "2117d6be92d5c43adae0443cca9d30409d52acdf17eead1e63916e46ca891c37"),
 ];
 
 const FOUNDATION: &[&str] = &[
@@ -145,6 +144,7 @@ const INDIVIDUALS: &[(&str, &str)] = &[
     ("IcDevs Tax Deductible", "c8e78c28beebd305370cfc798bbe96132fcade8ac88ec742084a4e6e248913cf"),
     ("IcDevs Anonymous", "93a3506e08e88e1f65f85990451038f7a232b6f860ee706b42cc9edec96eecee"),
     ("IcDevs NFTs", "p75el-ys2la-2xa6n-unek2-gtnwo-7zklx-25vdp-uepyz-qhdg7-pt2fi-bqe"),
+    ("Toniq Royalty", "c7e461041c0c5800a56b64bb7cefc247abc0bbbb99bd46ff71c64e92d9f5c2f9"),
 ];
 
 const NODE_PROVIDERS: &[(&str, &str)] = &[
@@ -294,9 +294,44 @@ const NODE_PROVIDERS: &[(&str, &str)] = &[
 ];
 
 const SPAMMERS: &[&str] = &[
-    "a28c30427beceb4a1cae7bad6145ad58767aa1364cd4466c1ff2ee2c70c40726",
-    "62dd39780d34f2dc21eb680f99962659a6a0c2ccd9c68ec365962ae0eaf293f0",
+    "0efb160f6e78815ea9e5afbe2d08cad1fee5a238ef41cbf9274494f262ed4764",
+    "1601cf7be4b10ef2c8de0266ee0585c9a27dd9f5e66215950de4100331eb0e3a",
+    "17819332729e1c508fc8afa23a0eecaecb7e6ebc720261954f1183bcbb6ac64f",
+    "2020eaed4a27b554f5eae7a24a4a96d6d069a4a5a61dc33c2cae884363de0d31",
+    "240b61ca4ca044c8660b301f0488fc1c05ff4f1c15a28045054c2a10b3e6ba99",
+    "2b041fc28c06df2581dcb1bd0a00595aa586f0f1460af6a8cc440d2b19cb6a59",
+    "3a6ab7a8d5f756dd73c3ee0b957998c33e80ebc1c263f0e1f447c744f59291de",
+    "3d0e91b202078231dd12f91c0e6d37a4907e6f322bee6133a870e6a77408a875",
+    "3fe6e3694a8956405e95882b04695e1703921d27f272635d631aca9d828b8cf1",
+    "417274730068f0391f3f820d52890b2d275b431951e3acca96138a1a64ef31b1",
+    "4cea06e06c82d7e818c212cd55076ad958475608ed982819d64bce06bfefad07",
     "4dfa8f7797f1bb03223abd9a9bba306d79a755d43a3dd7ec15220cbbc38ce8af",
+    "62dd39780d34f2dc21eb680f99962659a6a0c2ccd9c68ec365962ae0eaf293f0",
+    "65b6f95407f538811dfc2f7d29be4abd369023229278481c4594406091033a6d",
+    "6e5db62ddce5acb2a9bdca547454e362121f554c4b40b56ddbc95c43749b66ad",
+    "70973d8fa2197cc3258860bc6e59fafe526029a05a745a16c222800a9f344051",
+    "76406255d7501c933769159c46f0eb1cc8854d1cc60b71cd37b1aec59eec00b4",
+    "7fc9f70a69a1f8ed79a803e4cc9e651b38c7576ceb04c23a62146f1c3774e999",
+    "855ef68f8da9261d564f99d2664e4bb57f54fdce9ce4c47d17d2496d944ced09",
+    "89ae91070e925b60fc0f385f8551f24e98ad988d924a67ac12fd4ab8202fcac2",
+    "8bb6566eec439670a76d36dc0ddb20ddcfa9be8ff84b81593c3eedb672db9bdb",
+    "930b4eab708af98a0e5dc64f8e79232337a1c1bb1ed8b4cab59be00aabb876d9",
+    "a28c30427beceb4a1cae7bad6145ad58767aa1364cd4466c1ff2ee2c70c40726",
+    "a761e1c808ea3b9806908fe6840dcb8e827a584c2a8643f954b732efdcaf8195",
+    "a7a301868b540c506766d79f4e8e91611f0fb7f55cfacb55d03e74fbe3870527",
+    "acd7e3e0ca48f9a0a0a169b0b80cb27de518f58d6d31cbdfa283d642f8be4073",
+    "bca87516236f42102cca0efaf04d149bba0d9b58f511a25ae12ea684efa1c1e0",
+    "b9344c3c0d34e64fe39000794e4e9a2195205cf07540be8c6bf6188539288b08",
+    "cc156854cff56c776bd6bcd4aa30311edc0f37e39d0a2aa24073d6d2c7a6c0d1",
+    "cd29680eebfd269eef1cd41d31847ef9a996d3e2bd339af90afead56c97223d9",
+    "cd845fc4844bcf50a687fa8b1c1e07371cd525b2e6d2c3530f82488aa0fb50f2",
+    "d231070fddba87421c59bc0b12ebddc29af80bd1d43c72bef27e79bf3e1b1a3e",
+    "da29c07474224016a6fa1539bd44c1972280afb8a2699cc99bff826638ee0f0e",
+    "dd1542378bd9b27a4ad2bff6ccdf4ee58921ab17c15eb782986520b933208a74",
+    "df7c67608b2949f4bb1138756ed31ca7f0749d884b576fa288daafe1fbe72a5c",
+    "eb542943faa9c9eaf15dc98447f897d1f7a34e31685a9ce458a4514f6d7b0aba",
+    "ed968fe58c887b071e1f4ed4fc67996b721c1534af09adde9893bd37375155ec",
+    "fbf37edd638b42f52320b01cbccb91f1b46eee205af5d95b59c966c8902031d8",
 ];
 
 const SNSES: &[(&str, &str)] = &[
@@ -360,10 +395,10 @@ const SUSPECTS: &[(&str, &str)] = &[
     ("Genesis Whale (10501) 5", "3f8de2ecb6c011ec265aec0ce9a23abf0278c07d0471d24e956f704fe0e63118"),
     ("Genesis Whale (10501) 1", "a4d4c3b7847ffd3188d659b85fc29836dc98bb183f9482225f6254634c4fb770"),
     ("Genesis Mixer 1", "05ad474665f1eec0714c1a4ec941c3a395c703e14bb43100bd946d80b87828af"),
-    ("BIL Hacker 1", "3axar-twhdo-biizl-yegt2-fatxq-go2ay-ib5ki-y6cmq-ziiav-vcn5x-mae"),
+    ("BIL Hacker", "3axar-twhdo-biizl-yegt2-fatxq-go2ay-ib5ki-y6cmq-ziiav-vcn5x-mae"),
     ("BIL Hacker ckBTC Account", "az453-x2sxf-wewfl-pszbd-4u4rh-yq7nk-hxkrp-6yvo3-mnlce-zjvsg-qae"),
-    ("BIL Weird Link 1", "ddc050bf2a59f2d905f0c7af45854cd4cc4e406c643c322e5fa65e83a36d97da"),
-    ("BIL Weird Link 2 (4 ICP)", "4ec84f148280c743948b2f54911bbcdcbc6996169f20b52eafd03544d03453fa"),
+    ("Weird Bot 1", "ddc050bf2a59f2d905f0c7af45854cd4cc4e406c643c322e5fa65e83a36d97da"),
+    ("Weird Bot 2", "4ec84f148280c743948b2f54911bbcdcbc6996169f20b52eafd03544d03453fa"),
     ("ufwij", "ufwij-jggzv-owfkb-cs26m-p7j3y-awpqg-3oa33-x4ciu-vadlo-2jb7f-gae"),
     ("NF 1 (1.3m ICP)", "lsyd6-e7avj-lnf7q-fqga7-nb3x4-gum2h-fajff-4urd5-gve2l-tppm2-7ae"),
     ("NF 2 (1.1m ICP)", "yjjc4-kc4ge-io5mm-m5kye-pcm2v-qwgci-yn7zh-tyj6w-ur33e-ncsmx-xae"),
@@ -378,6 +413,8 @@ const SUSPECTS: &[(&str, &str)] = &[
     ("NF 14 (557 ICP)", "etynm-5engo-23sxo-jlss2-7jnkl-zxqv2-3s3s7-w7kpt-uaqnb-ckg6m-rae"),
     ("NF 15 (411 ICP)", "bgmtq-s5ra3-l4ftn-zmi5f-wg2o4-zolb4-pyyez-hyttd-7rvuw-r3gyl-4ae"),
     ("NF 16 (396 ICP)", "oggca-p5idg-tq22l-meqsr-kupbo-m3lpf-h6wi7-zplva-coxgr-tm3vt-2qe"),
+    ("Approver 1", "6202e0cfffbbb22acd373aba740d2c10d84a1c6b044b97fe4f649c9c7a2426b6"),
+    ("Possible Mixer", "2117d6be92d5c43adae0443cca9d30409d52acdf17eead1e63916e46ca891c37"),
 ];
 
 // get_entries
