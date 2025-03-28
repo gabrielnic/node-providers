@@ -153,7 +153,7 @@ pub struct MonthlyNodeProviderRewards {
     rewards: Vec<RewardNodeProvider>,
     xdr_conversion_rate: Option<XdrConversionRate>,
     #[serde(default)]
-    pub node_providers: Vec<NodeProviderReward>,
+    node_providers: Vec<NodeProviderReward>,
     #[serde(default)]
     pub registry_version: Option<u64>,
     #[serde(default)]
@@ -327,7 +327,7 @@ pub async fn get_accounts_from_rewards(principal: Principal, rewards: ListNodePr
                 if let Some(ref account) = reward_to_account.to_account {
                     // If the reward account's hash is different from the default, record it.
                     if account.hash != default_vec {
-                        let hex = account.hash.iter().map(|b| format!("{:02x}", b)).collect::<String>();
+                        let hex = hex::encode(&account.hash);
                         extra_accounts.insert(hex);
                     }
                 }
