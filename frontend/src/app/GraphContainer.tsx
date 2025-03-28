@@ -1,8 +1,10 @@
 // src/components/GraphContainer.tsx
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Graph from "./Graph";
 import { AccountData, GraphNode } from "../app/types"; // adjust the path as needed
+import { buildGraph } from "./graphData";
+import Select from 'react-select'
 
 interface GraphContainerProps {
   data: AccountData[];
@@ -19,8 +21,22 @@ export function GraphContainer({
   height,
   onNodeClick,
   loading,
-  highlightNodeId
 }: GraphContainerProps) {
+ const [highlightNodeId, setHighlightNodeId] = useState<string | undefined>(undefined);
+
+  const handleSearch = (selectedOption: any) => {
+    console.log(selectedOption);
+    const matchingEntry = data.find((entry) =>
+      entry.name.toLowerCase().includes(selectedOption.label.toLowerCase())
+    );
+    console.log(matchingEntry);
+    if (matchingEntry) {
+      // Use the account id as the node id.
+      setHighlightNodeId(matchingEntry.account);
+    } else {
+      setHighlightNodeId(undefined);
+    }
+  };
   if (loading) {
     return (
       <div
@@ -33,8 +49,15 @@ export function GraphContainer({
       </div>
     );
   }
+  // 
+  const { nodes } = buildGraph(data);
+  const selectValues = [...nodes].map((node) => {
+    return { value: node.id, label: node.label };
+  });
   return (
     <div className="graph-container">
+       <Select options={selectValues} placeholder="Find node..." onChange={handleSearch} />
+      <br/>
       <Graph data={data} width={width} height={height} onNodeClick={onNodeClick} highlightNodeId={highlightNodeId} />
     </div>
   );
