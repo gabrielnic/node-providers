@@ -7,7 +7,7 @@ use serde::{Deserialize, Serialize};
 
 use std::collections::HashSet;
 use thiserror::Error as ThisError;
-use transactions::{fetch_account_transactions, fetch_nodes_rewards, get_accounts_from_rewards, process_rewards_data};
+use transactions::fetch_account_transactions;
 
 const IC_URL: &str = "https://ic0.app";
 ///
@@ -88,6 +88,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 const SKIP: &[&str] = &[
     "a28c30427beceb4a1cae7bad6145ad58767aa1364cd4466c1ff2ee2c70c40726",
     "62dd39780d34f2dc21eb680f99962659a6a0c2ccd9c68ec365962ae0eaf293f0",
+    "4dfa8f7797f1bb03223abd9a9bba306d79a755d43a3dd7ec15220cbbc38ce8af",
 ];
 
 const EXCHANGES: &[(&str, &str)] = &[

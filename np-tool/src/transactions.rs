@@ -378,7 +378,7 @@ pub async fn fetch_account_transactions(
         GetAccountIdentifierTransactionsResult::Err(err) => return Err(err.message.into()),
     };
 
-    let rewards = fetch_nodes_rewards(&agent).await?;
+    let rewards = fetch_nodes_rewards(agent).await?;
     let rewards_by_principal = process_rewards_data(rewards);
     let extra_account: Option<String> = if let Some(principal) = account_data.principal {
         rewards_by_principal.get(&Principal::to_string(&principal)).and_then(|rd| rd.clone().reward_account_formatted)
