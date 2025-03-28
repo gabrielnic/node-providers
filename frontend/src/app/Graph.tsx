@@ -41,9 +41,8 @@ const Graph: React.FC<GraphProps> = ({
 
     useEffect(() => {
         if (!data || data.length === 0) return;
-
-        // 1. Build nodes & links
-        const { nodes, links } = buildGraph(data);
+        const newData: any = data.filter((d) => d.ty !== 'Spammer');
+        const { nodes, links } = buildGraph(newData);
         // 2. Select/prepare the SVG and clear previous content
         const svg = select(svgRef.current!)
             .attr("width", width)
@@ -227,7 +226,7 @@ const Graph: React.FC<GraphProps> = ({
         if (!highlightNodeId) return;
 
         // Select the node with matching id (assuming you set the node's id attribute to d.id)
-        const node = select(svgRef.current).select(`circle#${highlightNodeId}`);
+        const node: any = select(svgRef.current).select(`circle#${highlightNodeId}`);
         if (!node.empty()) {
             // For example, increase its radius and change its stroke
             node.transition().duration(500)
