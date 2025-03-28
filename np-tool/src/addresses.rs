@@ -56,6 +56,7 @@ pub const FOUNDATION: &[&str] = &[
 ];
 
 pub const IDENTIFIED: &[(&str, &str)] = &[
+    ("Austin Fatheree", "83a06afc3e0707f633ae839c1e4f756846a13c6bf1d005499a7f50725cf9f8db"),
     ("a16z Confirmed", "cbada211a17812ec0fb21df6f6261c1346435a04fc14e7e22fae9887479ad19a"),
     ("a16z -> 5.4m", "a52b32f0ae2b096120ae7e085e576c960546d17f01494fe81fc1b640daf7d0c5"),
     ("a16z -> 5.7m", "64a6e689034cec4ad68fe762f01c5be482cd2799b69583b66a16ec90f318b35d"),
