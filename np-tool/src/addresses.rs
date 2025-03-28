@@ -1,7 +1,4 @@
-pub const EXCHANGES: &[(&str, &str)] = &[
-    //
-    // CEX
-    //
+pub const CEXES: &[(&str, &str)] = &[
     ("Bitget", "bad030b417484232fd2019cb89096feea3fdd3d9eb39e1d07bcb9a13c7673464"),
     ("Binance 1", "609d3e1e45103a82adc97d4f88c51f78dedb25701e8e51e8c4fec53448aadc29"),
     ("Binance 2", "220c3a33f90601896e26f76fa619fe288742df1fa75426edfaf759d39f2455a5"),
@@ -21,14 +18,11 @@ pub const EXCHANGES: &[(&str, &str)] = &[
     ("MEXC", "9e62737aab36f0baffc1faac9edd92a99279723eb3feb2e916fa99bb7fe54b59"),
     ("OKX 1", "e7a879ea563d273c46dd28c1584eaa132fad6f3e316615b3eb657d067f3519b5"),
     ("OKX 2", "d2c6135510eaf107bdc2128ef5962c7db2ae840efdf95b9395cdaf4983942978"),
-    //
-    // DEX
-    //
+];
+
+pub const DEXES: &[(&str, &str)] = &[
     ("ICPSwap BOB/ICP", "2117d6be92d5c43adae0443cca9d30409d52acdf17eead1e63916e46ca891c37"),
     ("KongSwap", "2ipq2-uqaaa-aaaar-qailq-cai"),
-    //
-    // Unknown
-    //
     ("Unknown 1", "178197f9833164374be1e0ff8e9cf8b78c964f3ea294ab0da9bddc800c7ac64f"),
     ("Unknown 2", "da29b27beb16a842882149b5380ff3b20f701c33ca8fddbecdb5201c600e0f0e"),
 ];
@@ -415,6 +409,7 @@ pub const SUSPECTS: &[(&str, &str)] = &[
     ("BIL Hacker", "3axar-twhdo-biizl-yegt2-fatxq-go2ay-ib5ki-y6cmq-ziiav-vcn5x-mae"),
     ("BIL Hacker ckBTC Account", "az453-x2sxf-wewfl-pszbd-4u4rh-yq7nk-hxkrp-6yvo3-mnlce-zjvsg-qae"),
     ("ufwij", "ufwij-jggzv-owfkb-cs26m-p7j3y-awpqg-3oa33-x4ciu-vadlo-2jb7f-gae"),
+    ("dwx4w", "dwx4w-plydf-jxgs5-uncbu-mfyds-5vjzm-oohax-gmvja-cypv7-tmbt4-dqe"),
     //
     // Neuron Fund
     //
@@ -440,15 +435,44 @@ pub const SUSPECTS: &[(&str, &str)] = &[
     //
     // SNS Participants
     //
+    // DOLR
+    ("DOLR AI SNS 150k", "n4gtt-k6lm6-26bnm-iy7nd-syyub-zaz7y-ikmi6-74w3u-7c3wk-iuqxt-rae"),
+    ("DOLR AI SNS 93k", "74ekp-mnvbw-gdabj-3ho4b-jao7e-5f7iu-27xik-ouf6s-w3u22-jmzer-yqe"),
+    ("DOLR AI SNS 60k", "wwyo5-vrahh-jwa74-3m6kj-jqbia-jbebm-7vtyd-uvqem-wk3zw-djpci-vqe"),
+    ("DOLR AI SNS 6k", "lvsje-wfazq-xzrha-quuz7-quwur-67jl7-nbb7v-5llqf-vclab-slswv-rae"),
+    ("DOLR AI SNS 5k", "bmhrf-hq2zu-dlrcg-6d375-xc2x6-ljmmx-g36gu-bz2eb-sm6m3-lfdgk-uqe"),
+    ("DOLR AI SNS 5k", "mlnie-bxsfa-gv7tu-ehhvv-7i24g-b2cnn-qbxnk-q4css-g24an-yinaf-lae"),
+    ("DOLR AI SNS 3.6k", "r4ixk-5nzuy-qpjsj-3srvi-qr6yj-iydup-7kt3j-2rdf4-dfeok-5nhnk-iqe"),
+    ("DOLR AI SNS 2k, WTN 5k", "vgrm6-ur624-kl4qd-3sukh-wssor-ztoox-ecgbu-ebvn5-f4hgu-quqyk-pae"),
+    // ICPEx
     ("ICPEx SNS 30k", "fznfr-p3puw-izxeh-ud4qr-k26q2-pdgfh-vxmr5-kswww-okpb2-cohna-5ae"),
     ("ICPEx SNS 17k", "meavt-eugdu-w4zjb-gr3qe-nvqxl-dv6pl-t256f-aussh-xpp6d-wzy4c-rae"),
     ("ICPEx SNS 12k", "e4s3u-6prhs-ll5vk-fkcel-33xw7-5t6d7-raqjs-2js2b-zblrn-smowm-eae"),
     ("ICPEx SNS 11k", "jusdz-4xamz-xdnq5-uso3u-hralh-a55cp-zyek4-wnaxo-7xpkr-jxmwf-jae"),
     ("ICPEx SNS 10k", "w6ezf-7ywlx-gofjr-zek2o-v32pm-fsoj4-cim2x-cbdmi-jrtlb-skfez-3ae"),
     ("ICPEx SNS 10k", "q5cqr-x4pj3-n7feb-ratsg-y7hwi-bwpja-xs7b3-f5m65-m6jfl-yodd2-vqe"),
+    // ICPSwap
+    ("ICPSwap SNS 50k", "tfxmx-hpuo2-z2faw-ii37v-wzi4w-o2lre-oup6d-bdhhx-ebglo-ujqzl-5qe"),
+    ("ICPSwap SNS 26k", "eelqg-w3mgp-4btdz-6fagh-xcbgs-4pik7-pzolk-f3sdw-qajex-3hnhr-oae"),
+    ("ICPSwap SNS 10k", "cvtfn-74z2v-v2m5k-ohidc-gdb3e-hde7g-hvsqc-gwdmx-oef7y-vub72-oae"),
+    ("ICPSwap SNS 10k", "6n7h6-6cvld-44lpq-wvpoj-mk6ur-slbhz-mqu4w-yerqn-btnzc-hwwdy-mqe"),
+    ("ICPSwap SNS 9k", "w23jp-jvtce-32ob6-lhxwb-sjrbf-tyq7q-oifov-ijy24-gz6jf-gfogx-bqe"),
+    // NFIDW
+    ("NFIDW SNS 8k", "bxnp4-ym2h2-nrdxf-l5wgq-agnjv-2dei4-26s54-welyl-wk3ry-sfr4w-qqe"),
+    ("NFIDW SNS 8k", "3rxla-jua5q-xopzh-52v2p-5ih5h-s4yvq-ro2co-gdnzg-xiznr-5ubhj-3qe"),
+    ("NFIDW SNS 6.5k", "24amu-ld2uy-2klfg-kxyhq-ahwsc-vdciv-emymv-g3khl-fsawa-7ekoq-sqe"),
+    ("NFIDW SNS 5k", "ojna7-4o6fi-f4pzd-zu5m2-m5na4-miajz-kz65q-ecmmh-34j43-cfuun-gqe"),
+    ("NFIDW SNS 2k", "v6zy5-xc6h3-oduqq-rfib4-cc4n2-vyeip-4fthl-7qjir-oke3k-ftpvv-3qe"),
+    ("NFIDW SNS 2k", "27byn-shdjj-bt2ec-jz3jq-hnkgw-6qshf-fi7nj-xixnv-xbaq6-by7tz-kae"),
+    // WaterNeuron
     ("WaterNeuron SNS 117k", "ll6pj-3wsrz-glcqo-bhjl7-s7wsj-eaykn-sllr5-4klcj-wxgbe-jm2ei-zqe"),
     ("WaterNeuron SNS 50k", "zvcax-7pun5-oy64t-aynez-yo2jp-ftieg-otq24-ohoxk-6nlth-64fxt-tae"),
     ("WaterNeuron SNS 34k", "ifdcz-ditqo-tojui-ncj6w-tukjj-4ujn5-j5ibk-ksch7-abkr5-pd22f-fae"),
     ("WaterNeuron SNS 20k", "cld52-vm6st-5ulwe-yperp-iwvft-gqt7a-jrbpm-pkdcl-yszk3-zyxvb-wae"),
     ("WaterNeuron SNS 12k", "3qzrp-z7r45-vzitp-ylj45-brcdc-vhiyg-xew4i-wpeqg-b2gf6-2xzzd-yqe"),
+    ("WaterNeuron SNS 6k", "k57i6-rqxsp-3w5kd-oictq-iokt4-uqzvz-yophv-rkfkk-bnqcd-v34ie-yae"),
+    ("WaterNeuron SNS 5k", "ujszi-xic4g-vwnse-qpaqj-ybjvs-bfosw-qnzrt-atp4z-sovvc-4i4ak-wqe"),
+    ("WaterNeuron SNS 4k", "ulvvb-xozrw-cco4f-ucqug-wuiwd-iyfu5-36fgm-fnv4x-jw3j5-ey6c4-mqe"),
+    ("WaterNeuron SNS 3k", "ml6n5-esoaq-crnni-5vg4t-xolbb-clnn2-cfaud-f5i4c-rajya-fzeaz-yqe"),
+    ("WaterNeuron SNS 3k", "k4ra3-t2hvw-g3ww3-zdtx6-pqmj3-tveyx-ajjdl-5dqsv-zygbq-zhab6-6ae"),
 ];

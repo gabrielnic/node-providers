@@ -117,16 +117,18 @@ const Graph: React.FC<GraphProps> = ({
             .attr("r", 10)
             .attr("fill", (d) => {
                 switch (d.group) {
-                    case "Exchange":
+                    case "Cex":
                         return "blue";
+                    case "Dex":
+                        return "lightblue";
                     case "Identified":
                         return "green";
                     case "Foundation":
                         return "yellow";
                     case "NodeProvider":
-                        return "red";
+                        return "darkred";
                     case "Spammer":
-                        return "lightblue";
+                        return "salmon";
                     case "Sns":
                         return "purple";
                     case "Suspect":

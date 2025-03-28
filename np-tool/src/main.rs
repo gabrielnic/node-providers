@@ -2,7 +2,7 @@ pub mod addresses;
 pub mod helper;
 pub mod transactions;
 
-use addresses::{EXCHANGES, FOUNDATION, IDENTIFIED, NODE_PROVIDERS, SNSES, SPAMMERS, SUSPECTS};
+use addresses::{CEXES, DEXES, FOUNDATION, IDENTIFIED, NODE_PROVIDERS, SNSES, SPAMMERS, SUSPECTS};
 use candid::Principal;
 use ic_agent::Agent;
 use serde::{Deserialize, Serialize};
@@ -54,7 +54,8 @@ impl AccountData {
 
 #[derive(Debug, Serialize, Deserialize)]
 pub enum Type {
-    Exchange,
+    Cex,
+    Dex,
     Foundation,
     Identified,
     NodeProvider,
@@ -94,7 +95,8 @@ fn get_entries() -> Vec<AccountData> {
     let mut entries = Vec::new();
 
     // named
-    entries.extend(EXCHANGES.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Exchange)));
+    entries.extend(CEXES.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Cex)));
+    entries.extend(DEXES.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Dex)));
     entries.extend(IDENTIFIED.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Identified)));
     entries.extend(NODE_PROVIDERS.iter().map(|(name, addr)| AccountData::new(name, addr, Type::NodeProvider)));
     entries.extend(SNSES.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Sns)));
