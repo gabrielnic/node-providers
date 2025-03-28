@@ -56,18 +56,20 @@ pub const FOUNDATION: &[&str] = &[
 ];
 
 pub const IDENTIFIED: &[(&str, &str)] = &[
-    ("a16z", "cbada211a17812ec0fb21df6f6261c1346435a04fc14e7e22fae9887479ad19a"),
-    ("a16z", "ee5a229b0584939b880ffd446f2f8ae25252706d78298f20efe4a74665206554"),
+    ("a16z Confirmed", "cbada211a17812ec0fb21df6f6261c1346435a04fc14e7e22fae9887479ad19a"),
+    ("a16z -> 5.4m", "a52b32f0ae2b096120ae7e085e576c960546d17f01494fe81fc1b640daf7d0c5"),
+    ("a16z -> 5.7m", "64a6e689034cec4ad68fe762f01c5be482cd2799b69583b66a16ec90f318b35d"),
+    ("a16z Beneficiary", "ee5a229b0584939b880ffd446f2f8ae25252706d78298f20efe4a74665206554"),
     ("Austin Fatheree", "jrnhz-6ekxv-2fffs-wfcgt-l3pe7-456id-heznf-xyf64-nykjq-4jyso-zae"),
-    ("Johannes Kriel", "2rjjb-gy24i-ghulj-zfsn6-cf6ju-6rrkc-osdlt-uxuhc-ibhmb-wvh2v-yae"),
+    ("CodeGov", "5awin-45z56-xtcpr-6xlsj-j25mu-q5de7-2rzdj-5675c-mrikh-m5vpg-aqe"),
     ("Gavin H", "7cfaeaa0e14ce862636f052ff307511032e030a3028ead7614f7fc0905c1de41"),
-    ("Utkarsh Goyal (GoBazzinga)", "736130c585e271287afc27a381acfcf5c2757203763caad6bf70be0e98a6a0e6"),
     ("IcDevs Tax Deductible", "c8e78c28beebd305370cfc798bbe96132fcade8ac88ec742084a4e6e248913cf"),
     ("IcDevs Anonymous", "93a3506e08e88e1f65f85990451038f7a232b6f860ee706b42cc9edec96eecee"),
     ("IcDevs NFTs", "p75el-ys2la-2xa6n-unek2-gtnwo-7zklx-25vdp-uepyz-qhdg7-pt2fi-bqe"),
+    ("Johannes Kriel", "2rjjb-gy24i-ghulj-zfsn6-cf6ju-6rrkc-osdlt-uxuhc-ibhmb-wvh2v-yae"),
     ("Paul Kohlhaas", "fhab4-gziwu-ywv6p-4q4uj-zhhbm-ghspz-dkwsd-fiqy"),
     ("Toniq Royalty", "c7e461041c0c5800a56b64bb7cefc247abc0bbbb99bd46ff71c64e92d9f5c2f9"),
-    ("CodeGov", "5awin-45z56-xtcpr-6xlsj-j25mu-q5de7-2rzdj-5675c-mrikh-m5vpg-aqe"),
+    ("Utkarsh Goyal (GoBazzinga)", "736130c585e271287afc27a381acfcf5c2757203763caad6bf70be0e98a6a0e6"),
 ];
 
 pub const NODE_PROVIDERS: &[(&str, &str)] = &[
@@ -217,9 +219,7 @@ pub const NODE_PROVIDERS: &[(&str, &str)] = &[
 ];
 
 pub const SNSES: &[(&str, &str)] = &[
-    // Alice
     ("Alice", "oa5dz-haaaa-aaaaq-aaegq-cai"),
-    // Boom DAO
     ("Boom DAO", "xomae-vyaaa-aaaaq-aabhq-cai"),
     ("Catalyze", "umz53-fiaaa-aaaaq-aabmq-cai"),
     ("Cecil The Lion DAO", "jt5an-tqaaa-aaaaq-aaevq-cai"),
@@ -229,10 +229,7 @@ pub const SNSES: &[(&str, &str)] = &[
     ("DOLR AI", "6wcax-haaaa-aaaaq-aaava-cai"),
     ("Dragginz", "zqfso-syaaa-aaaaq-aaafq-cai"),
     ("ELNA AI", "gdnpl-daaaa-aaaaq-aacna-cai"),
-    // EstateDAO
-    ("EstateDAO Gov", "bmjwo-aqaaa-aaaaq-aac4a-cai"),
-    ("EstateDAO Swap", "bcl3g-3aaaa-aaaaq-aac5a-cai"),
-    // FomoWell
+    ("EstateDAO", "bmjwo-aqaaa-aaaaq-aac4a-cai"),
     ("FomoWell", "o3y74-5yaaa-aaaaq-aaeea-cai"),
     ("FuelEV", "nmkto-maaaa-aaaaq-aaemq-cai"),
     ("Gold DAO", "tr3th-kiaaa-aaaaq-aab6q-cai"),
