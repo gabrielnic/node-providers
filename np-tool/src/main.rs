@@ -2,10 +2,7 @@ pub mod addresses;
 pub mod helper;
 pub mod transactions;
 
-use addresses::{
-    exchanges::EXCHANGES, foundation::FOUNDATION, identified::IDENTIFIED, node_providers::NODE_PROVIDERS, snses::SNSES,
-    spammers::SPAMMERS, suspects::SUSPECTS,
-};
+use addresses::{EXCHANGES, FOUNDATION, IDENTIFIED, NODE_PROVIDERS, SNSES, SPAMMERS, SUSPECTS};
 use candid::Principal;
 use ic_agent::Agent;
 use serde::{Deserialize, Serialize};
