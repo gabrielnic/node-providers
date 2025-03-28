@@ -12,7 +12,6 @@ export function buildGraph(data: AccountData[]): {
      mainMap.set(acc.account, acc);
    });
  
-   // Create nodes from main accounts only.
    const nodeMap = new Map<string, GraphNode>();
    data.forEach(acc => {
      nodeMap.set(acc.account, {
@@ -24,7 +23,6 @@ export function buildGraph(data: AccountData[]): {
 
    const connectorMap = new Map<string, Set<string>>();
 
-   // 4. Process transactions to create links.
    const links: GraphLink[] = [];
    data.forEach(acc => {
      acc.transactions.forEach(tx => {
@@ -36,19 +34,19 @@ export function buildGraph(data: AccountData[]): {
  
          if (fromIsMain && toIsMain) {
            // Both endpoints are main: add direct link (if not already present).
-           let existing = links.find(l =>
+           const existing = links.find(l =>
              (l.source === from && l.target === to) ||
              (l.source === to && l.target === from)
            );
            if (!existing) {
-             let direction: Direction = (from === acc.account) ? Direction.SEND : Direction.RECEIVE;
+             const direction: Direction = (from === acc.account) ? Direction.SEND : Direction.RECEIVE;
              links.push({
                source: from,
                target: to,
                direction,
              });
            } else {
-             let direction: Direction = (from === acc.account) ? Direction.SEND : Direction.RECEIVE;
+             const direction: Direction = (from === acc.account) ? Direction.SEND : Direction.RECEIVE;
              if (existing.direction !== direction) {
                existing.direction = Direction.BOTH;
              }
@@ -120,11 +118,4 @@ export function buildGraph(data: AccountData[]): {
 
 function initials(name: string): string {
   return name.replace(/\s+/g, "").slice(0, 2);
-}
-
-function recordConnection(map: Map<string, Set<string>>, connectingId: string, mainName: string) {
-  if (!map.has(connectingId)) {
-    map.set(connectingId, new Set());
-  }
-  map.get(connectingId)!.add(mainName);
 }
