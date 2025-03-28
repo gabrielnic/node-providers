@@ -77,13 +77,18 @@ export function buildGraph(data: AccountData[]): {
   
    connectorMap.forEach((mainSet, extraId) => {
     if (mainSet.size > 1) {
-      // Check if at least one connected main account is not an Exchange.
-      const hasNonExchange = Array.from(mainSet).some(mainAccId => {
+      // Check if all connected main accounts are Exchange.
+      const allExchange = Array.from(mainSet).every(mainAccId => {
         const mainData = mainMap.get(mainAccId);
-        return mainData && mainData.ty !== "Exchange";
+        return mainData && mainData.ty === "Exchange";
       });
-      if (hasNonExchange) {
-        // Build a label by concatenating initials of each main account's name.
+      // Check if all connected main accounts are Foundation.
+      const allFoundation = Array.from(mainSet).every(mainAccId => {
+        const mainData = mainMap.get(mainAccId);
+        return mainData && mainData.ty === "Foundation";
+      });
+      // Only create the connector node if NOT all are Exchange or all are Foundation.
+      if (!(allExchange || allFoundation)) {
         let label = "";
         mainSet.forEach(mainAccId => {
           const mainData = mainMap.get(mainAccId);
@@ -97,16 +102,15 @@ export function buildGraph(data: AccountData[]): {
           label,
           group: "connector",
         });
-        // Create links from each main node to this connector node.
+        // Create a link from each connected main node to this connector node.
         mainSet.forEach(mainAccId => {
           links.push({
             source: mainAccId,
             target: extraId,
-            direction: Direction.SEND,
+            direction: Direction.SEND, // Adjust if needed
           });
         });
       }
-      // Otherwise, if all connected main accounts are exchanges, skip creating a connector node.
     }
   });
  
