@@ -400,6 +400,7 @@ pub const SUSPECTS: &[(&str, &str)] = &[
     //
     ("BIL Hacker", "3axar-twhdo-biizl-yegt2-fatxq-go2ay-ib5ki-y6cmq-ziiav-vcn5x-mae"),
     ("BIL Hacker ckBTC Account", "az453-x2sxf-wewfl-pszbd-4u4rh-yq7nk-hxkrp-6yvo3-mnlce-zjvsg-qae"),
+    ("CLOWN Rugger", "ubojc-qnw5m-ty4f7-svlu2-hrkqo-ctqld-5jv75-222sn-ezjla-lamyt-xae"),
     ("ufwij", "ufwij-jggzv-owfkb-cs26m-p7j3y-awpqg-3oa33-x4ciu-vadlo-2jb7f-gae"),
     //
     // Neuron Fund
