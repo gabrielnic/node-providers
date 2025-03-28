@@ -1,15 +1,14 @@
 "use client";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import styles from "./page.module.css";
 
 import { AccountData, GraphNode } from './types';
 import { useEffect, useState } from "react";
 import { useWindowSize } from './hooks/useWindowSize';
 import { GraphContainer } from './GraphContainer';
 
+
 export default function Home() {
-  const [highlightNodeId, setHighlightNodeId] = useState<string | undefined>(undefined);
-  const [searchQuery, setSearchQuery] = useState<string>("");
+ 
 
   const [loading, setLoading] = useState<boolean>(true);
   const [data, setData] = useState<AccountData[]>([]);
@@ -28,21 +27,9 @@ export default function Home() {
     setSelectedNode(node);
   };
 
+
   const { width, height } = useWindowSize();
-  const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    const lowerQuery = searchQuery.toLowerCase();
-    const matchingEntry = data.find((entry) =>
-      entry.name.toLowerCase().includes(lowerQuery)
-    );
-    console.log(matchingEntry);
-    if (matchingEntry) {
-      // Use the account id as the node id.
-      setHighlightNodeId(matchingEntry.account);
-    } else {
-      setHighlightNodeId(undefined);
-    }
-  };
+ 
   return (
     <>
       <svg xmlns="http://www.w3.org/2000/svg" className="d-none">
@@ -62,6 +49,7 @@ export default function Home() {
       </svg>
 
       <div className="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+    
         <button
           className="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
           id="bd-theme"
@@ -206,16 +194,8 @@ export default function Home() {
       <main>
         <div className="position-relative  overflow-hidden  m-md-3 text-center bg-body-tertiary">
           <div className="row align-items-center">
+         
             <div className='col-3'>
-              <form onSubmit={handleSearch}>
-                <input
-                  type="text"
-                  placeholder="Search node by name..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                />
-                <button type="submit">Search</button>
-              </form>
             </div>
             <div className='col-3'>
               <div className="card">
@@ -256,7 +236,6 @@ export default function Home() {
                   height={height}
                   onNodeClick={handleNodeClick}
                   loading={loading}
-                  highlightNodeId={highlightNodeId}
                 />
               </div>
             </div>
