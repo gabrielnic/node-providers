@@ -381,6 +381,13 @@ pub const SUSPECTS: &[(&str, &str)] = &[
     ("Bot 1", "ddc050bf2a59f2d905f0c7af45854cd4cc4e406c643c322e5fa65e83a36d97da"),
     ("Bot 2", "4ec84f148280c743948b2f54911bbcdcbc6996169f20b52eafd03544d03453fa"),
     //
+    // Crowdfund
+    //
+    ("Crowdfund 1", "5102ea0eb3c6896cae76823d55d54a15f807a56476876090590b6a2a7e2676f0"),
+    ("Crowdfund 2", "52a9b56f251f885d9c6dac0b70e150fe0b853878af7a247ff3115bbf66d95a4d"),
+    ("Crowdfund 3", "8ac924e2eb6ad3d5c9fd6db905716aa04d949fe1a944442844214f59cf024e53"),
+    ("Crowdfund 4", "237242bc41aa441d6813784b293fcb68dc6ff772142da5ba0ad1b4221e1b56cc"),
+    //
     // Genesis
     //
     ("Genesis Whale (2000) 1", "73a3e56c7177c29c731618b1c60cfeb271c00d70ae40aba9202cdec84e977d39"),
@@ -417,13 +424,13 @@ pub const SUSPECTS: &[(&str, &str)] = &[
     ("NF 4 (771k ICP)", "hrpgd-p2dys-gd5tb-krk4d-nswtt-un5h3-x6btw-j4sdm-wvscw-o2yej-iqe"),
     ("NF 5 (223k ICP)", "4vnki-cqaaa-aaaaa-aaaaa-aaaaa-aaaaa-aaaaa-aaaaa-aaaaa-aaaaa-aae"),
     ("NF 6 (44k ICP)", "rdwk2-noc2n-qaxh6-3alc4-uvhgt-dupge-kkoq3-v3brf-6afky-mui7j-lqe"),
-    ("NF 10 (1845 ICP)", "afxjy-xzged-ttm2u-5rjp7-exday-s6uly-ea4pc-xkiok-tjzva-23isp-vae"),
-    ("NF 11 (986 ICP)", "byfqe-a6vvd-vxehg-k5hi3-ij3v3-7n6qv-smmxm-v3vg7-mye6g-thgrs-kae"),
-    ("NF 12 (660 ICP)", "c4dgi-zb67y-vgmq3-gpm55-szzjo-mc3kt-jjov3-yytoy-ltq6t-ptyyv-lqe"),
-    ("NF 13 (572 ICP)", "amatj-baend-pdd4b-tantp-b3heu-uvusn-abmj5-hkhf2-xlvfm-jy6xp-uae"),
-    ("NF 14 (557 ICP)", "etynm-5engo-23sxo-jlss2-7jnkl-zxqv2-3s3s7-w7kpt-uaqnb-ckg6m-rae"),
-    ("NF 15 (411 ICP)", "bgmtq-s5ra3-l4ftn-zmi5f-wg2o4-zolb4-pyyez-hyttd-7rvuw-r3gyl-4ae"),
-    ("NF 16 (396 ICP)", "oggca-p5idg-tq22l-meqsr-kupbo-m3lpf-h6wi7-zplva-coxgr-tm3vt-2qe"),
+    ("NF 7 (1845 ICP)", "afxjy-xzged-ttm2u-5rjp7-exday-s6uly-ea4pc-xkiok-tjzva-23isp-vae"),
+    ("NF 8 (986 ICP)", "byfqe-a6vvd-vxehg-k5hi3-ij3v3-7n6qv-smmxm-v3vg7-mye6g-thgrs-kae"),
+    ("NF 9 (660 ICP)", "c4dgi-zb67y-vgmq3-gpm55-szzjo-mc3kt-jjov3-yytoy-ltq6t-ptyyv-lqe"),
+    ("NF 10 (572 ICP)", "amatj-baend-pdd4b-tantp-b3heu-uvusn-abmj5-hkhf2-xlvfm-jy6xp-uae"),
+    ("NF 11 (557 ICP)", "etynm-5engo-23sxo-jlss2-7jnkl-zxqv2-3s3s7-w7kpt-uaqnb-ckg6m-rae"),
+    ("NF 12 (411 ICP)", "bgmtq-s5ra3-l4ftn-zmi5f-wg2o4-zolb4-pyyez-hyttd-7rvuw-r3gyl-4ae"),
+    ("NF 13 (396 ICP)", "oggca-p5idg-tq22l-meqsr-kupbo-m3lpf-h6wi7-zplva-coxgr-tm3vt-2qe"),
     ("Approver 1", "6202e0cfffbbb22acd373aba740d2c10d84a1c6b044b97fe4f649c9c7a2426b6"),
     //
     // Scams
