@@ -451,6 +451,7 @@ pub const SUSPECTS: &[(&str, &str)] = &[
     ("SNS: DOLR 5k, Yuku 8k", "mlnie-bxsfa-gv7tu-ehhvv-7i24g-b2cnn-qbxnk-q4css-g24an-yinaf-lae"),
     ("SNS: Alice 3k, NFIDW 2k", "27byn-shdjj-bt2ec-jz3jq-hnkgw-6qshf-fi7nj-xixnv-xbaq6-by7tz-kae"),
     ("SNS: Alice 10k, WTN 20k", "cld52-vm6st-5ulwe-yperp-iwvft-gqt7a-jrbpm-pkdcl-yszk3-zyxvb-wae"),
+    ("SNS: ICPSwap 50k, ICVC 17k", "tfxmx-hpuo2-z2faw-ii37v-wzi4w-o2lre-oup6d-bdhhx-ebglo-ujqzl-5qe"),
     // Alice
     ("Alice SNS 3.5k", "5boyw-rp6w3-gn66y-kqgse-igw5t-xmwjh-ums35-pmicl-5yxiz-uhfjv-cae"),
     ("Alice SNS 2.5k", "kwhw3-kexxs-hh45h-w4s7e-tzjxu-zqvln-edkon-kwoh6-5xvtx-iaeng-yqe"),
@@ -480,6 +481,17 @@ pub const SUSPECTS: &[(&str, &str)] = &[
     ("FomoWell SNS 2k", "4zaho-oy6oh-vgswm-axccn-nbpdb-4mraq-iaryu-kvhgx-tilag-okte2-vae"),
     ("FomoWell SNS 2k", "mvkka-yg42z-hinjk-yo4w7-uzpik-iqyme-utynn-m6t4z-quhuy-37eju-wae"),
     ("FomoWell SNS 1k", "7jnbz-ta45w-3vvd2-hghxy-cvext-rwpxo-7342o-5kkjt-q5puz-m7v7i-tqe"),
+    // FuelEV
+    ("FuelEV SNS 7.5k", "mxdob-jhdxa-6oxow-rjk5x-b5frs-k7kno-oxics-tmcky-5f62q-n6biy-bae"),
+    ("FuelEV SNS 6.5k", "rxom7-w4otd-lfmpa-c4wcs-gugja-2bvdz-x3rqy-ytcu3-b3lew-lxdq3-aqe"),
+    ("FuelEV SNS 6k", "yvm75-incaw-n5bvx-so7pi-3x255-harni-avdmu-wwwuq-34dnt-j3ngi-tae"),
+    ("FuelEV SNS 6k", "nwzvm-zhkur-grqnz-dmd7t-vxcpm-hm6pw-guwei-jehi3-lbhjq-dubuo-hqe"),
+    ("FuelEV SNS 6k", "u5ha5-f6l7r-2lccy-5juy3-cjy6j-5zwdu-aj2jq-k42nd-q6754-g2nlv-vqe"),
+    ("FuelEV SNS 6k", "k5btm-ye75h-tle5b-6j7js-4yjol-clmr7-waklm-dsnuc-ztdjz-bcumn-kqe"),
+    ("FuelEV SNS 4k", "zfeqd-7bvoc-w7uki-rsbe5-v2hmh-qdljb-dilke-voc7b-edgr3-gx2rq-eae"),
+    ("FuelEV SNS 5k", "nkgwd-q2scf-xqmet-d6cqr-gjy7x-zl5hv-ou3am-cc7qv-knsun-pafav-rqe"),
+    ("FuelEV SNS 5k", "7c6eh-ijdxj-clnm5-o5id4-okihg-7t7py-awb54-3xkgp-fozce-2ow3y-yae"),
+    ("FuelEV SNS 6k", "dbxmv-nuiwm-by426-s4xho-z2yc3-pnx5e-lqg7d-lckoc-v3bwx-jk2rz-yae"),
     // ICPEx
     ("ICPEx SNS 30k", "fznfr-p3puw-izxeh-ud4qr-k26q2-pdgfh-vxmr5-kswww-okpb2-cohna-5ae"),
     ("ICPEx SNS 17k", "meavt-eugdu-w4zjb-gr3qe-nvqxl-dv6pl-t256f-aussh-xpp6d-wzy4c-rae"),
@@ -488,11 +500,16 @@ pub const SUSPECTS: &[(&str, &str)] = &[
     ("ICPEx SNS 10k", "w6ezf-7ywlx-gofjr-zek2o-v32pm-fsoj4-cim2x-cbdmi-jrtlb-skfez-3ae"),
     ("ICPEx SNS 10k", "q5cqr-x4pj3-n7feb-ratsg-y7hwi-bwpja-xs7b3-f5m65-m6jfl-yodd2-vqe"),
     // ICPSwap
-    ("ICPSwap SNS 50k", "tfxmx-hpuo2-z2faw-ii37v-wzi4w-o2lre-oup6d-bdhhx-ebglo-ujqzl-5qe"),
     ("ICPSwap SNS 26k", "eelqg-w3mgp-4btdz-6fagh-xcbgs-4pik7-pzolk-f3sdw-qajex-3hnhr-oae"),
     ("ICPSwap SNS 10k", "cvtfn-74z2v-v2m5k-ohidc-gdb3e-hde7g-hvsqc-gwdmx-oef7y-vub72-oae"),
     ("ICPSwap SNS 10k", "6n7h6-6cvld-44lpq-wvpoj-mk6ur-slbhz-mqu4w-yerqn-btnzc-hwwdy-mqe"),
     ("ICPSwap SNS 9k", "w23jp-jvtce-32ob6-lhxwb-sjrbf-tyq7q-oifov-ijy24-gz6jf-gfogx-bqe"),
+    // ICVC
+    ("ICVC SNS 23k", "2sgpc-zn4to-caeip-fqikj-rhfcd-rzelp-vc6we-3ud7d-f4fxf-mui4v-5qe"),
+    ("ICVC SNS 20k", "6o2ns-jjwx5-wcwrk-3jrj6-qbcz7-dvolt-cmi4d-cil55-ehniw-bxtmt-hae"),
+    ("ICVC SNS 20k", "rnt66-opaox-kkvbo-mvmwk-yavr3-6bcrp-ccxqf-auunj-mriwj-5eeau-fae"),
+    ("ICVC SNS 20k", "vctcx-gughm-cy4ed-4z6pt-6avjj-ngym4-uvwm2-kb56h-lghvd-2izv3-fqe"),
+    ("ICVC SNS 17k", "5tzzh-kqopl-zychr-jjyoi-cpvu5-y2ai7-ggf3n-icajy-bszp6-2qenk-lae"),
     // NFIDW
     ("NFIDW SNS 8k", "bxnp4-ym2h2-nrdxf-l5wgq-agnjv-2dei4-26s54-welyl-wk3ry-sfr4w-qqe"),
     ("NFIDW SNS 8k", "3rxla-jua5q-xopzh-52v2p-5ih5h-s4yvq-ro2co-gdnzg-xiznr-5ubhj-3qe"),
