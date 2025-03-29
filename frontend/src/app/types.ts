@@ -29,6 +29,7 @@ export interface AccountData {
     label: string; // e.g. the name
     group: string; // e.g. "Exchange", "Individual"
     color?: string;
+    mainAccounts?: string[];
    
   }
   
