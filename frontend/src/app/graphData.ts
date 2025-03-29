@@ -78,7 +78,7 @@ export function buildGraph(data: AccountData[]): {
       // Check if all connected main accounts are Exchange.
       const allExchange = Array.from(mainSet).every(mainAccId => {
         const mainData = mainMap.get(mainAccId);
-        return mainData && mainData.ty === "Exchange";
+        return mainData && mainData.ty === "Cex";
       });
       // Check if all connected main accounts are Foundation.
       const allFoundation = Array.from(mainSet).every(mainAccId => {
