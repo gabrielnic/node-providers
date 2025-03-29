@@ -2,7 +2,7 @@ pub mod addresses;
 pub mod helper;
 pub mod transactions;
 
-use addresses::{CEXES, DEXES, FOUNDATION, IDENTIFIED, NODE_PROVIDERS, SNSES, SPAMMERS, SUSPECTS};
+use addresses::{CEXES, DEFI, FOUNDATION, IDENTIFIED, NODE_PROVIDERS, SNSES, SNS_PARTICIPANTS, SPAMMERS, SUSPECTS};
 use candid::Principal;
 use ic_agent::Agent;
 use serde::{Deserialize, Serialize};
@@ -55,12 +55,13 @@ impl AccountData {
 #[derive(Debug, Serialize, Deserialize)]
 pub enum Type {
     Cex,
-    Dex,
+    Defi,
     Foundation,
     Identified,
     NodeProvider,
     Spammer,
     Sns,
+    SnsParticipant,
     Suspect,
 }
 
@@ -96,10 +97,11 @@ fn get_entries() -> Vec<AccountData> {
 
     // named
     entries.extend(CEXES.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Cex)));
-    entries.extend(DEXES.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Dex)));
+    entries.extend(DEFI.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Defi)));
     entries.extend(IDENTIFIED.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Identified)));
     entries.extend(NODE_PROVIDERS.iter().map(|(name, addr)| AccountData::new(name, addr, Type::NodeProvider)));
     entries.extend(SNSES.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Sns)));
+    entries.extend(SNS_PARTICIPANTS.iter().map(|(name, addr)| AccountData::new(name, addr, Type::SnsParticipant)));
     entries.extend(SUSPECTS.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Suspect)));
     entries.extend(FOUNDATION.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Foundation)));
     entries.extend(SPAMMERS.iter().map(|addr| AccountData::new(&addr[..5], addr, Type::Spammer)));
