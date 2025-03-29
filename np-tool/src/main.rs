@@ -101,10 +101,10 @@ fn get_entries() -> Vec<AccountData> {
     entries.extend(NODE_PROVIDERS.iter().map(|(name, addr)| AccountData::new(name, addr, Type::NodeProvider)));
     entries.extend(SNSES.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Sns)));
     entries.extend(SUSPECTS.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Suspect)));
+    entries.extend(FOUNDATION.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Foundation)));
+    entries.extend(SPAMMERS.iter().map(|addr| AccountData::new(&addr[..5], addr, Type::Spammer)));
 
     // no name
-    entries.extend(FOUNDATION.iter().map(|addr| AccountData::new(&addr[..5], addr, Type::Foundation)));
-    entries.extend(SPAMMERS.iter().map(|addr| AccountData::new(&addr[..5], addr, Type::Spammer)));
 
     // check for dupes
     let mut seen_account_ids = HashSet::new();
