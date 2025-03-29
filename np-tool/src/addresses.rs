@@ -4,6 +4,8 @@ pub const CEXES: &[(&str, &str)] = &[
     ("Binance 2", "220c3a33f90601896e26f76fa619fe288742df1fa75426edfaf759d39f2455a5"),
     ("Binance 3", "d3e13d4777e22367532053190b6c6ccf57444a61337e996242b1abfb52cf92c8"),
     ("Bybit", "acd76fff0536f863d9dd4b326a1435466f82305758b4b1b4f62ff9fa81c14073"),
+    ("CoinEx", "9ee1f8087be914d67560484d7e5794115873eb21b4f4b408f338406abf42d324"),
+    ("CoinEx (inactive)", "c50accaa515fe677f04d6a608d306dce10ed0d46048aa5105cb549256f3c4433"),
     ("Coinbase 1", "449ce7ad1298e2ed2781ed379aba25efc2748d14c60ede190ad7621724b9e8b2"),
     ("Coinbase 2", "4dfa940def17f1427ae47378c440f10185867677109a02bc8374fc25b9dee8af"),
     ("Coinbase 3", "dd15f3040edab88d2e277f9d2fa5cc11616ebf1442279092e37924ab7cce8a74"),
@@ -434,15 +436,17 @@ pub const SUSPECTS: &[(&str, &str)] = &[
     //
     // SNS Participants
     //
+    // Many
+    ("DOLR SNS 2k, WTN 5k", "vgrm6-ur624-kl4qd-3sukh-wssor-ztoox-ecgbu-ebvn5-f4hgu-quqyk-pae"),
+    ("WaterNeuron SNS 12k, Yuku SNS 12k", "3qzrp-z7r45-vzitp-ylj45-brcdc-vhiyg-xew4i-wpeqg-b2gf6-2xzzd-yqe"),
+    ("DOLR SNS 5k, Yuku 8k", "mlnie-bxsfa-gv7tu-ehhvv-7i24g-b2cnn-qbxnk-q4css-g24an-yinaf-lae"),
     // DOLR
-    ("DOLR AI SNS 150k", "n4gtt-k6lm6-26bnm-iy7nd-syyub-zaz7y-ikmi6-74w3u-7c3wk-iuqxt-rae"),
-    ("DOLR AI SNS 93k", "74ekp-mnvbw-gdabj-3ho4b-jao7e-5f7iu-27xik-ouf6s-w3u22-jmzer-yqe"),
-    ("DOLR AI SNS 60k", "wwyo5-vrahh-jwa74-3m6kj-jqbia-jbebm-7vtyd-uvqem-wk3zw-djpci-vqe"),
-    ("DOLR AI SNS 6k", "lvsje-wfazq-xzrha-quuz7-quwur-67jl7-nbb7v-5llqf-vclab-slswv-rae"),
-    ("DOLR AI SNS 5k", "bmhrf-hq2zu-dlrcg-6d375-xc2x6-ljmmx-g36gu-bz2eb-sm6m3-lfdgk-uqe"),
-    ("DOLR AI SNS 5k", "mlnie-bxsfa-gv7tu-ehhvv-7i24g-b2cnn-qbxnk-q4css-g24an-yinaf-lae"),
-    ("DOLR AI SNS 3.6k", "r4ixk-5nzuy-qpjsj-3srvi-qr6yj-iydup-7kt3j-2rdf4-dfeok-5nhnk-iqe"),
-    ("DOLR AI SNS 2k, WTN 5k", "vgrm6-ur624-kl4qd-3sukh-wssor-ztoox-ecgbu-ebvn5-f4hgu-quqyk-pae"),
+    ("DOLR SNS 150k", "n4gtt-k6lm6-26bnm-iy7nd-syyub-zaz7y-ikmi6-74w3u-7c3wk-iuqxt-rae"),
+    ("DOLR SNS 93k", "74ekp-mnvbw-gdabj-3ho4b-jao7e-5f7iu-27xik-ouf6s-w3u22-jmzer-yqe"),
+    ("DOLR SNS 60k", "wwyo5-vrahh-jwa74-3m6kj-jqbia-jbebm-7vtyd-uvqem-wk3zw-djpci-vqe"),
+    ("DOLR SNS 6k", "lvsje-wfazq-xzrha-quuz7-quwur-67jl7-nbb7v-5llqf-vclab-slswv-rae"),
+    ("DOLR SNS 5k", "bmhrf-hq2zu-dlrcg-6d375-xc2x6-ljmmx-g36gu-bz2eb-sm6m3-lfdgk-uqe"),
+    ("DOLR SNS 3.6k", "r4ixk-5nzuy-qpjsj-3srvi-qr6yj-iydup-7kt3j-2rdf4-dfeok-5nhnk-iqe"),
     // ICPEx
     ("ICPEx SNS 30k", "fznfr-p3puw-izxeh-ud4qr-k26q2-pdgfh-vxmr5-kswww-okpb2-cohna-5ae"),
     ("ICPEx SNS 17k", "meavt-eugdu-w4zjb-gr3qe-nvqxl-dv6pl-t256f-aussh-xpp6d-wzy4c-rae"),
@@ -468,10 +472,17 @@ pub const SUSPECTS: &[(&str, &str)] = &[
     ("WaterNeuron SNS 50k", "zvcax-7pun5-oy64t-aynez-yo2jp-ftieg-otq24-ohoxk-6nlth-64fxt-tae"),
     ("WaterNeuron SNS 34k", "ifdcz-ditqo-tojui-ncj6w-tukjj-4ujn5-j5ibk-ksch7-abkr5-pd22f-fae"),
     ("WaterNeuron SNS 20k", "cld52-vm6st-5ulwe-yperp-iwvft-gqt7a-jrbpm-pkdcl-yszk3-zyxvb-wae"),
-    ("WaterNeuron SNS 12k", "3qzrp-z7r45-vzitp-ylj45-brcdc-vhiyg-xew4i-wpeqg-b2gf6-2xzzd-yqe"),
     ("WaterNeuron SNS 6k", "k57i6-rqxsp-3w5kd-oictq-iokt4-uqzvz-yophv-rkfkk-bnqcd-v34ie-yae"),
     ("WaterNeuron SNS 5k", "ujszi-xic4g-vwnse-qpaqj-ybjvs-bfosw-qnzrt-atp4z-sovvc-4i4ak-wqe"),
     ("WaterNeuron SNS 4k", "ulvvb-xozrw-cco4f-ucqug-wuiwd-iyfu5-36fgm-fnv4x-jw3j5-ey6c4-mqe"),
     ("WaterNeuron SNS 3k", "ml6n5-esoaq-crnni-5vg4t-xolbb-clnn2-cfaud-f5i4c-rajya-fzeaz-yqe"),
     ("WaterNeuron SNS 3k", "k4ra3-t2hvw-g3ww3-zdtx6-pqmj3-tveyx-ajjdl-5dqsv-zygbq-zhab6-6ae"),
+    // Yuku AI
+    ("Yuku SNS 30k", "pcuxr-ctpat-c7m2c-seh76-6bcez-nc5r3-rwbhf-seyrq-ntxnf-iqerm-lae"),
+    ("Yuku SNS 6k", "hk7yv-x7zw2-t2dep-sgahc-wnffi-qszuw-4mm5e-faax3-6mqpi-qmlii-7qe"),
+    ("Yuku SNS 5k", "y7bw2-cqsrh-xehac-gbcya-366ov-k2red-g6imq-ylwrj-wjoid-gsj6v-sae"),
+    ("Yuku SNS 2k", "elag7-zzhos-zwodk-cd4uv-rzx7t-extc6-yxv6g-mq7z6-kn3jt-u56ba-bae"),
+    ("Yuku SNS 2k", "wgn2s-bv3mc-ayri6-xqnuu-5zue6-jsicj-s6mcd-zshsi-utkvg-26w2n-2ae"),
+    ("Yuku SNS 2k", "aqzai-meyuz-xpeyo-zcxc2-ydfyk-ssqmt-x7tuj-4f7tj-3xkka-zsjaq-oae"),
+    ("Yuku SNS 2k", "olskz-65jdj-vbl6r-erszi-dfe4z-i3tl5-t43x6-fg25v-h53ww-wpt34-oae"),
 ];
