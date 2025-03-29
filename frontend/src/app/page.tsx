@@ -8,7 +8,7 @@ import { GraphContainer } from './GraphContainer';
 
 
 export default function Home() {
- 
+
 
   const [loading, setLoading] = useState<boolean>(true);
   const [data, setData] = useState<AccountData[]>([]);
@@ -24,12 +24,13 @@ export default function Home() {
 
   const [selectedNode, setSelectedNode] = useState<GraphNode | null>(null);
   const handleNodeClick = (node: GraphNode) => {
+    console.log("Node clicked:", node);
     setSelectedNode(node);
   };
 
 
   const { width, height } = useWindowSize();
- 
+
   return (
     <>
       <svg xmlns="http://www.w3.org/2000/svg" className="d-none">
@@ -49,7 +50,7 @@ export default function Home() {
       </svg>
 
       <div className="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-    
+
         <button
           className="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
           id="bd-theme"
@@ -194,9 +195,8 @@ export default function Home() {
       <main>
         <div className="position-relative  overflow-hidden  m-md-3 text-center bg-body-tertiary">
           <div className="row align-items-center">
-         
-            <div className='col-3'>
-            </div>
+
+
             <div className='col-3'>
               <div className="card">
                 <div className="card-header">
@@ -220,6 +220,20 @@ export default function Home() {
                   )}
                 </div>
               </div>
+            </div>
+            <div className='col-6'>
+              {selectedNode?.mainAccounts && selectedNode.mainAccounts.length > 0 ? (
+                <div>
+                  <h6>List of connected accounts:</h6>
+                  <ul className="list-group">
+                    {selectedNode.mainAccounts.map((account) => (
+                      <li key={account} className="list-group-item">
+                        {account}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
             </div>
           </div>
           <div className="product-device shadow-sm d-none d-md-block"></div>
