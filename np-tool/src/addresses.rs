@@ -436,6 +436,7 @@ pub const SUSPECTS: &[(&str, &str)] = &[
     ("FomoWell/ICPEx Bitget Wallet", "f0aa2c07a00e46e1f68199fd985e3db919940454a75d49d443bbb34bdefa3442"),
     ("Yuku MEXC Wallet", "fa5112a4d94b725aee705f1a8c65021fe69142e6717e60a9daa98f5d8218bd0f"),
     ("Yuku Binance Wallet", "2d6a4470704440c1c3baacdfa9c8bee9fc6e3ae9aa665dfc4943157ca69cac38"),
+    ("Yuku Scam 'The Key'", "hixho-gysjl-vlky6-tjf2u-xb7nx-rgjfx-h32gc-nvsy3-mio64-4amgy-mqe"),
     //
     // SNS Participants
     //
