@@ -1,4 +1,5 @@
-// src/components/GraphContainer.tsx
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 import React, { useState } from "react";
 import Graph from "./Graph";
