@@ -377,6 +377,9 @@ pub const SUSPECTS: &[(&str, &str)] = &[
     //
     ("Bot 1", "ddc050bf2a59f2d905f0c7af45854cd4cc4e406c643c322e5fa65e83a36d97da"),
     ("Bot 2", "4ec84f148280c743948b2f54911bbcdcbc6996169f20b52eafd03544d03453fa"),
+    ("Anvil Bot 1", "hrtp2-rijcr-qzg6l-2nsvy-mf7o7-fprmq-eu2p4-hz2in-t2zh4-akabr-4qe"),
+    ("Anvil Bot 2", "npyks-khhf5-dcgjq-jkuj2-szk7v-hkjya-urhbc-ruzvl-pwfl4-363sw-2ae"),
+    ("Anvil Bot 3", "aaevx-vrwc4-kt3ew-h6b7c-npj2q-h34h3-fpn5a-56bbs-4hj6o-b4raa-aae"),
     //
     // Crowdfund
     //
