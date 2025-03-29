@@ -433,6 +433,9 @@ pub const SUSPECTS: &[(&str, &str)] = &[
     //
     ("CigDAO", "onxlw-tiaaa-aaaan-qedoq-cai"),
     ("CLOWN Rugger", "ubojc-qnw5m-ty4f7-svlu2-hrkqo-ctqld-5jv75-222sn-ezjla-lamyt-xae"),
+    ("FomoWell/ICPEx Bitget Wallet", "f0aa2c07a00e46e1f68199fd985e3db919940454a75d49d443bbb34bdefa3442"),
+    ("Yuku MEXC Wallet", "fa5112a4d94b725aee705f1a8c65021fe69142e6717e60a9daa98f5d8218bd0f"),
+    ("Yuku Binance Wallet", "2d6a4470704440c1c3baacdfa9c8bee9fc6e3ae9aa665dfc4943157ca69cac38"),
     //
     // SNS Participants
     //
