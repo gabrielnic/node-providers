@@ -437,16 +437,26 @@ pub const SUSPECTS: &[(&str, &str)] = &[
     // SNS Participants
     //
     // Many
-    ("DOLR SNS 2k, WTN 5k", "vgrm6-ur624-kl4qd-3sukh-wssor-ztoox-ecgbu-ebvn5-f4hgu-quqyk-pae"),
-    ("WaterNeuron SNS 12k, Yuku SNS 12k", "3qzrp-z7r45-vzitp-ylj45-brcdc-vhiyg-xew4i-wpeqg-b2gf6-2xzzd-yqe"),
-    ("DOLR SNS 5k, Yuku 8k", "mlnie-bxsfa-gv7tu-ehhvv-7i24g-b2cnn-qbxnk-q4css-g24an-yinaf-lae"),
+    ("SNS: DOLR 2k, WTN 5k", "vgrm6-ur624-kl4qd-3sukh-wssor-ztoox-ecgbu-ebvn5-f4hgu-quqyk-pae"),
+    ("SNS: WTN 12k, Yuku 12k", "3qzrp-z7r45-vzitp-ylj45-brcdc-vhiyg-xew4i-wpeqg-b2gf6-2xzzd-yqe"),
+    ("SNS: DOLR 5k, Yuku 8k", "mlnie-bxsfa-gv7tu-ehhvv-7i24g-b2cnn-qbxnk-q4css-g24an-yinaf-lae"),
     // DOLR
     ("DOLR SNS 150k", "n4gtt-k6lm6-26bnm-iy7nd-syyub-zaz7y-ikmi6-74w3u-7c3wk-iuqxt-rae"),
     ("DOLR SNS 93k", "74ekp-mnvbw-gdabj-3ho4b-jao7e-5f7iu-27xik-ouf6s-w3u22-jmzer-yqe"),
     ("DOLR SNS 60k", "wwyo5-vrahh-jwa74-3m6kj-jqbia-jbebm-7vtyd-uvqem-wk3zw-djpci-vqe"),
     ("DOLR SNS 6k", "lvsje-wfazq-xzrha-quuz7-quwur-67jl7-nbb7v-5llqf-vclab-slswv-rae"),
     ("DOLR SNS 5k", "bmhrf-hq2zu-dlrcg-6d375-xc2x6-ljmmx-g36gu-bz2eb-sm6m3-lfdgk-uqe"),
-    ("DOLR SNS 3.6k", "r4ixk-5nzuy-qpjsj-3srvi-qr6yj-iydup-7kt3j-2rdf4-dfeok-5nhnk-iqe"),
+    ("DOLR SNS 4k", "r4ixk-5nzuy-qpjsj-3srvi-qr6yj-iydup-7kt3j-2rdf4-dfeok-5nhnk-iqe"),
+    // FomoWell
+    ("FomoWell SNS 9k", "lqg4j-7ia6a-35xbl-cqyge-ygedg-hreu7-ey23r-o75da-sjysa-ul2hd-gae"),
+    ("FomoWell SNS 9k", "2ilme-ityi5-x5tnr-v6fqo-ptwgz-sz3jy-kfnm7-con4a-7xtsd-24qcx-bqe"),
+    ("FomoWell SNS 8k", "jxagt-t5peo-f37ia-sa2qj-uxck7-xuaky-u4dmm-mjlyy-jzdvm-zlh7z-pqe"),
+    ("FomoWell SNS 7k", "wbgeu-najtu-dnbyg-aanjq-cnjbo-iv4ww-5zqhv-u3i6q-5ibu7-tmpmu-lae"),
+    ("FomoWell SNS 5k", "4uuwq-a5be5-3xmy2-augbb-qkwkt-myamy-eyyi6-bjr2d-xealc-pj6kw-eae"),
+    ("FomoWell SNS 5k", "aympm-5rio2-3ia3x-3akvi-q3i3n-z3uop-vhkpl-aqals-7e63d-fhkbe-vae"),
+    ("FomoWell SNS 5k", "ygge7-et7ta-yfem4-3bgzj-mtr7s-yuacx-3w3jv-adech-wumey-djgtc-gae"),
+    ("FomoWell SNS 5k", "r2gx5-ybbxe-5ydur-unxzq-tf4md-chvtj-63pw3-hgcxk-2berj-5vdvv-kqe"),
+    ("FomoWell SNS 4k", "j45sz-ou2ji-oi6va-fzvnl-n2div-kvmc6-rvciy-n2rbi-aw2zk-rq53y-wqe"),
     // ICPEx
     ("ICPEx SNS 30k", "fznfr-p3puw-izxeh-ud4qr-k26q2-pdgfh-vxmr5-kswww-okpb2-cohna-5ae"),
     ("ICPEx SNS 17k", "meavt-eugdu-w4zjb-gr3qe-nvqxl-dv6pl-t256f-aussh-xpp6d-wzy4c-rae"),
