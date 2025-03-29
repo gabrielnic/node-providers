@@ -31,20 +31,25 @@ pub enum Error {
 #[derive(Debug, Serialize, Deserialize)]
 pub struct AccountData {
     name: String,
-    principal: Option<Principal>,
-    account: Option<String>,
+    principals: Vec<Principal>,
+    accounts: Vec<String>,
     ty: Type,
 }
 
 impl AccountData {
-    pub fn new(name: &str, address: &str, ty: Type) -> Self {
-        let (principal, account) = if address.contains("-") {
-            (Some(Principal::from_text(address).unwrap()), None)
-        } else {
-            (None, Some(address.to_string()))
-        };
+    pub fn new(name: &str, addresses: &[&str], ty: Type) -> Self {
+        let mut accounts = Vec::new();
+        let mut principals = Vec::new();
 
-        Self { name: name.to_string(), principal, account, ty }
+        for address in addresses {
+            if address.contains("-") {
+                principals.push(Principal::from_text(address).unwrap());
+            } else {
+                accounts.push(address.to_string())
+            };
+        }
+
+        Self { name: name.to_string(), principals, accounts, ty }
     }
 }
 
@@ -95,33 +100,33 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 fn get_entries() -> Vec<AccountData> {
     let mut entries = Vec::new();
 
-    // named
-    entries.extend(CEXES.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Cex)));
-    entries.extend(DEFI.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Defi)));
-    entries.extend(IDENTIFIED.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Identified)));
-    entries.extend(NODE_PROVIDERS.iter().map(|(name, addr)| AccountData::new(name, addr, Type::NodeProvider)));
-    entries.extend(SNSES.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Sns)));
-    entries.extend(SNS_PARTICIPANTS.iter().map(|(name, addr)| AccountData::new(name, addr, Type::SnsParticipant)));
-    entries.extend(SUSPECTS.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Suspect)));
-    entries.extend(FOUNDATION.iter().map(|(name, addr)| AccountData::new(name, addr, Type::Foundation)));
-    entries.extend(SPAMMERS.iter().map(|addr| AccountData::new(&addr[..5], addr, Type::Spammer)));
+    // single
+    entries.extend(DEFI.iter().map(|(name, addr)| AccountData::new(name, &[addr], Type::Defi)));
+    entries.extend(IDENTIFIED.iter().map(|(name, addr)| AccountData::new(name, &[addr], Type::Identified)));
+    entries.extend(NODE_PROVIDERS.iter().map(|(name, addr)| AccountData::new(name, &[addr], Type::NodeProvider)));
+    entries.extend(SNSES.iter().map(|(name, addr)| AccountData::new(name, &[addr], Type::Sns)));
+    entries.extend(SNS_PARTICIPANTS.iter().map(|(name, addr)| AccountData::new(name, &[addr], Type::SnsParticipant)));
+    entries.extend(SUSPECTS.iter().map(|(name, addr)| AccountData::new(name, &[addr], Type::Suspect)));
+    entries.extend(SPAMMERS.iter().map(|addr| AccountData::new(&addr[..5], &[addr], Type::Spammer)));
 
-    // no name
+    // multiple
+    entries.extend(CEXES.iter().map(|(name, addrs)| AccountData::new(name, addrs, Type::Cex)));
+    entries.extend(FOUNDATION.iter().map(|(name, addrs)| AccountData::new(name, addrs, Type::Foundation)));
 
     // check for dupes
     let mut seen_account_ids = HashSet::new();
     let mut seen_principals = HashSet::new();
     print!("Validating {} addresses...", entries.len());
     for entry in &entries {
-        if let Some(acc) = &entry.account {
-            if !seen_account_ids.insert(acc) {
-                panic!("duplicate account found: {acc}");
+        for account in &entry.accounts {
+            if !seen_account_ids.insert(account) {
+                panic!("duplicate account found: {account}");
             }
         }
 
-        if let Some(pid) = &entry.principal {
-            if !seen_principals.insert(pid) {
-                panic!("duplicate principal found: {pid}");
+        for principal in &entry.principals {
+            if !seen_principals.insert(principal) {
+                panic!("duplicate principal found: {principal}");
             }
         }
     }

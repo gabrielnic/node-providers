@@ -1,54 +1,89 @@
-pub const CEXES: &[(&str, &str)] = &[
-    ("Bitget", "bad030b417484232fd2019cb89096feea3fdd3d9eb39e1d07bcb9a13c7673464"),
-    ("Binance 1", "609d3e1e45103a82adc97d4f88c51f78dedb25701e8e51e8c4fec53448aadc29"),
-    ("Binance 2", "220c3a33f90601896e26f76fa619fe288742df1fa75426edfaf759d39f2455a5"),
-    ("Binance 3", "d3e13d4777e22367532053190b6c6ccf57444a61337e996242b1abfb52cf92c8"),
-    ("Bybit", "acd76fff0536f863d9dd4b326a1435466f82305758b4b1b4f62ff9fa81c14073"),
-    ("CoinEx", "9ee1f8087be914d67560484d7e5794115873eb21b4f4b408f338406abf42d324"),
-    ("CoinEx (inactive)", "c50accaa515fe677f04d6a608d306dce10ed0d46048aa5105cb549256f3c4433"),
-    ("Coinbase 1", "449ce7ad1298e2ed2781ed379aba25efc2748d14c60ede190ad7621724b9e8b2"),
-    ("Coinbase 2", "4dfa940def17f1427ae47378c440f10185867677109a02bc8374fc25b9dee8af"),
-    ("Coinbase 3", "dd15f3040edab88d2e277f9d2fa5cc11616ebf1442279092e37924ab7cce8a74"),
-    ("Coinbase (Inactive 2021) 1", "a6ed987d89796f921c8a49d275ec7c9aa04e75a8fc8cd2dbaa5da799f0215ab0"),
-    ("Coinbase (Inactive 2021) 2", "660b1680dafeedaa68c1f1f4cf8af42ed1dfb8564646efe935a2b9a48528b605"),
-    ("Coinbase (Inactive 2021) 3", "4878d23a09b554157b31323004e1cc053567671426ca4eec7b7e835db607b965"),
-    ("Gate.io", "8fe706db7b08f957a15199e07761039a7718937aabcc0fe48bc380a4daf9afb0"),
-    ("HTX", "935b1a3adc28fd68cacc95afcdec62e985244ce0cfbbb12cdc7d0b8d198b416d"),
-    ("Kraken", "040834c30cdf5d7a13aae8b57d94ae2d07eefe2bc3edd8cf88298730857ac2eb"),
-    ("KuCoin 1", "efa01544f509c56dd85449edf2381244a48fad1ede5183836229c00ab00d52df"),
-    ("KuCoin 2", "00c3df112e62ad353b7cc7bf8ad8ce2fec8f5e633f1733834bf71e40b250c685"),
-    ("MEXC", "9e62737aab36f0baffc1faac9edd92a99279723eb3feb2e916fa99bb7fe54b59"),
-    ("OKX 1", "e7a879ea563d273c46dd28c1584eaa132fad6f3e316615b3eb657d067f3519b5"),
-    ("OKX 2", "d2c6135510eaf107bdc2128ef5962c7db2ae840efdf95b9395cdaf4983942978"),
+pub const CEXES: &[(&str, &[&str])] = &[
+    ("Bitget", &["bad030b417484232fd2019cb89096feea3fdd3d9eb39e1d07bcb9a13c7673464"]),
+    (
+        "Binance",
+        &[
+            "609d3e1e45103a82adc97d4f88c51f78dedb25701e8e51e8c4fec53448aadc29",
+            "d3e13d4777e22367532053190b6c6ccf57444a61337e996242b1abfb52cf92c8",
+            "220c3a33f90601896e26f76fa619fe288742df1fa75426edfaf759d39f2455a5",
+        ],
+    ),
+    ("Bybit", &["acd76fff0536f863d9dd4b326a1435466f82305758b4b1b4f62ff9fa81c14073"]),
+    ("CoinEx", &["9ee1f8087be914d67560484d7e5794115873eb21b4f4b408f338406abf42d324"]),
+    ("CoinEx (inactive)", &["c50accaa515fe677f04d6a608d306dce10ed0d46048aa5105cb549256f3c4433"]),
+    (
+        "Coinbase",
+        &[
+            "449ce7ad1298e2ed2781ed379aba25efc2748d14c60ede190ad7621724b9e8b2",
+            "4dfa940def17f1427ae47378c440f10185867677109a02bc8374fc25b9dee8af",
+            "dd15f3040edab88d2e277f9d2fa5cc11616ebf1442279092e37924ab7cce8a74",
+        ],
+    ),
+    (
+        "Coinbase (Inactive 2021)",
+        &[
+            "a6ed987d89796f921c8a49d275ec7c9aa04e75a8fc8cd2dbaa5da799f0215ab0",
+            "660b1680dafeedaa68c1f1f4cf8af42ed1dfb8564646efe935a2b9a48528b605",
+            "4878d23a09b554157b31323004e1cc053567671426ca4eec7b7e835db607b965",
+        ],
+    ),
+    ("Gate.io", &["8fe706db7b08f957a15199e07761039a7718937aabcc0fe48bc380a4daf9afb0"]),
+    ("HTX", &["935b1a3adc28fd68cacc95afcdec62e985244ce0cfbbb12cdc7d0b8d198b416d"]),
+    ("Kraken", &["040834c30cdf5d7a13aae8b57d94ae2d07eefe2bc3edd8cf88298730857ac2eb"]),
+    (
+        "KuCoin",
+        &[
+            "efa01544f509c56dd85449edf2381244a48fad1ede5183836229c00ab00d52df",
+            "00c3df112e62ad353b7cc7bf8ad8ce2fec8f5e633f1733834bf71e40b250c685",
+        ],
+    ),
+    ("MEXC", &["9e62737aab36f0baffc1faac9edd92a99279723eb3feb2e916fa99bb7fe54b59"]),
+    (
+        "OKX 1",
+        &[
+            "e7a879ea563d273c46dd28c1584eaa132fad6f3e316615b3eb657d067f3519b5",
+            "d2c6135510eaf107bdc2128ef5962c7db2ae840efdf95b9395cdaf4983942978",
+        ],
+    ),
 ];
 
-pub const FOUNDATION: &[(&str, &str)] = &[
-    ("Genesis 1.3m", "1a481b7aa86fa89029117f0487479f52fe3ee27ad63d48bac78fa60b3ebf9237"),
-    ("Genesis 1.4m", "12b7c1c6269b2021758ed5da65448a4ac3ac9fa0cf015caa4bb4c3e3dc7ca1c1"),
-    ("Genesis 107m", "125013e95bd5e008bd6d26f86f5ddda2b16c382372b3067672505c1f11418817"),
-    ("Genesis 4.1m", "1f5ef4de27f2880dac6409b431ba866170be8b04e87afe95c841ca163d9c3689"),
-    ("Genesis 1.3m", "21b3cb5fccbbb1b4d92c03ace6f16f836e3425cf61ac3b2a9823499a60d5c7b5"),
-    ("Genesis 1.3m", "36039b216d234b39bfc993df251deba6d7481d974f20a7aa4ea8a2aff8c7606e"),
-    ("Genesis 1.4m", "406ae771636e9e6501166f71edb0b61b80a325640048b11b23b3eaf43a5048ed"),
-    ("Genesis 1.3m", "5495612bb400e0dbd51ca4ae28835b3c47f6968127fe54d4aadc8704cc363057"),
-    ("Genesis 1.2m", "54f4a6d3bc831c5217e4e313bca7f2549f6b51b9dc25d77ae045bbb59c8eafaf"),
-    ("Genesis 1.3m", "57c9e0f1111d0aba921adf0056a16771e9a4fd84a6daee21267511b2b3410731"),
-    ("Genesis 2m", "581ebcfa72dbed72cb0d18240d30879ac915df69dba3d1a8cfbb5508bb973df1"),
-    ("Genesis 1.2m", "600bc2e6fa9dcf3543acc22bd8181ca7e11ef3f0a9ce662480fe61524c9bb8c1"),
-    ("Genesis 3.8m", "61529f442b6fc6a2db07f4dc446b255e6702aa95ed8bb2fa5c38cb04358eea65"),
-    ("Genesis 1.3m", "65675acf9e0752bbc58893b284e2c7558db61bfdbefe63c055bb69305f0da17e"),
-    ("Genesis 1.3m", "6a6fe5e9936747faadb472f3d3790830c372eb4ab7039d207059bf34eacf4de9"),
-    ("Genesis 1.2m", "78a6c47cc1e153e1b63eafcd471d5e6de1365592e73d0c41931461fd97271d03"),
-    ("Genesis 3.8m", "860c10fd2e96106edccb48e657b265517fda354a4588a52a13384dd58ffcaab2"),
-    ("Genesis 1.4m", "91ee71b84b7603de21bcf6cc1857a7cb91d12062d91f95013d300e0eb35e6d52"),
-    ("Genesis 1.5m", "ad2d4c5c3b70fa1289c7b45ef252d608f8d70f0d9b8198d6a6d0c4f5bdfc9c65"),
-    ("Genesis 1.5m", "b0c25df9be777bb84a2b8ddec02bbf42bfef588c44bc7fd483a515725cd68830"),
-    ("Genesis 1.2m", "b30d4f02181bd81dbe5ef9f22b33a7d7a5fe61884964fc697721ca259cfd3c41"),
-    ("Genesis 3.5m", "b93164c6ae75984345a3d47fa9877749acb19fee032ec6aac67cb3ee6100f302"),
-    ("Genesis 1.2m", "b9cdb3a04e388736de3eea9426f4f83e79c90a6602b0805746ff7991e546df9f"),
-    ("Genesis 1.3m", "d5336412e2107f4b0502234128dbc11ccf53221ae67bae5109eb4be11bb9babb"),
-    ("Genesis 1.3m", "d539266d9e7784304ceb7b72a729794004646e4a39a56b51c3e911a698bbdd8d"),
-    ("Genesis 1.4m", "f7d23ad118bab9eae59055a98addd2a1738cc281fa1dc7ca4568e8e661e21283"),
+pub const FOUNDATION: &[(&str, &[&str])] = &[
+    ("Genesis 107m", &["125013e95bd5e008bd6d26f86f5ddda2b16c382372b3067672505c1f11418817"]),
+    (
+        "Genesis ~4m",
+        &[
+            "1f5ef4de27f2880dac6409b431ba866170be8b04e87afe95c841ca163d9c3689",
+            "61529f442b6fc6a2db07f4dc446b255e6702aa95ed8bb2fa5c38cb04358eea65",
+            "b93164c6ae75984345a3d47fa9877749acb19fee032ec6aac67cb3ee6100f302",
+            "860c10fd2e96106edccb48e657b265517fda354a4588a52a13384dd58ffcaab2",
+        ],
+    ),
+    ("Genesis ~2m", &["581ebcfa72dbed72cb0d18240d30879ac915df69dba3d1a8cfbb5508bb973df1"]),
+    (
+        "Genesis 1.2-1.5m",
+        &[
+            "1a481b7aa86fa89029117f0487479f52fe3ee27ad63d48bac78fa60b3ebf9237",
+            "12b7c1c6269b2021758ed5da65448a4ac3ac9fa0cf015caa4bb4c3e3dc7ca1c1",
+            "21b3cb5fccbbb1b4d92c03ace6f16f836e3425cf61ac3b2a9823499a60d5c7b5",
+            "36039b216d234b39bfc993df251deba6d7481d974f20a7aa4ea8a2aff8c7606e",
+            "406ae771636e9e6501166f71edb0b61b80a325640048b11b23b3eaf43a5048ed",
+            "5495612bb400e0dbd51ca4ae28835b3c47f6968127fe54d4aadc8704cc363057",
+            "54f4a6d3bc831c5217e4e313bca7f2549f6b51b9dc25d77ae045bbb59c8eafaf",
+            "57c9e0f1111d0aba921adf0056a16771e9a4fd84a6daee21267511b2b3410731",
+            "600bc2e6fa9dcf3543acc22bd8181ca7e11ef3f0a9ce662480fe61524c9bb8c1",
+            "65675acf9e0752bbc58893b284e2c7558db61bfdbefe63c055bb69305f0da17e",
+            "6a6fe5e9936747faadb472f3d3790830c372eb4ab7039d207059bf34eacf4de9",
+            "78a6c47cc1e153e1b63eafcd471d5e6de1365592e73d0c41931461fd97271d03",
+            "91ee71b84b7603de21bcf6cc1857a7cb91d12062d91f95013d300e0eb35e6d52",
+            "ad2d4c5c3b70fa1289c7b45ef252d608f8d70f0d9b8198d6a6d0c4f5bdfc9c65",
+            "b0c25df9be777bb84a2b8ddec02bbf42bfef588c44bc7fd483a515725cd68830",
+            "b30d4f02181bd81dbe5ef9f22b33a7d7a5fe61884964fc697721ca259cfd3c41",
+            "b9cdb3a04e388736de3eea9426f4f83e79c90a6602b0805746ff7991e546df9f",
+            "d5336412e2107f4b0502234128dbc11ccf53221ae67bae5109eb4be11bb9babb",
+            "d539266d9e7784304ceb7b72a729794004646e4a39a56b51c3e911a698bbdd8d",
+            "f7d23ad118bab9eae59055a98addd2a1738cc281fa1dc7ca4568e8e661e21283",
+        ],
+    ),
 ];
 
 pub const IDENTIFIED: &[(&str, &str)] = &[
@@ -72,6 +107,10 @@ pub const IDENTIFIED: &[(&str, &str)] = &[
 
 // Defi won't show up as a node, it's just an association
 pub const DEFI: &[(&str, &str)] = &[
+    ("Crowdfund 1", "5102ea0eb3c6896cae76823d55d54a15f807a56476876090590b6a2a7e2676f0"),
+    ("Crowdfund 2", "52a9b56f251f885d9c6dac0b70e150fe0b853878af7a247ff3115bbf66d95a4d"),
+    ("Crowdfund 3", "8ac924e2eb6ad3d5c9fd6db905716aa04d949fe1a944442844214f59cf024e53"),
+    ("Crowdfund 4", "237242bc41aa441d6813784b293fcb68dc6ff772142da5ba0ad1b4221e1b56cc"),
     ("IcDevs Tax Deductible", "c8e78c28beebd305370cfc798bbe96132fcade8ac88ec742084a4e6e248913cf"),
     ("IcDevs Anonymous", "93a3506e08e88e1f65f85990451038f7a232b6f860ee706b42cc9edec96eecee"),
     ("IcDevs NFTs", "p75el-ys2la-2xa6n-unek2-gtnwo-7zklx-25vdp-uepyz-qhdg7-pt2fi-bqe"),
@@ -471,6 +510,13 @@ pub const SPAMMERS: &[&str] = &[
 
 pub const SUSPECTS: &[(&str, &str)] = &[
     //
+    // Accounts
+    //
+    ("7.3m ICP", "27bbe9b4f0b00e4b6fe3fb39328358cf82031e82014e0cd0ae60983cc92008f5"),
+    ("5m ICP", "c5052b8b3d4fc5bc5c0e9ad66aae52681e7c77384e31b29ab1d319c74bb01a24"),
+    ("1.4m ICP", "ecedd9b3595d88667b78315da6af8e0de29164ef718f96930e0459017d5d8a04"),
+    ("715k ICP", "46305b0d46d5bbf88ccf6a85c92f8f44171c50f1589ad8594ab9e4f183e18f0e"),
+    //
     // Bots
     //
     ("Bot 1", "ddc050bf2a59f2d905f0c7af45854cd4cc4e406c643c322e5fa65e83a36d97da"),
@@ -478,13 +524,6 @@ pub const SUSPECTS: &[(&str, &str)] = &[
     ("Anvil Bot 1", "hrtp2-rijcr-qzg6l-2nsvy-mf7o7-fprmq-eu2p4-hz2in-t2zh4-akabr-4qe"),
     ("Anvil Bot 2", "npyks-khhf5-dcgjq-jkuj2-szk7v-hkjya-urhbc-ruzvl-pwfl4-363sw-2ae"),
     ("Anvil Bot 3", "aaevx-vrwc4-kt3ew-h6b7c-npj2q-h34h3-fpn5a-56bbs-4hj6o-b4raa-aae"),
-    //
-    // Crowdfund
-    //
-    ("Crowdfund 1", "5102ea0eb3c6896cae76823d55d54a15f807a56476876090590b6a2a7e2676f0"),
-    ("Crowdfund 2", "52a9b56f251f885d9c6dac0b70e150fe0b853878af7a247ff3115bbf66d95a4d"),
-    ("Crowdfund 3", "8ac924e2eb6ad3d5c9fd6db905716aa04d949fe1a944442844214f59cf024e53"),
-    ("Crowdfund 4", "237242bc41aa441d6813784b293fcb68dc6ff772142da5ba0ad1b4221e1b56cc"),
     //
     // Genesis
     //
@@ -543,4 +582,8 @@ pub const SUSPECTS: &[(&str, &str)] = &[
     ("Yuku MEXC Wallet", "fa5112a4d94b725aee705f1a8c65021fe69142e6717e60a9daa98f5d8218bd0f"),
     ("Yuku Binance Wallet", "2d6a4470704440c1c3baacdfa9c8bee9fc6e3ae9aa665dfc4943157ca69cac38"),
     ("Yuku Scam 'The Key'", "hixho-gysjl-vlky6-tjf2u-xb7nx-rgjfx-h32gc-nvsy3-mio64-4amgy-mqe"),
+    //
+    // Whales
+    //
+    ("Megawhale 1", "ddbb8c310d3393fb76109627e72511ba00bfd7f638f62b1e8a2af0b3668c5d2d"),
 ];
