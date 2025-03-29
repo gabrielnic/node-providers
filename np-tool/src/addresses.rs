@@ -67,6 +67,7 @@ pub const IDENTIFIED: &[(&str, &str)] = &[
     ("Cartographer", "0d6960e0d0c92bdd7dfdd7ca6c5472f1506344c49d8e8402513aa94fa5bd2bd0"),
     ("CodeGov", "5awin-45z56-xtcpr-6xlsj-j25mu-q5de7-2rzdj-5675c-mrikh-m5vpg-aqe"),
     ("Gavin H", "7cfaeaa0e14ce862636f052ff307511032e030a3028ead7614f7fc0905c1de41"),
+    ("Gian Bity", "aeefae5ddac8f4d8867682749b2d463261a6c36931986372e619dae748be3948"),
     ("IcDevs Tax Deductible", "c8e78c28beebd305370cfc798bbe96132fcade8ac88ec742084a4e6e248913cf"),
     ("IcDevs Anonymous", "93a3506e08e88e1f65f85990451038f7a232b6f860ee706b42cc9edec96eecee"),
     ("IcDevs NFTs", "p75el-ys2la-2xa6n-unek2-gtnwo-7zklx-25vdp-uepyz-qhdg7-pt2fi-bqe"),
