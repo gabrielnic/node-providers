@@ -76,6 +76,7 @@ pub const IDENTIFIED: &[(&str, &str)] = &[
     ("Paul Kohlhaas", "fhab4-gziwu-ywv6p-4q4uj-zhhbm-ghspz-dkwsd-fiqy"),
     ("Toniq Royalty", "c7e461041c0c5800a56b64bb7cefc247abc0bbbb99bd46ff71c64e92d9f5c2f9"),
     ("Utkarsh Goyal (GoBazzinga)", "736130c585e271287afc27a381acfcf5c2757203763caad6bf70be0e98a6a0e6"),
+    ("WaterNeuron Dividend", "ff6987e51d16f29ffc4c7932b8e2e93e558fc617732fd17de4db9f5a43c9994c"),
 ];
 
 pub const NODE_PROVIDERS: &[(&str, &str)] = &[
